@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Cadastre-se";
+    TempData["NavBar"] = "falso";
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/cadastro.css"/>
+}
+
+<section class="cadastre-se">
+
+    <div class="formulario">
+
+        <h1>CADASTRE-SE NO</h1>
+        <h1>I-FOX</h1>
+        <p>@TempData["SitCadastro"]</p>
+
+        <form method="post" asp-action="Cadastrar" class="forms">
+
+            <div class="campo">
+                <label for="">USUÁRIO:</label>
+                <input type="text" id="usuario" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label>EMAIL:</label>
+                    <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="">SENHA:</label>
+                    <input type="password" id="senha" name="senha" required>
+                <br> <br>
+                <p id="sit_senha">Use pelo menos 8 digitos, 1 número e 1 símbulo especial</p>
+               
+            </div>
+
+            <div class="campo">
+                <label for="">DATA DE NASCIMENTO:</label>
+                    <input type="date" id="data" name="data" required>
+
+            </div>
+
+            @*<h3>Seu cadastro será de professor ou aluno? (Será melhor trabalhado no próximo sprint) </h3>
+
+            <div class="usuarioTipo"> 
+                <input type="radio" name="tipoUsuario" value="PROFESSOR" id="professor"> <p>PROFESSOR</p>
+                <input type="radio" name="tipoUsuario" value="ALUNO" id="aluno"> <p>ALUNO</p>
+            </div>*@
+          
+
+            <div class="juntos">
+                <img id="raposa" src="~/img/raposa-cadastrar.png">
+                <button class="botao">CADASTRAR</button>
+            </div>
+            
+        </form>
+
+    </div>
+
+    <div class="Avatar">
+
+        <p>Espaço para colocar os avatares que serão inseridos aqui no próximo sprint</p>
+
+    </div>
+
+</section>
+
+@section JavaScript{
+    <script src="~/js/Validacoes.js"></script>
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\I-FOX-V1.props" />
+</Project>

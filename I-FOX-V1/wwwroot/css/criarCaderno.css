@@ -1,0 +1,79 @@
+﻿/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-color: #69e9f4;
+    border-radius: 25px;
+}
+
+h2 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 50px;
+}
+
+.titulo {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+}
+
+.descricao {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+}
+
+.titulo input {
+    font-size: 15px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.descricaoArea {
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.botao {
+    height: 70px;
+    width: 170px;
+    background-color: var(--laranjaClaro);
+    color: white;
+    margin: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 850px;
+    margin-right: 520px;
+}

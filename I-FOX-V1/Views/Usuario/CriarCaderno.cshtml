@@ -1,0 +1,39 @@
+﻿@{
+}
+@section Estilos{
+    <link rel="stylesheet" href="~/css/criarCaderno.css" />
+}
+
+<section>
+
+    <div class="criar">
+
+        <div class="bloco">
+
+            <form method="post" asp-action="CriarCaderno">
+                <h2>Novo Caderno</h2>
+
+                <div class="titulo">
+                    <label for="">Título:</label>
+                    <input type="text" id="titulo">
+                    <br><br>
+                    <label for="">Selecione um ícone:</label>
+                    <br><br>
+                    <p>Veremos isso no segundo sprint!</p>
+                    <br><br><br>
+                    <label for="">Descrição:</label>
+                </div>
+
+                <div class="descricao">
+                    <textarea name="" id="descricaoArea" cols="30" rows="10"></textarea>
+                </div>
+
+                <br><br>
+
+                <button type="submit" class="botao">SALVAR</button>
+            </form>
+
+        </div>
+
+    </div>
+</section>

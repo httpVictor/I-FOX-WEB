@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
+}
+
+<section class="funcionalidades">
+
+    @*Funcionalidade do mapa de missões*@
+
+    <div class="funcionalidade">
+        <div class="imagem">
+            <img src="~/img/mapa-do-tesouro.png" alt="" />
+        </div>
+        <p>MAPA</p>
+    </div>
+
+    @*Funcionalidade do pomodoro*@
+
+    <div class="funcionalidade">
+        <div class="imagem">
+                <img src="~/img/mapa-do-tesouro.png" alt="" />
+        </div>
+        <p>MAPA</p>
+    </div>
+
+    @*Funcionalidade da sala de aula*@
+
+    <div class="funcionalidade">
+        <div class="imagem">
+                <img src="~/img/mapa-do-tesouro.png" alt="" />
+        </div>
+        <p>MAPA</p>
+    </div>
+
+    @*Funcionalidade de lembretes*@
+
+    <div class="funcionalidade">
+        <div class="imagem">
+                <img src="~/img/mapa-do-tesouro.png" alt="" />
+        </div>
+        <p>MAPA</p>
+    </div>
+
+</section>
+
+<section class="cabecalhoCadernos">
+
+    <div>
+        <img src="~/img/raposa-cadernos.png" alt="" />
+    </div>
+
+    <div class="tituloCadernos">
+        <h3>SEUS CADERNOS</h3>
+        <p> Não há cadernos cadastrados</p>
+    </div>
+
+    
+    <a asp-controller="Usuario" asp-action="CriarCaderno">
+        <div class="criarCadernos">
+            <p>CRIAR CADERNO</p>
+            <img src="~/img/caderno-criar.png" alt="" />
+        </div>
+
+    </a>
+
+</section>
+
+@*Cadernos que serão puxados do banco de dados!*@
+
+<section class="cadernos">
+    <div class="caderno">
+        <img src="./img/caderno-criar.png" alt="" />
+        <p>Nome do caderno |</p>
+        <p>Quantidade de atividades</p>
+        <img src="~/img/tres-pontos.png" alt="" />
+    </div>
+
+        <div class="caderno">
+            <img src="./img/caderno-criar.png" alt="" />
+            <p>Nome do caderno |</p>
+            <p>Quantidade de atividades</p>
+            <img src="~/img/tres-pontos.png" alt="" />
+        </div>
+</section>

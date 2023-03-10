@@ -1,0 +1,48 @@
+﻿@model Usuario
+@{   
+    ViewData["Title"] = "Login";
+    TempData["NavBar"] = "falso";
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/Login.css" />
+}
+
+<section class="sessaoLogin">
+    <!-- parte da listra e imagem da raposa, canto esquerdo -->
+    <div class="loginTelinha">
+        <img src="~/img/img-fundo-login.png"/>
+    </div>
+
+    <!-- parte do login, canto direito -->
+    <div class="login">
+
+        <div class="cabecalhoLogin">
+            <h2>BEM VINDO AO</h2>
+            <h1>I-FOX</h1>
+            <h3>Ensino digital moderno e dinâmico</h3>
+        </div>
+
+        <form method="post" asp-action="Login">
+
+            <div class="campo">
+                <label for="">USUÁRIO:</label>
+                <input type="text" name="nome" id="usuario" required>
+            </div>
+
+            <div class="campo">
+
+                <label for="">SENHA:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+
+            <p>@TempData["SituacaoLogin"]</p>
+
+            <h4>Não possui uma conta? <a href="/Home/Cadastrar">Cadastre-se!</a></h4>
+
+            <button type="submit" class="botao">ENTRAR</button>
+        </form>
+
+    </div>
+
+</section>

@@ -1,0 +1,105 @@
+﻿/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+}
+
+.formulario {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+form label {
+    background-color: var(--verde);
+    border-radius: 20px 0 0 0;
+    padding: 15px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+}
+
+form input {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    min-width: 30vw;
+    padding: 10px;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.campo {
+    width: 55vw;
+    margin: 20px auto;
+}
+
+#data {
+    max-width: 30vw;
+}
+
+.forms{
+    margin: 0 auto;
+    width: 50vw;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+.juntos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    column-gap: 80px;
+}
+
+.botao {
+    background-color: var(--laranjaClaro);
+    color: white;
+    margin: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.cadastre-se {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.Avatar {
+    background: linear-gradient(180deg, #009FAD 0%, rgba(108, 226, 236, 0.640625) 99.61%, rgba(170, 248, 255, 0) 100%);
+    width: 40vw;
+
+}

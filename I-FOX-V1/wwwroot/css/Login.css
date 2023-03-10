@@ -1,0 +1,124 @@
+﻿/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+}
+ 
+/* canto esquerdo */
+.sessaoLogin {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sessaoLogin div{
+    width: 100%;
+}
+
+img{
+    height: 100% ;
+}
+
+/* canto direito */
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalhoLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    background-color: var(--verde);
+    border-radius: 20px 0 0 0;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+}
+
+form input {
+    min-width: 50vh;
+    padding: 13px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.campo {
+    margin: 0 20px;
+    width: 100vh;
+    padding: 20px 0px 20px 0px;
+}
+
+.botao {
+    background-color: var(--laranjaClaro);
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
+
+/*Títulos e textos*/
+a{
+    text-decoration: underline;
+}
+
+a:hover{
+    transform: scale(1.02);
+    color: var(--azulEscuro);
+}
+
+h4 {
+    margin: 20px;
+    
+}
+
+a {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+}
+/*Responsividade usando Media Query*/
+@media (max-width: 768px){
+    .loginTelinha img{
+        display: none;
+    }
+}

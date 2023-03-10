@@ -1,0 +1,294 @@
+﻿/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: #02b0c0;
+    padding: 13px;
+    margin: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 10px #000;
+}
+
+h3{
+    text-align: center;
+    color: var(--verde);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 90px;
+    font-size: 40px;
+}
+
+
+.login-button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.login li a {
+    font-size: 5em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.login li a:hover {
+    transform: translateY(-10px);
+    opacity: 0.50;
+}
+
+.login li {
+    list-style: none;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*fim do css da parte da do menu*/
+
+
+/* blocos de sobre nós */
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 400px;
+    font-size: 25px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#integrante1 {
+    background: rgba(217, 101, 59, 0.5);
+}
+
+#integrante2 {
+    background: rgba(0, 159, 173, 0.5);
+}
+
+#integrante3 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#integrante4 {
+    background: rgba(123, 168, 82, 0.5);
+}
+
+#imagem {
+    height: 200px;
+}
+
+/* fim dos blocos */
+
+
+/* titulo sobre nós */
+.letra {
+    font-family: 'Sue Ellen Francisco', cursive;
+    display: flex;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.letra2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.escrita {
+    display: flex;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.escrita1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 33px;
+    column-gap: 100px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+#corLetra {
+    color: #009fad;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#corLetra2 {
+    color: #f28749;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    padding-left: 70px;
+}
+
+
+#imagem1 {
+    height: 80px;
+}
+
+
+
+.carrosel {
+    width: px;
+    height: 480px;
+    outline: 3px solid black;
+    margin: px auto;
+    box-shadow: 10px 10px 15px black;
+}
+
+
+    .carrosel ul {
+        list-style: none;
+        display: flex;
+        width: 600px;
+        height: 480px;
+        overflow: hidden;
+    }
+
+    .carrosel li {
+        position: relative;
+        animation: slide 15s infinite ease-out;
+    }
+
+@keyframes slide {
+    0% {
+        left: 0px
+    }
+
+    20% {
+        left: 0px
+    }
+
+    30% {
+        left: -600px
+    }
+
+    50% {
+        left: -600px
+    }
+
+    60% {
+        left: -1080px
+    }
+
+    90% {
+        left: -1100px
+    }
+
+    100% {
+        left: 0px
+    }
+}
+
+
+.galery {
+    width: 1400px;
+    height: 800px;
+    background-color: #efd7bc;
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 18%;
+}
+
+@keyframes animacao {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -1000px;
+    }
+
+
+    45% {
+        margin-left: -1000px;
+    }
+
+    50% {
+        margin-left: -1000px;
+    }
+
+    70% {
+        margin-left: -1000px;
+    }
+
+    75% {
+        margin-left: -1000px;
+    }
+
+    95% {
+        margin-left: -600px;
+    }
+
+    100% {
+        margin-left: -800px;
+    }
+}
