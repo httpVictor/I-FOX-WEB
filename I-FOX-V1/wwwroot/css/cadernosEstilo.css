@@ -32,11 +32,12 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 20px;
+    padding: 20px;
+    margin: 20px auto;
     background-color: var(--verde);
     border: 2px solid #000000;
     border-radius: 40px;
+    width: 80vw;
 }
 
 .imagem {
@@ -63,13 +64,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     column-gap: 40px;
     margin: 20px auto;
     padding-bottom:40px;
 }
 
 .cabecalhoCadernos img {
-    height: 80px;
+    height: 100px;
 }
 
 .cabecalhoCadernos a{
@@ -125,9 +127,17 @@
 .caderno {
     display: flex;
     flex-direction: row;
+    align-content:center;
+    justify-content: space-between;
     margin: 20px;
     padding: 20px;
     border-radius:10px;
+}
+
+.infos-caderno{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7px;
 }
 
 .caderno:nth-child(even) {

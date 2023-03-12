@@ -6,10 +6,10 @@
         //atributos
         private int codigo, data_resumo;
         private string tipo, titulo, texto, frente, verso;
-
+        private int caderno;
 
         //construtor
-        public Resumo(int codigo, int data_resumo, string tipo, string titulo, string texto, string frente, string verso)
+        public Resumo(int codigo, int data_resumo, string tipo, string titulo, string texto, string frente, string verso, int caderno)
         {
             this.codigo = codigo;
             this.data_resumo = data_resumo;
@@ -18,17 +18,19 @@
             this.texto = texto;
             this.frente = frente;
             this.verso = verso;
+            this.caderno = caderno;
         }
 
         //getters e setters
 
-        public int Codigo { get => codigo; set => codigo = value; }
+        public int Codigo { get => codigo; }
         public int Data_resumo { get => data_resumo; set => data_resumo = value; }
         public string Tipo { get => tipo; set => tipo = value; }
         public string Titulo { get => titulo; set => titulo = value; }
         public string Texto { get => texto; set => texto = value; }
         public string Frente { get => frente; set => frente = value; }
         public string Verso { get => verso; set => verso = value; }
+        public int Caderno { get => codigo; set => codigo = value; }
 
 
         //métodos
@@ -48,7 +50,7 @@
             return "Resumo deletado com sucesso!";
         }
 
-        public string listarResumo()
+        static public string listarResumo()
         {
             return "Resumo listado com sucesso!";
         }

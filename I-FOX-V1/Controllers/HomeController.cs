@@ -22,6 +22,7 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+        //MÉTODOS PARA SE COMUNICAR COM O BANCO
         [HttpPost]
         public IActionResult Cadastrar(string nome, string email, string senha, string data)
         {
@@ -41,7 +42,6 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        //MÉTODOS PARA SE COMUNICAR COM O BANCO
         [HttpPost]
         public IActionResult Login(string nome, string senha)
         {

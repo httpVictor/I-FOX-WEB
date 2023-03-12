@@ -10,12 +10,11 @@ namespace I_FOX_V1.Models
         //atributos
         private string nome, email, senha;
         private string data_nasc;
-        private const string stringConexao = "Server=ESN509VMYSQL;Database=ifoxteste;User id=aluno;Password=Senai1234";
 
-        //CASA- "Server=localhost;Database=ifoxteste;User id=root;Password=Euamo.Netiflix"
-        //Escola -  "Server=ESN509VMYSQL;Database=ifoxteste;User id=aluno;Password=Senai1234"
+        // Criar conexão com o banco de dados
+        MySqlConnection conexao = FabricaConexao.getConexao();
 
-        //construtor
+        //CONSTRUTOR
         public Usuario(string nome, string email, string senha, string data_nasc)
         {
             this.nome = nome;
@@ -24,11 +23,13 @@ namespace I_FOX_V1.Models
             this.data_nasc = data_nasc;
         }
 
+        //Construtor para logar
         public Usuario(string nome, string senha)
         {
             this.nome = nome;
             this.senha = senha;
         }
+
         //getters e setters
         public string Nome { get => nome; set => nome = value; }
         public string Email { get => email; set => email = value; }
@@ -41,9 +42,6 @@ namespace I_FOX_V1.Models
         public string cadastrarUsuario()
         {
             string cadastro = "";
-
-            // Criar conexão com o banco de dados
-            MySqlConnection conexao = new MySqlConnection(stringConexao);
             try
             {
                 if (!existeUsuario(Nome))
@@ -63,7 +61,7 @@ namespace I_FOX_V1.Models
                     cadastro = "cadastrado";
                 }else
                 {
-                    cadastro = "Esse usuário já existe! Escolha outro nome";
+                    cadastro = "Esse usuário já existe! Escolha outro nome de usuário";
                 }
             }
             catch (Exception e)
@@ -78,25 +76,12 @@ namespace I_FOX_V1.Models
             return cadastro;
         }
 
-        //EDITANDO USUÁRIO
-        public string editarUsuario()
-        {
-            return "Editado com sucesso!";
-        }
-
-        //DELETAR UM USUÁRIO
-        public string deletarUsuario()
-        {
-            return "Deletado com sucesso!";
-        }
-         
         //MÉTODO PARA VERIFICAR O LOGIN DO USUÁRIO
+        //Seguindo a lógica de -> Exite no banco? Se existe a senha bate?
         public string logarUsuario()
         {
             //Variável que vai devolver o estado do login
             string situacao = "";
-            //Criar conexão com o banco de dados
-            MySqlConnection conexao = new MySqlConnection(stringConexao);
 
             try
             {
@@ -147,8 +132,6 @@ namespace I_FOX_V1.Models
         {
             //Variável que vai se já existe ou não um usuário com aquele nome
             bool situacao = false;
-            //Criar conexão com o banco de dados
-            MySqlConnection conexao = new MySqlConnection(stringConexao);
 
             try
             {
@@ -171,7 +154,6 @@ namespace I_FOX_V1.Models
                         situacao = false;
                     }
                 }
-
             }
             catch (Exception e)
             {
