@@ -18,26 +18,25 @@
         <form method="post" asp-action="Cadastrar" class="forms">
 
             <div class="campo">
-                <label for="">USUÁRIO:</label>
+                <label for="nome">USUÁRIO:</label>
                 <input type="text" id="usuario" name="nome" required>
             </div>
 
             <div class="campo">
-                <label>EMAIL:</label>
-                    <input type="email" id="email" name="email" required>
+                <label for="email">EMAIL:</label>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div class="campo">
-                <label for="">SENHA:</label>
-                    <input type="password" id="senha" name="senha" required>
-                <br> <br>
-                <p id="sit_senha">Use pelo menos 8 digitos, 1 número e 1 símbulo especial</p>
+                <label for="senha">SENHA:</label>
+                    <input type="password" id="senha" name="senha" required />
+                    <p>Pelo menos 8 caracteres, 1 caractere especial e 1 número</p>
                
             </div>
 
             <div class="campo">
-                <label for="">DATA DE NASCIMENTO:</label>
-                    <input type="date" id="data" name="data" required>
+                <label for="data" id="lbdata">DATA DE NASCIMENTO:</label>
+                <input type="date" id="data" name="data" required>
 
             </div>
 

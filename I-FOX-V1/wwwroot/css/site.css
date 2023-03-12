@@ -88,6 +88,9 @@ li > a:hover{
     align-items: center;
     background-color: var(--laranjaClaro);
     height: 20vh;
+    border-radius: 30px;
+    width: 94vw;
+    margin: 10px auto;
 }
 
 .nav-filhos {

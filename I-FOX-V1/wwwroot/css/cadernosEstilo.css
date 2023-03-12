@@ -26,6 +26,12 @@
     margin: 0;
     padding: 0;
 }
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .funcionalidades {
     display: flex;
@@ -149,13 +155,22 @@
 }
 
 /*CABECALHO data MATERIA*/
-.cabecalho-materia{
+.cabecalho-materia {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 90%;
-    column-gap: 100px;
+    justify-content: space-between;
+    width: 90vw;
     margin: 20px auto;
+}
+.imagens-organizacao-materia{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.imagens-organizacao-materia img{
+    height: 40px;
 }
 
 .cabecalho-materia h1 {
@@ -172,12 +187,14 @@
     border-radius: 10px;
 }
 
-.botao-pesquisar input{
-    max-width: 300px;
+.botao-pesquisar input {
+    width: 40vw;
+    font-family: 'Poppins', sans-serif;
 }
 .botao-pesquisar img{
     height: 20px;
 }
+
 
 
 /*RESUMOS VÃO APARECER AQUI*/
@@ -185,9 +202,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align:center;
     margin: 20px auto;
     max-width: 700px;
-    padding:10px;
+    padding:30px;
     column-gap:20px;
     background: #BC9E7C;
     border: 1px solid #000000;
@@ -195,7 +214,7 @@
     margin-bottom: 30px;
 }
 
-.resumo-tipo img{
+.resumo-tipo img {
     padding: 15px;
     background-color: var(--laranjaEscuro);
     border-radius: 10px;
@@ -213,10 +232,11 @@
     column-gap: 60px;
     padding: 10px;
     border-radius: 15px;
+    margin: 15px auto;
 }
 
 .resumo img{
-    width: 20px;
+    width: 25px;
 }
 
 .resumo:nth-child(even) {

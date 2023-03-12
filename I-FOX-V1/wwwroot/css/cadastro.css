@@ -34,17 +34,26 @@
 form label {
     background-color: var(--verde);
     border-radius: 20px 0 0 0;
-    padding: 15px;
-    padding-right: 10px;
+    padding: 15px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 22px;
+    text-align:center;
+
+    display: inline-block;
+    width: 10vh;
+}
+#lbdata{
+    width: 13vw;
+}
+#data{
+    width: 27vw;
 }
 
 form input {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 22px;
-    min-width: 30vw;
+    width: 40vw;
     padding: 10px;
     border-radius: 0 0 20px 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -52,21 +61,23 @@ form input {
 
 .campo {
     width: 55vw;
-    margin: 20px auto;
+    margin: 7px auto;
 }
 
-#data {
-    max-width: 30vw;
-}
 
 .forms{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     width: 50vw;
 }
 
 p {
-    text-align: center;
-    font-size: 16px;
+    text-align: start;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 h3{
@@ -76,9 +87,14 @@ h3{
 .juntos {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items:center;
     column-gap: 80px;
+}
+
+.juntos img{
+    margin-top: 20px;
+    width: 120px;
 }
 
 .botao {
@@ -103,3 +119,5 @@ h3{
     width: 40vw;
 
 }
+
+/*RESPONSIVIDADE*/

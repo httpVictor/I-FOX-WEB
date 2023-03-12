@@ -22,58 +22,63 @@
     --azulEscuro: #009fad;
 }
 
-.bloco {
+form h2{
+    font-size: 35px;
+}
+
+form{
     display: flex;
     flex-direction: column;
-    max-width: 650px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
     align-items: center;
-    margin: auto;
-    padding: 10px;
-    background-color: #69e9f4;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: var(--azulClaro);
     border-radius: 25px;
 }
 
-h2 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 50px;
-}
-
-.titulo {
+form label {
     font-family: 'Aclonica', sans-serif;
     font-size: 20px;
+    padding: 5px;
+    display: inline-block;
 }
 
-.descricao {
-    font-family: 'Aclonica', sans-serif;
-    font-size: 20px;
+form input {
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin: 8px;
+    width: 25vw;
 }
 
-.titulo input {
+textarea {
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    width: 30vw;
+    height: 13vh;
+    resize: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    width: 400px;
-    padding: 20px;
-    border-radius: 20px 20px 20px 20px;
 }
 
-.descricaoArea {
-    height: 100px;
-    width: 400px;
-    padding: 20px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-radius: 20px 20px 20px 20px;
+.campo{
+    margin-bottom: 10px;
 }
 
-.botao {
-    height: 70px;
-    width: 170px;
+form button {
+    padding: 20px 40px;
     background-color: var(--laranjaClaro);
     color: white;
-    margin: 20px;
     font-family: 'Pathway Gothic One', sans-serif;
     border-radius: 20px 20px 20px 20px;
     text-align: center;
-    font-size: xx-large;
-    margin-left: 850px;
-    margin-right: 520px;
+    font-size: 20px;
 }
