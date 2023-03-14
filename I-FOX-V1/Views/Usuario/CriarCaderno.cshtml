@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Caderno
+@{
     ViewData["Title"] = "Criar Caderno";
 }
 @section Estilos{
@@ -15,7 +16,7 @@
 
                 <div class="campo">
                     <label for="titulo">Título:</label>
-                    <input name="titulo" type="text" id="titulo"/>
+                    <input name="titulo" type="text" id="titulo" required/>
                 </div>
                     
                 <div class="campo">
@@ -30,6 +31,7 @@
 
                 <button type="submit">SALVAR</button>
             </form>
+            <p>@TempData["Testes"]</p>
         </div>
 
     </div>

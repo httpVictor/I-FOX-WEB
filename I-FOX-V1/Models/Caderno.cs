@@ -6,16 +6,27 @@ namespace I_FOX_V1.Models
     {
         private string descricao, titulo;
         private int codigo;
-        private int usuario;
+        private string usuario;
 
         //Conexão com o banco de dados
         static MySqlConnection conexao = FabricaConexao.getConexao();
-        //construtor
-        public Caderno(string descricao, string titulo, int usuario)
+
+        public Caderno() { 
+        }
+
+        public Caderno(string descricao, string titulo, string usuario)
         {
             this.descricao = descricao;
             this.titulo = titulo;
-            this.codigo = usuario;
+            this.usuario = usuario;
+        }
+
+        //construtor
+        public Caderno(string descricao, string titulo, int codigo)
+        {
+            this.descricao = descricao;
+            this.titulo = titulo;
+            this.codigo = codigo;
         }
 
         //getters e setters
@@ -34,7 +45,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
                 //Comando de inserção no banco
                 MySqlCommand inserirCaderno = new MySqlCommand(
-                    "INSERT INTO CADERNO VALUES('@descricao', '@titulo', '@FK_USUARIO_nome')", conexao);
+                    "INSERT INTO CADERNO(titulo, descricao, FK_USUARIO_nome, FK_SALA_codigo) VALUES('@titulo','@descricao', '@FK_USUARIO_nome', 1)", conexao);
                 //Definindo os parâmetros
                 inserirCaderno.Parameters.AddWithValue("@descricao", Descricao);
                 inserirCaderno.Parameters.AddWithValue("@titulo", Titulo);

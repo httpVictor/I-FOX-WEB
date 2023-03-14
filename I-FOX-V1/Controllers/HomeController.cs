@@ -1,5 +1,6 @@
 ﻿using I_FOX_V1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Diagnostics;
 
 namespace I_FOX_V1.Controllers
@@ -53,8 +54,12 @@ namespace I_FOX_V1.Controllers
             //CASO ELE CONSIGA LOGAR, SER DIRECIONADO PARA A PÁGINA INICIAL
             if (loginEstado == "logado")
             {
+                //Criar uma sessão para armazenar os dados do usuário
+                HttpContext.Session.SetString("usuario", JsonConvert.SerializeObject(usuario));
                 return Redirect("../Usuario/Home");
             }
+
+
             else
             {
                 return View();

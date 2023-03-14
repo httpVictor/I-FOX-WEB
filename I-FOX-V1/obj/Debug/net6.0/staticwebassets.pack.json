@@ -1,439 +1,451 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
       "PackagePath": "staticwebassets\\I-FOX-V1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\Login.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
       "PackagePath": "staticwebassets\\css\\cadernosEstilo.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\cards.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cards.css",
       "PackagePath": "staticwebassets\\css\\cards.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
       "PackagePath": "staticwebassets\\css\\criarCaderno.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\inicio.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\inicio.css",
       "PackagePath": "staticwebassets\\css\\inicio.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\2.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\2.jpg",
       "PackagePath": "staticwebassets\\img\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\3.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\3.jpg",
       "PackagePath": "staticwebassets\\img\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\4.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\4.jpg",
       "PackagePath": "staticwebassets\\img\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\audio-resumo.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\audio-resumo.png",
       "PackagePath": "staticwebassets\\img\\audio-resumo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\caderno-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\caderno-card.png",
       "PackagePath": "staticwebassets\\img\\caderno-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\caderno-criar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\caderno-criar.png",
       "PackagePath": "staticwebassets\\img\\caderno-criar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\card-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\card-card.png",
       "PackagePath": "staticwebassets\\img\\card-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\casa-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\casa-card.png",
       "PackagePath": "staticwebassets\\img\\casa-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\classe-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\classe-card.png",
       "PackagePath": "staticwebassets\\img\\classe-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\filtro.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\filtro.png",
       "PackagePath": "staticwebassets\\img\\filtro.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\flashcard.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\flashcard.png",
       "PackagePath": "staticwebassets\\img\\flashcard.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\fone-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\fone-card.png",
       "PackagePath": "staticwebassets\\img\\fone-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\foto-resumo.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\foto-resumo.png",
       "PackagePath": "staticwebassets\\img\\foto-resumo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\foto1.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\foto1.png",
       "PackagePath": "staticwebassets\\img\\foto1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\foto2.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\foto2.png",
       "PackagePath": "staticwebassets\\img\\foto2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\gabi-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\gabi-nos.png",
       "PackagePath": "staticwebassets\\img\\gabi-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\ifox-logo.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\ifox-logo.png",
       "PackagePath": "staticwebassets\\img\\ifox-logo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\image 21.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\image 21.png",
       "PackagePath": "staticwebassets\\img\\image 21.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\img-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\img-card.png",
       "PackagePath": "staticwebassets\\img\\img-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\img-fundo-login.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\img-fundo-login.png",
       "PackagePath": "staticwebassets\\img\\img-fundo-login.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\kevin-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\kevin-nos.png",
       "PackagePath": "staticwebassets\\img\\kevin-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\lampada-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\lampada-card.png",
       "PackagePath": "staticwebassets\\img\\lampada-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\logo_ifox.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\lembrete-icon.png",
+      "PackagePath": "staticwebassets\\img\\lembrete-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\logo_ifox.png",
       "PackagePath": "staticwebassets\\img\\logo_ifox.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\logo_maior.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\logo_maior.png",
       "PackagePath": "staticwebassets\\img\\logo_maior.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\lupa-pesquisa.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\lupa-pesquisa.png",
       "PackagePath": "staticwebassets\\img\\lupa-pesquisa.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\mapa-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\mapa-card.png",
       "PackagePath": "staticwebassets\\img\\mapa-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\mapa-do-tesouro.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\mapa-do-tesouro.png",
       "PackagePath": "staticwebassets\\img\\mapa-do-tesouro.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\nepo-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\nepo-nos.png",
       "PackagePath": "staticwebassets\\img\\nepo-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\nicolli-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\nicolli-nos.png",
       "PackagePath": "staticwebassets\\img\\nicolli-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\nos-1.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\nos-1.png",
       "PackagePath": "staticwebassets\\img\\nos-1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\nos-2.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\nos-2.png",
       "PackagePath": "staticwebassets\\img\\nos-2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\nos-3.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\nos-3.png",
       "PackagePath": "staticwebassets\\img\\nos-3.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\organizador.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\organizador.png",
       "PackagePath": "staticwebassets\\img\\organizador.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\planilia-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\planilia-card.png",
       "PackagePath": "staticwebassets\\img\\planilia-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\raposa-cadastrar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\pomodoro-icon.png",
+      "PackagePath": "staticwebassets\\img\\pomodoro-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\raposa-cadastrar.png",
       "PackagePath": "staticwebassets\\img\\raposa-cadastrar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\raposa-cadernos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\raposa-cadernos.png",
       "PackagePath": "staticwebassets\\img\\raposa-cadernos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\raposa-navbar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\raposa-navbar.png",
       "PackagePath": "staticwebassets\\img\\raposa-navbar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\resumo-escrito.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\resumo-escrito.png",
       "PackagePath": "staticwebassets\\img\\resumo-escrito.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\tres-pontos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\sala-aula-icon.png",
+      "PackagePath": "staticwebassets\\img\\sala-aula-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tres-pontos.png",
       "PackagePath": "staticwebassets\\img\\tres-pontos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\img\\wave.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\wave.png",
       "PackagePath": "staticwebassets\\img\\wave.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
       "PackagePath": "staticwebassets\\js\\Validacoes.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
       "PackagePath": "staticwebassets\\js\\menu-hamburguer.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Downloads\\I-FOX-V9\\I-FOX-V1\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

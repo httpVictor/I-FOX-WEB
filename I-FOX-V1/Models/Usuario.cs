@@ -10,9 +10,14 @@ namespace I_FOX_V1.Models
         //atributos
         private string nome, email, senha;
         private string data_nasc;
+        private int codigo;
 
         // Criar conexão com o banco de dados
         MySqlConnection conexao = FabricaConexao.getConexao();
+
+        public Usuario()
+        {
+        }
 
         //CONSTRUTOR
         public Usuario(string nome, string email, string senha, string data_nasc)
@@ -35,6 +40,7 @@ namespace I_FOX_V1.Models
         public string Email { get => email; set => email = value; }
         public string Senha { get => senha; set => senha = value; }
         public string Data_nasc { get => data_nasc; set => data_nasc = value; }
+        public int Codigo { get => codigo;}
 
         //MÉTODOS
         //CADASTRANDO USUÁRIO
@@ -59,7 +65,13 @@ namespace I_FOX_V1.Models
 
                     inserir.ExecuteNonQuery();
                     cadastro = "cadastrado";
-                }else
+                    conexao.Close();
+
+                    //Puxar o id do usuário
+
+
+                }
+                else
                 {
                     cadastro = "Esse usuário já existe! Escolha outro nome de usuário";
                 }
@@ -70,7 +82,7 @@ namespace I_FOX_V1.Models
             }
             finally
             {
-                conexao.Close();
+      
             }
 
             return cadastro;
@@ -101,17 +113,21 @@ namespace I_FOX_V1.Models
                         if (usuario.Senha == Senha)
                         {
                             situacao = "logado";
+                            
+                            //Pegar o id do banco
                             break;
                         }
                         else
                         {
                             situacao = "Senha incorreta!";
+                           
                             break;
                         }
                     }
                     else
                     {
                         situacao = "Usuário não cadastrado!";
+                        
                     }
                 }
                           
@@ -120,11 +136,8 @@ namespace I_FOX_V1.Models
             {
                 situacao = "Erro de conexão!" + e;
             }
-            finally
-            {
-                conexao.Close();
-            }
 
+            conexao.Close();
             return situacao;
         }
 
