@@ -140,6 +140,7 @@
     border-radius:10px;
 }
 
+
 .infos-caderno{
     display: flex;
     flex-direction: row;
@@ -148,12 +149,18 @@
 
 .caderno:nth-child(even) {
     background-color: var(--azulClaro);
+    border: 2px solid var(--azulClaro);
 }
 
 .caderno:nth-child(odd) {
     background-color: var(--azulEscuro);
+    border: 2px solid var(--azulEscuro);
 }
 
+.caderno:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
 /*CABECALHO data MATERIA*/
 .cabecalho-materia {
     display: flex;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UC9R/YK8NJDTjgIr/qvlGMHop/gJ39kQNGPFZwBnfjVzNbOICQDkH4pgWJCDlOVIEiiWvWIfif0M0OlPvYySnQ==",
+  "dgSpecHash": "PA3OQ3XJCl2p2UsA+h4wj9RYXAVR942mgZnWaZUAadNri6EjmEf1phBHqmJANzoxrVpgn8UZlZS7S15LWCesuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\I-FOX-V1.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\Documents\\Nepo\\ifox-controle-versao\\I-FOX-V1\\I-FOX-V1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

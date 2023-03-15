@@ -14,7 +14,14 @@ namespace I_FOX_V1.Controllers
             {
                 Usuario usuario = JsonConvert.DeserializeObject<Usuario>(HttpContext.Session.GetString("usuario"));
                 TempData["nomeUsuario"] = usuario.Nome;
+                return View(Caderno.listarCaderno(usuario.Nome));
             }
+            return View();
+        }
+
+        public IActionResult Perfil()
+        {
+            
             return View();
         }
 

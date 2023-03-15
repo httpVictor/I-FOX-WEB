@@ -2,13 +2,18 @@
     ViewData["Title"] = "Home";
 }
 
+@*MODEL DA CLASSE CADERNO*@
+@{
+    @model IEnumerable<I_FOX_V1.Models.Caderno>
+}
+
 @section Estilos{
     <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
 }
 
+<h1>Olá @TempData["nomeUsuario"]</h1>
 <section class="funcionalidades">
 
-    <h1>Olá @TempData["nomeUsuario"]</h1>
     @*Funcionalidade do mapa de missões*@
 
     <div class="funcionalidade">
@@ -64,7 +69,6 @@
             <p>CRIAR CADERNO</p>
             <img src="~/img/caderno-criar.png" alt="" />
         </div>
-
     </a>
 
 </section>
@@ -72,22 +76,25 @@
 @*Cadernos que serão puxados do banco de dados!*@
 
 <section class="cadernos">
-    <div class="caderno">
-        <div class="infos-caderno">
-            <img src="./img/caderno-criar.png" alt="" />
-            <p>Nome do caderno |</p>
-            <p>Quantidade de atividades</p>
-        </div>
-        <img src="~/img/tres-pontos.png" alt="" />
-    </div>
+    @if (Model != null)
+    {
+        @foreach (Caderno caderno in Model)
+        {
+            <div class="caderno">
+                <div class="infos-caderno">
+                    <img src="./img/caderno-criar.png" alt="" />
+                    <p>@caderno.Titulo|</p>
+                    <p>Quantidade de atividades</p>
+                </div>
+                <img src="~/img/tres-pontos.png" alt="" />
+            </div>
+        }
 
-    <div class="caderno">
-        <div class="infos-caderno">
-            <img src="./img/caderno-criar.png" alt="" />
-            <p>Nome do caderno |</p>
-            <p>Quantidade de atividades</p>
-        </div>
-        <img src="~/img/tres-pontos.png" alt="" />
-    </div>
+    }
+    else
+    {
+        <h4>Você não possui cadernos cadastrados!</h4>
+    }
+
 
 </section>

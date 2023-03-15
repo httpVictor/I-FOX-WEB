@@ -45,21 +45,25 @@ namespace I_FOX_V1.Models
                 conexao.Open();
                 //Comando de inserção no banco
                 MySqlCommand inserirCaderno = new MySqlCommand(
-                    "INSERT INTO CADERNO(titulo, descricao, FK_USUARIO_nome, FK_SALA_codigo) VALUES('@titulo','@descricao', '@FK_USUARIO_nome', 1)", conexao);
+                    "INSERT INTO CADERNO(titulo, descricao, FK_USUARIO_nome) VALUES(@titulo,@descricao, @FK_USUARIO_nome)", conexao);
                 //Definindo os parâmetros
                 inserirCaderno.Parameters.AddWithValue("@descricao", Descricao);
                 inserirCaderno.Parameters.AddWithValue("@titulo", Titulo);
                 inserirCaderno.Parameters.AddWithValue("@FK_USUARIO_nome", usuario);
                 //Executando o comando
                 inserirCaderno.ExecuteNonQuery();
-                //fechando a conexão
-                conexao.Close();
+                
                 situacaoCad = "Caderno cadastrado com sucesso";
             }
             catch(Exception e)
             {
                 //caso dê algum erro no processo retornar qual foi o erro
                 situacaoCad = "Erro de conexão!" + e;
+                
+            }
+            finally
+            {
+                conexao.Close();
             }
 
             return situacaoCad;
@@ -88,14 +92,14 @@ namespace I_FOX_V1.Models
             }
             return sitDel;
         }
-        static public List<Caderno> listarCaderno()
+        static public List<Caderno> listarCaderno(string nome)
         {
             List<Caderno> listaCaderno = new List<Caderno>();
             try
             {
                 conexao.Open();
-                MySqlCommand pesquisaCaderno = new MySqlCommand("SELECT * FROM CADERNO", conexao);
-
+                MySqlCommand pesquisaCaderno = new MySqlCommand("SELECT * FROM CADERNO where FK_USUARIO_nome = @nome", conexao);
+                pesquisaCaderno.Parameters.AddWithValue("@nome", nome);
                 //Lista de cadernos vindas do banco
                 MySqlDataReader leitorBanco = pesquisaCaderno.ExecuteReader();
 
@@ -104,7 +108,7 @@ namespace I_FOX_V1.Models
                     listaCaderno.Add(new Caderno(
                         (string) leitorBanco["descricao"],
                         (string) leitorBanco["titulo"],
-                        int.Parse((string)leitorBanco["codigo"])));
+                        int.Parse(leitorBanco["codigo"].ToString())));
                 }
                 conexao.Close();
                 return listaCaderno;
