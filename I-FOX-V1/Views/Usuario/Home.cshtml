@@ -60,7 +60,6 @@
 
     <div class="tituloCadernos">
         <h3>SEUS CADERNOS</h3>
-        <p> Não há cadernos cadastrados</p>
     </div>
 
     
@@ -80,20 +79,21 @@
     {
         @foreach (Caderno caderno in Model)
         {
-            <div class="caderno">
-                <div class="infos-caderno">
-                    <img src="./img/caderno-criar.png" alt="" />
-                    <p>@caderno.Titulo|</p>
-                    <p>Quantidade de atividades</p>
+            <a asp-controller="Usuario" asp-action="Materia">
+                <div class="caderno">
+                    <div class="infos-caderno">
+                        <img src="./img/caderno-criar.png" alt="" />
+                        <p>@Html.DisplayFor(modelCaderno => caderno.Titulo) |</p>
+                        <p>Quantidade de atividades</p>
+                    </div>
+                    <img src="~/img/tres-pontos.png" alt="" />
                 </div>
-                <img src="~/img/tres-pontos.png" alt="" />
-            </div>
+            </a>
         }
-
     }
     else
     {
-        <h4>Você não possui cadernos cadastrados!</h4>
+        <h4>Você não possui cadernos cadastrados, crie seu primeiro!</h4>
     }
 
 

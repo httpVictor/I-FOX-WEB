@@ -13,7 +13,7 @@ namespace I_FOX_V1.Models
 
         public Caderno() { 
         }
-
+       
         public Caderno(string descricao, string titulo, string usuario)
         {
             this.descricao = descricao;
@@ -81,16 +81,50 @@ namespace I_FOX_V1.Models
                 deletarCaderno.Parameters.AddWithValue("@cod", codigo);
                 //executando o comando
                 deletarCaderno.ExecuteNonQuery();
-                //
-                conexao.Close();
+                
                 sitDel = "Caderno deletado com sucesso!";
 
             }
             catch (Exception e)
             {
-                sitDel = "Erro" + e;
+                sitDel = "Erro! " + e;
+            }
+            finally
+            {
+                conexao.Close();
             }
             return sitDel;
+        }
+
+        static public Caderno CadernoSelecionado(int id)
+        {
+            Caderno caderno = new Caderno();
+            try
+            {
+                conexao.Open();
+                MySqlCommand pesquisaCaderno = new MySqlCommand("SELECT * FROM CADERNO where id = @id", conexao);
+                pesquisaCaderno.Parameters.AddWithValue("@id", id);
+                //Lista de cadernos vindas do banco
+                MySqlDataReader leitorBanco = pesquisaCaderno.ExecuteReader();
+
+                while (leitorBanco.Read())
+                {
+                    caderno = new Caderno(
+                        (string)leitorBanco["descricao"],
+                        (string)leitorBanco["titulo"],
+                        int.Parse(leitorBanco["codigo"].ToString()));
+                }
+                return caderno;
+            }
+            catch (Exception e)
+            {
+                
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return caderno;
         }
         static public List<Caderno> listarCaderno(string nome)
         {

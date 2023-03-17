@@ -44,8 +44,11 @@ namespace I_FOX_V1.Controllers
             
             return View();
         }
-        public IActionResult Materia()
+        public IActionResult Materia(int id)
         {
+            Caderno caderno= Caderno.CadernoSelecionado(id);
+            //Criar uma sessão para armazenar os dados do usuário
+            HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
             return View();
         }
 
