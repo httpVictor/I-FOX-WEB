@@ -20,7 +20,7 @@
            <header>
                 @*NAVBAR*@
                 <nav class="navbar">
-                    <a class="cabecalho-navbar" href="Usuario/Home">
+                    <a class="cabecalho-navbar" asp-controller="Usuario" asp-action="Home">
                         <img src="~/img/raposa-navbar.png" />
                         <h1>I-FOX</h1>
                     </a>
@@ -76,7 +76,7 @@
     <script src="~/js/menu-hamburguer.js"></script>
 
 
-    @RenderSection("JavaScript", false)
+    @RenderSection("JavaScript", false);
     
 </body>
 </html>

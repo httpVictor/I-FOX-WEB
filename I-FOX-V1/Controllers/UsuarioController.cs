@@ -44,12 +44,21 @@ namespace I_FOX_V1.Controllers
             
             return View();
         }
+
         public IActionResult Materia(int id)
         {
-            Caderno caderno= Caderno.CadernoSelecionado(id);
+            Caderno caderno = Caderno.CadernoSelecionado(id);
             //Criar uma sessão para armazenar os dados do usuário
             HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
+            TempData["tituloCaderno"]= caderno.Titulo;
             return View();
+        }
+
+        [HttpDelete]
+        public IActionResult DeletarCaderno(int id)
+        {
+            Caderno.deletarCaderno(id);
+            return Redirect("/Usuario/Home");
         }
 
         public IActionResult ResumoEscrito()

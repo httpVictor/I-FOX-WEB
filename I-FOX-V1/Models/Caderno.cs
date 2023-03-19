@@ -70,7 +70,7 @@ namespace I_FOX_V1.Models
         }
         
        //Deletar caderno
-        public string deletarCaderno(string codigo)
+        static public string deletarCaderno(int id)
         {
             string sitDel = "";
             try
@@ -78,7 +78,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
                 //criando o comando e definindo seu parâmetro
                 MySqlCommand deletarCaderno = new MySqlCommand("DELETE FROM CADERNO WHERE codigo = @cod", conexao);
-                deletarCaderno.Parameters.AddWithValue("@cod", codigo);
+                deletarCaderno.Parameters.AddWithValue("@cod", id);
                 //executando o comando
                 deletarCaderno.ExecuteNonQuery();
                 
@@ -102,7 +102,7 @@ namespace I_FOX_V1.Models
             try
             {
                 conexao.Open();
-                MySqlCommand pesquisaCaderno = new MySqlCommand("SELECT * FROM CADERNO where id = @id", conexao);
+                MySqlCommand pesquisaCaderno = new MySqlCommand("SELECT * FROM CADERNO where codigo = @id", conexao);
                 pesquisaCaderno.Parameters.AddWithValue("@id", id);
                 //Lista de cadernos vindas do banco
                 MySqlDataReader leitorBanco = pesquisaCaderno.ExecuteReader();

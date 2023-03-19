@@ -15,23 +15,24 @@
         <h1>I-FOX</h1>
         <p>@TempData["SitCadastro"]</p>
 
-        <form method="post" asp-action="Cadastrar" class="forms">
+        <form method="post" asp-action="Cadastrar" class="forms" id="formulario">
 
             <div class="campo">
                 <label for="nome">USUÁRIO:</label>
-                <input type="text" id="usuario" name="nome" required>
+                <input type="text" class="campo-input" id="usuario" name="nome" oninput="validarNomeUsuario()" required>
+                <span class="span-obrigatorio">Digite um usuário valido! não são permitidos espaços!</span>
             </div>
 
             <div class="campo">
                 <label for="email">EMAIL:</label>
-                <input type="email" id="email" name="email" required>
+                    <input class="campo-input"  type="email" id="email" name="email" oninput="" required>
+                <span class="span-obrigatorio">Digite um email valido</span>
             </div>
 
             <div class="campo">
                 <label for="senha">SENHA:</label>
-                    <input type="password" id="senha" name="senha" required />
-                    <p>Pelo menos 8 caracteres, 1 caractere especial e 1 número</p>
-               
+                    <input class="campo-input" type="password" id="senha" name="senha" required oninput="validarSenha()" />
+                <span class="span-obrigatorio">Pelo menos 8 caracteres, 1 caractere especial e 1 número</span>
             </div>
 
             <div class="campo">
@@ -39,14 +40,6 @@
                 <input type="date" id="data" name="data" required>
 
             </div>
-
-            @*<h3>Seu cadastro será de professor ou aluno? (Será melhor trabalhado no próximo sprint) </h3>
-
-            <div class="usuarioTipo"> 
-                <input type="radio" name="tipoUsuario" value="PROFESSOR" id="professor"> <p>PROFESSOR</p>
-                <input type="radio" name="tipoUsuario" value="ALUNO" id="aluno"> <p>ALUNO</p>
-            </div>*@
-          
 
             <div class="juntos">
                 <img id="raposa" src="~/img/raposa-cadastrar.png">

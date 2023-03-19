@@ -64,6 +64,15 @@ form input {
     margin: 7px auto;
 }
 
+.span-obrigatorio {
+    display: none;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #e63636;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
 
 .forms{
      display: flex;

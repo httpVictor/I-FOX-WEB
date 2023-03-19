@@ -99,23 +99,22 @@ form input {
 
 /*Títulos e textos*/
 a{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
     text-decoration: underline;
+    color: black;
 }
 
 a:hover{
     transform: scale(1.02);
-    color: var(--azulEscuro);
+    color: var(--laranjaEscuro);
 }
 
 h4 {
     margin: 20px;
-    
 }
 
-a {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 20px;
-}
+
 /*Responsividade usando Media Query*/
 @media (max-width: 768px){
     .loginTelinha img{

@@ -1,39 +1,95 @@
-﻿//Variáveis de validações que vamos realizar
-var numeros = /[0-9]/;
+﻿//VALIDAÇÕES DA PÁGINA CADASTRO
 
-/* função para ver se a senha esta válida*/
+//ELEMENTOS DA PAGINA
+const form = document.getElementById('formulario');
+const campos = document.querySelectorAll('.campo-input');
+const spans = document.querySelectorAll('.span-obrigatorio');
 
-function validarSenha(senha) {
+//Caracteres e Regex para validar
+const numeros = /[0123456789]/;
+const caractereEspecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/
 
-// verificar se a senha tem no minimo 8 letras
-    if (senha.length < 8) {
-        document.getElementById(sit_senha).innerHTML = "Senha muito curta, digite pelo menos 8 digitos";
+campos[0].addEventListener("keypress", function(e) {
+    checkChar(e)
+
+})
+
+function checkChar(e) {
+    const char = String.fromCharCode(e.keyCode)
+    console.log(e.keycode)
+    console.log(char)
 }
 
-//verificar se excede 8 letras
-if (senha.length >= 20) {
-    return "";
+//Setando evento no form para
+form.addEventListener('submit', event => {
+    event.preventDefault()
+
+    validarNomeUsuario()
+    validacoes += validarSenha()
+    
+    //caso as duas validações forem verdadeiras, subimitta
+    if (validacoes) {
+        event.submitter();
+    }
+   
+})
+//Caso de erro...
+function setarErro(index) {
+    campos[index].style.border = '1px solid #e63636';
+    spans[index].style.display = 'block';
 }
 
-// verificar se a senha contém pelo menos um caractere especial
-if (!/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(senha)) {
-    return false;
+
+//Tirar o erro caso atenda as validações
+function tirarErro(index) {
+    campos[index].style.border = 'none';
+    spans[index].style.display = 'none';
 }
 
-//obrigado a ter pelo menos um numero 
-if (/0123456789/.test(senha)) {
-    return false;
+//Validando o nome do usuário
+function validarNomeUsuario() {
+
+    //validar o tamanho primeiro
+    if (campos[0].value.length < 6) {
+        setarErro(0)
+       
+    } else {
+        tirarErro(0);
+        return true
+    }
+
+    //validar caracteres especiais (@, #,. e _)
 }
 
-// se passar pelas validações acima, retorna true
-    return true;
-
+//Validando a senha
+function validarSenha() {
+    //validar o tamanho da senha
+    if (campos[2].value.length < 8 || campos[2].value.length > 30) {
+        setarErro(2)
+    } else {
+        //validar se possui números
+        if (numeros.test(campos[2].value)) {
+            //validar se existe pelo menos um caractere especial
+            if (caractereEspecial.test(campos[2])) {
+                tirarErro(2)
+                return true
+            } else {
+                setarErro(2)
+            }
+        } else {
+            setarErro(2)
+        }
+    }
 }
 
-document.getElementById("nome")
-function validarNomeUsuario(){
-
-    //verificar se não tem espaço
-
-    //verificar
+//validando o email da pessoa
+function validarEmail() {
+    //Regex com a formatção de um email
+    (email.test(campos[1])) ? tirarErro(1) : setarErro(1)
 }
+
+
+
+
+
+

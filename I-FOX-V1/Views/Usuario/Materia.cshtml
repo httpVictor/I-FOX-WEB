@@ -3,7 +3,7 @@
 }
 <section>
     <div class="cabecalho-materia">
-        <h1>Nome do caderno</h1>
+            <h1>@TempData["tituloCaderno"]</h1>
         <div class="botao-pesquisar">
              <img src="img/lupa-pesquisa.png" />
              <input type="text" placeholder="Pesquisar"/>
@@ -38,7 +38,7 @@
             </div>
        </a>
 
-        <a class="">
+        <a class="" asp-controller="Resumos" asp-action="ResumoEscrito">
             <div class="resumo-tipo">
                 <img src="~/img/resumo-escrito.png" alt="" />
                 <p>Escrito</p>

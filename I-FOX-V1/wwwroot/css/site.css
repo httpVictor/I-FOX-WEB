@@ -61,10 +61,9 @@ p {
 
 /*NavBar Principal do site*/
 a {
-    color: white;
     text-decoration: none;
     transition: 0.3s;
-    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 li > a:hover{

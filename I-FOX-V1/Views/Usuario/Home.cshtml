@@ -79,16 +79,19 @@
     {
         @foreach (Caderno caderno in Model)
         {
-            <a asp-controller="Usuario" asp-action="Materia">
-                <div class="caderno">
+            
+            <div class="caderno">
+                <a asp-controller="Usuario" asp-action="Materia" asp-route-id="@caderno.Codigo">
                     <div class="infos-caderno">
                         <img src="./img/caderno-criar.png" alt="" />
-                        <p>@Html.DisplayFor(modelCaderno => caderno.Titulo) |</p>
+                        <p>@caderno.Titulo |</p>
                         <p>Quantidade de atividades</p>
                     </div>
-                    <img src="~/img/tres-pontos.png" alt="" />
-                </div>
-            </a>
+                </a>
+                <a asp-controller="Usuario" asp-action="EditarCaderno" asp-route-id="@caderno.Codigo">Editar</a>
+                <a asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">Excluir</a>
+            </div>
+            
         }
     }
     else
