@@ -1,11 +1,12 @@
-﻿@section Estilos{
+﻿@model Resumo
+@section Estilos{
     <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
 }
 <section>
     <div class="cabecalho-materia">
             <h1>@TempData["tituloCaderno"]</h1>
         <div class="botao-pesquisar">
-             <img src="img/lupa-pesquisa.png" />
+             <img src="~/img/lupa-pesquisa.png" />
              <input type="text" placeholder="Pesquisar"/>
         </div>
         <div class="imagens-organizacao-materia">
@@ -45,6 +46,11 @@
             </div>
         </a>
 
+    </div>
+
+    <div class="descricao_caderno">
+        <img src="~/img/raposa-cadernos.png" />
+        <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
     <div class="resumos">

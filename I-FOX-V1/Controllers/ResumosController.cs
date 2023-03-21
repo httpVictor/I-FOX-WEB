@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using I_FOX_V1.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace I_FOX_V1.Controllers
 {
@@ -6,6 +7,17 @@ namespace I_FOX_V1.Controllers
     {
         public IActionResult ResumoEscrito()
         {
+            
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult ResumoEscrito(string titulo, string data, string texto, int id)
+        {
+            //Formatando a data que o usuário inseriu
+            String dataCaractere = data.Replace("-", "");
+
+            Resumo resumo = new Resumo(dataCaractere,"escrito",titulo,texto, null, null, id);
             return View();
         }
 

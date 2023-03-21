@@ -89,7 +89,7 @@
                     </div>
                 </a>
                 <a asp-controller="Usuario" asp-action="EditarCaderno" asp-route-id="@caderno.Codigo">Editar</a>
-                <a asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">Excluir</a>
+                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">Excluir</a>
             </div>
             
         }

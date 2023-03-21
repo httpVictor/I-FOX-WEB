@@ -9,23 +9,23 @@
 
         <h2>Crie seu Resumo!</h2>
         <br />
-        <form>
+        <form method="post" asp-controller="Resumos" asp-action="ResumoEscrito">
             <div class="titulo">
                 <label for="">Título:</label>
-                <input type="text" id="titulo">
+                <input type="text" id="titulo" name="titulo">
                 <br><br>
 
             </div>
 
             <div class="data">
                 <label for="">Data:</label>
-                <input type="date" id="data">
+                <input type="date" id="data" name="data">
                 <br><br />
             </div>
 
             <div>
                 <label for="">Anotações:</label>
-                <textarea name="" id="anotacoes"></textarea>
+                <textarea name="texto" id="anotacoes"></textarea>
             </div>
 
             <br><br>
@@ -33,6 +33,6 @@
 
     </div>
 
-    <input role="button" value="SALVAR" class="botao">
+    <input role="button" type="submit" value="SALVAR" class="botao">
 
 </section>

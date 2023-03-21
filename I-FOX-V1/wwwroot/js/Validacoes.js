@@ -21,18 +21,18 @@ function checkChar(e) {
 }
 
 //Setando evento no form para
-form.addEventListener('submit', event => {
-    event.preventDefault()
+//form.addEventListener('submit', event => {
+//    event.preventDefault()
 
-    validarNomeUsuario()
-    validacoes += validarSenha()
+//    validarNomeUsuario()
+//    validacoes += validarSenha()
     
-    //caso as duas validações forem verdadeiras, subimitta
-    if (validacoes) {
-        event.submitter();
-    }
+//    //caso as duas validações forem verdadeiras, subimitta
+//    if (validacoes) {
+//        event.submitter();
+//    }
    
-})
+//})
 //Caso de erro...
 function setarErro(index) {
     campos[index].style.border = '1px solid #e63636';

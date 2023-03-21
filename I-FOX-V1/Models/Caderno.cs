@@ -118,7 +118,7 @@ namespace I_FOX_V1.Models
             }
             catch (Exception e)
             {
-                
+              
             }
             finally
             {
@@ -152,6 +152,57 @@ namespace I_FOX_V1.Models
                 
             }
             return listaCaderno;
+        }
+
+        //Editar propriedades do caderno
+        static public string editarDescricao(string titulo)
+        {
+            string estadoEdicao ="";
+
+            try
+            {
+                conexao.Open();
+                MySqlCommand editarTitulo = new MySqlCommand("UPDATE CADERNO set titulo = @titulo", conexao);
+                editarTitulo.Parameters.AddWithValue("@titulo", titulo);
+                
+                editarTitulo.ExecuteNonQuery();
+                estadoEdicao = "Editado!";
+            }
+            catch (Exception e)
+            {
+                estadoEdicao = "Erro de conexão" + e;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return estadoEdicao;
+        }
+
+        //Editar propriedades do caderno
+        static public string editarNome(string descricao)
+        {
+            string estadoEdicao = "";
+            try
+            {
+                conexao.Open();
+                MySqlCommand editarTitulo = new MySqlCommand("UPDATE CADERNO set titulo = @titulo", conexao);
+                editarTitulo.Parameters.AddWithValue("@titulo", descricao);
+
+                editarTitulo.ExecuteNonQuery();
+                estadoEdicao = "Editado!";
+            }
+            catch (Exception e)
+            {
+                estadoEdicao = "Erro de conexão" + e;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return estadoEdicao;
         }
     }
 }

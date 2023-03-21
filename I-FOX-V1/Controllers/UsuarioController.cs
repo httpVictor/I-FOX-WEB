@@ -30,6 +30,11 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+        public IActionResult EditarCaderno()
+        {
+            return View("./CriarCaderno");
+        }
+
         [HttpPost]
         public IActionResult CriarCaderno(string titulo, string descricao)
         {
@@ -51,25 +56,29 @@ namespace I_FOX_V1.Controllers
             //Criar uma sessão para armazenar os dados do usuário
             HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
             TempData["tituloCaderno"]= caderno.Titulo;
+            TempData["descricaoCaderno"] = caderno.Descricao;
             return View();
         }
 
-        [HttpDelete]
+        [HttpGet]
         public IActionResult DeletarCaderno(int id)
         {
             Caderno.deletarCaderno(id);
-            return Redirect("/Usuario/Home");
+            return Redirect("../Home");
         }
 
-        public IActionResult ResumoEscrito()
+        [HttpGet]
+        public IActionResult editarNomeCaderno(string nome)
         {
-            return View();
+            Caderno.editarNome(nome);
+            return Redirect("../Home");
         }
 
-        public IActionResult ResumoAudio()
+        [HttpGet]
+        public IActionResult editarDescicaoCaderno(string descricao)
         {
-            return View();
+            Caderno.editarNome(descricao);
+            return Redirect("../Home");
         }
-
     }
 }
