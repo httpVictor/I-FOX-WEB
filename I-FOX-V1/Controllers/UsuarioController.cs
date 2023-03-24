@@ -42,6 +42,7 @@ namespace I_FOX_V1.Controllers
             {
                 Usuario usuario = JsonConvert.DeserializeObject<Usuario>(HttpContext.Session.GetString("usuario"));
                 string nomeUser = usuario.Nome;
+
                 //Criando o objeto de caderno
                 Caderno caderno = new Caderno(descricao, titulo, nomeUser);
                 TempData["Testes"] = caderno.cadastrarCaderno();
@@ -55,8 +56,13 @@ namespace I_FOX_V1.Controllers
             Caderno caderno = Caderno.CadernoSelecionado(id);
             //Criar uma sessão para armazenar os dados do usuário
             HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
-            TempData["tituloCaderno"]= caderno.Titulo;
-            TempData["descricaoCaderno"] = caderno.Descricao;
+            @TempData["descricaocaderno"] = caderno.Descricao;
+
+            if (HttpContext.Session.GetString("cadernoAcessado") != "")
+            {
+                return View(Resumo.listarResumo(caderno.Codigo));
+            }
+
             return View();
         }
 

@@ -1,4 +1,5 @@
-﻿@model Resumo
+﻿@model IEnumerable<I_FOX_V1.Models.Resumo>
+
 @section Estilos{
     <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
 }
@@ -39,7 +40,7 @@
             </div>
        </a>
 
-        <a class="" asp-controller="Resumos" asp-action="ResumoEscrito">
+        <a asp-controller="Resumos" asp-action="ResumoEscrito">
             <div class="resumo-tipo">
                 <img src="~/img/resumo-escrito.png" alt="" />
                 <p>Escrito</p>
@@ -53,13 +54,25 @@
         <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
+    
+    
     <div class="resumos">
-        <div class="resumo">
-            <img src="" alt="" />
-            <p>Nome do resumo | </p>
-            <p>Tipo do resumo </p>
-            <img src="~/img/tres-pontos.png" />
-        </div>
+
+        @if (Model != null)
+        {
+            @foreach (Resumo resumo in Model)
+            {
+                <div class="resumo">
+                    <img src="" alt="" />
+                    <p>@resumo.Titulo | </p>
+                    <p>@resumo.Tipo </p>
+                    <img src="~/img/tres-pontos.png" />
+                </div>
+            }
+        }else
+        {
+            <h4>Não possui resumos, crie o seu primeiro!</h4>
+        }
 
         <div class="resumo">
             <img src="" alt="" />

@@ -1,5 +1,6 @@
 ﻿using I_FOX_V1.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace I_FOX_V1.Controllers
 {
@@ -7,17 +8,23 @@ namespace I_FOX_V1.Controllers
     {
         public IActionResult ResumoEscrito()
         {
-            
+
             return View();
         }
 
-        [HttpGet]
-        public IActionResult ResumoEscrito(string titulo, string data, string texto, int id)
+        [HttpPost]
+        public IActionResult ResumoEscrito(string titulo, string data, string texto)
         {
             //Formatando a data que o usuário inseriu
             String dataCaractere = data.Replace("-", "");
 
-            Resumo resumo = new Resumo(dataCaractere,"escrito",titulo,texto, null, null, id);
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+
+            int codigoCaderno = caderno.Codigo;
+
+            Resumo resumo = new Resumo(dataCaractere,"escrito",titulo,texto, " ", " ", codigoCaderno);
+            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo("escrito");
             return View();
         }
 

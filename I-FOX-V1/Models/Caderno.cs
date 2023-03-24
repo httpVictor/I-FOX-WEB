@@ -12,6 +12,7 @@ namespace I_FOX_V1.Models
         static MySqlConnection conexao = FabricaConexao.getConexao();
 
         public Caderno() { 
+
         }
        
         public Caderno(string descricao, string titulo, string usuario)
@@ -32,7 +33,7 @@ namespace I_FOX_V1.Models
         //getters e setters
         public string Descricao { get => descricao; set => descricao = value; }
         public string Titulo { get => titulo; set => titulo = value; }
-        public int Codigo { get => codigo;}
+        public int Codigo { get => codigo; set => codigo = value; }
 
         //métodos
         //Cadastrar o caderno

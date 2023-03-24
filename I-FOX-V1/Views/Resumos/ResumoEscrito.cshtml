@@ -9,7 +9,7 @@
 
         <h2>Crie seu Resumo!</h2>
         <br />
-        <form method="post" asp-controller="Resumos" asp-action="ResumoEscrito">
+        <form method="post" asp-action="ResumoEscrito">
             <div class="titulo">
                 <label for="">Título:</label>
                 <input type="text" id="titulo" name="titulo">
@@ -29,10 +29,12 @@
             </div>
 
             <br><br>
+
+            <button type="submit" class="botao">SALVAR</button>
         </form>
 
     </div>
 
-    <input role="button" type="submit" value="SALVAR" class="botao">
+    <p>@TempData["Sit_Cad_Resumo"]</p>
 
 </section>
