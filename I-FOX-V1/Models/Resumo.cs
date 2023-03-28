@@ -70,7 +70,12 @@ namespace I_FOX_V1.Models
                 inserir.Parameters.AddWithValue("@frente", Frente);
                 inserir.Parameters.AddWithValue("@verso", Verso);
                 inserir.Parameters.AddWithValue("@FK_CADERNO_codigo", Caderno);
-                
+
+                if (tipo == "foto" || tipo == "audio")
+                {
+
+                }
+
                 //Executando o comando
                 inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
                 situacao_cadastro = "cadastrado";

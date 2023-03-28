@@ -1,5 +1,49 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@section Estilos{
+    <link rel="stylesheet" href="~/css/resumoFotos.css"/>
 }
+
+<section class="funcao">
+
+    <div class="bloco">
+        <form method="post" enctype="multipart/form-data">
+            <p>Salve suas fotos para estudo aqui: </p>
+            <br>
+
+            <div class="titulo">
+                <label for="titulo">Título:</label>
+                <input name="titulo" type="text" id="titulo">
+            </div>
+
+
+            <br><br>
+
+
+            <div class="data">
+                <label for="data">Data:</label>
+                <input name="data" type="date" id="data">
+            </div>
+
+
+            <br><br>
+
+                <button class="botao">Deletar Arquivo</button>
+
+            <br><br>
+
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox">
+                <label for="">lugar onde vai ficar cada imagem</label>
+            </div>
+
+            <br><br> <br><br>
+
+            <div class="file">
+                <input type="file" id="file">
+                <input role="button" value="Salvar Arquivo" class="botao1">
+            </div>
+
+            <br><br>
+        </form>
+        
+    </div>
+</section>
