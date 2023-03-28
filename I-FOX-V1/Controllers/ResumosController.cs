@@ -12,20 +12,13 @@ namespace I_FOX_V1.Controllers
 
             return View();
         }
-
-        [HttpPost]
-        public IActionResult ResumoEscrito(string titulo, string data, string texto)
+        public IActionResult ResumoFlashCard()
         {
-            //Formatando a data que o usuário inseriu
-            String dataCaractere = data.Replace("-", "");
+            return View();
+        }
 
-            //Pegando o id do caderno que o resumo será salvo
-            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
-
-            int codigoCaderno = caderno.Codigo;
-
-            Resumo resumo = new Resumo(dataCaractere,"escrito",titulo,texto, " ", " ", codigoCaderno);
-            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo("escrito");
+        public IActionResult ResumoFotos()
+        {
             return View();
         }
 
@@ -34,8 +27,10 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult ResumoFotos(string titulo, string data)
         {
+            string dataCaractere = data.Replace("-", "");
             //Procurando a imagem
             foreach (IFormFile arquivo in Request.Form.Files)
             {
@@ -52,8 +47,9 @@ namespace I_FOX_V1.Controllers
                     Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
                     int codigoCaderno = caderno.Codigo;
 
-                    Resumo resumo = new Resumo(data, "foto", titulo, null, null, null, codigoCaderno);
-                    resumo.cadastrarResumo("foto");
+                    Resumo resumo = new Resumo(dataCaractere, "foto", titulo, null, null, null, codigoCaderno);
+                    resumo.cadastrarResumo();
+                    resumo.cadastrarArquivos(bytesDoArquivo);
                     TempData["msg"] = "Salvo com sucesso!";
                 }
                 else
@@ -61,12 +57,26 @@ namespace I_FOX_V1.Controllers
                     TempData["msg"] = "Erro de cadastro, coloque apenas imagens";
                 }
             }
+
             return View();
         }
 
-        public IActionResult ResumoFlashCard()
+        [HttpPost]
+        public IActionResult ResumoEscrito(string titulo, string data, string texto)
         {
-            return View();
+            //Formatando a data que o usuário inseriu
+            String dataCaractere = data.Replace("-", "");
+
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+
+            int codigoCaderno = caderno.Codigo;
+
+            Resumo resumo = new Resumo(dataCaractere, "escrito", titulo, texto, null, null, codigoCaderno);
+            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
+
+            return View("..Usuario/Materia/");
         }
+
     }
 }

@@ -21,6 +21,9 @@
     --azulClaro: #69e9f4;
     --azulEscuro: #009fad;
 }
+body{
+    background-image: url(~/img/fundo_resumos.png);
+}
 
 .bloco {
     display: flex;

@@ -1,4 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
+using Org.BouncyCastle.Utilities;
 
 namespace I_FOX_V1.Models
 {
@@ -48,7 +49,7 @@ namespace I_FOX_V1.Models
 
         //MÉTODOS
 
-        public string cadastrarResumo(string tipo)
+        public string cadastrarResumo()
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
             string situacao_cadastro = "";
@@ -63,18 +64,13 @@ namespace I_FOX_V1.Models
                 
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
-                inserir.Parameters.AddWithValue("@tipo", tipo);
+                inserir.Parameters.AddWithValue("@tipo", Tipo);
                 inserir.Parameters.AddWithValue("@data_resumo", Data_resumo);
                 inserir.Parameters.AddWithValue("@titulo", Titulo);
                 inserir.Parameters.AddWithValue("@texto", Texto);
                 inserir.Parameters.AddWithValue("@frente", Frente);
                 inserir.Parameters.AddWithValue("@verso", Verso);
                 inserir.Parameters.AddWithValue("@FK_CADERNO_codigo", Caderno);
-
-                if (tipo == "foto" || tipo == "audio")
-                {
-
-                }
 
                 //Executando o comando
                 inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
@@ -93,6 +89,53 @@ namespace I_FOX_V1.Models
             return situacao_cadastro;
 
         }
+
+        public string cadastrarArquivos(byte[] valor)
+        {
+            string situacao_arquivo = "";
+            string codigoResumo = "";
+
+            //Pesquisando em que resumo vão estar aqueles arquivos
+            try
+            {
+                conexao.Open(); //Abrindo conexão
+                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where @titulo = titulo", conexao);
+                pesquisaResumo.Parameters.AddWithValue("@titulo", Titulo);
+
+                //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
+                MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
+
+                while (leitorBanco.Read()) //Enquanto for possível ler ele
+                {
+                    //Definindo os atributos que vão vir do banco
+                    codigoResumo = leitorBanco["codigo"].ToString();
+                }
+
+                if(codigoResumo != "")
+                {
+                    MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO VALUES(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
+                    cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", codigoResumo);
+                    cadastrarArquivo.Parameters.AddWithValue("@valor", valor);
+                    cadastrarArquivo.ExecuteNonQuery();
+                }
+                
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+
+
+
+
+            return situacao_arquivo;
+        }
+
         public string editarResumo()
         {
             return "Resumo editado com sucesso!";

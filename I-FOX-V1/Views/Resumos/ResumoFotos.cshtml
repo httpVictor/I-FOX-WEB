@@ -38,12 +38,14 @@
             <br><br> <br><br>
 
             <div class="file">
-                <input type="file" id="file">
-                <input role="button" value="Salvar Arquivo" class="botao1">
+                <input name="arquivo" type="file" id="file">
+                <button class="botao1">Salvar Arquivo</button>
             </div>
 
             <br><br>
         </form>
+
+        @TempData["msg"]
         
     </div>
 </section>

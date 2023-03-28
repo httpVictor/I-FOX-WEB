@@ -20,19 +20,19 @@
             <div class="campo">
                 <label for="nome">USUÁRIO:</label>
                 <input type="text" class="campo-input" id="usuario" name="nome" oninput="validarNomeUsuario()" required>
-                <span class="span-obrigatorio">Digite um usuário valido! não são permitidos espaços!</span>
+                <span class="span-obrigatorio">Escolha um usuário com pelo menos 6 caracteres, menor que 40 e sem espaços!</span>
             </div>
 
             <div class="campo">
                 <label for="email">EMAIL:</label>
                     <input class="campo-input"  type="email" id="email" name="email" oninput="" required>
-                <span class="span-obrigatorio">Digite um email valido</span>
+                <span class="span-obrigatorio">Insira seu melhor email!</span>
             </div>
 
             <div class="campo">
                 <label for="senha">SENHA:</label>
                     <input class="campo-input" type="password" id="senha" name="senha" required oninput="validarSenha()" />
-                <span class="span-obrigatorio">Pelo menos 8 caracteres, 1 caractere especial e 1 número</span>
+                <span class="span-obrigatorio">Escolha sua senha com pelo menos 8 caracteres e 1 número</span>
             </div>
 
             <div class="campo">
@@ -46,6 +46,7 @@
                 <button class="botao">CADASTRAR</button>
             </div>
             
+            <p>@TempData["validacaoUsuario"]</p>
         </form>
 
     </div>
@@ -59,5 +60,5 @@
 </section>
 
 @section JavaScript{
-    <script src="~/js/Validacoes.js"></script>
+    @*@*<script src="~/js/Validacoes.js"></script>*@
 }

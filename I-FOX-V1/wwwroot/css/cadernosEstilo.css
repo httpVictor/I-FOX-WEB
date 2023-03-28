@@ -268,6 +268,7 @@
 .resumo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     column-gap: 60px;
     padding: 10px;
     border-radius: 15px;

@@ -7,18 +7,8 @@ const spans = document.querySelectorAll('.span-obrigatorio');
 
 //Caracteres e Regex para validar
 const numeros = /[0123456789]/;
-const caractereEspecial = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/
+const caractereEspecial = /[!@#$&*.]/
 
-campos[0].addEventListener("keypress", function(e) {
-    checkChar(e)
-
-})
-
-function checkChar(e) {
-    const char = String.fromCharCode(e.keyCode)
-    console.log(e.keycode)
-    console.log(char)
-}
 
 //Setando evento no form para
 //form.addEventListener('submit', event => {

@@ -27,17 +27,27 @@ namespace I_FOX_V1.Controllers
         [HttpPost]
         public IActionResult Cadastrar(string nome, string email, string senha, string data)
         {
-            //Formatando a data que o usuário inseriu
-            String dataCaractere = data.Replace("-", "");
-            
-            //criando objeto de usuário para cadastrá-lo
-            Usuario usuario = new Usuario(nome, email, senha, dataCaractere);
+            //Validação para não entrar nomes de usuários sem espaços
+            string nomeNoEspaco = nome.Replace(" ", "");
 
-            TempData["SitCadastro"] = usuario.cadastrarUsuario();
-
-            if (TempData["SitCadastro"] == "cadastrado")
+            if(nome == nomeNoEspaco)
             {
-                return Redirect("/Home/Login");
+                //Formatando a data que o usuário inseriu
+                string dataCaractere = data.Replace("-", "");
+
+                //criando objeto de usuário para cadastrá-lo
+                Usuario usuario = new Usuario(nome, email, senha, dataCaractere);
+
+                TempData["SitCadastro"] = usuario.cadastrarUsuario();
+
+                if (TempData["SitCadastro"] == "cadastrado")
+                {
+                    return Redirect("/Home/Login");
+                }
+
+            } else
+            {
+                TempData["validacaoUsuario"] = "Não insira espaços em branco!";
             }
 
             return View();

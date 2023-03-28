@@ -62,23 +62,19 @@
         {
             @foreach (Resumo resumo in Model)
             {
-                <div class="resumo">
-                    <img src="" alt="" />
-                    <p>@resumo.Titulo | </p>
-                    <p>@resumo.Tipo </p>
-                    <img src="~/img/tres-pontos.png" />
-                </div>
+                <a asp-controller="Resumo" asp-action="Vizualizar_@resumo.Tipo" asp-route-id="@resumo.Codigo">
+                    <div class="resumo">
+                        @*<img src="" alt="" />*@
+                        <p>@resumo.Titulo | </p>
+                        <p>@resumo.Tipo </p>
+                        <p>Excluir</p>
+                    </div>
+                </a>
             }
         }else
         {
             <h4>Não possui resumos, crie o seu primeiro!</h4>
         }
 
-        <div class="resumo">
-            <img src="" alt="" />
-            <p>Nome do resumo | </p>
-            <p>Tipo do resumo </p>
-            <img src="~/img/tres-pontos.png" />
-        </div>
     </div>
 </section>

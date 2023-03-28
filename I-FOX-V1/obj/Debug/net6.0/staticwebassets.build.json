@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XOGJzE3w7JGaHDq1D/PiQIga01cVOBRxk/w1dFzKbKI=",
+  "Hash": "kO7Fjxty3oIYFrO6L5VDwlx+iR1NB49Ez7ZjZAqgbQ8=",
   "Source": "I-FOX-V1",
   "BasePath": "_content/I-FOX-V1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "I-FOX-V1\\wwwroot",
       "Source": "I-FOX-V1",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\I-FOX-V1.styles.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\I-FOX-V1.styles.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "I-FOX-V1.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\I-FOX-V1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\I-FOX-V1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "I-FOX-V1.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/cadastro.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/cadernosEstilo.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cadernosEstilo.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\cards.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\cards.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/cards.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cards.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/criarCaderno.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\criarCaderno.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\inicio.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\inicio.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/inicio.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\inicio.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\Login.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\resumoEscrito.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\resumoEscrito.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/resumoEscrito.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\resumoEscrito.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\ResumoFotos.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\ResumoFotos.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/ResumoFotos.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ResumoFotos.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\css\\site.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\favicon.ico",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\2.jpg",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\2.jpg",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/2.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\3.jpg",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\3.jpg",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/3.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\4.jpg",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\4.jpg",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/4.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\audio-resumo.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\audio-resumo.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/audio-resumo.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\audio-resumo.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\caderno-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\caderno-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/caderno-card.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\caderno-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\caderno-criar.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\caderno-criar.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/caderno-criar.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\caderno-criar.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\card-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\card-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/card-card.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\card-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\casa-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\casa-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/casa-card.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\casa-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\classe-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\classe-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/classe-card.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\classe-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\filtro.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\filtro.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/filtro.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\filtro.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\flashcard.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\flashcard.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/flashcard.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\flashcard.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\fone-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\fone-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/fone-card.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fone-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\foto1.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\foto1.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/foto1.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\foto1.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\foto2.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\foto2.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/foto2.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\foto2.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\foto-resumo.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\foto-resumo.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/foto-resumo.png",
       "AssetKind": "All",
@@ -476,10 +476,27 @@
       "OriginalItemSpec": "wwwroot\\img\\foto-resumo.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\gabi-nos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\fundo_resumos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "img/fundo_resumos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fundo_resumos.png"
+    },
+    {
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\gabi-nos.png",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/gabi-nos.png",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gabi-nos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\agenda.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\agenda.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/agenda.png",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\agenda.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\caderno.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\caderno.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/caderno.png",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\caderno.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\conhecimento.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\conhecimento.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/conhecimento.png",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\conhecimento.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\educacao.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\educacao.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/educacao.png",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\educacao.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\estudante-masculino.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\estudante-masculino.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/estudante-masculino.png",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\estudante-masculino.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\flash-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\flash-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/flash-card.png",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\flash-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\material-escolar.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\material-escolar.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/material-escolar.png",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\material-escolar.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pessoas.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pessoas.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/pessoas.png",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\pessoas.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pilha-de-livros.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pilha-de-livros.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/pilha-de-livros.png",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\pilha-de-livros.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\planeta-terra.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\planeta-terra.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/icones_caderno/planeta-terra.png",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_caderno\\planeta-terra.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\ifox-logo.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\ifox-logo.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/ifox-logo.png",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ifox-logo.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\image 21.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\image 21.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/image 21.png",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\image 21.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\img-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\img-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/img-card.png",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\img-fundo-login.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\img-fundo-login.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/img-fundo-login.png",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img-fundo-login.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\kevin-nos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\kevin-nos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/kevin-nos.png",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\kevin-nos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\lampada-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\lampada-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/lampada-card.png",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\lampada-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\lembrete-icon.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\lembrete-icon.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/lembrete-icon.png",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\lembrete-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\logo_ifox.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\logo_ifox.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/logo_ifox.png",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo_ifox.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\logo_maior.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\logo_maior.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/logo_maior.png",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo_maior.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\lupa-pesquisa.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\lupa-pesquisa.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/lupa-pesquisa.png",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\lupa-pesquisa.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\mapa-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\mapa-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/mapa-card.png",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mapa-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\mapa-do-tesouro.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\mapa-do-tesouro.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/mapa-do-tesouro.png",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mapa-do-tesouro.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\nepo-nos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\nepo-nos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/nepo-nos.png",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nepo-nos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\nicolli-nos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\nicolli-nos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/nicolli-nos.png",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nicolli-nos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\nos-1.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\nos-1.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/nos-1.png",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nos-1.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\nos-2.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\nos-2.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/nos-2.png",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nos-2.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\nos-3.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\nos-3.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/nos-3.png",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\nos-3.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\organizador.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\organizador.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/organizador.png",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\organizador.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\planilia-card.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\planilia-card.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/planilia-card.png",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\planilia-card.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\pomodoro-icon.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\pomodoro-icon.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/pomodoro-icon.png",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pomodoro-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\raposa-cadastrar.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\raposa-cadastrar.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/raposa-cadastrar.png",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\raposa-cadastrar.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\raposa-cadernos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\raposa-cadernos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/raposa-cadernos.png",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\raposa-cadernos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\raposa-navbar.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\raposa-navbar.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/raposa-navbar.png",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\raposa-navbar.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\resumo-escrito.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\resumo-escrito.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/resumo-escrito.png",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\resumo-escrito.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\sala-aula-icon.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\sala-aula-icon.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/sala-aula-icon.png",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\sala-aula-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\tres-pontos.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\tres-pontos.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/tres-pontos.png",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tres-pontos.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\img\\wave.png",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\img\\wave.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "img/wave.png",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\wave.png"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "js/menu-hamburguer.js",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\js\\menu-hamburguer.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\js\\site.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "js/Validacoes.js",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Validacoes.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\ifox-versionado\\I-FOX-V1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

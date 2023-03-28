@@ -46,6 +46,7 @@ namespace I_FOX_V1.Controllers
                 //Criando o objeto de caderno
                 Caderno caderno = new Caderno(descricao, titulo, nomeUser);
                 TempData["Testes"] = caderno.cadastrarCaderno();
+                return Redirect("./Home");
             }
             
             return View();
@@ -57,6 +58,7 @@ namespace I_FOX_V1.Controllers
             //Criar uma sessão para armazenar os dados do usuário
             HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
             @TempData["descricaocaderno"] = caderno.Descricao;
+            @TempData["tituloCaderno"] = caderno.Titulo;
 
             if (HttpContext.Session.GetString("cadernoAcessado") != "")
             {
