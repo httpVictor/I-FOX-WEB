@@ -139,6 +139,11 @@ namespace I_FOX_V1.Models
             return situacao_arquivo;
         }
 
+        //public byte[] buscarArquivos()
+        //{
+        //    //
+        //}
+
         public string editarResumo()
         {
             return "Resumo editado com sucesso!";
