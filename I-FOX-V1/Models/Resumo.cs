@@ -100,6 +100,7 @@ namespace I_FOX_V1.Models
             {
                 conexao.Open(); //Abrindo conexão
                 MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where @titulo = titulo", conexao);
+                MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
                 pesquisaResumo.Parameters.AddWithValue("@titulo", Titulo);
 
                 //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
@@ -109,16 +110,18 @@ namespace I_FOX_V1.Models
                 {
                     //Definindo os atributos que vão vir do banco
                     codigoResumo = leitorBanco["codigo"].ToString();
+
                 }
 
-                if(codigoResumo != "")
+                if (codigoResumo != "")
                 {
-                    MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO VALUES(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
+                    conexao.Close();
+                    conexao.Open();
                     cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", codigoResumo);
                     cadastrarArquivo.Parameters.AddWithValue("@valor", valor);
                     cadastrarArquivo.ExecuteNonQuery();
                 }
-                
+
             }
             catch (Exception e)
             {

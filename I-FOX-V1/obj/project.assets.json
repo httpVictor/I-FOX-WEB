@@ -1576,19 +1576,19 @@
   },
   "packageFolders": {
     "C:\\Users\\aluno\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\I-FOX-V1.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Documents\\Nepo\\PRO\\back_projeto\\dia2903\\I-FOX-V1\\I-FOX-V1.csproj",
       "projectName": "I-FOX-V1",
-      "projectPath": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\I-FOX-V1.csproj",
+      "projectPath": "C:\\Users\\aluno\\Documents\\Nepo\\PRO\\back_projeto\\dia2903\\I-FOX-V1\\I-FOX-V1.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2803\\I-FOX-V1\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Documents\\Nepo\\PRO\\back_projeto\\dia2903\\I-FOX-V1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1646,7 +1646,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
