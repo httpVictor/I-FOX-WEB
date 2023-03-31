@@ -1,0 +1,71 @@
+﻿@{
+    TempData["Title"] = "POMODORO";
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/pomodoro.css" />
+}
+
+<section>
+
+    <div class="bloco">
+
+        <div class="img1">
+            <img alt="" src="~/img/raposa-cadernos.png" width="250px" height="170px">
+        </div>
+
+        <div class="pomodoro">
+            <h3> aqui você pode iniciar temporizar para o método </h3>
+            <h2>POMODORO</h2>
+        </div>
+
+    </div>
+
+    <div class="foraBloco">
+
+        <div class="balao">
+            <img alt="" src="~/img/pomodoro-u-know.png">
+            <img alt="" src="~/img/raposa-mascote.png" width="250px" height="300px">
+        </div>
+
+        <div class="tempoPomodoro">
+            <br>
+            <h1>DEFINIR O TEMPO DO POMODORO</h1>
+
+            <div class="bloco1">
+
+
+                <div class="blocoLaranja">
+                    <p class="laranja">Foco:</p>
+                    <input type="text" id="titulo">
+                </div>
+
+                <div class="blocoLaranja">
+                    <p class="laranja">Descanso:</p>
+                    <input type="text" id="titulo">
+                </div>
+
+            </div>
+
+
+            <div class="blocaoLaranja">
+                <p class="laranja1">Quantidade de pomos que deseja:</p>
+                <input type="text" id="titulo">
+            </div>
+
+            <br><br><br>
+
+            <div class="timerBotao">
+
+                <h1 id="watch">00:00</h1>
+
+                <button class="button" onclick="start()">Iniciar</button>
+                <button class="button" onclick="start()">Relatório</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

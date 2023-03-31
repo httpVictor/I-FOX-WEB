@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - I-FOX</title>
+    <title>I-FOX - @ViewData["Title"]</title>
     <link rel="icon" href="~/img/logo_maior.png" />
 
     @*LINKS*@
@@ -33,9 +33,10 @@
                     
                     <ul class="nav-filhos">
                         <li><a class="nav-item" id="item1" asp-controller="Usuario" asp-action="Home">HOME</a></li>
-                        <li><a class="nav-item" id="item2" href="">PERFIL</a></li>
+                        <li><a class="nav-item" id="item2" asp-controller="Usuario" asp-action="Perfil">PERFIL</a></li>
                         <li><a class="nav-item" id="item3" href="">FEED</a></li>
                         <li><a class="nav-item" id="item4" href="">LOJA</a></li>
+                        <li><a class="nav-item" id="item4" asp-controller="" asp-action=""><img src="~/img/sair.png" /></a></li>
                     </ul>
                     
                 </nav>

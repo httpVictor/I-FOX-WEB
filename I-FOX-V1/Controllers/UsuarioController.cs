@@ -21,8 +21,9 @@ namespace I_FOX_V1.Controllers
 
         public IActionResult Perfil()
         {
-            
-            return View();
+            Usuario usuario = JsonConvert.DeserializeObject<Usuario>(HttpContext.Session.GetString("usuario"));
+            string nomeUsuario = usuario.Nome;
+            return View(usuario.listarUsuario(nomeUsuario));
         }
 
         public IActionResult CriarCaderno()
@@ -35,6 +36,12 @@ namespace I_FOX_V1.Controllers
             return View("./CriarCaderno");
         }
 
+        public IActionResult Pomodoro()
+        {
+            return View();
+        }
+
+        //MÉTODOS que realizam o crud
         [HttpPost]
         public IActionResult CriarCaderno(string titulo, string descricao)
         {
@@ -68,21 +75,21 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpDelete]
         public IActionResult DeletarCaderno(int id)
         {
             Caderno.deletarCaderno(id);
             return Redirect("../Home");
         }
 
-        [HttpGet]
+        [HttpPut]
         public IActionResult editarNomeCaderno(string nome)
         {
             Caderno.editarNome(nome);
             return Redirect("../Home");
         }
 
-        [HttpGet]
+        [HttpPut]
         public IActionResult editarDescicaoCaderno(string descricao)
         {
             Caderno.editarNome(descricao);

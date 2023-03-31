@@ -132,10 +132,6 @@ namespace I_FOX_V1.Models
                 conexao.Close();
             }
 
-
-
-
-
             return situacao_arquivo;
         }
 

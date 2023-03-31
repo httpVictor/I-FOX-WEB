@@ -23,7 +23,7 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        //MÉTODOS PARA SE COMUNICAR COM O BANCO
+        //MÉTODOS que realizam o CRUD
         [HttpPost]
         public IActionResult Cadastrar(string nome, string email, string senha, string data)
         {
@@ -76,6 +76,11 @@ namespace I_FOX_V1.Controllers
             }
         }
 
+        public IActionResult Sair()
+        {
+            HttpContext.Session.Remove("usuario");
+            return View("../Home/Index");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

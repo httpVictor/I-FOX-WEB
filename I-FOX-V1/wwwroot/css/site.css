@@ -70,10 +70,15 @@ li > a:hover{
     color: black;
 }
 
+li a img {
+    height: 50px;
+}
+
+
 .cabecalho-navbar{
     display: flex;
     flex-direction: row;
-    column-gap: 10px;
+    column-gap: 15px;
     align-items: center;
 }
 

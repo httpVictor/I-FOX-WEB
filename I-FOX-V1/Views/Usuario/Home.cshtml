@@ -25,12 +25,14 @@
 
     @*Funcionalidade do pomodoro*@
 
-    <div class="funcionalidade">
-        <div class="imagem">
+    <a asp-controller="Usuario" asp-action="Pomodoro">
+        <div class="funcionalidade">
+            <div class="imagem">
                 <img src="~/img/pomodoro-icon.png" alt="" />
+            </div>
+            <p>POMODORO</p>
         </div>
-        <p>POMODORO</p>
-    </div>
+    </a>
 
     @*Funcionalidade de lembretes*@
 
@@ -79,7 +81,7 @@
                         <p>Quantidade de atividades</p>
                     </div>
                 </a>
-                <a asp-controller="Usuario" asp-action="EditarCaderno" asp-route-id="@caderno.Codigo">Editar</a>
+
                 <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">Excluir</a>
             </div>
             

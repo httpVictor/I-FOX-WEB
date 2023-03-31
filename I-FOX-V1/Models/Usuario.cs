@@ -179,5 +179,32 @@ namespace I_FOX_V1.Models
 
             return situacao;
         }
+
+        public Usuario listarUsuario(string nome)
+        {
+            Usuario usuario = new Usuario();
+            try
+            {
+                //Abrir a conexão
+                conexao.Open();
+
+                //Criando o comando
+                MySqlCommand pesquisa = new MySqlCommand("SETECT * from USUARIO nome = @nome");
+                MySqlDataReader listaUsuario = pesquisa.ExecuteReader();
+
+                //Guardando o usuário em um objeto para devole-lo
+                usuario = new Usuario(listaUsuario["nome"].ToString(),
+                                                listaUsuario["email"].ToString(),
+                                                listaUsuario["senha"].ToString(),
+                                                listaUsuario["data_nasc"].ToString());
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
+
+            return usuario;
+        }
     }
 }

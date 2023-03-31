@@ -1,0 +1,74 @@
+﻿@model IEnumerable<I_FOX_V1.Models.Usuario>
+@{
+    TempData["Title"] = "PERFIL";
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/perfil.css" />
+}
+
+<section>
+
+    <div class="bloco">
+
+        <div class="avatar">
+            <p>Avatar</p>
+        </div>
+
+        <div class="escrita">
+            <h1>Olá !</h1>
+            <p>Aqui você pode ver e editar os dados do seu perfil</p>
+        </div>
+
+        <div class="img">
+            <img alt="" src="~/img/raposa-cadernos.png" width="180px" height="140px">
+        </div>
+
+    </div>
+
+    <br><br><br><br>
+
+    <div class="foraBloco">
+        <h2>I-FOX</h2>
+
+        <img id="raposaFilhote" alt="" width="380px" height="430px" src="~/img/raposa-cadastrar.png">
+
+
+        <form>
+            <div class="usuario"> 
+
+                <div class="campo1">
+                    <label for="">Usuário</label>
+                    <input type="text" id="titulo1" value="">
+                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                </div>
+
+                <br><br>
+
+                <div class="campo">
+                    <label for="">Email</label>
+                    <input type="text" id="titulo">
+                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                </div>
+
+                <br><br>
+
+                <div class="campo">
+                    <label for="">Senha</label>
+                    <input type="text" id="titulo">
+                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                </div>
+
+                <br><br>
+
+                <div class="campo2">
+                    <label for="">Data nascimento:</label>
+                    <input type="date" id="data">
+                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</section>
