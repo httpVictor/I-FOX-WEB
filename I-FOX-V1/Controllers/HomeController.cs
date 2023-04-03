@@ -27,10 +27,33 @@ namespace I_FOX_V1.Controllers
         [HttpPost]
         public IActionResult Cadastrar(string nome, string email, string senha, string data)
         {
+            
+            string[] numeros = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+            string[] caractereEspecial = {"@", "#", "!", ".", "_", "%", "*", " ", "/", "+"};
+
+            //validando a senha
+            bool validaSenha = false;
+
+            //Validando o tamanho da senha
+            if (senha.Length >= 8 && senha.Length <= 30)
+            {
+                //Validando se a senha possui números
+                for (int i = 0; i < numeros.Length; i++)
+                {
+                    if (senha.Contains(numeros[i]))
+                    {
+                        
+                        validaSenha = true;
+                        break;
+                        
+                    }
+                }
+            }
+
             //Validação para não entrar nomes de usuários sem espaços
             string nomeNoEspaco = nome.Replace(" ", "");
-
-            if(nome == nomeNoEspaco)
+            //validação do campo nome (Espaço e qantidade de caracteres
+            if (nome == nomeNoEspaco && nome.Length >= 5 && nome.Length <= 20 && validaSenha)
             {
                 //Formatando a data que o usuário inseriu
                 string dataCaractere = data.Replace("-", "");
@@ -47,7 +70,7 @@ namespace I_FOX_V1.Controllers
 
             } else
             {
-                TempData["validacaoUsuario"] = "Não insira espaços em branco!";
+                TempData["validacaoUsuario"] = "Preencha os campos corretamente";
             }
 
             return View();

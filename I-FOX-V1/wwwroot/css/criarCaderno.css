@@ -96,7 +96,39 @@ form button {
     cursor: pointer;
 }
 
-    .icones_cadernos img {
-        width: 50px;
-        height: 50px;
-    }
+.icones_cadernos input[type="radio"] {
+    -webkit-appearance: none;
+    height: 50px;
+    width: 50px;
+}
+
+.icones_cadernos input:hover {
+    cursor: pointer;
+    border: solid 1px white;
+    background-repeat: no-repeat;
+}
+
+input[type="radio"] {
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 10%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    border: solid 3px var(--verde);
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+.icones_cadernos #agenda {
+    background-image: url("~/img/icones_caderno/caderno.png");
+    background-repeat: no-repeat;
+}
+

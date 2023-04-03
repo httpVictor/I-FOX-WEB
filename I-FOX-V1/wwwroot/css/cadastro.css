@@ -22,6 +22,14 @@
     --azulEscuro: #009fad;
 }
 
+.cadastre-se {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
 .formulario {
     width: 60vw;
     display: flex;
@@ -68,7 +76,7 @@ form input {
     display: block;
     font-family: 'Pathway Gothic One', sans-serif;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     margin-top: 8px;
     margin-left: 20px;
@@ -80,6 +88,11 @@ form input {
     justify-content: center;
     margin: 0 auto;
     width: 50vw;
+}
+
+.forms p{
+    font-size: 18px;
+    font-weight: 600;
 }
 
 p {
@@ -117,16 +130,10 @@ h3{
     padding: 20px;
 }
 
-.cadastre-se {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-}
-
 .Avatar {
     background: linear-gradient(180deg, #009FAD 0%, rgba(108, 226, 236, 0.640625) 99.61%, rgba(170, 248, 255, 0) 100%);
     width: 40vw;
-
+    height: 100%;
 }
 
 /*RESPONSIVIDADE*/

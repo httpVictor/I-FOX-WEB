@@ -1575,25 +1575,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aluno\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Dione\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia3103\\I-FOX-V1\\I-FOX-V1.csproj",
+      "projectUniqueName": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1204\\I-FOX-V1\\I-FOX-V1.csproj",
       "projectName": "I-FOX-V1",
-      "projectPath": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia3103\\I-FOX-V1\\I-FOX-V1.csproj",
-      "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia3103\\I-FOX-V1\\obj\\",
+      "projectPath": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1204\\I-FOX-V1\\I-FOX-V1.csproj",
+      "packagesPath": "C:\\Users\\Dione\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1204\\I-FOX-V1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Dione\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1646,7 +1641,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
