@@ -136,8 +136,11 @@ namespace I_FOX_V1.Models
             {
                 situacao = "Erro de conexão!" + e;
             }
-
-            conexao.Close();
+            finally
+            {
+                conexao.Close();
+            }
+            
             return situacao;
         }
 
@@ -161,6 +164,7 @@ namespace I_FOX_V1.Models
                     if (nomeBanco == nome)
                     {
                         situacao = true;
+                        break;
                     }
                     else
                     {
@@ -189,14 +193,19 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //Criando o comando
-                MySqlCommand pesquisa = new MySqlCommand("SETECT * from USUARIO nome = @nome");
+                MySqlCommand pesquisa = new MySqlCommand("SELECT * from USUARIO where nome = @nome", conexao);
+                pesquisa.Parameters.AddWithValue("@nome", nome);
                 MySqlDataReader listaUsuario = pesquisa.ExecuteReader();
 
                 //Guardando o usuário em um objeto para devole-lo
-                usuario = new Usuario(listaUsuario["nome"].ToString(),
-                                                listaUsuario["email"].ToString(),
-                                                listaUsuario["senha"].ToString(),
-                                                listaUsuario["data_nasc"].ToString());
+                while (listaUsuario.Read())
+                {
+                    usuario = new Usuario(listaUsuario["nome"].ToString(),
+                                               listaUsuario["email"].ToString(),
+                                               listaUsuario["senha"].ToString(),
+                                               listaUsuario["data_nasc"].ToString());
+                }  
+               
             }
             catch (Exception e)
             {

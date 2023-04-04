@@ -24,6 +24,8 @@ namespace I_FOX_V1.Controllers
             Usuario usuario = JsonConvert.DeserializeObject<Usuario>(HttpContext.Session.GetString("usuario"));
             string nomeUsuario = usuario.Nome;
             return View(usuario.listarUsuario(nomeUsuario));
+
+            return View();
         }
 
         public IActionResult CriarCaderno()

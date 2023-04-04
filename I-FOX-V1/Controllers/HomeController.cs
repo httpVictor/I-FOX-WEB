@@ -35,7 +35,7 @@ namespace I_FOX_V1.Controllers
             bool validaSenha = false;
 
             //Validando o tamanho da senha
-            if (senha.Length >= 8 && senha.Length <= 30)
+            if (senha.Length >= 8 && senha.Length <= 30 && senha != null)
             {
                 //Validando se a senha possui números
                 for (int i = 0; i < numeros.Length; i++)
@@ -49,11 +49,16 @@ namespace I_FOX_V1.Controllers
                     }
                 }
             }
+            string nomeNoEspaco ="";
+            if (nome != null)
+            {
+                nomeNoEspaco = nome.Replace(" ", "");
+            }
 
             //Validação para não entrar nomes de usuários sem espaços
-            string nomeNoEspaco = nome.Replace(" ", "");
+
             //validação do campo nome (Espaço e qantidade de caracteres
-            if (nome == nomeNoEspaco && nome.Length >= 5 && nome.Length <= 20 && validaSenha)
+            if (nome == nomeNoEspaco && nome.Length >= 5 && nome.Length <= 15 && validaSenha && nome != null)
             {
                 //Formatando a data que o usuário inseriu
                 string dataCaractere = data.Replace("-", "");

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<I_FOX_V1.Models.Usuario>
+﻿@model I_FOX_V1.Models.Usuario
 @{
     TempData["Title"] = "PERFIL";
 }
@@ -21,7 +21,7 @@
         </div>
 
         <div class="img">
-            <img alt="" src="~/img/raposa-cadernos.png" width="180px" height="140px">
+            <img alt="" src="~/img/img-fundo-login.png" width="180px" height="140px">
         </div>
 
     </div>
@@ -39,7 +39,7 @@
 
                 <div class="campo1">
                     <label for="">Usuário</label>
-                    <input type="text" id="titulo1" value="">
+                    <input type="text" id="titulo1" value="@Model.Nome">
                     <img alt="" src="~/img/edicao.png" width="30px" height="30px">
                 </div>
 
@@ -47,7 +47,7 @@
 
                 <div class="campo">
                     <label for="">Email</label>
-                    <input type="text" id="titulo">
+                    <input type="text" id="titulo" value="@Model.Email">
                     <img alt="" src="~/img/edicao.png" width="30px" height="30px">
                 </div>
 
@@ -55,7 +55,7 @@
 
                 <div class="campo">
                     <label for="">Senha</label>
-                    <input type="text" id="titulo">
+                    <input type="text" id="titulo" value="@Model.Senha">
                     <img alt="" src="~/img/edicao.png" width="30px" height="30px">
                 </div>
 
@@ -63,7 +63,7 @@
 
                 <div class="campo2">
                     <label for="">Data nascimento:</label>
-                    <input type="date" id="data">
+                    <input type="date" id="data" value="@Model.Data_nasc">
                     <img alt="" src="~/img/edicao.png" width="30px" height="30px">
                 </div>
             </div>
