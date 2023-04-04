@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9B3sBfZtt9muxvPGMV5VVR8UYag16LfC9HWGHqLvgpnzznQcfnwCWdDY8SG30+urgWUf1woaVVh542EsBCNmEg==",
+  "dgSpecHash": "uLFN6RHZBRFd4DjkfHbX4VR4PpSPv1WYgN7BSZpb6oKcpev/DghaaoQGpuJoZkJJQZuy1mma3FwiSwDOkCLEbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Documents\\Nepo\\PRO\\back_projeto\\dia0304\\I-FOX-V1\\I-FOX-V1.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia0404\\I-FOX-V1\\I-FOX-V1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

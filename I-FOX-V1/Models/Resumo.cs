@@ -13,21 +13,22 @@ namespace I_FOX_V1.Models
 
         static MySqlConnection conexao = FabricaConexao.getConexao();
 
-        //construtores
+        //CONSTRUTOR VAZIO
         public Resumo()
         {
-
         }
-        public Resumo(string data_resumo, string tipo, string titulo, string texto, string frente, string verso, int caderno)
+        //CONSTRUTOR PARA CADASTRO DE RESUMO
+        public Resumo(string data_resumo, string tipo, string titulo, string frente, string verso, string texto, int caderno)
         {
             this.data_resumo = data_resumo;
             this.tipo = tipo;
             this.titulo = titulo;
             this.texto = texto;
+            this.caderno = caderno;
             this.frente = frente;
             this.verso = verso;
-            this.caderno = caderno;
         }
+        //
         public Resumo(string data_resumo, string tipo, string titulo, int caderno)
         {
             this.data_resumo = data_resumo;
@@ -60,7 +61,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //criando o comando de insert
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO RESUMO(tipo, data_resumo, titulo, texto, frente, verso, FK_CADERNO_codigo) VALUES(@tipo, @data_resumo, @titulo, @texto, @frente, @verso, @FK_CADERNO_codigo)", conexao);
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO CARD(frente, verso, FK_RESUMO_codigo) VALUES(@verso, @frente, @FK_Resumo)", conexao);
                 
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
@@ -68,8 +69,6 @@ namespace I_FOX_V1.Models
                 inserir.Parameters.AddWithValue("@data_resumo", Data_resumo);
                 inserir.Parameters.AddWithValue("@titulo", Titulo);
                 inserir.Parameters.AddWithValue("@texto", Texto);
-                inserir.Parameters.AddWithValue("@frente", Frente);
-                inserir.Parameters.AddWithValue("@verso", Verso);
                 inserir.Parameters.AddWithValue("@FK_CADERNO_codigo", Caderno);
 
                 //Executando o comando
@@ -133,6 +132,43 @@ namespace I_FOX_V1.Models
             }
 
             return situacao_arquivo;
+        }
+
+        public string cadastrarCard(string cod_resumo)
+        {
+            string sit_cadastro = "";
+
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de insert
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO CARD(frente, verso, FK_RESUMO_codigo) VALUES(@frente, @verso, @FK_Resumo)", conexao);
+
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                inserir.Parameters.AddWithValue("@tipo", Frente);
+                inserir.Parameters.AddWithValue("@data_resumo", Verso);
+                inserir.Parameters.AddWithValue("@titulo", cod_resumo);
+                
+
+                //Executando o comando
+                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                sit_cadastro = "cadastrado";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                sit_cadastro = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return sit_cadastro;
         }
 
         public string editarResumo()
