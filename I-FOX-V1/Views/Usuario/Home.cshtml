@@ -14,8 +14,11 @@
 <section class="funcionalidades">
 
     @*Funcionalidade do mapa de missões*@
-    <h1>Olá @TempData["nomeUsuario"]</h1>
-
+    <div class="funcionalidade">
+        <h1>Olá @TempData["nomeUsuario"]</h1>
+        <p>seja bem vindo ao site I FOX. Aqui ao lado temos algumas funções bem legais da nossa plataforma, depois dê uma olhada. Comece agora criando um caderno</p>
+    </div>
+    
     <div class="funcionalidade">
         <div class="imagem">
             <img src="~/img/mapa-do-tesouro.png" alt="" />
@@ -82,7 +85,7 @@
                     </div>
                 </a>
 
-                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">Excluir</a>
+                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img src="~/img/deletar_icone.png"/></a>
             </div>
             
         }

@@ -86,8 +86,3 @@ namespace I_FOX_V1.Controllers
     }
 }
 
-
-
-//Boa tarde, ninguém aguenta mais o SENAI, só hj o sono derrubou Lucas e Vitória (inclusive neste momento ela se encontra pescando). O dia foi ameno e cansativo ao mesmo tempo.
-//Lá fui eu implorar ao meu pai para poder ir no show do NXZero (aguardo o próximo registro pra saber no que deu) e fui atrás do passe escolar (a moça roubou meu papel carimbado).
-//abraço.

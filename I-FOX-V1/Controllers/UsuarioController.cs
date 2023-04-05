@@ -77,7 +77,7 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        [HttpDelete]
+       
         public IActionResult DeletarCaderno(int id)
         {
             Caderno.deletarCaderno(id);
