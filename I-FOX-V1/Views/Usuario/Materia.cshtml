@@ -19,21 +19,21 @@
     <div class="tipos-resumo">
         <p>Selecione o tipo de resumo que você deseja</p>
 
-        <a class="" asp-controller="Resumos" asp-action="ResumoCard">
+        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Flashcard">
             <div class="resumo-tipo">
                 <img src="~/img/flashcard.png" alt="" />
                 <p>Flashcards</p>
             </div>
         </a>
 
-        <a class="" asp-controller="Resumos" asp-action="ResumoFotos">
+        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Fotos">
             <div class="resumo-tipo">
                 <img src="~/img/foto-resumo.png" alt="" />
                 <p>Foto</p>
             </div>
         </a>
 
-       <a class="">
+        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Audio">
             <div class="resumo-tipo">
                 <img src="~/img/audio-resumo.png" alt="" />
                 <p>Áudio</p>

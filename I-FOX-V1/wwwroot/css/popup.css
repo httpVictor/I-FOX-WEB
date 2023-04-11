@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+
+}
+
+
+
+dialog::backdrop{
+    background-color: rgb(0 0 0 / .5);
+}
+
+dialog {
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb( 0 0 0 / .3);
+    width: 20%;
+    background-color: #f28749;
+}
+
+p {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px
+}
+
+button {
+    background-color: #efd7bc;
+    border-radius: 20%;
+    font-size: 30px;
+    font-family: 'Sue Ellen Francisco';
+    width: 80px;
+}
+
+
+

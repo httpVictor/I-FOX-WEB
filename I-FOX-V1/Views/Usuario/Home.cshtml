@@ -85,9 +85,14 @@
                     </div>
                 </a>
 
-                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img src="~/img/deletar_icone.png"/></a>
+                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img class="lixin" src="~/img/deletar_icone.png"/></a>
             </div>
-            
+
+            <dialog>
+                <p>Tem certeza que deseja excluir ?</p>
+                <button>NÂO</button>
+                <a>SIM</a>
+            </dialog>
         }
     }
     else
@@ -95,5 +100,8 @@
         <h4>Você não possui cadernos cadastrados, crie seu primeiro!</h4>
     }
 
-
 </section>
+
+@section JavaScript{
+    <script src="~/js/popup.js"></script>
+}

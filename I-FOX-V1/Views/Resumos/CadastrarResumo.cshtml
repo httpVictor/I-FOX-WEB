@@ -1,22 +1,26 @@
 ﻿@section Estilos{
-    <link rel="stylesheet" href="~/css/flashcards.css" />
+    <link rel="stylesheet" href="~/css/ResumoFotos.css" />
 }
 
 <div class="bloco">
 
     <div class="verde">
-        <p>CRIANDO SEU RESUMO</p>
+       
+        <form method="post" asp-action="CadastrarResumo" asp-route-id="@ViewBag.Id">
+            <p>CRIANDO SEU RESUMO</p>
 
-        <div class="campo1">
-            <label for="">Título</label>
-            <input type="text" id="titulo1" placeholder="Digite o título de seu resumo">
-        </div>
+            <div class="titulo" >
+                <label for="">Título</label>
+                <input type="text" id="titulo1" name="titulo" placeholder="Digite o título de seu resumo">
+            </div>
 
-        <div class="campo1">
-            <label for="">Data</label>
-            <input type="date" id="titulo1">
-        </div>
+            <div class="data">
+                <label for="">Data</label>
+                <input type="date" id="titulo1" name="data">
+            </div>
 
+            <button class="botao1" type="submit">SALVAR</button>
+        </form>
     </div>
 
 </div>

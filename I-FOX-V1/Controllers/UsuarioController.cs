@@ -25,7 +25,7 @@ namespace I_FOX_V1.Controllers
             string nomeUsuario = usuario.Nome;
             return View(usuario.listarUsuario(nomeUsuario));
 
-            return View();
+            //return View();
         }
 
         public IActionResult CriarCaderno()

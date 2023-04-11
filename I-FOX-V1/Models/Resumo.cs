@@ -28,7 +28,7 @@ namespace I_FOX_V1.Models
             this.frente = frente;
             this.verso = verso;
         }
-        //
+        //CONSTRUTOR PARA LISTAGEM DE RESUMOS
         public Resumo(string data_resumo, string tipo, string titulo, int caderno)
         {
             this.data_resumo = data_resumo;

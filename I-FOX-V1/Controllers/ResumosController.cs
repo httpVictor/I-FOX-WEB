@@ -8,16 +8,18 @@ namespace I_FOX_V1.Controllers
     public class ResumosController : Controller
     {
         //RETORNANDO AS TELAS
-        public IActionResult CadastrarResumo()
+        public IActionResult CadastrarResumo(string id)
         {
+            ViewBag.Id = id;
             return View();
         }
         public IActionResult ResumoEscrito()
         {
             return View();
         }
-        public IActionResult ResumoCard()
+        public IActionResult ResumoFlashCard()
         {
+
             return View();
         }
 
@@ -29,6 +31,25 @@ namespace I_FOX_V1.Controllers
         public IActionResult ResumoAudio()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult CadastrarResumo(string id, string titulo, string data)
+        {
+            //Formatando a data que o usuário inseriu
+            string dataCaractere = data.Replace("-", "");
+            
+
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+
+            int codigoCaderno = caderno.Codigo;
+
+            Resumo resumo = new Resumo(dataCaractere, id, titulo, null, null, null, codigoCaderno);
+            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
+
+            return Redirect("../Resumo"+ id);
+            
         }
 
         //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
