@@ -40,12 +40,23 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px 30px 30px 10px;
     margin: 20px auto;
     background-color: var(--verde);
     border: 2px solid #000000;
     border-radius: 40px;
-    width: 80vw;
+    width: 50vw;
+}
+
+.texto_introducao{
+    text-align: center;
+    margin: 30px auto;
+    width: 60vw;
+}
+
+.texto_introducao p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2em;
 }
 
 .imagem {
@@ -162,127 +173,4 @@
 .caderno:hover {
     border: 2px solid white;
     cursor: pointer;
-}
-/*CABECALHO data MATERIA*/
-.cabecalho-materia {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 20px auto;
-}
-
-.descricao_caderno {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 90vw;
-    background: var(--azulMeio);
-    margin: 40px auto;
-    text-align: center;
-    border: 1px solid black;
-    font-size: 30px;
-    border-radius: 40px;
-    height: 25vh;
-}
-
-.descricao_caderno h5 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    color: white;
-    font-size: 40px;
-}
-
-.descricao_caderno img {
-    height: 100px
-}
-
-.cabecalho-materia h1 {
-    font-size: 28px;
-}
-
-.imagens-organizacao-materia {
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-}
-
-.imagens-organizacao-materia img {
-    height: 40px;
-}
-
-.cabecalho-materia h1 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 40px;
-}
-
-.botao-pesquisar {
-    display: flex;
-    align-content: center;
-    column-gap: 10px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.botao-pesquisar input {
-    width: 40vw;
-    font-family: 'Poppins', sans-serif;
-}
-
-.botao-pesquisar img {
-    height: 20px;
-}
-
-
-
-/*RESUMOS VÃO APARECER AQUI*/
-.tipos-resumo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 30px;
-    column-gap: 20px;
-    background: #BC9E7C;
-    border: 1px solid #000000;
-    border-radius: 40px;
-    margin-bottom: 30px;
-}
-
-.resumo-tipo img {
-    padding: 15px;
-    background-color: var(--verde);
-    border-radius: 10px;
-}
-
-.resumos {
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 40px;
-}
-
-.resumo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 60px;
-    padding: 10px;
-    border-radius: 15px;
-    margin: 15px auto;
-}
-
-.resumo img {
-    width: 25px;
-}
-
-.resumo:nth-child(even) {
-    background-color: var(--verde);
-}
-
-.resumo:nth-child(odd) {
-    background-color: #7ba852;
 }

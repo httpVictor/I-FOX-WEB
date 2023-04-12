@@ -61,8 +61,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //criando o comando de insert
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO CARD(frente, verso, FK_RESUMO_codigo) VALUES(@verso, @frente, @FK_Resumo)", conexao);
-                
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO RESUMO(tipo, data_resumo, titulo, FK_CADERNO_codigo, texto) VALUES(@tipo, @data_resumo, @titulo, @FK_CADERNO_codigo, @Texto)", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
                 inserir.Parameters.AddWithValue("@tipo", Tipo);

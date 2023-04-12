@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
 }
 
-<section class="funcionalidades">
+ <div class="texto_introducao">
+    <h1>Olá @TempData["nomeUsuario"]</h1>
+    <p>Seja bem vindo ao site I FOX. Aqui ao lado temos algumas funções bem legais da nossa plataforma, depois dê uma olhada.<br> Comece agora criando um caderno</p>
+</div>
 
-    @*Funcionalidade do mapa de missões*@
-    <div class="funcionalidade">
-        <h1>Olá @TempData["nomeUsuario"]</h1>
-        <p>seja bem vindo ao site I FOX. Aqui ao lado temos algumas funções bem legais da nossa plataforma, depois dê uma olhada. Comece agora criando um caderno</p>
-    </div>
+<section class="funcionalidades">
     
+    @*Funcionalidade do mapa de missões*@
     <div class="funcionalidade">
         <div class="imagem">
             <img src="~/img/mapa-do-tesouro.png" alt="" />

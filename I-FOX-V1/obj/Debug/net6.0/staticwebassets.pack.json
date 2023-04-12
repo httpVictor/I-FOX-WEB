@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\css\\resumoEscrito.css"
     },
     {
+      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia1104\\I-FOX-V1\\wwwroot\\css\\resumoEstilo.css",
+      "PackagePath": "staticwebassets\\css\\resumoEstilo.css"
+    },
+    {
       "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia1104\\I-FOX-V1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -275,6 +279,10 @@
     {
       "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia1104\\I-FOX-V1\\wwwroot\\img\\raposa-navbar.png",
       "PackagePath": "staticwebassets\\img\\raposa-navbar.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia1104\\I-FOX-V1\\wwwroot\\img\\raposa_resumos.png",
+      "PackagePath": "staticwebassets\\img\\raposa_resumos.png"
     },
     {
       "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia1104\\I-FOX-V1\\wwwroot\\img\\resumo-escrito.png",

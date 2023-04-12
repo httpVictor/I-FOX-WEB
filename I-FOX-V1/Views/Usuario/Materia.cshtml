@@ -1,11 +1,10 @@
 ﻿@model IEnumerable<I_FOX_V1.Models.Resumo>
 
 @section Estilos{
-    <link rel="stylesheet" href="~/css/cadernosEstilo.css" />
+    <link rel="stylesheet" href="~/css/resumoEstilo.css" />
 }
 <section>
     <div class="cabecalho-materia">
-            <h1>@TempData["tituloCaderno"]</h1>
         <div class="botao-pesquisar">
              <img src="~/img/lupa-pesquisa.png" />
              <input type="text" placeholder="Pesquisar"/>
@@ -54,8 +53,6 @@
         <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
-    
-    
     <div class="resumos">
 
         @if (Model != null)
@@ -64,8 +61,8 @@
             {
                 <a asp-controller="Resumo" asp-action="Vizualizar_@resumo.Tipo" asp-route-id="@resumo.Codigo">
                     <div class="resumo">
-                        @*<img src="" alt="" />*@
-                        <p>@resumo.Titulo | </p>
+                        <img src="~/img/raposa_resumos.png" alt="" />
+                        <p>@resumo.Titulo </p>
                         <p>@resumo.Tipo </p>
                         <p>Excluir</p>
                     </div>
