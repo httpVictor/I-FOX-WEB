@@ -98,12 +98,13 @@ namespace I_FOX_V1.Controllers
 
             int codigoCaderno = caderno.Codigo;
 
-            Resumo resumo = new Resumo(dataCaractere, "escrito", titulo, texto, null, null, codigoCaderno);
+            Resumo resumo = new Resumo(dataCaractere, "Escrito", titulo, texto, null, null, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
-            return View("..Usuario/Materia/");
+            return Redirect("../Usuario/Materia/");
         }
 
     }
 }
+
 

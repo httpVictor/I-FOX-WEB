@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 30px;
     width: 90vw;
     margin: 20px auto;
 }
@@ -11,26 +12,20 @@
 
 .descricao_caderno {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 70vw;
-    background: var(--azulMeio);
     margin: 40px auto;
     text-align: center;
-    border: 1px solid black;
-    font-size: 30px;
-    border-radius: 40px;
-    height: 25vh;
+    font-size: 1.5em;
+    height: 20vh;
 }
 
 .descricao_caderno h5 {
     font-family: 'Sue Ellen Francisco', cursive;
-    color: white;
+    color: black;
     font-size: 40px;
-}
-
-.descricao_caderno img {
-    height: 100px
 }
 
 .cabecalho-materia h1 {
@@ -80,13 +75,17 @@
     align-items: center;
     text-align: center;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 60vw;
     padding: 30px;
     column-gap: 20px;
     background: #BC9E7C;
     border: 1px solid #000000;
     border-radius: 40px;
     margin-bottom: 30px;
+}
+
+.tipos-resumo p{
+    font-size: 1.4em;
 }
 
 .resumo-tipo img {
@@ -108,9 +107,9 @@
 .resumo {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     border-radius: 15px;
     margin: 15px auto;
     min-height: 300px;
@@ -119,4 +118,18 @@
 
 .resumo img {
     width: 25px;
+}
+
+.poligono {
+    display:flex;
+    justify-content:center;
+    min-width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #198D97 0%, #ADEBF0 100%);
+    clip-path: polygon(0% 0%, 100% 0,100% 80%,50% 100%, 0% 80%);
+}
+
+.poligono img{
+    margin: 40px;
+    min-width: 8vw;
 }

@@ -49,7 +49,7 @@
     </div>
 
     <div class="descricao_caderno">
-        <img src="~/img/raposa-cadernos.png" />
+        <h2>@TempData["tituloCaderno"]</h2>
         <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
@@ -61,10 +61,15 @@
             {
                 <a asp-controller="Resumo" asp-action="Vizualizar_@resumo.Tipo" asp-route-id="@resumo.Codigo">
                     <div class="resumo">
-                        <img src="~/img/raposa_resumos.png" alt="" />
-                        <p>@resumo.Titulo </p>
-                        <p>@resumo.Tipo </p>
-                        <p>Excluir</p>
+                        <div class="poligono">
+                            <img src="~/img/raposa_resumos.png" alt="" />
+                        </div>
+                        
+                        <div class="descricao_resumo">
+                            <p>@resumo.Titulo </p>
+                            <p>Resumo @resumo.Tipo</p>
+                            <img src="~/img/deletar_icone.png"/>
+                        </div>
                     </div>
                 </a>
             }
