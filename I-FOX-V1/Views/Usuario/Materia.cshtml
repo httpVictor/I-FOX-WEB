@@ -41,7 +41,7 @@
             </div>
         </a>
 
-        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Fotos">
+        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Foto">
             <div class="resumo-tipo">
                 <img src="~/img/icones_resumo/foto-resumo.png" alt="Icone de um resumo por foto" />
                 <p>Foto</p>
@@ -70,7 +70,12 @@
         {
             @foreach (Resumo resumo in Model)
             {
+                //Definindo a tela que vai ser direcionada ao clicar
                 string visualizacao = "Visualizar" + resumo.Tipo;
+                if(resumo.Tipo == "Foto" || resumo.Tipo == "Audio"){
+                    visualizacao = "Resumo" + resumo.Tipo;
+                }
+
                 <div class="resumo">
                     <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
                     

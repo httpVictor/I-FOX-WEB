@@ -1,0 +1,286 @@
+﻿
+.bloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloco img {
+    min-height: 2vh;
+    min-width: 20vw;
+}
+
+.escrita .grande {
+    font-family: ' Sue Ellen Francisco';
+    font-size: 40px;
+}
+
+.escrita .pequeno {
+    font-family: ' Pathway Gothic One';
+    font-size: 20px;
+}
+
+.button {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 50px;
+    text-align: center;
+    min-width: 10vw;
+    height: 120px;
+    border-radius: 25px;
+    background-color: #a5ce7f;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocoAzul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.azul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 30vw;
+    height: 500px;
+    background-color: #009fad;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.bloquinho {
+    height: 50px;
+    padding: 10px;
+    min-width: 30vw;
+    background-color: #74D1D9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Pathway Gothic One';
+}
+
+.bloquinhoAzul {
+    margin: 30px;
+}
+
+.bloquinhoAzul1 {
+    margin: 30px;
+}
+
+
+.lado_card {
+    display: block;
+}
+
+
+
+/* PARTE DO CARD */
+
+
+label {
+    display: block;
+    position: relative;
+    top: 60%;
+    left: 10%;
+    min-width: 12vw;
+    height: 350px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+    .flip-card .front,
+    .flip-card .back {
+        position: absolute;
+        width: 180%;
+        height: 100%;
+        text-align: center;
+        background: #fff;
+        backface-visibility: hidden;
+        border-radius: 0 20px 0 20px;
+    }
+
+    .flip-card .back {
+        transform: rotateX(180deg);
+        color: #000;
+        background: #F28749;
+    }
+
+label:hover .flip-card {
+    transform: rotateX(2deg);
+    /* box-shadow: 0 20px 20px rgba(90, 77, 34, 0.2); */
+}
+
+input {
+    display: none;
+}
+
+:checked + .flip-card {
+    transform: rotateX(180deg);
+}
+
+label:hover :checked + .flip-card {
+    transform: rotateX(175deg);
+    /* box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2); */
+}
+
+.front img {
+    width: 110px;
+    height: 110px;
+    margin: 30px 0 20px 0;
+    border-radius: 50%;
+}
+
+.front h1 {
+    font-size: 30px;
+    color: #000;
+    margin: 0;
+}
+
+.front h2 {
+    font-size: 18px;
+    color: #A5CE7F;
+    margin: 12px 0 12px 0;
+}
+
+
+
+.front p,
+.back .click {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.back h1 {
+    color: #fff;
+    margin: 30px 0 0 0;
+}
+
+hr {
+    width: 180px;
+    margin: 15px auto 10px auto;
+}
+
+.back p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+@media (max-width: 830px) {
+
+
+    .bloco img {
+        height: 220px;
+        width: 320px;
+    }
+
+    .escrita .grande {
+        font-family: ' Sue Ellen Francisco';
+        font-size: 30px;
+    }
+
+    .escrita .pequeno {
+        font-family: ' Pathway Gothic One';
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+
+    .bloco img {
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 1300px) {
+
+    .blocoAzul {
+        flex-direction: column;
+    }
+
+
+
+    .flip-card .front,
+    .flip-card .back {
+        position: absolute;
+        width: 280%;
+        height: 100%;
+        text-align: center;
+        background: #fff;
+        backface-visibility: hidden;
+        border-radius: 0 20px 0 20px;
+    }
+
+
+
+    .azul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-width: 45vw;
+        height: 500px;
+        background-color: #009fad;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    }
+
+
+    label {
+        left: 0.0001%;
+    }
+}

@@ -16,19 +16,11 @@
     **/
 
 
-body {
-    background-color: var(--bege);
-    height: 100%;
-}
-
-
 .bloco {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-
 
 .verde {
     background-color: #a5ce7f;
@@ -41,8 +33,6 @@ body {
     align-items: center;
 }
 
-
-
 p {
     display: flex;
     font-family: 'Sue Ellen Francisco';
@@ -52,7 +42,6 @@ p {
     text-align: center;
     color: #000000;
 }
-
 
 .campo1 label {
     padding: 15px;

@@ -17,6 +17,17 @@ namespace I_FOX_V1.Controllers
         {
             return View();
         }
+
+        public IActionResult ResumoFoto()
+        {
+            return View();
+        }
+
+        public IActionResult ResumoAudio()
+        {
+            return View();
+        }
+
         public IActionResult ResumoFlashCard()
         {
 
@@ -27,16 +38,6 @@ namespace I_FOX_V1.Controllers
         public IActionResult VisualizarEscrito(int id)
         {
             return View(Resumo.acessarResumo(id));
-        }
-
-        public IActionResult VisualizarAudio()
-        {
-            return View();
-        }
-
-        public IActionResult VisualizarFotos()
-        {
-            return View();
         }
 
         public IActionResult VisualizarFlashcard()

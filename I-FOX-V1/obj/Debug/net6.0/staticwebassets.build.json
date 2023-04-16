@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eON9pMnF6mPrmMXrHi3ZuDRONKed0tzkCBj18T9KxyU=",
+  "Hash": "JUE4ycatm/bsWPuXWpders6zf10avI7WgJprSkcT2ww=",
   "Source": "I-FOX-V1",
   "BasePath": "_content/I-FOX-V1",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\criarCaderno.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\css\\flashcard_card.css",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "css/flashcard_card.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\flashcard_card.css"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\css\\flashcards.css",
@@ -797,6 +814,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icones_crud\\organizador.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\revisao_icon.png",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "img/icones_crud/revisao_icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icones_crud\\revisao_icon.png"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\1504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\sair.png",
