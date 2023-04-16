@@ -1,18 +1,34 @@
 ﻿@model IEnumerable<I_FOX_V1.Models.Resumo>
 
+@{
+    ViewData["Title"] = @TempData["tituloCaderno"];
+}
+
+@*Sessões de css e js dessa página*@
 @section Estilos{
     <link rel="stylesheet" href="~/css/resumoEstilo.css" />
+    <link rel="stylesheet" href="~/css/popup.css"/>
 }
+
+@section JavaScript{
+    <script src="~/js/popup.js"></script>
+}
+
 <section>
     <div class="cabecalho-materia">
         <div class="botao-pesquisar">
-             <img src="~/img/lupa-pesquisa.png" />
+             <img src="~/img/icones_crud/lupa-pesquisa.png" />
              <input type="text" placeholder="Pesquisar"/>
         </div>
         <div class="imagens-organizacao-materia">
-            <img src="~/img/organizador.png" />
-            <img src="~/img/filtro.png" />
+            <img src="~/img/icones_crud/organizador.png" />
+            <img src="~/img/icones_crud/filtro.png" />
         </div>
+    </div>
+
+    <div class="descricao_caderno">
+        <h2>@TempData["tituloCaderno"]</h2>
+        <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
     <div class="tipos-resumo">
@@ -20,37 +36,32 @@
 
         <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Flashcard">
             <div class="resumo-tipo">
-                <img src="~/img/flashcard.png" alt="" />
+                <img src="~/img/icones_resumo/flashcard.png" alt="Icone de um flashcard" />
                 <p>Flashcards</p>
             </div>
         </a>
 
         <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Fotos">
             <div class="resumo-tipo">
-                <img src="~/img/foto-resumo.png" alt="" />
+                <img src="~/img/icones_resumo/foto-resumo.png" alt="Icone de um resumo por foto" />
                 <p>Foto</p>
             </div>
         </a>
 
         <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Audio">
             <div class="resumo-tipo">
-                <img src="~/img/audio-resumo.png" alt="" />
+                <img src="~/img/icones_resumo/audio-resumo.png" alt="Icone de resumo por áudio" />
                 <p>Áudio</p>
             </div>
        </a>
 
         <a asp-controller="Resumos" asp-action="ResumoEscrito">
             <div class="resumo-tipo">
-                <img src="~/img/resumo-escrito.png" alt="" />
+                <img src="~/img/icones_resumo/resumo-escrito.png" alt="Icone de resumo escrito" />
                 <p>Escrito</p>
             </div>
         </a>
 
-    </div>
-
-    <div class="descricao_caderno">
-        <h2>@TempData["tituloCaderno"]</h2>
-        <h5>@TempData["descricaocaderno"]</h5>
     </div>
 
     <div class="resumos">
@@ -59,19 +70,29 @@
         {
             @foreach (Resumo resumo in Model)
             {
-                <a asp-controller="Resumo" asp-action="Vizualizar_@resumo.Tipo" asp-route-id="@resumo.Codigo">
-                    <div class="resumo">
-                        <div class="poligono">
-                            <img src="~/img/raposa_resumos.png" alt="" />
-                        </div>
-                        
-                        <div class="descricao_resumo">
-                            <p>@resumo.Titulo </p>
-                            <p>Resumo @resumo.Tipo</p>
-                            <img src="~/img/deletar_icone.png"/>
-                        </div>
+                string visualizacao = "Visualizar" + resumo.Tipo;
+                <div class="resumo">
+                    <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
+                    
+                            <div class="poligono">
+                                <img src="~/img/i_fox/raposa-cabeca.png" alt="" />
+                            </div>     
+                    </a>
+                    <div class="descricao_resumo">
+                        <p>@resumo.Titulo </p>
+                        <p>Resumo @resumo.Tipo</p>
+                        <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
                     </div>
-                </a>
+                </div>
+                //PopUp para confirmação para deletar um resumo
+                <dialog>
+                    <p>Tem certeza que deseja excluir o resumo @resumo.Titulo ?</p>
+                    <div class="pop_botoes">  
+                        <button>NÂO</button>
+                        <a asp-controller="Resumos" asp-action="deletarResumo" asp-route-id="@resumo.Codigo">SIM</a>
+                    </div>
+
+                </dialog>
             }
         }else
         {

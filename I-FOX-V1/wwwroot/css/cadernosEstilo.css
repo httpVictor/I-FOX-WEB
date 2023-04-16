@@ -1,39 +1,19 @@
 ﻿/* Fontes importadas */
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* font-family: 'Aclonica', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 /* font-family: 'Pathway Gothic One', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
 /* font-family: 'Sue Ellen Francisco', cursive; */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 /* Cores da paleta do site */
-:root {
-    --bege: #efd7bc;
-    --laranjaEscuro: #d9653b;
-    --laranjaClaro: #f28749;
-    --verde: #a5ce7f;
-    --azulClaro: #69e9f4;
-    --azulEscuro: #009fad;
-    --azulMeio: #60b5b3;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*::before,
-*::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
 
 .funcionalidades {
     display: flex;
@@ -157,8 +137,9 @@
 .infos-caderno {
     display: flex;
     flex-direction: row;
-    column-gap: 7px;
+    column-gap: 12px;
 }
+
 
 .caderno:nth-child(even) {
     background-color: var(--azulClaro);

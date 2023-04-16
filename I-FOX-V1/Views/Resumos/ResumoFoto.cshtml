@@ -1,0 +1,29 @@
+﻿@{
+}
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/resumoFotos.css" />
+}
+
+    <section class="funcao">
+
+        <div class="bloco">
+            <form method="post" enctype="multipart/form-data">
+
+                <button class="botao">Deletar Arquivo</button>
+
+                <div class="imagens_resumo">
+                </div>
+
+                <div class="file">
+                    <input name="arquivo" type="file" id="file">
+                    <button class="botao1">Salvar Arquivo</button>
+                </div>
+
+                <br><br>
+            </form>
+
+            @TempData["msg"]
+
+        </div>
+    </section>

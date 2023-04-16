@@ -13,7 +13,7 @@
 
  <div class="texto_introducao">
     <h1>Olá @TempData["nomeUsuario"]</h1>
-    <p>Seja bem vindo ao site I FOX. Aqui ao lado temos algumas funções bem legais da nossa plataforma, depois dê uma olhada.<br> Comece agora criando um caderno</p>
+    <p>Seja bem vindo ao site I FOX. Aqui ao lado temos algumas funções bem legais da nossa plataforma, depois dê uma olhada.Comece agora criando um caderno</p>
 </div>
 
 <section class="funcionalidades">
@@ -21,7 +21,7 @@
     @*Funcionalidade do mapa de missões*@
     <div class="funcionalidade">
         <div class="imagem">
-            <img src="~/img/mapa-do-tesouro.png" alt="" />
+            <img src="~/img/icones_resumo/mapa-do-tesouro.png" alt="" />
         </div>
         <p>MAPA</p>
     </div>
@@ -31,7 +31,7 @@
     <a asp-controller="Usuario" asp-action="Pomodoro">
         <div class="funcionalidade">
             <div class="imagem">
-                <img src="~/img/pomodoro-icon.png" alt="" />
+                <img src="~/img/icones_resumo/pomodoro-icon.png" alt="" />
             </div>
             <p>POMODORO</p>
         </div>
@@ -41,7 +41,7 @@
 
     <div class="funcionalidade">
         <div class="imagem">
-                <img src="~/img/lembrete-icon.png" alt="" />
+             <img src="~/img/icones_resumo/lembrete-icon.png" alt="" />
         </div>
         <p>LEMBRETES</p>
     </div>
@@ -51,7 +51,7 @@
 <section class="cabecalhoCadernos">
 
     <div>
-        <img src="~/img/raposa-cadernos.png" alt="" />
+         <img src="~/img/icones_resumo/raposa-cadernos.png" alt="" />
     </div>
 
     <div class="tituloCadernos">
@@ -62,7 +62,7 @@
     <a asp-controller="Usuario" asp-action="CriarCaderno">
         <div class="criarCadernos">
             <p>CRIAR CADERNO</p>
-            <img src="~/img/caderno-criar.png" alt="" />
+            <img src="~/img/icones_crud/caderno-criar.png" alt="" />
         </div>
     </a>
 
@@ -79,13 +79,12 @@
             <div class="caderno">
                 <a asp-controller="Usuario" asp-action="Materia" asp-route-id="@caderno.Codigo">
                     <div class="infos-caderno">
-                        <img src="./img/caderno-criar.png" alt="" />
+                        <img src="~/img/icones_caderno/@caderno.Icone" alt="" />
                         <p>@caderno.Titulo |</p>
                         <p>Quantidade de atividades</p>
                     </div>
                 </a>
-
-                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img class="lixin" src="~/img/deletar_icone.png"/></a>
+                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img class="lixin" src="~/img/icones_crud/deletar_icone.png"/></a>
             </div>
 
             <dialog>

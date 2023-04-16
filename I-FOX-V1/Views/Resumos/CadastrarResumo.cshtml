@@ -1,13 +1,10 @@
 ﻿@section Estilos{
-    <link rel="stylesheet" href="~/css/ResumoFotos.css" />
+    <link rel="stylesheet" href="~/css/cadastroResumos.css" />
 }
 
-<div class="bloco">
-
-    <div class="verde">
-       
+<section class="bloco">
         <form method="post" asp-action="CadastrarResumo" asp-route-id="@ViewBag.Id">
-            <p>CRIANDO SEU RESUMO</p>
+            <p>Criando seu resumo!</p>
 
             <div class="titulo" >
                 <label for="">Título</label>
@@ -19,8 +16,7 @@
                 <input type="date" id="titulo1" name="data">
             </div>
 
-            <button class="botao1" type="submit">SALVAR</button>
+            <button type="submit">SALVAR</button>
         </form>
-    </div>
 
-</div>
+</section>

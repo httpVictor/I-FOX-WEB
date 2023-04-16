@@ -17,52 +17,44 @@
 
 
 .bloco {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--verde);
+    min-width: 40vw;
+    max-width: 60vw;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 80vw;
-    margin: 20px auto;
-    background-color: var(--verde);
-    border-radius: 25px;
-    padding: 20px;
+    row-gap: 20px;
 }
 
-.cabecalho_escrito {
-    display: flex;
-    flex-direction: row;
+form p {
+    font-size: 40px;
+    font-family: 'Sue Ellen Francisco', cursive;
 }
 
-.anotacao {
-    border-radius: 25px;
-    background-color: var(--verde);
-    padding: 40px;
-}
-
-label {
-    font-family: 'Aclonica', sans-serif;
-    font-size: 24px;
-    padding-left: 15px;
+form div {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 30px;
 }
 
 input {
-    font-size: 20px;
-    width: 40vw;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-textarea {
-    display: block;
-    padding: 10px;
-    margin: 8px;
-    width: 60vw;
-    height: 50vh;
-    border-radius: 10px;
+    font-size: 15px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
 }
 
-.botao {
+button {
     background-color: var(--laranjaClaro);
     color: white;
     font-family: 'Sue Ellen Francisco', cursive;

@@ -1,37 +1,28 @@
 ﻿/* Fontes importadas */
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* font-family: 'Aclonica', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 /* font-family: 'Pathway Gothic One', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
 /* font-family: 'Sue Ellen Francisco', cursive; */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 /* Cores da paleta do site */
-:root {
-    --bege: #efd7bc;
-    --laranjaEscuro: #d9653b;
-    --laranjaClaro: #f28749;
-    --verde: #a5ce7f;
-    --azulClaro: #69e9f4;
-    --azulEscuro: #009fad;
-}
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
 
 .bloco {
-    margin: auto;
-    background-color: 60B5B3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border-radius: 25px;
     max-width: 90vw;
     height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     flex-direction: row;
 }
 
@@ -43,53 +34,17 @@
 
 p {
     font-family: 'Sue Ellen Francisco';
-    font-style: normal;
     font-size: 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-h1 {
-    font-family: 'Sue Ellen Francisco';
-    font-style: normal;
-    font-size: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img {
-    justify-content: center;
-    padding-left: 10px;
-}
-
-
 
 .foraBloco {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-}
-
-h2 {
-    font-family: 'Sue Ellen Francisco';
-    font-style: normal;
-    font-size: 80px;
-    display: flex;
-    align-items: center;
-    color: white;
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-.foraBloco #raposaFilhote {
-    margin-left: 80px;
-    display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .usuario {
@@ -99,42 +54,17 @@ h2 {
     justify-content: center;
 }
 
-
-
-.campo label {
+label {
     background-color: var(--verde);
     border-radius: 20px 0 0 0;
     padding: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
 }
-
-
-.campo1 label {
-    background-color: var(--verde);
-    border-radius: 20px 0 0 0;
-    padding: 15px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-}
-
-.campo2 label {
-    background-color: var(--verde);
-    border-radius: 20px 0 0 0;
-    padding: 15px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-}
-
-
-
 
 /* parte branca */
-.campo input {
-    min-width: 50vh;
+input {
     padding: 13px;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 22px;
@@ -142,304 +72,78 @@ h2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.campo input {
+    min-width: 50vh;
+}
 
 .campo1 input {
     min-width: 46.5vh;
-    padding: 13px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-    border-radius: 0 0 20px 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 .campo2 input {
     min-width: 40vh;
-    padding: 13px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-    border-radius: 0 0 20px 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
-.foraBloco #raposaFilhote:hover {
-    transform: scale(1.08);
+#raposaFilhote:hover {
+    transform: scale(1.02);
 }
-
-
-
-
-
-@media (max-width: 1380px) {
-
-
-
-    /* parte branca */
-    .campo input {
-        min-width: 36.5vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .campo1 input {
-        min-width: 36.5vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .campo2 input {
-        min-width: 30vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-
-
-    /* parte verde */
-    .campo label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 18px;
-    }
-
-
-    .campo1 label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 18px;
-    }
-
-    .campo2 label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 10px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 18px;
-    }
-
-
-    h2 {
-        font-size: 60px;
-    }
-}
-
 
 
 @media (max-width: 800px) {
-
-
-    p {
-        font-size: 30px;
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-
-    h2 {
-        font-size: 80px;
-    }
-
+    
     /* parte branca */
+    input {
+        padding: 10px;
+        font-size: 18px;
+    }
     .campo input {
         min-width: 30vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
 
     .campo1 input {
         min-width: 30vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
 
     .campo2 input {
         min-width: 24vh;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
 
     .foraBloco {
         display: flex;
         flex-direction: column-reverse;
     }
-}
 
-
-@media (max-width: 605px) {
-
-
-    p {
-        font-size: 23px;
-    }
-
-    h1 {
-        font-size: 38px;
-    }
-
-
-    .avatar {
-        background-color: white;
-        border-radius: 100%;
-        padding: 50px;
-    }
-
-    .img {
-        justify-content: center;
-        padding-left: 10px;
-    }
-}
-
-
-@media (max-width: 450px) {
-
-    .img {
+    .bloco div img{
         display: none;
     }
+
+    label{
+        font-size: 20px;
+    }
 }
 
-
 @media (max-width: 450px) {
-
-
     /* parte branca */
+    input {
+        font-size: 16px;
+    }
     .campo input {
         min-width: 25vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
 
     .campo1 input {
         min-width: 25vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
 
     .campo2 input {
         min-width: 19vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
-
-
-
-
 
     /* parte verde */
-    .campo label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 7px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
+    label {
         font-size: 16px;
     }
-
-
-    .campo1 label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 7px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 16px;
-    }
-
-    .campo2 label {
-        background-color: var(--verde);
-        border-radius: 20px 0 0 0;
-        padding: 7px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 16px;
-    }
-}
-
-
-
-
-
-
-@media (max-width: 340px) {
-
     .foraBloco #raposaFilhote {
         display: none;
-    }
-
-
-    /* parte branca */
-    .campo input {
-        min-width: 20vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .campo1 input {
-        min-width: 20vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-    .campo2 input {
-        min-width: 14vh;
-        padding: 4px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 }

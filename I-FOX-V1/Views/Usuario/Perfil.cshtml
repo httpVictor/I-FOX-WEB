@@ -8,7 +8,6 @@
 }
 
 <section>
-
     <div class="bloco">
 
         <div class="avatar">
@@ -16,31 +15,29 @@
         </div>
 
         <div class="escrita">
-            <h1>Olá !</h1>
+            <h1>Olá, @Model.Nome !</h1>
             <p>Aqui você pode ver e editar os dados do seu perfil</p>
         </div>
 
-        <div class="img">
-            <img alt="" src="~/img/img-fundo-login.png" width="180px" height="140px">
+        <div>
+            <img alt="" src="~/img/i_fox/raposa-cabecalhos.png" width="180px" height="140px">
         </div>
 
     </div>
 
-    <br><br><br><br>
-
     <div class="foraBloco">
-        <h2>I-FOX</h2>
+        <div>
+            <h2>I-FOX</h2>
+            <img id="raposaFilhote" alt="" width="380px" height="430px" src="~/img/i_fox/raposa-flutuante-png.png">
+        </div>
 
-        <img id="raposaFilhote" alt="" width="380px" height="430px" src="~/img/raposa-cadastrar.png">
-
-
-        <form>
+        <form method="post">
             <div class="usuario"> 
 
                 <div class="campo1">
                     <label for="">Usuário</label>
                     <input type="text" id="titulo1" value="@Model.Nome">
-                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                    <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
 
                 <br><br>
@@ -48,7 +45,7 @@
                 <div class="campo">
                     <label for="">Email</label>
                     <input type="text" id="titulo" value="@Model.Email">
-                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                    <img alt="" src="~/img/icones_crud/edicao.png" width="30" height="30">
                 </div>
 
                 <br><br>
@@ -56,7 +53,7 @@
                 <div class="campo">
                     <label for="">Senha</label>
                     <input type="text" id="titulo" value="@Model.Senha">
-                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
 
                 <br><br>
@@ -64,7 +61,7 @@
                 <div class="campo2">
                     <label for="">Data nascimento:</label>
                     <input type="date" id="data" value="@Model.Data_nasc">
-                    <img alt="" src="~/img/edicao.png" width="30px" height="30px">
+                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
             </div>
         </form>

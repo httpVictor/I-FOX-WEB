@@ -25,7 +25,6 @@ namespace I_FOX_V1.Controllers
             string nomeUsuario = usuario.Nome;
             return View(usuario.listarUsuario(nomeUsuario));
 
-            //return View();
         }
 
         public IActionResult CriarCaderno()
@@ -45,7 +44,7 @@ namespace I_FOX_V1.Controllers
 
         //MÉTODOS que realizam o crud
         [HttpPost]
-        public IActionResult CriarCaderno(string titulo, string descricao)
+        public IActionResult CriarCaderno(string titulo, string descricao, string imagem)
         {
             if (HttpContext.Session.GetString("usuario") != "")
             {
@@ -53,7 +52,7 @@ namespace I_FOX_V1.Controllers
                 string nomeUser = usuario.Nome;
 
                 //Criando o objeto de caderno
-                Caderno caderno = new Caderno(descricao, titulo, nomeUser);
+                Caderno caderno = new Caderno(descricao, titulo, nomeUser, imagem);
                 TempData["Testes"] = caderno.cadastrarCaderno();
                 return Redirect("./Home");
             }

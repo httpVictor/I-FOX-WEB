@@ -4,7 +4,7 @@ namespace I_FOX_V1.Models
 {
     public class Caderno
     {
-        private string descricao, titulo;
+        private string descricao, titulo, icone;
         private int codigo;
         private string usuario;
 
@@ -15,24 +15,27 @@ namespace I_FOX_V1.Models
 
         }
        
-        public Caderno(string descricao, string titulo, string usuario)
+        public Caderno(string descricao, string titulo, string usuario, string icone)
         {
             this.descricao = descricao;
             this.titulo = titulo;
             this.usuario = usuario;
+            this.icone = icone;
         }
 
         //construtor
-        public Caderno(string descricao, string titulo, int codigo)
+        public Caderno(string descricao, string titulo, int codigo, string icone)
         {
             this.descricao = descricao;
             this.titulo = titulo;
             this.codigo = codigo;
+            this.icone = icone;
         }
 
         //getters e setters
         public string Descricao { get => descricao; set => descricao = value; }
         public string Titulo { get => titulo; set => titulo = value; }
+        public string Icone { get => icone; set => icone = value; }
         public int Codigo { get => codigo; set => codigo = value; }
 
         //métodos
@@ -46,10 +49,11 @@ namespace I_FOX_V1.Models
                 conexao.Open();
                 //Comando de inserção no banco
                 MySqlCommand inserirCaderno = new MySqlCommand(
-                    "INSERT INTO CADERNO(titulo, descricao, FK_USUARIO_nome) VALUES(@titulo,@descricao, @FK_USUARIO_nome)", conexao);
+                    "INSERT INTO CADERNO(titulo, descricao, icone, FK_USUARIO_nome) VALUES(@titulo,@descricao, @icone, @FK_USUARIO_nome)", conexao);
                 //Definindo os parâmetros
                 inserirCaderno.Parameters.AddWithValue("@descricao", Descricao);
                 inserirCaderno.Parameters.AddWithValue("@titulo", Titulo);
+                inserirCaderno.Parameters.AddWithValue("@icone", Icone);
                 inserirCaderno.Parameters.AddWithValue("@FK_USUARIO_nome", usuario);
                 //Executando o comando
                 inserirCaderno.ExecuteNonQuery();
@@ -113,7 +117,9 @@ namespace I_FOX_V1.Models
                     caderno = new Caderno(
                         (string)leitorBanco["descricao"],
                         (string)leitorBanco["titulo"],
-                        int.Parse(leitorBanco["codigo"].ToString()));
+                        int.Parse(leitorBanco["codigo"].ToString()),
+                        (string)leitorBanco["icone"].ToString()
+                        );
                 }
                 return caderno;
             }
@@ -143,7 +149,9 @@ namespace I_FOX_V1.Models
                     listaCaderno.Add(new Caderno(
                         (string) leitorBanco["descricao"],
                         (string) leitorBanco["titulo"],
-                        int.Parse(leitorBanco["codigo"].ToString())));
+                        int.Parse(leitorBanco["codigo"].ToString()),
+                        (string)leitorBanco["icone"].ToString()
+                        ));
                 }
                 conexao.Close();
                 return listaCaderno;

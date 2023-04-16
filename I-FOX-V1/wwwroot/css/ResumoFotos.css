@@ -1,54 +1,19 @@
 ﻿/* Fontes importadas */
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 /* font-family: 'Aclonica', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 /* font-family: 'Pathway Gothic One', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
 /* font-family: 'Sue Ellen Francisco', cursive; */
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 /* Cores da paleta do site */
-:root {
-    --bege: #efd7bc;
-    --laranjaEscuro: #d9653b;
-    --laranjaClaro: #f28749;
-    --verde: #a5ce7f;
-    --azulClaro: #69e9f4;
-    --azulEscuro: #009fad;
-}
-
-body {
-    background-color: var(--bege);
-    height: 100%;
-}
-
-body #fundo {
-    background-image: url();
-}
-
-
-.bloco {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    background-color: #a5ce7f;
-    border-radius: 25px;
-    min-width: 40vw;
-    max-width: 60vw;
-}
-
-p {
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 45px;
-}
-
-
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
 
 .botao {
     height: 70px;
@@ -73,18 +38,17 @@ p {
 }
 
 
-
 .titulo {
     font-family: 'Sue Ellen Francisco', cursive;
     font-size: 30px;
 }
 
-    .titulo input {
-        font-size: 15px;
-        width: 450px;
-        padding: 15px;
-        border-radius: 20px 20px 20px 20px;
-    }
+.titulo input {
+    font-size: 15px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+}
 
 .data {
     font-family: 'Sue Ellen Francisco', cursive;
@@ -97,8 +61,6 @@ p {
     padding: 15px;
     border-radius: 20px;
 }
-
-
 
 /* tablet */
 @media (max-width: 800px) {
@@ -140,55 +102,8 @@ p {
     }
 }
 
-
-
-
-@media (max-width: 560px) {
-
-    .bloco {
-        width: 70vw;
-    }
-
-    label {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 27px;
-    }
-
-    .botao {
-        height: 30px;
-        width: 110px;
-        font-size: large;
-    }
-
-    .botao1 {
-        height: 30px;
-        width: 110px;
-        font-size: large;
-    }
-
-
-    .titulo input {
-        font-size: 8px;
-        width: 250px;
-    }
-
-
-
-    .data input {
-        font-size: 8px;
-        width: 250px;
-    }
-}
-
-
-
-
-
 /* celular */
-@media (max-width: 420px) {
+@media (max-width: 450px) {
     .bloco {
         width: 70vw;
         padding: 30px;

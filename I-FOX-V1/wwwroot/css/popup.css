@@ -15,32 +15,53 @@
 
 }
 
-
-
 dialog::backdrop{
     background-color: rgb(0 0 0 / .5);
 }
 
 dialog {
+    margin: auto auto;
+    padding: 30px;
+    width: 40vw;
+    background-color: var(--laranjaClaro);
     border: none;
     border-radius: .5rem;
     box-shadow: 0 0 1em rgb( 0 0 0 / .3);
-    width: 20%;
-    background-color: #f28749;
 }
 
-p {
+dialog p {
+    text-align: center;
     font-family: 'Sue Ellen Francisco';
-    font-size: 40px
+    font-size: 40px;
+    color: white;
 }
 
-button {
-    background-color: #efd7bc;
+dialog button {
+    background-color: var(--bege);
+    border: solid 2px black;
     border-radius: 20%;
-    font-size: 30px;
+    font-size: 2em;
     font-family: 'Sue Ellen Francisco';
     width: 80px;
+    color: black;
 }
 
+dialog button:hover{
+    cursor:pointer;
+}
+
+dialog a{
+    font-size: 2em;
+    font-family: 'Sue Ellen Francisco';
+    color: white;
+}
+
+.pop_botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    column-gap: 40px;
+    
+}
 
 

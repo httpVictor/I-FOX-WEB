@@ -12,4 +12,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\icones_resumo\" />
+    <Folder Include="wwwroot\img\tela_inicial\" />
+  </ItemGroup>
+
 </Project>

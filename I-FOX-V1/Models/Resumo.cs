@@ -18,19 +18,18 @@ namespace I_FOX_V1.Models
         {
         }
         //CONSTRUTOR PARA CADASTRO DE RESUMO
-        public Resumo(string data_resumo, string tipo, string titulo, string frente, string verso, string texto, int caderno)
+        public Resumo(string data_resumo, string tipo, string titulo, string texto, int caderno)
         {
             this.data_resumo = data_resumo;
             this.tipo = tipo;
             this.titulo = titulo;
             this.texto = texto;
             this.caderno = caderno;
-            this.frente = frente;
-            this.verso = verso;
         }
         //CONSTRUTOR PARA LISTAGEM DE RESUMOS
-        public Resumo(string data_resumo, string tipo, string titulo, int caderno)
+        public Resumo(int codigo, string data_resumo, string tipo, string titulo, int caderno)
         {
+            this.codigo = codigo;
             this.data_resumo = data_resumo;
             this.tipo = tipo;
             this.titulo = titulo;
@@ -49,7 +48,7 @@ namespace I_FOX_V1.Models
 
 
         //MÉTODOS
-
+        //Método para cadastrar um resumo (atributos que todos tem em comum)
         public string cadastrarResumo()
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
@@ -61,7 +60,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //criando o comando de insert
-                MySqlCommand inserir = new MySqlCommand("INSERT INTO RESUMO(tipo, data_resumo, titulo, FK_CADERNO_codigo, texto) VALUES(@tipo, @data_resumo, @titulo, @FK_CADERNO_codigo, @Texto)", conexao);
+                MySqlCommand inserir = new MySqlCommand("INSERT INTO RESUMO(tipo, data_resumo, titulo, FK_CADERNO_codigo, texto) VALUES(@tipo, @data_resumo, @titulo, @FK_CADERNO_codigo, @texto)", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
                 inserir.Parameters.AddWithValue("@tipo", Tipo);
@@ -88,6 +87,7 @@ namespace I_FOX_V1.Models
 
         }
 
+        //Método para cadastrar arquivos (fotos e vídeos) no banco
         public string cadastrarArquivos(byte[] valor)
         {
             string situacao_arquivo = "";
@@ -133,6 +133,7 @@ namespace I_FOX_V1.Models
             return situacao_arquivo;
         }
 
+        //Método para cadastrar um card
         public string cadastrarCard(string cod_resumo)
         {
             string sit_cadastro = "";
@@ -170,16 +171,118 @@ namespace I_FOX_V1.Models
             return sit_cadastro;
         }
 
+        //Método para atualizar os dados do resumo 
         public string editarResumo()
         {
             return "Resumo editado com sucesso!";
         }
 
-        public string deletarResumo()
+        //Método para deetar um resumo
+        static public string deletarResumo(int id_resumo)
         {
-            return "Resumo deletado com sucesso!";
+            //Apagando primeiro arquivos presentes em tabelas que se ligam em resumos
+            deletarAquivo(id_resumo);
+            //deletarCards(id_resumo);
+
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de insert
+                MySqlCommand inserir = new MySqlCommand("DELETE FROM RESUMO WHERE codigo = @codigo", conexao);
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                inserir.Parameters.AddWithValue("@codigo", id_resumo);
+
+                //Executando o comando
+                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
         }
 
+        //Método para deletar arquivos
+        static public string deletarAquivo(int id_resumo)
+        {
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de insert
+                MySqlCommand inserir = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMO_codigo = @codigo", conexao);
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                inserir.Parameters.AddWithValue("@codigo", id_resumo);
+
+                //Executando o comando
+                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
+        }
+        //Método para deletar cards
+        static public string deletarCards(int id_resumo)
+        {
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de insert
+                MySqlCommand inserir = new MySqlCommand("DELETE FROM CARD WHERE FK_RESUMO_codigo = @codigo", conexao);
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                inserir.Parameters.AddWithValue("@codigo", id_resumo);
+
+                //Executando o comando
+                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
+        }
+
+        //Método para listagem de resumos de um usuário
         static public List<Resumo> listarResumo(int id_caderno)
         {
             List<Resumo> listaResumo = new List<Resumo>();
@@ -197,6 +300,7 @@ namespace I_FOX_V1.Models
                     //Definindo os atributos que vão vir do banco
 
                     listaResumo.Add(new Resumo(
+                        int.Parse(leitorBanco["codigo"].ToString()),
                         leitorBanco["data_resumo"].ToString(),
                         (string)leitorBanco["tipo"],
                         (string)leitorBanco["titulo"],
@@ -213,6 +317,40 @@ namespace I_FOX_V1.Models
                 conexao.Close();
             }
             return listaResumo;
+        }
+
+        //Método de busca de um resumo específico do usuário
+        static public Resumo acessarResumo(int id_resumo)
+        {
+            Resumo resumo = new Resumo();
+            try
+            {
+                conexao.Open(); //Abrindo conexão
+                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where codigo = @id", conexao);
+                pesquisaResumo.Parameters.AddWithValue("@id", id_resumo);
+
+                //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
+                MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
+
+                while (leitorBanco.Read()) //Enquanto for possível ler ele
+                {
+                    //Definindo os atributos que vão vir do banco
+                     resumo = new Resumo(leitorBanco["data_resumo"].ToString(),
+                        (string)leitorBanco["tipo"],
+                        (string)leitorBanco["titulo"],
+                        (string)leitorBanco["texto"],
+                        int.Parse(leitorBanco["FK_CADERNO_codigo"].ToString()));
+                }
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return resumo;
         }
     }
 }

@@ -1,4 +1,21 @@
-﻿/*CABECALHO data MATERIA*/
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+/*CABECALHO data MATERIA*/
 .cabecalho-materia {
     display: flex;
     flex-direction: row;
@@ -107,12 +124,13 @@
 .resumo {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
     justify-content: start;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     border-radius: 15px;
     margin: 15px auto;
-    min-height: 300px;
+    min-height: 350px;
     background-color: white;
 }
 
@@ -132,4 +150,21 @@
 .poligono img{
     margin: 40px;
     min-width: 8vw;
+}
+
+.descricao_resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+.lixin{
+    background-color: white;
+    border: none;
+    border-radius: 0;
+}
+
+.lixin:hover{
+    cursor: pointer;
 }

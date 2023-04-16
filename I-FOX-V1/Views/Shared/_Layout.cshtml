@@ -4,16 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I-FOX - @ViewData["Title"]</title>
-    <link rel="icon" href="~/img/logo_maior.png" />
+    <link rel="icon" href="~/img/i_fox/logo-redonda-p.png"/>
 
-    @*LINKS*@
     <link rel="stylesheet" href="~/css/site.css" />
     @RenderSection("Estilos", false)
     
-
 </head>
 <body>
-  
     @{
         if (TempData["NavBar"] != "falso")
         {
@@ -21,7 +18,7 @@
                 @*NAVBAR*@
                 <nav class="navbar">
                     <a class="cabecalho-navbar" asp-controller="Usuario" asp-action="Home">
-                        <img src="~/img/raposa-navbar.png" />
+                        <img src="~/img/i_fox/raposa-navbar.png" />
                         <h1>I-FOX</h1>
                     </a>
 
@@ -36,7 +33,7 @@
                         <li><a class="nav-item" id="item2" asp-controller="Usuario" asp-action="Perfil">PERFIL</a></li>
                         <li><a class="nav-item" id="item3" asp-controller="Usuario" asp-action="">FEED</a></li>
                         <li><a class="nav-item" id="item4" asp-controller="Usuario" asp-action="">LOJA</a></li>
-                        <li><a class="nav-item" id="item4" asp-controller="" asp-action=""><img src="~/img/sair.png" /></a></li>
+                        <li><a class="nav-item" id="item4" asp-controller="" asp-action=""><img src="~/img/icones_crud/sair.png" /></a></li>
                     </ul>
                     
                 </nav>
@@ -72,11 +69,11 @@
 
     </footer>*@
 
+
+    @*Javascripts*@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/js/menu-hamburguer.js"></script>
-
-
     @RenderSection("JavaScript", false);
     
 </body>

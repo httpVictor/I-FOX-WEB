@@ -1,0 +1,29 @@
+﻿@model I_FOX_V1.Models.Resumo
+@section Estilos{
+    <link rel="stylesheet" href="~/css/resumoEscrito.css" />
+}
+    <section class="resumo">
+
+        <div class="bloco">
+
+            <form method="post" asp-action="ResumoEscrito">
+
+                <div class="cabecalho_escrito">
+                    <input type="text" id="titulo" name="titulo" value="@Model.Titulo">
+                    <h6>@Model.Data_resumo</h6>
+                 
+                </div>
+
+                <div class="anotacao">
+                    <label for="">Anotações:</label>
+                    <textarea name="texto" id="anotacoes">@Model.Texto</textarea>
+                </div>
+
+                <button type="submit" class="botao">SALVAR</button>
+            </form>
+
+        </div>
+
+        <p>@TempData["Sit_Cad_Resumo"]</p>
+
+    </section>

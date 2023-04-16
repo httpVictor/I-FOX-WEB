@@ -23,15 +23,28 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        public IActionResult ResumoFotos()
+        //TELAS DE VISUALIZAÇÃO DOS RESUMOS
+        public IActionResult VisualizarEscrito(int id)
+        {
+            return View(Resumo.acessarResumo(id));
+        }
+
+        public IActionResult VisualizarAudio()
         {
             return View();
         }
 
-        public IActionResult ResumoAudio()
+        public IActionResult VisualizarFotos()
         {
             return View();
         }
+
+        public IActionResult VisualizarFlashcard()
+        {
+            return View();
+        }
+
+        //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
 
         [HttpPost]
         public IActionResult CadastrarResumo(string id, string titulo, string data)
@@ -45,14 +58,12 @@ namespace I_FOX_V1.Controllers
 
             int codigoCaderno = caderno.Codigo;
 
-            Resumo resumo = new Resumo(dataCaractere, id, titulo, null, null, null, codigoCaderno);
+            Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
             return Redirect("../Resumo"+ id);
-            
         }
-
-        //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
+        
         [HttpPost]
         public IActionResult ResumoFotos(string titulo, string data)
         {
@@ -73,7 +84,7 @@ namespace I_FOX_V1.Controllers
                     Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
                     int codigoCaderno = caderno.Codigo;
 
-                    Resumo resumo = new Resumo(dataCaractere, "foto", titulo, null, null, null, codigoCaderno);
+                    Resumo resumo = new Resumo(dataCaractere, "foto", titulo, null, codigoCaderno);
                     resumo.cadastrarResumo();
                     resumo.cadastrarArquivos(bytesDoArquivo);
                     TempData["msg"] = "Salvo com sucesso!";
@@ -95,15 +106,26 @@ namespace I_FOX_V1.Controllers
 
             //Pegando o id do caderno que o resumo será salvo
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
-
             int codigoCaderno = caderno.Codigo;
 
-            Resumo resumo = new Resumo(dataCaractere, "Escrito", titulo, texto, null, null, codigoCaderno);
+            Resumo resumo = new Resumo(dataCaractere, "Escrito", titulo, texto, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
-            return Redirect("../Usuario/Materia/");
+            return Redirect("../Usuario/Materia/"+ codigoCaderno);
         }
 
+        public IActionResult deletarResumo(int id)
+        {
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+            int codigoCaderno = caderno.Codigo;
+
+            TempData["Situacao_deletar_resumo"] = Resumo.deletarResumo(id);
+            string redirecionamento = "~/Usuario/Materia/" + codigoCaderno;
+            return Redirect(redirecionamento);
+        }
+
+ 
     }
 }
 

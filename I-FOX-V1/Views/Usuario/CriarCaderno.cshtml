@@ -20,25 +20,65 @@
                 </div>
                     
                 <div class="campo">
-                    <label for="">Selecione um ícone:</label>
+                    <label>Selecione um ícone:</label>
                     <div class="icones_cadernos">
 
-                        <input type="radio" name="imagem" id="agenda" value="agenda.png" />
-                        <input type="radio" name="imagem" id="caderno" value="caderno.png" />
-                        <input type="radio" name="imagem" id="conhecimento" value="conhecimento.png" />
-                        <input type="radio" name="imagem" id="educacao" value="educacao.png" />
-                        <input type="radio" name="imagem" id="flash-card" value="flash-card.png"/>
-                        <input type="radio" name="imagem" id="material-escolar" value="material-escolar.png" />
-                        <input type="radio" name="imagem" id="pessoas" value="pessoas.png" />
-                        <input type="radio" name="imagem" id="pilha-de-livros" value="pilha-de-livros.png" />
-                        <input type="radio" name="imagem" id="planeta-terra" value="planeta-terra.png" />
-                       
+                            <div class="icone_opcao">
+                                <label for="agenda">Sem ícone</label>
+                                <input type="radio" name="imagem" id="agenda" value="nada" checked />
+                            </div>
+
+                        <div class="icone_opcao">
+                            <label for="agenda"><img src="~/img/icones_caderno/agenda.png" /></label>
+                            <input type="radio" name="imagem" id="agenda" value="agenda.png" />
+                        </div>
+                           
+                        <div class="icone_opcao">
+                            <label for="caderno"><img src="~/img/icones_caderno/caderno.png"></label>
+                            <input type="radio" name="imagem" id="caderno" value="agenda.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                           <label for="conhecimento"><img src="~/img/icones_caderno/conhecimento.png" /></label>
+                            <input type="radio" name="imagem" id="conhecimento" value="agenda.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="educacao"><img src="~/img/icones_caderno/educacao.png"></label>
+                                <input type="radio" name="imagem" id="educacao" value="educacao.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="flash-card"><img src="~/img/icones_caderno/flash-card.png" /></label>
+                                <input type="radio" name="imagem" id="flash-card" value="flash-card.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="material-escolar"><img src="~/img/icones_caderno/material-escolar.png" /></label>
+                                <input type="radio" name="imagem" id="material-escolar" value="material-escolar.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="pessoas"><img src="~/img/icones_caderno/pessoas.png" /></label>
+                            <input type="radio" name="imagem" id="pessoas" value="pessoas.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="pilha-de-livros"><img src="~/img/icones_caderno/pilha-de-livros.png" /></label>
+                            <input type="radio" name="imagem" id="pilha-de-livros" value="pilha-de-livros.png" />
+                        </div>
+
+                        <div class="icone_opcao">
+                            <label for="planeta-terra"><img src="~/img/icones_caderno/planeta-terra.png" /></label>
+                            <input type="radio" name="imagem" id="planeta-terra" value="planeta-terra.png" />
+                        </div>
+ 
                     </div>
                 </div>
 
                 <div class="campo">
-                    <label for="descricao">Descrição: (opcional)</label>
-                    <textarea name="descricao" id="descricaoArea" cols="30" rows="10"></textarea>
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="descricao" id="descricaoArea" cols="30" rows="10" placeholder="opicional!"></textarea>
                 </div>
 
                 <button type="submit">SALVAR</button>
