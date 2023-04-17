@@ -78,16 +78,18 @@
 
                 <div class="resumo">
                     <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
-                    
                             <div class="poligono">
                                 <img src="~/img/i_fox/raposa-cabeca.png" alt="" />
                             </div>     
+                    
+                        <div class="descricao_resumo">
+                            <p>@resumo.Titulo </p>
+                            <p>Resumo @resumo.Tipo</p>
+                            
+                        </div>
+
                     </a>
-                    <div class="descricao_resumo">
-                        <p>@resumo.Titulo </p>
-                        <p>Resumo @resumo.Tipo</p>
-                        <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
-                    </div>
+                    <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
                 </div>
                 //PopUp para confirmação para deletar um resumo
                 <dialog>

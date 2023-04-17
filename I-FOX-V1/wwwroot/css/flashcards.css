@@ -15,90 +15,52 @@
     --azulMeio
     **/
 
-
-.bloco {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.verde {
-    background-color: #a5ce7f;
-    border-radius: 25px;
-    min-width: 40vw;
-    height: 30vh;
+.container {
     display: flex;
     flex-direction: column;
+    background-color: var(--azulMeio);
+    max-width: 60vw;
     justify-content: center;
-    align-items: center;
-}
-
-p {
-    display: flex;
-    font-family: 'Sue Ellen Francisco';
-    font-size: 42px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
-
-.campo1 label {
-    padding: 15px;
-    font-family: 'Sue Ellen Francisco';
-    font-size: 40px;
-}
-
-
-.campo1 input {
-    min-width: 20vw;
-    padding: 13px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
-    border-radius: 0 0 20px 0;
+    border: 2px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 0 auto;
 }
 
-.azul {
+.container_card{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    min-width: 50vw;
-    height: 400px;
-    background-color: #009fad;
-    border-radius: 25px;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding: 10px;
 }
 
-.bloquinho {
-    height: 50px;
-    padding: 10px;
-    min-width: 53vw;
-    background-color: #74D1D9;
-    border-radius: 20px;
+.cabecalho_card {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    font-size: 30px;
-    font-family: 'Pathway Gothic One';
+    align-items: center;
+    background-color: #74D1D9;
+    border: 1px solid #000000;
+    border-radius: 15px;
 }
 
-h3 {
-    padding-left: 10px;
-}
-
-#branco {
+textarea {
     min-width: 25vw;
     height: 300px;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #000000;
+    vertical-align: middle;
 }
+
 
 .lado_card {
     margin: 20px;
@@ -110,24 +72,29 @@ h3 {
     font-size: 40px;
 }
 
-.blocoFora {
+.container_flashcard{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: auto;
+}
+
+button{
+    margin-top: 30px;
 }
 
 .botaoAzul {
-    min-width: 20vw;
+    min-width: 60vw;
     height: 60px;
-    border-radius: 25px;
-    background-color: #009fad;
+    border-radius: 15px;
+    background-color: var(--azulMeio);
     font-size: 40px;
     font-family: 'Sue Ellen Francisco';
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 0;
 }
 
 .salvar {
@@ -140,55 +107,4 @@ h3 {
     background-color: #a5ce7f;
     font-family: 'Sue Ellen Francisco';
     font-size: 40px;
-}
-
-.escrita {
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.blocoBranco {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-
-@media (max-width: 830px) {
-
-    img {
-        display: none;
-    }
-
-    p {
-        display: flex;
-        font-family: 'Sue Ellen Francisco';
-        font-size: 28px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #000000;
-    }
-
-
-    .campo1 input {
-        min-width: 10vw;
-        padding: 10px;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 18px;
-        border-radius: 0 0 20px 0;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-
-
-    .campo1 label {
-        padding: 15px;
-        font-family: 'Sue Ellen Francisco';
-        font-size: 28px;
-    }
 }

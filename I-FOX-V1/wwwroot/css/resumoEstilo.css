@@ -150,6 +150,7 @@
 .poligono img{
     margin: 40px;
     min-width: 8vw;
+    max-width: 10vw;
 }
 
 .descricao_resumo{

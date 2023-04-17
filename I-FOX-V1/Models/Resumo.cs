@@ -35,8 +35,18 @@ namespace I_FOX_V1.Models
             this.titulo = titulo;
             this.caderno = caderno;
         }
-        //getters e setters
 
+        public Resumo(int codigo, string data_resumo, string tipo, string titulo, string texto, int caderno)
+        {
+            this.codigo = codigo;
+            this.data_resumo = data_resumo;
+            this.tipo = tipo;
+            this.titulo = titulo;
+            this.texto = texto;
+            this.caderno = caderno;
+        }
+
+        //getters e setters
         public int Codigo { get => codigo; }
         public string Data_resumo { get => data_resumo; set => data_resumo = value; }
         public string Tipo { get => tipo; set => tipo = value; }
@@ -335,7 +345,9 @@ namespace I_FOX_V1.Models
                 while (leitorBanco.Read()) //Enquanto for possível ler ele
                 {
                     //Definindo os atributos que vão vir do banco
-                     resumo = new Resumo(leitorBanco["data_resumo"].ToString(),
+                     resumo = new Resumo(
+                        int.Parse(leitorBanco["codigo"].ToString()),
+                        leitorBanco["data_resumo"].ToString(),
                         (string)leitorBanco["tipo"],
                         (string)leitorBanco["titulo"],
                         (string)leitorBanco["texto"],
