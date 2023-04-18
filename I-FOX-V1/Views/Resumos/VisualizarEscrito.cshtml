@@ -4,17 +4,16 @@
 }
     <section class="resumo">
 
-        
-
         <form method="post" asp-action="ResumoEscrito">
 
             <div class="cabecalho_escrito">
-                <input type="text" id="titulo" name="titulo" value="@Model.Titulo">
+               
+                <input type="text" id="titulo" name="titulo" value="@Model.Titulo" class="sem_fundo" required>
                 <h6>@Model.Data_resumo</h6>
             </div>
             <div class="bloco">
                 <div class="anotacao">
-                    <label for="">Anotações:</label>
+                    <label for="anotacoes">Anotações:</label>
                     <textarea name="texto" id="anotacoes">@Model.Texto</textarea>
                 </div>
             </div>

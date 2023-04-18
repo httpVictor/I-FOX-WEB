@@ -1,6 +1,6 @@
 
 
-const button = document.querySelectorAll(".descricao_resumo button")
+const button = document.querySelectorAll(".resumo button")
 const modal = document.querySelectorAll("dialog")
 const buttonClose = document.querySelectorAll("dialog button")
 

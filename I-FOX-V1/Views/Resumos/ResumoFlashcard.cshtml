@@ -3,32 +3,37 @@
 }
 
 <section class="container_flashcard">
-    <div class="container">
 
-        <div class="cabecalho_card">
-            <p>Cartão 1</p>
-            <img src="~/img/icones_crud/deletar_icone.png" height="30px" width="30px"/>
-        </div>
+    <form method="post">
 
-        <div class="container_card">
+        @for (int i = 0; i < 3; i++)
+        {
+            <div class="container">
+                <div class="cabecalho_card">
+                    <p>Cartão @i</p>
+                    <img src="~/img/icones_crud/deletar_icone.png" height="30px" width="30px" />
+                </div>
 
-            <div class="lado_card">
-                <p>Frente</p>
-                <textarea type="text"></textarea>
+                <div class="container_card">
+
+                    <div class="lado_card">
+                        <p>Frente</p>
+                        <textarea type="text"></textarea>
+                    </div>
+
+                    <div class="lado_card">
+                        <p>Verso</p>
+                        <textarea type="text"></textarea>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="lado_card">
-                <p>Verso</p>
-                <textarea type="text"></textarea>
-            </div>
+        }
 
-        </div>
-
-       
-    </div>
-
-    <button class="botaoAzul">+ Adicionar cartão</button>
-
+    </form>
+    
+    <button class="botaoAzul"> + Adicionar cartão</button>
     <button class="salvar">Salvar</button>
 
 </section>

@@ -30,6 +30,8 @@
 .cabecalho_escrito {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .anotacao {
@@ -49,6 +51,10 @@ input {
     width: 40vw;
     padding: 10px;
     border-radius: 10px;
+}
+
+.sem_fundo{
+    background-color: var(--beje);
 }
 
 textarea {

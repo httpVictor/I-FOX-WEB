@@ -1,4 +1,6 @@
-﻿@section Estilos{
+﻿@model IEnumerable<I_FOX_V1.Models.Resumo>
+
+@section Estilos{
     <link rel="stylesheet" href="~/css/resumoFotos.css" />
 }
 
@@ -10,6 +12,12 @@
             <button class="botao">Deletar Arquivo</button>
 
             <div class="imagens_resumo">
+
+                <div class="elemento_imagem">
+                    <img src="~/img/tela_inicial/foto1.png" />
+                    <label>Selecione</label>
+                    <input type="checkbox"/>
+                </div>
             </div>
 
             <div class="file">

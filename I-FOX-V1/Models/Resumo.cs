@@ -58,7 +58,7 @@ namespace I_FOX_V1.Models
 
 
         //MÉTODOS
-        //Método para cadastrar um resumo (atributos que todos tem em comum)
+        //CADASTRAR
         public string cadastrarResumo()
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
@@ -181,12 +181,18 @@ namespace I_FOX_V1.Models
             return sit_cadastro;
         }
 
+
+        //EDIÇÃO
+
         //Método para atualizar os dados do resumo 
         public string editarResumo()
         {
             return "Resumo editado com sucesso!";
         }
 
+
+
+        //DELETAR
         //Método para deetar um resumo
         static public string deletarResumo(int id_resumo)
         {
@@ -292,6 +298,10 @@ namespace I_FOX_V1.Models
             return situacao_deletar;
         }
 
+
+
+
+        //LISTAR
         //Método para listagem de resumos de um usuário
         static public List<Resumo> listarResumo(int id_caderno)
         {
@@ -364,5 +374,7 @@ namespace I_FOX_V1.Models
             }
             return resumo;
         }
+
+
     }
 }

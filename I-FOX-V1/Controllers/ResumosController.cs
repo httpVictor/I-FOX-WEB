@@ -1,6 +1,7 @@
 ﻿using I_FOX_V1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Data;
 using System.Globalization;
 
 namespace I_FOX_V1.Controllers
@@ -15,6 +16,12 @@ namespace I_FOX_V1.Controllers
         }
         public IActionResult ResumoEscrito()
         {
+            var anoData = DateTime.Now.Year;
+            var mesData = string.Format("{0:MM}", DateTime.Now);
+            var diaData = DateTime.Now.Day;
+            string dataAtual = anoData + "-" + mesData + "-" + diaData;
+            
+            ViewBag.DataAtual = dataAtual;
             return View();
         }
 
@@ -44,6 +51,7 @@ namespace I_FOX_V1.Controllers
         {
             return View();
         }
+
 
         //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
 
