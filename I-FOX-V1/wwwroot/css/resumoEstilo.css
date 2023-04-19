@@ -171,3 +171,19 @@
 .lixin:hover{
     cursor: pointer;
 }
+
+
+.caderno:nth-child(even) {
+    background-color: var(--azulClaro);
+    border: 2px solid var(--azulClaro);
+}
+
+.caderno:nth-child(odd) {
+    background-color: var(--azulEscuro);
+    border: 2px solid var(--azulEscuro);
+}
+
+.caderno:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}

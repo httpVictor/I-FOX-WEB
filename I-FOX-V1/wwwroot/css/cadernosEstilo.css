@@ -140,13 +140,12 @@
     column-gap: 12px;
 }
 
-
-.caderno:nth-child(even) {
+.caderno:nth-child(2n+2) {
     background-color: var(--azulClaro);
     border: 2px solid var(--azulClaro);
 }
 
-.caderno:nth-child(odd) {
+.caderno:nth-child(2n+1) {
     background-color: var(--azulEscuro);
     border: 2px solid var(--azulEscuro);
 }
