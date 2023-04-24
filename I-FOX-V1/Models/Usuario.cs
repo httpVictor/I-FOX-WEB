@@ -215,5 +215,10 @@ namespace I_FOX_V1.Models
 
             return usuario;
         }
+
+        public string atualizarUsuario()
+        {
+            return "BOM DIA";
+        }
     }
 }

@@ -25,9 +25,9 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        public IActionResult ResumoFoto()
+        public IActionResult ResumoFoto(string id)
         {
-            return View();
+            return View(Arquivo.listar(id));
         }
 
         public IActionResult ResumoAudio()
@@ -61,29 +61,30 @@ namespace I_FOX_V1.Controllers
             //Formatando a data que o usuário inseriu
             string dataCaractere = data.Replace("-", "");
             
-
             //Pegando o id do caderno que o resumo será salvo
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
-
             int codigoCaderno = caderno.Codigo;
 
+            //Cadastrando no banco de dados
             Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
+            ViewBag.TituloResumo = titulo;
             return Redirect("../Resumo"+ id);
         }
         
         [HttpPost]
-        public IActionResult ResumoFotos(string titulo, string data)
+        public IActionResult ResumoFotos(string titulo)
         {
-            string dataCaractere = data.Replace("-", "");
+            //string dataCaractere = data.Replace("-", "");
             //Procurando a imagem
             foreach (IFormFile arquivo in Request.Form.Files)
             {
                 string tipoArquivo = arquivo.ContentType;
                 
                 if (tipoArquivo.Contains("image"))
-                {//se for imagem gravar no banco
+                {
+                    //se for imagem gravar no banco
                     MemoryStream s = new MemoryStream();
                     arquivo.CopyTo(s);
                     byte[] bytesDoArquivo = s.ToArray(); //transformar em cadeia de byte
