@@ -6,33 +6,36 @@ namespace I_FOX_V1.Models
     public class Arquivo
     {
         //Atributos
-        private int codigo;
+        private int codigo, codCaderno, codResumo;
         private byte[] arrayBytes;
-        private string resumo;
+        private string tituloResumo;
 
         static MySqlConnection conexao = FabricaConexao.getConexao();
 
-        //construtor
-        public Arquivo(byte[] arrayBytes, string resumo)
+        //Construtores
+        public Arquivo(byte[] arrayBytes, string tituloResumo, int codCaderno)
         {
             this.arrayBytes = arrayBytes;
-            this.resumo = resumo;
+            this.tituloResumo = tituloResumo;
+            CodCaderno = codCaderno;    
         }
 
-        public Arquivo(int codigo, byte[] arrayBytes, string resumo)
+        //Trazer ele do banco
+        public Arquivo(int codigo, byte[] arrayBytes, int codigoResumo)
         {
             this.codigo = codigo;
             this.arrayBytes = arrayBytes;
-            this.resumo = resumo;
+            this.codResumo = codigoResumo;
         }
 
         //getter e setters
         public int Codigo { get => codigo; set => codigo = value; }
         public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
-        public string Resumo { get => resumo; set => resumo = value; }
-        
-        //métodos
-        public string cadastrar(byte[] valor, string titulo, string cod_caderno)
+        public string TituloResumo { get => tituloResumo; set => tituloResumo = value; }
+        public int CodCaderno { get => codCaderno; set => codCaderno = value; }
+
+        //MÉTODOS
+        public string cadastrar()
         {
             string situacao_arquivo = "";
             string codigoResumo = "";
@@ -41,10 +44,11 @@ namespace I_FOX_V1.Models
             try
             {
                 conexao.Open(); //Abrindo conexão
-                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where @titulo = titulo and FK_CADERNO_codigo = @cod_caderno", conexao);
-                MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
-                pesquisaResumo.Parameters.AddWithValue("@titulo", titulo);
-                pesquisaResumo.Parameters.AddWithValue("@cod_caderno", cod_caderno);
+
+                //Comandos SQL
+                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where titulo = @titulo and FK_CADERNO_codigo = @cod_caderno", conexao);
+                pesquisaResumo.Parameters.AddWithValue("@titulo", TituloResumo);
+                pesquisaResumo.Parameters.AddWithValue("@cod_caderno", CodCaderno);
 
                 //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
                 MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
@@ -53,15 +57,15 @@ namespace I_FOX_V1.Models
                 {
                     //Definindo os atributos que vão vir do banco
                     codigoResumo = leitorBanco["codigo"].ToString();
-
                 }
 
+                MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
                 if (codigoResumo != "")
                 {
                     conexao.Close();
                     conexao.Open();
                     cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", codigoResumo);
-                    cadastrarArquivo.Parameters.AddWithValue("@valor", valor);
+                    cadastrarArquivo.Parameters.AddWithValue("@valor", arrayBytes);
                     cadastrarArquivo.ExecuteNonQuery();
                 }
 
@@ -97,7 +101,7 @@ namespace I_FOX_V1.Models
                     Arquivo arquivo = new Arquivo(
                         int.Parse(leitorBanco["codigo"].ToString()),
                          (byte[])leitorBanco["valor"],
-                         leitorBanco["FK_RESUMO_codigo"].ToString());
+                        int.Parse(leitorBanco["FK_RESUMO_codigo"].ToString()));
 
                     listaArquivo.Add(arquivo);
                 }
@@ -112,6 +116,7 @@ namespace I_FOX_V1.Models
             }
             return listaArquivo;
         }
+
 
     }
 }

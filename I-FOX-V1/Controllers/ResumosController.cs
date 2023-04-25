@@ -11,6 +11,13 @@ namespace I_FOX_V1.Controllers
         //RETORNANDO AS TELAS
         public IActionResult CadastrarResumo(string id)
         {
+            var anoData = DateTime.Now.Year;
+            var mesData = string.Format("{0:MM}", DateTime.Now);
+            var diaData = DateTime.Now.Day;
+            string dataAtual = anoData + "-" + mesData + "-" + diaData;
+
+            ViewBag.DataAtual = dataAtual;
+
             ViewBag.Id = id;
             return View();
         }
@@ -69,34 +76,35 @@ namespace I_FOX_V1.Controllers
             Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
-            ViewBag.TituloResumo = titulo;
+            // ViewBag.TituloResumo = titulo;
+            HttpContext.Session.SetString("tituloResumo", JsonConvert.SerializeObject(titulo));
             return Redirect("../Resumo"+ id);
         }
         
         [HttpPost]
-        public IActionResult ResumoFotos(string titulo)
+        public IActionResult ResumoFotos()
         {
-            //string dataCaractere = data.Replace("-", "");
-            //Procurando a imagem
+            
+            //Procurando arquivos...
             foreach (IFormFile arquivo in Request.Form.Files)
             {
                 string tipoArquivo = arquivo.ContentType;
-                
+
+                //se for imagem...
                 if (tipoArquivo.Contains("image"))
                 {
-                    //se for imagem gravar no banco
+                    
                     MemoryStream s = new MemoryStream();
                     arquivo.CopyTo(s);
                     byte[] bytesDoArquivo = s.ToArray(); //transformar em cadeia de byte
-
 
                     //Pegando o id do caderno que o resumo será salvo
                     Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
                     int codigoCaderno = caderno.Codigo;
 
-                    Resumo resumo = new Resumo(dataCaractere, "foto", titulo, null, codigoCaderno);
-                    resumo.cadastrarResumo();
-                    resumo.cadastrarArquivos(bytesDoArquivo);
+                    string titulo = HttpContext.Session.GetString("tituloResumo");
+                    Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno);
+                    arq.cadastrar();
                     TempData["msg"] = "Salvo com sucesso!";
                 }
                 else
@@ -105,7 +113,7 @@ namespace I_FOX_V1.Controllers
                 }
             }
 
-            return View();
+            return Redirect("../Usuario/Materia");
         }
 
         [HttpPost]

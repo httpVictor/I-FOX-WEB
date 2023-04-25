@@ -1,4 +1,4 @@
-﻿@model IEnumerable<I_FOX_V1.Models.Arquivo>
+﻿@*@model IEnumerable<I_FOX_V1.Models.Arquivo>*@
 
 @section Estilos{
     <link rel="stylesheet" href="~/css/resumoFotos.css" />
@@ -18,14 +18,14 @@
                     
                     <div class="imagens_resumo">
 
-                        @{
+                        @*@{
                             //Passando o arquivo da imagem
                             string imagemRes = Convert.ToBase64String(arquivo.ArrayBytes);
                             string formato = "data:image/png;base64," + imagemRes;
-                        }
+                        }*@
 
                         <div class="elemento_imagem">
-                            <img src="@formato" />
+                            <img src="" />
                             <label>Selecione</label>
                             <input type="checkbox" />
                         </div>
