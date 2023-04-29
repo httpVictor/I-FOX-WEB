@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="~/css/site.css" />
     @RenderSection("Estilos", false)
     
+    @*Script do jquery*@
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <body>
-    @{
-        if (TempData["NavBar"] != "falso")
+        @if (TempData["NavBar"] != "falso")
         {
            <header>
                 @*NAVBAR*@
@@ -31,45 +33,46 @@
                     <ul class="nav-filhos">
                         <li><a class="nav-item" id="item1" asp-controller="Usuario" asp-action="Home">HOME</a></li>
                         <li><a class="nav-item" id="item2" asp-controller="Usuario" asp-action="Perfil">PERFIL</a></li>
-                        <li><a class="nav-item" id="item3" asp-controller="Usuario" asp-action="">FEED</a></li>
-                        <li><a class="nav-item" id="item4" asp-controller="Usuario" asp-action="">LOJA</a></li>
+                        <li><a class="nav-item" id="item3" asp-controller="Usuario" asp-action="Feed">FEED</a></li>
+                        <li><a class="nav-item" id="item4" asp-controller="Usuario" asp-action="Loja">LOJA</a></li>
                         <li><a class="nav-item" id="item4" asp-controller="" asp-action=""><img src="~/img/icones_crud/sair.png" /></a></li>
                     </ul>
                     
                 </nav>
            </header>
         }
-    }
     
-    <main role="main">
+    
+    <main>
 
         @RenderBody()
 
     </main>
 
-    @*<footer>
+    @if(TempData["footer"] == "verdadeiro"){
+        <footer>
 
-        <ul class="menu">
-            <!--coisas que vão ficar dentro do footer-->
+            <ul class="menu">
+                <!--coisas que vão ficar dentro do footer-->
 
-            <li><a href="#"><ion-icon name="shield-checkmark-outline"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-google-playstore"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="shield-checkmark-outline"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-google-playstore"></ion-icon></a></li>
 
-        </ul>
+            </ul>
 
-        <p>2023 - Projeto I FOX 🦊 Para uma educação mais dinâmica e interativa  </p> <!--rodapé-->
+            <p>2023 - Projeto I FOX 🦊 Para uma educação mais dinâmica e interativa  </p> <!--rodapé-->
 
-        <div class="waves">
-            <!--função das ondas-->
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
+            <div class="waves">
+                <!--função das ondas-->
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
         </div>
 
-    </footer>*@
-
-
+        </footer>
+    }
+    
     @*Javascripts*@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

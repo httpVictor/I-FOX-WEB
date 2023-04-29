@@ -1,0 +1,226 @@
+﻿
+.tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Aclonica';
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo {
+    width: 600px;
+    height: 100px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a5ce7f;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    .linha p {
+        text-align: center;
+        font-size: 35px;
+        color: black;
+        font-family: 'Sue Ellen Francisco';
+    }
+
+#img {
+    width: 12vw;
+    height: 25vh;
+    padding: 50px;
+}
+
+
+
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-radius: 15px;
+    margin: 15px auto;
+    min-height: 350px;
+    background-color: #198D97;
+    margin: 30px;
+}
+
+
+
+.poligono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #ffff 0%, #caedf0 100%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 80%, 50% 100%, 0% 80%);
+}
+
+
+
+.descricao_resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    align-items: center;
+}
+
+#escrita1 {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    color: #009fad;
+}
+
+#escrita2 {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 18px;
+}
+
+#escrita3 {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 25px;
+}
+
+#escrita4 {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+}
+
+#escrita5 {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+}
+
+.mais {
+    width: 150px;
+    height: 60px;
+    background-color: #5BAEAC;
+    border-radius: 20px;
+}
+
+    .mais p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 30px;
+        color: #ffff;
+        text-align: center;
+    }
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 1230px) {
+
+    .bloco {
+        display: block;
+    }
+}
+
+
+
+@media (max-width: 995px) {
+
+    .linha {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #img {
+        width: 20vw;
+        height: 28vh;
+        margin-left: 120px;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+
+    .linha p {
+        text-align: center;
+        font-size: 28px;
+        color: black;
+        font-family: 'Sue Ellen Francisco';
+    }
+
+
+    h1 {
+        font-family: 'Aclonica';
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .titulo {
+        width: 400px;
+        height: 100px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #a5ce7f;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+
+
+    #img {
+        width: 30vw;
+        height: 28vh;
+        margin-left: 100px;
+    }
+
+
+    .linha p {
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        font-family: 'Sue Ellen Francisco';
+    }
+
+
+    h1 {
+        font-family: 'Aclonica';
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .titulo {
+        width: 300px;
+        height: 90px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #a5ce7f;
+    }
+}

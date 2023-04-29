@@ -48,7 +48,7 @@ body {
     background-color: var(--bege);
 }
 
-/*FONTES*/
+/*DEFININDO FONTES*/
 h1, h2 {
     font-family: 'Aclonica', sans-serif;
     font-size: 50px;
@@ -70,9 +70,25 @@ p {
 }
 
 /**ELEMENTOS PADRÕES DO SITE**/
+/**Botões**/
+.botao-azul{
+
+}
+
+.botao-laranja {
+    background-color: var(--laranjaClaro);
+    color: white;
+    font-family: 'Sue Ellen Francisco', cursive;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 80px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /*NAVPRINCIPAL*/
-a {
+a{
     text-decoration: none;
     transition: 0.3s;
     color: black;
@@ -256,7 +272,8 @@ footer .wave#wave4 {
 }
 
 
-
+/*RESPONSIVIDADE*/
+/**TABLETS - MÉDIO***/
 @media (max-width: 768px) {
 
     body {
@@ -337,14 +354,7 @@ footer .wave#wave4 {
 
 
 
-/*RESPONSIVIDADE DE TEXTOS*/
-
-/*TABLETS*/
-@media(max-width: 800px){
-
-}
-
-/*CELULARES*/
-@media(max-width: 450px) {
+/*CELULARES - PEQUENOS*/
+@media(max-width: 400px) {
 
 }

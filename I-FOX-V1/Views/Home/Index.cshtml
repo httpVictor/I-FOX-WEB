@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
     TempData["NavBar"] = "falso";
+    TempData["footer"] = "verdadeiro";
 }
 
 @section Estilos{
@@ -9,8 +10,7 @@
 }
 
 <header>
-    <!--menu da pagina inicial-->
-
+ 
     <nav class="nav-bar">
 
         <div class="logo">
@@ -18,17 +18,15 @@
         </div>
 
         <div class="login">
-            <!--adicionando o botão de logar-->
+
             <li><a href="/Home/Login"><ion-icon name="person-circle-outline"></ion-icon></a></li>
         </div>
 
-    </nav><!--fim da nave bar-->
+    </nav>
 
-</header> <!-- fim menu da pagina inicial-->
+</header> 
 
 <section class="container">
-
-    <!-- Inicio (primeiro carrosel da tela) -->
 
     <section class="galery">
         <div class="fotos">

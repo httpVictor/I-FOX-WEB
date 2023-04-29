@@ -7,7 +7,7 @@ namespace I_FOX_V1.Controllers
 {
     public class UsuarioController : Controller
     {
-
+        //Métodos para apontar para as telas
         public IActionResult Home()
         {
             if (HttpContext.Session.GetString("usuario") != "")
@@ -16,6 +16,22 @@ namespace I_FOX_V1.Controllers
                 TempData["nomeUsuario"] = usuario.Nome;
                 return View(Caderno.listarCaderno(usuario.Nome));
             }
+            return View();
+        }
+
+        public IActionResult Materia(int id)
+        {
+            Caderno caderno = Caderno.CadernoSelecionado(id);
+            //Criar uma sessão para armazenar os dados do usuário
+            HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
+            @TempData["descricaocaderno"] = caderno.Descricao;
+            @TempData["tituloCaderno"] = caderno.Titulo;
+
+            if (HttpContext.Session.GetString("cadernoAcessado") != "")
+            {
+                return View(Resumo.listarResumo(caderno.Codigo));
+            }
+
             return View();
         }
 
@@ -42,6 +58,16 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+        public IActionResult Feed()
+        {
+            return View();
+        }
+
+        public IActionResult Loja()
+        {
+            return View();
+        }
+
         //MÉTODOS que realizam o crud
         [HttpPost]
         public IActionResult CriarCaderno(string titulo, string descricao, string imagem)
@@ -60,23 +86,6 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        public IActionResult Materia(int id)
-        {
-            Caderno caderno = Caderno.CadernoSelecionado(id);
-            //Criar uma sessão para armazenar os dados do usuário
-            HttpContext.Session.SetString("cadernoAcessado", JsonConvert.SerializeObject(caderno));
-            @TempData["descricaocaderno"] = caderno.Descricao;
-            @TempData["tituloCaderno"] = caderno.Titulo;
-
-            if (HttpContext.Session.GetString("cadernoAcessado") != "")
-            {
-                return View(Resumo.listarResumo(caderno.Codigo));
-            }
-
-            return View();
-        }
-
-       
         public IActionResult DeletarCaderno(int id)
         {
             Caderno.deletarCaderno(id);
