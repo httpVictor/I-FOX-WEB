@@ -161,13 +161,6 @@
     align-items: center;
 }
 
-
-.lixin{
-    background-color: white;
-    border: none;
-    border-radius: 0;
-}
-
 .lixin:hover{
     cursor: pointer;
 }

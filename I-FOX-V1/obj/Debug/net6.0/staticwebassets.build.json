@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FlybMzv554+AqTm1IIOdlMFmGsPPvEoeBO0NQc+PIZs=",
+  "Hash": "iLNkp5/NNQYl6GhBMwEgyLMuHlKEQlVUnXkiS3QYsio=",
   "Source": "I-FOX-V1",
   "BasePath": "_content/I-FOX-V1",
   "Mode": "Default",
@@ -204,12 +204,12 @@
       "OriginalItemSpec": "wwwroot\\css\\inicio.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\login.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
-      "RelativePath": "css/Login.css",
+      "RelativePath": "css/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\loja.css",
@@ -323,12 +323,12 @@
       "OriginalItemSpec": "wwwroot\\css\\resumoEstilo.css"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\ResumoFotos.css",
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\resumoFotos.css",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
-      "RelativePath": "css/ResumoFotos.css",
+      "RelativePath": "css/resumoFotos.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,7 +337,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\ResumoFotos.css"
+      "OriginalItemSpec": "wwwroot\\css\\resumoFotos.css"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\css\\site.css",
@@ -406,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\i_fox\\fundo-resumos.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\img\\i_fox\\imagem_cadastro.png",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "img/i_fox/imagem_cadastro.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\i_fox\\imagem_cadastro.png"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\img\\i_fox\\img-fundo-login.png",
@@ -1819,6 +1836,23 @@
       "OriginalItemSpec": "wwwroot\\img\\tela_inicial\\wave.png"
     },
     {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\js\\feed_carrosseis.js",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "js/feed_carrosseis.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\feed_carrosseis.js"
+    },
+    {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\js\\flashcards.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
@@ -1887,12 +1921,12 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\js\\validacoes.js",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\",
       "BasePath": "_content/I-FOX-V1",
-      "RelativePath": "js/Validacoes.js",
+      "RelativePath": "js/validacoes.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1901,7 +1935,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Validacoes.js"
+      "OriginalItemSpec": "wwwroot\\js\\validacoes.js"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

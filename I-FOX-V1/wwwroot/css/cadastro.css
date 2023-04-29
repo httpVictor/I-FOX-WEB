@@ -122,10 +122,22 @@ h3{
     padding: 20px;
 }
 
-.Avatar {
-    background: linear-gradient(180deg, #009FAD 0%, rgba(108, 226, 236, 0.640625) 99.61%, rgba(170, 248, 255, 0) 100%);
+.img_cadastro {
     width: 40vw;
-    height: 100%;
+    height: 100vh;
+}
+
+.img_cadastro img{
+    height: 100vh;
 }
 
 /*RESPONSIVIDADE*/
+@media (max-width: 800px) {
+    .img_cadastro {
+        display: none;
+    }
+
+    .img_cadastro img {
+        display: none;
+    }
+}

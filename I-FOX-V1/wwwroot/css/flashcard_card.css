@@ -58,23 +58,16 @@
     justify-content: center;
 }
 
-
-.azul {
+/*AQUI COMEÇA O CARD*/
+.cartao {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-width: 30vw;
-    height: 500px;
-    background-color: #009fad;
-    border-radius: 12px;
+    position: relative;
+    width: 50vh;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
+    margin: 0 auto;
 }
 
-
-.bloquinho {
+.cabecalho-cartao {
     height: 50px;
     padding: 10px;
     min-width: 30vw;
@@ -87,29 +80,11 @@
     font-family: 'Pathway Gothic One';
 }
 
-.bloquinhoAzul {
-    margin: 30px;
-}
-
-.bloquinhoAzul1 {
-    margin: 30px;
-}
-
-
-.lado_card {
-    display: block;
-}
-
-
-
 /* PARTE DO CARD */
-
-
 label {
     display: block;
-    position: relative;
-    top: 60%;
-    left: 10%;
+    position: absolute;
+    top: 280px;
     min-width: 12vw;
     height: 350px;
     perspective: 1000px;
@@ -127,22 +102,22 @@ label {
     z-index: 1;
 }
 
-    .flip-card .front,
-    .flip-card .back {
-        position: absolute;
-        width: 180%;
-        height: 100%;
-        text-align: center;
-        background: #fff;
-        backface-visibility: hidden;
-        border-radius: 0 20px 0 20px;
-    }
+.flip-card .front,
+.flip-card .back {
+    position: absolute;
+    width: 180%;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    backface-visibility: hidden;
+    border-radius: 0 20px 0 20px;
+}
 
-    .flip-card .back {
-        transform: rotateX(180deg);
-        color: #000;
-        background: #F28749;
-    }
+.flip-card .back {
+    transform: rotateX(180deg);
+    color: #000;
+    background: #F28749;
+}
 
 label:hover .flip-card {
     transform: rotateX(2deg);
@@ -162,13 +137,6 @@ label:hover :checked + .flip-card {
     /* box-shadow: 0 20px 20px rgba(255, 255, 255, 0.2); */
 }
 
-.front img {
-    width: 110px;
-    height: 110px;
-    margin: 30px 0 20px 0;
-    border-radius: 50%;
-}
-
 .front h1 {
     font-size: 30px;
     color: #000;
@@ -180,8 +148,6 @@ label:hover :checked + .flip-card {
     color: #A5CE7F;
     margin: 12px 0 12px 0;
 }
-
-
 
 .front p,
 .back .click {
@@ -207,10 +173,6 @@ hr {
     text-align: center;
     margin: 0 auto;
 }
-
-
-
-
 
 
 @media (max-width: 830px) {
@@ -242,9 +204,7 @@ hr {
 }
 
 
-
-
-@media (max-width: 1300px) {
+/*@media (max-width: 1300px) {
 
     .blocoAzul {
         flex-direction: column;
@@ -283,4 +243,4 @@ hr {
     label {
         left: 0.0001%;
     }
-}
+}*/

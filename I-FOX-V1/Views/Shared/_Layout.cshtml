@@ -7,17 +7,17 @@
     <link rel="icon" href="~/img/i_fox/logo-redonda-p.png"/>
 
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/popup.css" />
     @RenderSection("Estilos", false)
     
     @*Script do jquery*@
-    <script src="https://code.jquery.com/jquery-3.6.4.js"
-            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
 </head>
 <body>
         @if (TempData["NavBar"] != "falso")
         {
            <header>
-                @*NAVBAR*@
                 <nav class="navbar">
                     <a class="cabecalho-navbar" asp-controller="Usuario" asp-action="Home">
                         <img src="~/img/i_fox/raposa-navbar.png" />
@@ -44,9 +44,7 @@
     
     
     <main>
-
         @RenderBody()
-
     </main>
 
     @if(TempData["footer"] == "verdadeiro"){
@@ -77,7 +75,7 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="~/js/menu-hamburguer.js"></script>
-    @RenderSection("JavaScript", false);
+    @RenderSection("JavaScript", false)
     
 </body>
 </html>

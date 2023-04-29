@@ -47,7 +47,9 @@ textarea {
 body {
     background-color: var(--bege);
 }
-
+main{
+    margin-bottom: 200px;
+}
 /*DEFININDO FONTES*/
 h1, h2 {
     font-family: 'Aclonica', sans-serif;
@@ -71,22 +73,31 @@ p {
 
 /**ELEMENTOS PADRÕES DO SITE**/
 /**Botões**/
-.botao-azul{
+.botao-verde, .botao-laranja {
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    text-transform: uppercase;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 80px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
 
+.botao-verde {
+    background-color: var(--verde);
+    color: black;
 }
 
 .botao-laranja {
     background-color: var(--laranjaClaro);
     color: white;
-    font-family: 'Sue Ellen Francisco', cursive;
-    border-radius: 20px 20px 20px 20px;
-    text-align: center;
-    font-size: 25px;
-    padding: 5px 80px;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.botao-verde:hover, .botao-laranja:hover{
+
+}
 /*NAVPRINCIPAL*/
 a{
     text-decoration: none;

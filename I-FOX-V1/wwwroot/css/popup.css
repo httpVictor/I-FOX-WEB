@@ -34,7 +34,7 @@ dialog button {
     background-color: var(--bege);
     border: solid 2px black;
     border-radius: 20%;
-    font-size: 2em;
+    font-size: 1.6em;
     font-family: 'Sue Ellen Francisco';
     width: 80px;
     color: black;
@@ -45,7 +45,7 @@ dialog button:hover{
 }
 
 dialog a{
-    font-size: 2em;
+    font-size: 1.6em;
     font-family: 'Sue Ellen Francisco';
     color: white;
 }
@@ -56,6 +56,12 @@ dialog a{
     justify-content: end;
     column-gap: 40px;
     
+}
+
+.pop-button button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
 }
 
 

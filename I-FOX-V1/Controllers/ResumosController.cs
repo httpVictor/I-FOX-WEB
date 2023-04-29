@@ -48,6 +48,11 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+
+
+
+
+
         //TELAS DE VISUALIZAÇÃO DOS RESUMOS
         public IActionResult VisualizarEscrito(int id)
         {
@@ -60,8 +65,13 @@ namespace I_FOX_V1.Controllers
         }
 
 
-        //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
 
+
+
+
+
+        //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
+        //Cadastro
         [HttpPost]
         public IActionResult CadastrarResumo(string id, string titulo, string data)
         {
@@ -76,8 +86,8 @@ namespace I_FOX_V1.Controllers
             Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
             TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
-            // ViewBag.TituloResumo = titulo;
-            HttpContext.Session.SetString("tituloResumo", JsonConvert.SerializeObject(titulo));
+            //guardando numa sessão
+            HttpContext.Session.SetString("tituloResumo", titulo);
             return Redirect("../Resumo"+ id);
         }
         
@@ -132,6 +142,42 @@ namespace I_FOX_V1.Controllers
             return Redirect("../Usuario/Materia/"+ codigoCaderno);
         }
 
+        [HttpPost]
+        public IActionResult ResumoFlashcard(int qntdCartoes)
+        {
+            List<string> listaFrente = new List<string>();
+            List<string> listaVerso = new List<string>();
+
+            for (int i = 0; i < qntdCartoes; i++)
+            {
+                string frente = Request.Form["frente-" + (i + 1).ToString()];
+                string verso = Request.Form["verso-" + (i + 1).ToString()];
+
+                if(frente != null && verso != null)
+                {
+                    listaFrente.Add(frente);
+                    listaVerso.Add(verso);
+                }
+            }
+
+            if(listaFrente != null && listaVerso != null)
+            {
+                //Pegando o id do caderno que o resumo será salvo
+                Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+                int codigoCaderno = caderno.Codigo;
+                string titulo = HttpContext.Session.GetString("tituloResumo");
+
+                Flashcard flsCard = new Flashcard(listaFrente, listaVerso, codigoCaderno, titulo);
+               string cadastro = flsCard.cadastrar();
+                Redirect("../Usuario/Materia/" + codigoCaderno);
+            }
+
+            return View();
+        }
+
+        //update
+
+        //delete
         public IActionResult deletarResumo(int id)
         {
             //Pegando o id do caderno que o resumo será salvo
@@ -143,7 +189,6 @@ namespace I_FOX_V1.Controllers
             return Redirect(redirecionamento);
         }
 
- 
     }
 }
 

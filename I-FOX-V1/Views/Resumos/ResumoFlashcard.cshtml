@@ -1,29 +1,39 @@
-﻿@section Estilos{
-    <link rel="stylesheet" href="~/css/flashcards.css" />
+﻿@{
+    @section Estilos{
+        <link rel="stylesheet" href="~/css/flashcards.css" />
+    }
+
+    @section JavaScript{
+        <script src="~/js/flashcards.js"></script>
+    }
+    ViewData["Title"] = "Flashcards";
 }
 
 <section class="container_flashcard">
 
-    <form method="post">
+    <form method="post" asp-controller="Resumos" asp-action="ResumoFlashcard">
 
-        @for (int i = 0; i < 3; i++)
+        @for (int i = 1; i < 4; i++)
         {
             <div class="container">
                 <div class="cabecalho_card">
-                    <p>Cartão @i</p>
-                    <img src="~/img/icones_crud/deletar_icone.png" height="30px" width="30px" />
+                    <p>Cartão</p> 
+                    <span>@i</span>
+                    <img src="~/img/i_fox/raposa-flutuante-png.png" height="30px" width="30px" />
                 </div>
 
                 <div class="container_card">
 
                     <div class="lado_card">
+                        @{string frente = "frente-" + i.ToString();}
                         <p>Frente</p>
-                        <textarea type="text" name="frente-1"></textarea>
+                        <textarea type="text" name="@frente" id="" required></textarea>
                     </div>
 
                     <div class="lado_card">
+                        @{string verso = "verso-" + i.ToString();}
                         <p>Verso</p>
-                        <textarea type="text" name="verso-1"></textarea>
+                        <textarea type="text" name="@verso" id="" required></textarea>
                     </div>
 
                 </div>
@@ -31,9 +41,15 @@
 
         }
 
+        <p>Total de cartões:</p>
+        <input type="number" id="totalCartoes" name="qntdCartoes" value="3" readonly />
+
+        <p id="info-card"></p>
+        <button type="button" class="botaoAzul"> + Adicionar cartão</button>
+        <button type="button" class="botaoVermelho"> - Remover cartão</button>
+
+        <button type="submit" class="botao-verde">Salvar</button>
     </form>
     
-    <button class="botaoAzul"> + Adicionar cartão</button>
-    <button class="salvar">Salvar</button>
 
 </section>

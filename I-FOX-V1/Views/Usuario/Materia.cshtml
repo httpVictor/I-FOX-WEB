@@ -7,7 +7,6 @@
 @*Sessões de css e js dessa página*@
 @section Estilos{
     <link rel="stylesheet" href="~/css/resumoEstilo.css" />
-    <link rel="stylesheet" href="~/css/popup.css"/>
 }
 
 @section JavaScript{
@@ -76,7 +75,7 @@
                     visualizacao = "Resumo" + resumo.Tipo;
                 }
 
-                <div class="resumo">
+                <div class="resumo pop-button">
                     <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
                             <div class="poligono">
                                 <img src="~/img/i_fox/raposa-cabeca.png" alt="" />
@@ -90,6 +89,7 @@
                     </a>
                     <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
                 </div>
+
                 //PopUp para confirmação para deletar um resumo
                 <dialog>
                     <p>Tem certeza que deseja excluir o resumo @resumo.Titulo ?</p>

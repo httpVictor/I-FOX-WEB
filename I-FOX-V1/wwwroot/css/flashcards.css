@@ -15,6 +15,7 @@
     --azulMeio
     **/
 
+/*Cadastrando o card*/
 .container {
     display: flex;
     flex-direction: column;
@@ -47,12 +48,10 @@
 }
 
 textarea {
-    min-width: 25vw;
-    height: 300px;
+    min-width: 22vw;
+    max-width: 25vw;
+    height: 200px;
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 25px;
     text-align: center;
     padding: 25px;
@@ -79,8 +78,8 @@ textarea {
     align-items: center;
 }
 
-button{
-    margin-top: 30px;
+.container_flashcard button {
+    margin-top: 40px;
 }
 
 .botaoAzul {
@@ -98,14 +97,31 @@ button{
     padding: 30px 0;
 }
 
-.salvar {
-    min-width: 10vw;
+.botaoVermelho {
+    min-width: 60vw;
     height: 60px;
-    border-radius: 25px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background-color: #a5ce7f;
-    font-family: 'Sue Ellen Francisco';
+    border-radius: 15px;
+    background-color: #810707;
     font-size: 40px;
+    font-family: 'Sue Ellen Francisco';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 0;
+    color: #fff;
 }
+
+.container_flashcard input, .container_flashcard p {
+    background: var(--beje);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    display: inline;
+}
+
+.cabecalho_card span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+}
+/*Exibindo os cards*/

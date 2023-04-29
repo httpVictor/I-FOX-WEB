@@ -51,7 +51,7 @@
 <section class="cabecalhoCadernos">
 
     <div>
-         <img src="~/img/icones_resumo/raposa-cadernos.png" alt="" />
+         <img src="~/img/i_fox/raposa-cabecalhos.png" alt="" />
     </div>
 
     <div class="tituloCadernos">
@@ -76,7 +76,7 @@
         @foreach (Caderno caderno in Model)
         {
             
-            <div class="caderno">
+            <div class="caderno pop-button">
                 <a asp-controller="Usuario" asp-action="Materia" asp-route-id="@caderno.Codigo">
                     <div class="infos-caderno">
                         <img src="~/img/icones_caderno/@caderno.Icone" alt="" />
@@ -84,13 +84,13 @@
                         <p>Quantidade de atividades</p>
                     </div>
                 </a>
-                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo"><img class="lixin" src="~/img/icones_crud/deletar_icone.png"/></a>
+                <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
             </div>
 
             <dialog>
                 <p>Tem certeza que deseja excluir ?</p>
                 <button>NÂO</button>
-                <a>SIM</a>
+                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">SIM</a>
             </dialog>
         }
     }

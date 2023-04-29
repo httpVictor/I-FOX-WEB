@@ -8,12 +8,12 @@
 
             <div class="titulo" >
                 <label for="">Título</label>
-                <input type="text" id="titulo1" name="titulo" placeholder="Digite o título de seu resumo">
+                <input type="text" id="titulo1" name="titulo" placeholder="Digite o título de seu resumo" required>
             </div>
 
             <div class="data">
                 <label for="">Data</label>
-                <input type="date" id="titulo1" name="data">
+                <input type="date" id="titulo1" name="data" value="@ViewBag.DataAtual" required>
             </div>
 
             <button type="submit">SALVAR</button>
