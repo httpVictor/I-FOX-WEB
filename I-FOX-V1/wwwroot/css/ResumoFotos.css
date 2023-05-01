@@ -15,6 +15,10 @@
     --azulMeio
     **/
 
+body{
+    background-image: url(~/img/i_fox/fundo-resumos.png);
+}
+
 .bloco{
     display: flex;
     flex-direction: column;

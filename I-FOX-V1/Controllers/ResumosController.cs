@@ -13,7 +13,7 @@ namespace I_FOX_V1.Controllers
         {
             var anoData = DateTime.Now.Year;
             var mesData = string.Format("{0:MM}", DateTime.Now);
-            var diaData = DateTime.Now.Day;
+            var diaData = string.Format("{0:dd}", DateTime.Now);
             string dataAtual = anoData + "-" + mesData + "-" + diaData;
 
             ViewBag.DataAtual = dataAtual;
@@ -55,6 +55,12 @@ namespace I_FOX_V1.Controllers
         }
 
         public IActionResult VisualizarFlashcard(int id)
+        {
+            ViewBag.Id_Card = id;
+            return View(Flashcard.listar(id));
+        }
+
+        public IActionResult RevisaoFlashcard(int id)
         {
             return View(Flashcard.listar(id));
         }

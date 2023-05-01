@@ -1,0 +1,86 @@
+﻿@model IEnumerable<I_FOX_V1.Models.Flashcard>
+
+@section Estilos{
+    <link rel="stylesheet" href="~/css/flashcards.css"/>
+    <link rel="stylesheet" href="~/css/flashcard_card.css"/>
+}
+<section class="teste">
+
+    <div class="bloco">
+
+        <img alt="" src="~/img/i_fox/raposa-cabecalhos.png">
+
+        <div class="escrita">
+            <h2>Teste sua memória</h2>
+            <p>tente lembrar do verso e depois selecione o quão difícil foi para lembrar!</p>
+            <h3>TÍTULO DO RESUMO</h3>
+        </div>
+
+        <img alt="" src="~/img/i_fox/raposa-cabecalhos.png">
+
+    </div>
+
+    <div class="cartao">
+
+        <div class="cabecalho-cartao">
+            <h3>Cartão 1</h3>
+            <img alt="" src="~/img/i_fox/raposa-flutuante-png.png" height="70" />
+        </div>
+
+        <div class="card">
+            <label>
+                <input type="checkbox" />
+                <div class="flip-card">
+                    <div class="front">
+                        <p>Aqui vem a frente</p>
+                    </div>
+                    <div class="back">
+                        <p>Aqui vem o verso</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+
+        <!-- Em baixo do cartão -->
+        <div class="mudarCard">
+            <img alt="" src="./img/image 56.png">
+            <p>1/3</p>
+            <img alt="" src="./img/image 55.png">
+        </div>
+
+        <div class="resposta-card">
+            <p>QUAL O NÍVEL DE DIFICULDADE DESSE CARD?</p>
+
+            <div class="opcoes_resposta">
+
+                <input type="radio" name="opcao-resposta" id="facil">
+                <label for="facil" class="opcao-resposta">
+                    <p>Fácil</p>
+                    <img src="~/img/pasta_flashs/resposta-facil.png" alt="" id="facil">
+                </label>
+
+                <input type="radio" name="opcao-resposta" id="medio">
+                <label for="medio" class="opcao-resposta">
+                    <p>Médio</p>
+                     <img src="~/img/pasta_flashs/resposta-medio.png" alt="">
+                </label>
+
+                <input type="radio" name="opcao-resposta" id="dificil">
+                <label for="dificil" class="opcao-resposta">
+                    <p>Difícil</p>
+                    <img src="~/img/pasta_flashs/resposta-dificil.png" alt="">
+                </label>
+
+                <input type="radio" name="opcao-resposta" id="errei">
+                <label for="errei" class="opcao-resposta">
+                    <p>Errei</p>
+                    <img src="~/img/pasta_flashs/resposta-errei.png" alt="">
+                </label>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>

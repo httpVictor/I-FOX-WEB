@@ -131,8 +131,8 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
 }
-
 
 .infos-caderno {
     display: flex;
@@ -140,12 +140,12 @@
     column-gap: 12px;
 }
 
-.caderno:nth-child(2n+2) {
+.caderno:nth-child(n+1) {
     background-color: var(--azulClaro);
     border: 2px solid var(--azulClaro);
 }
 
-.caderno:nth-child(2n+1) {
+.caderno:nth-child(2n) {
     background-color: var(--azulEscuro);
     border: 2px solid var(--azulEscuro);
 }

@@ -31,8 +31,10 @@ form {
     align-items: center;
     margin: 30px auto;
     padding: 40px;
-    background-color: var(--azulClaro);
+    background-color: var(--azulMeio);
     border-radius: 25px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 form label {
@@ -67,42 +69,42 @@ textarea {
     margin-bottom: 10px;
 }
 
-form button {
-    padding: 20px 40px;
-    background-color: var(--laranjaClaro);
-    color: white;
-    font-family: 'Pathway Gothic One', sans-serif;
-    border-radius: 20px 20px 20px 20px;
-    text-align: center;
-    font-size: 20px;
+.icones_cadernos input{
+    display: none;
+}
+
+input[type=radio]:checked + .icone_opcao{
+    border: solid 2px white;
+    border-radius: 5px;
 }
 
 .icones_cadernos {
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(30px, 50px));
-    grid-column-gap: 3vw;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 80px));
+    grid-column-gap: 1vw;
     grid-row-gap: 3vh;
     justify-content: center;
-    max-width: 30vw;
+    max-width: 40vw;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .icone_opcao {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--axulMeio);
 }
 
 .icones_cadernos img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
-.icones_cadernos label {
-    border: solid 3px var(--azulClaro);
-}
-
-.icones_cadernos label:hover {
-    cursor: pointer;
+.icone_opcao label{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 

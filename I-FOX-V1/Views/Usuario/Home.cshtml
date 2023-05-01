@@ -85,13 +85,14 @@
                     </div>
                 </a>
                 <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
+
+                <dialog>
+                    <p>Tem certeza que deseja excluir ?</p>
+                    <button>NÂO</button>
+                    <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">SIM</a>
+                </dialog>
             </div>
 
-            <dialog>
-                <p>Tem certeza que deseja excluir ?</p>
-                <button>NÂO</button>
-                <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">SIM</a>
-            </dialog>
         }
     }
     else

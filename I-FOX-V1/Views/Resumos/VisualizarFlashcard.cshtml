@@ -22,10 +22,12 @@
 
     <div class="botoes">
 
-        <div class="button">
-            <img src="~/img/icones_crud/revisao_icon.png" alt="">
-            <p>Revisao</p>
-        </div>
+        <a asp-controller="Resumos" asp-action="RevisaoFlashcard" asp-route-id="@ViewBag.Id_Card">
+            <div class="button">
+                <img src="~/img/icones_crud/revisao_icon.png" alt="">
+                <p>Revisao</p>
+            </div>
+        </a>
 
         <div class="button">
             <img src="~/img/icones_resumo/resumo-escrito.png" alt="">
@@ -33,7 +35,6 @@
         </div>
 
     </div>
-    <br><br>
 
     <div class="cartoes">
         @if(Model != null){

@@ -1,4 +1,5 @@
-﻿/* Fontes importadas */
+﻿/* PARTE DO CSS FLASHCARD */
+/* Fontes importadas */
 /* font-family: 'Aclonica', sans-serif; */
 /* font-family: 'Pathway Gothic One', sans-serif; */
 /* font-family: 'Sue Ellen Francisco', cursive; */
@@ -28,7 +29,7 @@
     margin: 20px auto;
 }
 
-.container_card{
+.container_card {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -65,21 +66,21 @@ textarea {
     margin: 20px;
 }
 
-.lado_card p {
-    justify-content: center;
-    font-family: 'Pathway Gothic One';
-    font-size: 40px;
-}
+    .lado_card p {
+        justify-content: center;
+        font-family: 'Pathway Gothic One';
+        font-size: 40px;
+    }
 
-.container_flashcard{
+.container_flashcard {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container_flashcard button {
-    margin-top: 40px;
-}
+    .container_flashcard button {
+        margin-top: 40px;
+    }
 
 .botaoAzul, .botaoVermelho {
     min-width: 60vw;
@@ -96,7 +97,7 @@ textarea {
 }
 
 .botaoAzul {
-    background-color: var(--azulMeio); 
+    background-color: var(--azulMeio);
 }
 
 .botaoVermelho {
@@ -118,11 +119,13 @@ textarea {
 
 
 /*Exibindo os cards*/
+/* CABEÇALHO DOS CARDS */
 .bloco {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .escrita {
@@ -135,51 +138,135 @@ textarea {
     width: 15vw;
 }
 
-.escrita .grande {
-    font-family: ' Sue Ellen Francisco';
-    font-size: 40px;
+.escrita h2 {
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
 }
 
-.escrita .pequeno {
-    font-family: ' Pathway Gothic One';
-    font-size: 20px;
+.escrita p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.escrita h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
 }
 
 .button {
-    font-family: 'Sue Ellen Francisco';
     font-size: 50px;
     text-align: center;
-    min-width: 10vw;
-    height: 120px;
+    width: 20vw;
+    padding: 20px 0;
     border-radius: 25px;
     background-color: #a5ce7f;
-    margin: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: 12px;
+    column-gap: 10px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.button:hover {
+    transition: all 0.3s ease-in-out;
+    background: var(--laranjaClaro);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 .botoes {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin: 40px auto;
+    column-gap: 8vw;
 }
 
-.button img{
-    height: 30px;
+.button img {
+    height: 40px;
 }
 
-.blocoAzul {
+/* TESTE DE MEMÓRIA */
+.mudarCard {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 
+.opcoes_resposta {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 1vw;
+    grid-row-gap: 2vh;
+}
 
+.opcao-resposta, .resposta-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta-card {
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.resposta-card {
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Sue Ellen Francisco', sans-serif;
+}
+
+.opcao-resposta img {
+    width: 50px;
+}
+
+.opcao-resposta {
+    position: relative;
+    padding: 10px;
+    column-gap: 20px;
+    border-radius: 8px;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.opcao-resposta:nth-child(2) {
+    background: #74D98A;
+}
+
+.opcao-resposta:nth-child(4) {
+    background: #D97A74;
+}
+
+.opcao-resposta:nth-child(6) {
+    background: #D9C274;
+}
+
+.opcao-resposta:nth-child(8) {
+    color: white;
+    background: #1f1f1f;
+}
+
+input[type=radio]:checked + .opcao-resposta {
+    transition: all 0.2s linear;
+    box-shadow: 0px 4px 4px var(--azulClaro);
+    border: solid 3px var(--azulClaro);
+}
+
+/* FIM MEMÓRIA */
 @media (max-width: 830px) {
 
 
@@ -205,27 +292,5 @@ textarea {
 
     .bloco img {
         display: none;
-    }
-}
-
-
-@media (max-width: 1300px) {
-
-    .blocoAzul {
-        flex-direction: column;
-    }
-
-    .azul {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        min-width: 45vw;
-        height: 500px;
-        background-color: #009fad;
-        border-radius: 12px;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        padding: 10px;
     }
 }
