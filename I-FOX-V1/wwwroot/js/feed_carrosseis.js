@@ -3,10 +3,6 @@ const carousel = document.querySelector(".carro-1 .carousel"),
     firstImg = carousel.querySelectorAll(".carro-1 img")[0],
     arrowIcons = document.querySelectorAll(".carro-1 .wrapper i");
 
-console.log(firstImg)
-console.log(arrowIcons)
-console.log(carousel)
-
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 const showHideIcons = () => {

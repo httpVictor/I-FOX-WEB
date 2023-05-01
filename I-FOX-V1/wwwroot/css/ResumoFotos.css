@@ -22,32 +22,99 @@
     align-items: center;
     background-color: var(--verde);
     margin: auto auto;
-    width: 80vw;
+    width: 75vw;
     padding: 25px;
     border-radius: 20px;
 }
 
-.botao {
-    height: 70px;
-    width: 180px;
-    background-color: var(--laranjaClaro);
-    color: rgb(3, 2, 2);
-    font-family: 'Sue Ellen Francisco', cursive;
-    border-radius: 20px 20px 20px 20px;
-    text-align: center;
-    font-size: xx-large;
+.imagens_resumo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 200px));
+    grid-column-gap: 3vw;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0px;
+    grid-row-gap: 8vh;
+    width: 60vw;
 }
 
-.botao1 {
-    height: 70px;
-    width: 180px;
-    background-color: var(--laranjaClaro);
-    color: rgb(3, 2, 2);
-    font-family: 'Sue Ellen Francisco', cursive;
-    border-radius: 20px 20px 20px 20px;
-    text-align: center;
-    font-size: xx-large;
+.elemento_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: black;
+    border-radius: 10px;
 }
+
+.elemento_imagem img{
+    position: absolute;
+    width: 70%;
+}
+
+.elemento_imagem input{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+input[type=checkbox] {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    left: -5px;
+    border-radius: 20px;
+    background-color: var(--verde);
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+input[type=file]{
+    display: none;
+}
+
+label{
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 4em;
+}
+
+.add-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 
 /* tablet */
 @media (max-width: 800px) {
@@ -63,25 +130,10 @@
         font-size: 35px;
     }
 
-    .botao {
-        height: 45px;
-        width: 140px;
-        font-size: x-large;
-    }
-
-    .botao1 {
-        height: 45px;
-        width: 140px;
-        font-size: x-large;
-    }
-
-
     .titulo input {
         font-size: 8px;
         width: 330px;
     }
-
-
 
     .data input {
         font-size: 8px;
@@ -116,13 +168,10 @@
         font-size: large;
     }
 
-
     .titulo input {
         font-size: 6px;
         width: 140px;
     }
-
-
 
     .data input {
         font-size: 6px;

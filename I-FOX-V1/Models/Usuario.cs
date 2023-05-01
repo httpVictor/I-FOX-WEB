@@ -10,10 +10,9 @@ namespace I_FOX_V1.Models
         //atributos
         private string nome, email, senha;
         private string data_nasc;
-        private int codigo;
 
         // Criar conexão com o banco de dados
-        MySqlConnection conexao = FabricaConexao.getConexao();
+        private static MySqlConnection conexao = FabricaConexao.getConexao();
 
         public Usuario()
         {
@@ -40,11 +39,10 @@ namespace I_FOX_V1.Models
         public string Email { get => email; set => email = value; }
         public string Senha { get => senha; set => senha = value; }
         public string Data_nasc { get => data_nasc; set => data_nasc = value; }
-        public int Codigo { get => codigo;}
 
         //MÉTODOS
-        //CADASTRANDO USUÁRIO
 
+        //Cadastro
         public string cadastrarUsuario()
         {
             string cadastro = "";
@@ -88,8 +86,7 @@ namespace I_FOX_V1.Models
             return cadastro;
         }
 
-        //MÉTODO PARA VERIFICAR O LOGIN DO USUÁRIO
-        //Seguindo a lógica de -> Exite no banco? Se existe a senha bate?
+        //Fazer login
         public string logarUsuario()
         {
             //Variável que vai devolver o estado do login
@@ -144,7 +141,7 @@ namespace I_FOX_V1.Models
             return situacao;
         }
 
-        public bool existeUsuario(string nome)
+        static public bool existeUsuario(string nome)
         {
             //Variável que vai se já existe ou não um usuário com aquele nome
             bool situacao = false;
@@ -184,6 +181,7 @@ namespace I_FOX_V1.Models
             return situacao;
         }
 
+        //Listar usuario
         public Usuario listarUsuario(string nome)
         {
             Usuario usuario = new Usuario();
@@ -212,13 +210,54 @@ namespace I_FOX_V1.Models
 
                 throw;
             }
+            finally
+            {
+                conexao.Close();
+            }
 
             return usuario;
         }
 
-        public string atualizarUsuario()
+        //Update usuario
+        public string atualizarUsuario(string nome_user)
         {
-            return "BOM DIA";
+            string sit_update = "";
+            try
+            {
+                if (!existeUsuario(Nome) || Nome == nome_user)
+                {
+                    conexao.Open();
+
+                    //CRIANDO COMANDO DE INSERIR USUÁRIOS NO BANCO DE DADOS
+                    MySqlCommand inserir = new MySqlCommand("UPDATE USUARIO SET nome = @nome, email = @email, senha= @senha WHERE nome = @nome_antigo", conexao);
+
+                    inserir.Parameters.AddWithValue("@nome", Nome);
+                    inserir.Parameters.AddWithValue("@nome_antigo", nome_user);
+                    inserir.Parameters.AddWithValue("@senha", Senha);
+                    inserir.Parameters.AddWithValue("@email", Email);
+                    inserir.Parameters.AddWithValue("@data_nasc", Data_nasc);
+                    inserir.Parameters.AddWithValue("@avatar", 0);
+
+                    inserir.ExecuteNonQuery();
+                    sit_update = "Atualizado com sucesso";
+                    conexao.Close();
+
+                    //Puxar o id do usuário
+
+
+                }
+                else
+                {
+                    sit_update = "Esse usuário já existe! Escolha outro nome de usuário";
+                }
+
+            }
+            catch (Exception e)
+            {
+                sit_update = "Erro de conexão" + e;
+            }
+            return sit_update;
         }
+
     }
 }

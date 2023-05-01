@@ -61,7 +61,6 @@ textarea {
     vertical-align: middle;
 }
 
-
 .lado_card {
     margin: 20px;
 }
@@ -82,11 +81,10 @@ textarea {
     margin-top: 40px;
 }
 
-.botaoAzul {
+.botaoAzul, .botaoVermelho {
     min-width: 60vw;
     height: 60px;
     border-radius: 15px;
-    background-color: var(--azulMeio);
     font-size: 40px;
     font-family: 'Sue Ellen Francisco';
     display: flex;
@@ -97,19 +95,12 @@ textarea {
     padding: 30px 0;
 }
 
+.botaoAzul {
+    background-color: var(--azulMeio); 
+}
+
 .botaoVermelho {
-    min-width: 60vw;
-    height: 60px;
-    border-radius: 15px;
     background-color: #810707;
-    font-size: 40px;
-    font-family: 'Sue Ellen Francisco';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 30px 0;
     color: #fff;
 }
 
@@ -124,4 +115,117 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3em;
 }
+
+
 /*Exibindo os cards*/
+.bloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bloco img {
+    width: 15vw;
+}
+
+.escrita .grande {
+    font-family: ' Sue Ellen Francisco';
+    font-size: 40px;
+}
+
+.escrita .pequeno {
+    font-family: ' Pathway Gothic One';
+    font-size: 20px;
+}
+
+.button {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 50px;
+    text-align: center;
+    min-width: 10vw;
+    height: 120px;
+    border-radius: 25px;
+    background-color: #a5ce7f;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button img{
+    height: 30px;
+}
+
+.blocoAzul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 830px) {
+
+
+    .bloco img {
+        height: 220px;
+        width: 320px;
+    }
+
+    .escrita .grande {
+        font-family: ' Sue Ellen Francisco';
+        font-size: 30px;
+    }
+
+    .escrita .pequeno {
+        font-family: ' Pathway Gothic One';
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+
+    .bloco img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1300px) {
+
+    .blocoAzul {
+        flex-direction: column;
+    }
+
+    .azul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-width: 45vw;
+        height: 500px;
+        background-color: #009fad;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    }
+}

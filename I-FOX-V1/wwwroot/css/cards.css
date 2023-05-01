@@ -19,11 +19,11 @@
 /* função da parte dos cards */
 .funcao-inicial {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 300px));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
     grid-column-gap: 10vw;
     grid-row-gap: 10vh;
     justify-content: center;
-    max-width: 85vw;
+    max-width: 90vw;
     margin: 0 auto;
 }
 
@@ -40,30 +40,30 @@
 }
 
 
-    /* escrita */
-    .card p {
-        text-align: center;
-        font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 20px;
-    }
+/* escrita */
+.card p {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+}
 
 
 
-    /* borda branca da imagem */
-    .card .imagem {
-        background-color: white;
-        border-radius: 50%;
-    }
+/* borda branca da imagem */
+.card .imagem {
+    background-color: white;
+    border-radius: 50%;
+}
 
 
-    /* imagem */
-    .card img {
-        padding: 15px;
-    }
+/* imagem */
+.card img {
+    padding: 15px;
+}
 
-    .card:hover {
-        transform: scale(1.08);
-    }
+.card:hover {
+    transform: scale(1.06);
+}
 
 
 /*Cards individuais*/

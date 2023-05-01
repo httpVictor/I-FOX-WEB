@@ -21,13 +21,13 @@ header {
     flex-direction: row;
     background: #02b0c0;
     padding: 13px;
-    margin: 40px 10px;;
+    margin: 40px 10px;
     border-radius: 30px;
     box-shadow: 0px 3px 10px #000;
 }
 
 .container{
-    width: 100vw;
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
@@ -80,6 +80,84 @@ h3{
 
 /*fim do css da parte da do menu*/
 
+.titulo {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: var(--laranjaClaro)
+}
+
+/*CARROSSEL 1*/
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    min-width: 60vw;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #4f4f34;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+    background: #f2f2f2;
+}
+
+.wrapper i:first-child {
+    left: -22px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: 340px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
 
 /* blocos de sobre nós */
 .integrantes {
@@ -94,7 +172,7 @@ h3{
     font-size: 25px;
     font-family: 'Pathway Gothic One', sans-serif;
     width: 70vw;
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 #integrante1 {
@@ -124,10 +202,15 @@ h3{
 .divide-coluna {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 .sobreNos{
-    margin-top: 25px;
+    margin-top: 80px;
     display: flex;
     flex-direction: row;
     font-size: 40px;
@@ -137,12 +220,18 @@ h3{
 }
 
 .texto {
+    padding: 20px;
+    line-height: 1.2em;
+    text-align: center;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 #corLetra {
-    color: #009fad;
+    font-size: 60px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: var(--azulMeio);
+    margin-bottom: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -151,7 +240,6 @@ h3{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 60px;
     font-family: 'Sue Ellen Francisco', cursive;
-    padding-left: 70px;
 }
 
 
@@ -211,26 +299,6 @@ h3{
     }
 }
 
-
-.galery {
-    width: 1400px;
-    height: 800px;
-    background-color: #efd7bc;
-    margin-left: 250px;
-    overflow: hidden;
-}
-
-.galery .fotos {
-    width: 500%;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.galery .fotos img {
-    width: 18%;
-}
-
 @keyframes animacao {
     0% {
         margin-left: 0;
@@ -267,5 +335,11 @@ h3{
 
     100% {
         margin-left: -800px;
+    }
+}
+
+@media (max-width: 768px){
+    .divide-coluna{
+        flex-direction: column;
     }
 }

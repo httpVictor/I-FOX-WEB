@@ -13,11 +13,12 @@ namespace I_FOX_V1.Models
         static MySqlConnection conexao = FabricaConexao.getConexao();
 
         //Construtores
-        public Arquivo(byte[] arrayBytes, string tituloResumo, int codCaderno)
+        public Arquivo(byte[] arrayBytes, string tituloResumo, int codCaderno, int codResumo)
         {
             this.arrayBytes = arrayBytes;
             this.tituloResumo = tituloResumo;
-            CodCaderno = codCaderno;    
+            this.codCaderno = codCaderno;
+            this.codResumo = codResumo;
         }
 
         //Trazer ele do banco
@@ -33,46 +34,27 @@ namespace I_FOX_V1.Models
         public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
         public string TituloResumo { get => tituloResumo; set => tituloResumo = value; }
         public int CodCaderno { get => codCaderno; set => codCaderno = value; }
+        public int CodResumo { get => codResumo; set => codResumo = value; }
 
         //MÉTODOS
         public string cadastrar()
         {
             string situacao_arquivo = "";
-            string codigoResumo = "";
 
             //Pesquisando em que resumo vão estar aqueles arquivos
             try
             {
-                conexao.Open(); //Abrindo conexão
-
-                //Comandos SQL
-                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where titulo = @titulo and FK_CADERNO_codigo = @cod_caderno", conexao);
-                pesquisaResumo.Parameters.AddWithValue("@titulo", TituloResumo);
-                pesquisaResumo.Parameters.AddWithValue("@cod_caderno", CodCaderno);
-
-                //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
-                MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
-
-                while (leitorBanco.Read()) //Enquanto for possível ler ele
-                {
-                    //Definindo os atributos que vão vir do banco
-                    codigoResumo = leitorBanco["codigo"].ToString();
-                }
-
                 MySqlCommand cadastrarArquivo = new MySqlCommand("INSERT INTO ARQUIVO(valor, FK_RESUMO_codigo) VALUES(@valor, @cod_resumo)", conexao);
-                if (codigoResumo != "")
-                {
-                    conexao.Close();
-                    conexao.Open();
-                    cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", codigoResumo);
-                    cadastrarArquivo.Parameters.AddWithValue("@valor", arrayBytes);
-                    cadastrarArquivo.ExecuteNonQuery();
-                }
+                
+                conexao.Open();
+                cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", CodResumo);
+                cadastrarArquivo.Parameters.AddWithValue("@valor", arrayBytes);
+                cadastrarArquivo.ExecuteNonQuery();
 
             }
             catch (Exception e)
             {
-
+                situacao_arquivo = "Erro! " + e;
             }
             finally
             {
@@ -81,7 +63,6 @@ namespace I_FOX_V1.Models
 
             return situacao_arquivo;
         }
-
 
         static public List<Arquivo> listar(string id_resumo)
         {
@@ -117,8 +98,6 @@ namespace I_FOX_V1.Models
             return listaArquivo;
         }
 
-
-       
         //Método para deletar arquivos
         static public string deletarAquivo(int id_resumo)
         {
@@ -153,5 +132,37 @@ namespace I_FOX_V1.Models
             return situacao_deletar;
         }
 
+        static public int buscarResumo(string tituloRes, int codCaderno)
+        {
+            int codigoResumo = 0;
+            try
+            {
+                conexao.Open(); //Abrindo conexão
+
+                //Comandos SQL
+                MySqlCommand pesquisaResumo = new MySqlCommand("SELECT * FROM RESUMO where titulo = @titulo and FK_CADERNO_codigo = @cod_caderno", conexao);
+                pesquisaResumo.Parameters.AddWithValue("@titulo", tituloRes);
+                pesquisaResumo.Parameters.AddWithValue("@cod_caderno", codCaderno);
+
+                //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
+                MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
+
+                while (leitorBanco.Read()) //Enquanto for possível ler ele
+                {
+                    //Definindo os atributos que vão vir do banco
+                    codigoResumo = int.Parse(leitorBanco["codigo"].ToString());
+                }
+            }
+            catch (Exception e)
+            {
+                string erro = "" + e;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+            return codigoResumo;
+        }
     }
 }

@@ -68,7 +68,21 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-        //MÉTODOS que realizam o crud
+
+
+        [HttpPost]
+        public IActionResult Perfil(string nome,string email, string senha, string data_nasc)
+        {
+            Usuario usuario = JsonConvert.DeserializeObject<Usuario>(HttpContext.Session.GetString("usuario"));
+            string nomeUsuario = usuario.Nome;
+
+            Usuario updateUsuario = new Usuario(nome, email, senha, "20050706");
+            string status = updateUsuario.atualizarUsuario(nomeUsuario);
+            return Redirect("./Home");
+
+        }
+
+        //CRUD CADERNO
         [HttpPost]
         public IActionResult CriarCaderno(string titulo, string descricao, string imagem)
         {

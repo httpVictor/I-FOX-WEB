@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\img\icones_resumo\" />
-    <Folder Include="wwwroot\img\tela_inicial\" />
   </ItemGroup>
 
 </Project>

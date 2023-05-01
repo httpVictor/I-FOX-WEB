@@ -13,14 +13,16 @@ namespace I_FOX_V1.Models
 
         static MySqlConnection conexao = FabricaConexao.getConexao();
 
+
         //Construtor vazio
         public Flashcard()
         {
 
         }
         //Construtor
-        public Flashcard(List<string> listaFrente, List<string> listaVerso, int codResumo, string tituloResumo)
+        public Flashcard(List<int> codigoCard, List<string> listaFrente, List<string> listaVerso, int codResumo, string tituloResumo)
         {
+            this.codigoCard = codigoCard;
             this.listaFrente = listaFrente;
             this.listaVerso = listaVerso;
             this.codCaderno = codResumo;
@@ -132,9 +134,47 @@ namespace I_FOX_V1.Models
 
         } 
 
-        public void listar()
+        static public List<Flashcard> listar(int cod_resumo)
         {
+            List<Flashcard> cards = new List<Flashcard>();
 
+            try
+            {
+                conexao.Open();
+                //Criando as listas de frente, verso e código
+                List<string> frentes = new List<string>();
+                List<string> versos = new List<string>();
+                List<int> codigos = new List<int>();
+                int codigoRes = 0;
+
+                //Pesquisando no banco
+                MySqlCommand pesquisa = new MySqlCommand("SELECT * FROM CARD where FK_RESUMO_codigo = @codigo", conexao);
+                pesquisa.Parameters.AddWithValue("@codigo", cod_resumo);
+                MySqlDataReader leitorBanco= pesquisa.ExecuteReader();
+
+                //Add as listas de frente e verso dos cards
+                while (leitorBanco.Read())
+                {
+                    frentes.Add((string) leitorBanco["frente"]);
+                    versos.Add((string) leitorBanco["verso"]);
+                    codigos.Add(int.Parse(leitorBanco["codigo"].ToString()));
+                    codigoRes = int.Parse(leitorBanco["FK_RESUMO_codigo"].ToString());
+                }
+
+                Flashcard flash = new Flashcard(codigos, frentes, versos, codigoRes, null);
+                cards.Add(flash);
+            }
+            catch (Exception e)
+            {
+                
+            }
+            finally
+            {
+                conexao.Close();
+            }
+
+
+            return cards;
         }
     }
 }

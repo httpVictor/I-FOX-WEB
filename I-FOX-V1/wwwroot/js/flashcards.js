@@ -1,6 +1,4 @@
-﻿
-
-//Adicionar cards->
+﻿//Adicionar cards->
 
 $('.botaoAzul').on('click', function () {
     var totalCards = $('.container_flashcard #totalCartoes')
@@ -12,6 +10,7 @@ $('.botaoAzul').on('click', function () {
     bloco.find('span').text(indice);
     bloco.find('textarea[name^="frente-"]').attr('name', 'frente-' + indice)
     bloco.find('textarea[name^="verso-"]').attr('name', 'verso-' + indice)
+    bloco.find('textarea').val('')
 
     $('#totalCartoes').val(indice)
     bloco.insertAfter('.container:last')
@@ -19,7 +18,6 @@ $('.botaoAzul').on('click', function () {
 })
 
 //deletar 
-
 $('.botaoVermelho').on('click', function () {
     var totalCartoes = parseInt($('#totalCartoes').val())
 

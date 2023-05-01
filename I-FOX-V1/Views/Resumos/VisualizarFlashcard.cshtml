@@ -1,9 +1,10 @@
-﻿@{
-}
+﻿@model IEnumerable<I_FOX_V1.Models.Flashcard>
 
-@section Estilos{
-    <link rel="stylesheet" href="~/css/flashcard_card.css"/>
-}
+    @section Estilos{
+        <link rel="stylesheet" href="~/css/flashcard_card.css" />
+        <link rel="stylesheet" href="~/css/flashcards.css" />
+    }
+
 <section> 
 
     <div class="bloco">
@@ -11,7 +12,7 @@
         <img alt="" src="~/img/i_fox/raposa-cabecalhos.png"/>
 
         <div class="escrita">
-            <p class="grande"> SEUS FLASHCARDS </p>
+            <h2 class="grande">SEUS FLASHCARDS </h2>
             <p>______________________</p>
             <br>
             <p class="pequeno">AQUI VAI FICAR O TÍTULO DO FLASHCARD</p>
@@ -22,46 +23,54 @@
     <div class="botoes">
 
         <div class="button">
-            <img src="~/img/icones_crud/revisao_icon.png" alt="" height="60" width="60">
+            <img src="~/img/icones_crud/revisao_icon.png" alt="">
             <p>Revisao</p>
         </div>
 
         <div class="button">
-            <img src="~/img/icones_resumo/resumo-escrito.png" alt="" height="60" width="60">
+            <img src="~/img/icones_resumo/resumo-escrito.png" alt="">
             <p>Editar</p>
         </div>
 
     </div>
     <br><br>
 
-    <div class="cartao">
+    <div class="cartoes">
+        @if(Model != null){
 
-        <div class="cabecalho-cartao">
-            <h3>TÍTULO</h3>
-            <img alt="" src="~/img/i_fox/raposa-flutuante-png.png"height="70" width="90"/>
-        </div>
+            @foreach (Flashcard card in Model)
+            {
+                for(int i = 0; i < card.CodigoCard.Count; i++){
 
+                    <div class="cartao">
+                        @{
+                            int numCard = i + 1;
+                        }
+                        <div class="cabecalho-cartao">
+                            <h3>Cartão @numCard</h3>
+                            <img alt="" src="~/img/i_fox/raposa-flutuante-png.png" height="70" />
+                        </div>
 
-        <label>
-            <input type="checkbox" />
-            <div class="flip-card">
-                <div class="front">
+                        <div class="card">
+                            <label>
+                                <input type="checkbox" />
+                                <div class="flip-card">
+                                    <div class="front">
+                                        <p>@card.ListaFrente[i]</p>
+                                    </div>
+                                    <div class="back">
+                                        <p>@card.ListaVerso[i]</p>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
 
-                    <h1>Teste IFOX</h1>
-                    <h2>hoje o dia esta nublado</h2>
+                    </div>
 
-                    <p>virar</p>
-                </div>
-                <div class="back">
-                    <h1>deu certo</h1>
-                    <hr />
-                    <p>Escrita</p>
-                    <hr />
-                    <p class="click">virar</p>
-                </div>
-            </div>
-        </label>
+                }
+            }
+        }
 
-
+        
     </div>
 </section>

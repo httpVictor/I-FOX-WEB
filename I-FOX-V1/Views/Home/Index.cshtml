@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="~/css/cards.css" />
 }
 
+    @section JavaScript{
+    <script src="~/js/feed_carrosseis.js"></script>
+}
+
 <header>
  
     <nav class="nav-bar">
 
         <div class="logo">
-            <img src="./img/i_fox/logo-png-ifox.png" alt="logo do site">
+            <img src="~/img/i_fox/logo-png-ifox.png" alt="logo do site">
         </div>
 
         <div class="login">
@@ -28,24 +32,12 @@
 
 <section class="container">
 
-    <section class="galery">
-        <div class="fotos">
-
-            <img src="./img/foto1.png" alt="" width="1400" height="800">
-            <img src="./img/foto2.png" alt="" width="1400" height="800">
-
-        </div>
-    </section>
-
     <!-- "jeito moderno de aprender..." -->
 
-
+    <h4 class="titulo">Um jeito moderno, criativo e envolvente de aprender!</h4>
     <div class="divide-coluna">
 
         <div class="texto">
-            <h4 class="titulo">Um jeito moderno, criativo e envolvente de aprender!</h4>
-
-            <br> <br>
             <p id="">
                 O I-FOX tem como principal objetivo, auxiliar os jovens
                 em seus estudos, de uma forma mais interativa e moderna para se aprender.
@@ -56,21 +48,24 @@
 
         </div>
 
-        <div class="carrosel">
-            <ul>
-                <li>
-                    <img src="./img/2.jpg" alt="">
-                </li>
-
-                <li>
-                    <img src="./img/3.jpg" alt="">
-                </li>
-
-                <li>
-                    <img src="./img/4.jpg" alt="">
-                </li>
-            </ul>
+        <div class="igual1 carro-1">
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <img src="~/img/tela_inicial/1.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/2.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/3.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/4.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/5.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/6.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/7.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/8.png" alt="img" draggable="false">
+                    <img src="~/img/tela_inicial/9.png" alt="img" draggable="false">
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
         </div>
+
 
     </div>
 
@@ -85,7 +80,7 @@
 
         <div class="card" id="card1">
             <div class="imagem">
-                <img src="./img/caderno-card.png" alt="">
+                <img src="~/img/tela_inicial/caderno-card.png" alt="">
             </div>
             <p>
                 O site disponibiliza ao estudante, criar cadernos de sua escolha,
@@ -97,7 +92,7 @@
 
         <div class="card" id="card2">
             <div class="imagem">
-                <img src="./img/card-card.png" alt="">
+                    <img src="~/img/tela_inicial/card-card.png" alt="">
             </div>
             <p>
                 O aluno poderá criar seu próprio flashcard, com objetivo de memorizar e
@@ -109,7 +104,7 @@
 
         <div class="card" id="card3">
             <div class="imagem">
-                <img src="./img/img-card.png" alt="">
+                <img src="~/img/tela_inicial/img-card.png" alt="">
             </div>
             <p>
                 Galeria de fotos é disponível para cada aluno se organizar da
@@ -117,15 +112,11 @@
             </p>
         </div>
 
-
-
-
-
         <!-- Segundo trio de cards -->
 
         <div class="card" id="card4">
             <div class="imagem">
-                <img src="./img/fone-card.png" alt="">
+                <img src="~/img/tela_inicial/fone-card.png" alt="">
             </div>
             <p>
                 O aluno tem opção de resumos por áudio, onde ele poderá fazer gravações voltadas para o
@@ -137,7 +128,7 @@
 
         <div class="card" id="card5">
             <div class="imagem">
-                <img src="./img/planilia-card.png" alt="">
+                <img src="~/img/tela_inicial/planilia-card.png" alt="">
             </div>
             <p>
                 O aluno tem opção de resumos por áudio, onde ele poderá fazer gravações voltadas para o
@@ -147,23 +138,19 @@
 
         <div class="card" id="card6">
             <div class="imagem">
-                <img src="./img/casa-card.png" alt="">
+                <img src="~/img/tela_inicial/casa-card.png" alt="">
             </div>
             <p>
                 A parte premium do site, é constituída por pdfs de livros privados, e parcerias com lojas
                 qualificadas relacionadas a educação.
             </p>
         </div>
-
-
-
-
         <!-- Terceiro trio de cards -->
 
 
         <div class="card" id="card7">
             <div class="imagem">
-                <img src="./img/lampada-card.png" alt="">
+                <img src="~/img/tela_inicial/lampada-card.png" alt="">
             </div>
             <p>
                 O site possui um feed de dicas, onde você poderá aprender, e ter informações relacionadas ao estudo.
@@ -174,7 +161,7 @@
 
         <div class="card" id="card8">
             <div class="imagem">
-                <img src="./img/classe-card.png" alt="">
+                 <img src="~/img/tela_inicial/classe-card.png" alt="">
             </div>
             <p>
                 O aluno poderá ingressar em salas de estudo, criadas pelo professor, onde terá acesso para estudar, com
@@ -186,7 +173,7 @@
 
         <div class="card" id="card9">
             <div class="imagem">
-                <img src="./img/mapa-card.png" alt="">
+                 <img src="~/img/tela_inicial/mapa-card.png" alt="">
             </div>
             <p>
                 O aluno irá ter acesso ao mapa de conquistas, conteúdo criado de uma forma dinâmica aos
@@ -195,22 +182,17 @@
             </p>
         </div>
 
-
-
     </section>
 
     <!-- SOBRE NÓS -->
 
     <div class="sobreNos">
-        <img src="./img/image 21.png" alt="" id="imagem1">
+        <img src="~/img/i_fox/raposa-cabeca.png" alt="" id="imagem1">
         <p id="corLetra">Sobre Nós Criadores! </p>
-        <img src="./img/image 21.png" alt="" id="imagem1">
+        <img src="~/img/i_fox/raposa-cabeca.png" alt="" id="imagem1">
     </div>
 
-    <br><br>
-
-
-        <div class="divide-coluna">
+    <div class="divide-coluna">
         <p id="corLetra1" class="texto">
             Nossa squad se chama I-FOX, possuindo 4 integrantes.Visamos por um projeto
             qualificado, onde terá foco aos estudantes,
@@ -221,15 +203,15 @@
         <div class="carrosel">
             <ul>
                 <li>
-                    <img src="~/img/nos-2.png" alt="" width="600" height="490">
+                    <img src="~/img/tela_inicial/nos-2.png" alt="" width="600" height="490">
                 </li>
 
                 <li>
-                    <img src="./img/nos-3.png" alt="" width="600" height="490">
+                    <img src="~/img/tela_inicial/nos-3.png" alt="" width="600" height="490">
                 </li>
 
                 <li>
-                    <img src="./img/nos-1.png" alt="" width="600" height="490">
+                    <img src="~/img/tela_inicial/nos-1.png" alt="" width="600" height="490">
                 </li>
             </ul>
         </div>
@@ -237,7 +219,7 @@
 
 
     <div class="integrantes" id="integrante1">
-        <img src="./img/nicolli-nos.png" alt="" id="imagem">
+        <img src="~/img/tela_inicial/nicolli-nos.png" alt="" id="imagem">
         <p>
             Eu me chamo Nicolli Franchini, tenho 17 anos,e estou cursando o terceiro termo do curso
             desenvolvimento
@@ -248,7 +230,7 @@
     <br><br>
 
     <div class="integrantes" id="integrante2">
-        <img src="./img/kevin-nos.png" alt="" id="imagem">
+        <img src="~/img/tela_inicial/kevin-nos.png" alt="" id="imagem">
         <p>
             Eu me chamo Kevin Mendes Caldas, tenho 17 anos,e estou cursando o terceiro termo do curso
             desenvolvimento de
@@ -259,7 +241,7 @@
     <br><br>
 
     <div class="integrantes" id="integrante3">
-        <img src="./img/gabi-nos.png" alt="" id="imagem">
+        <img src="~/img/tela_inicial/gabi-nos.png" alt="" id="imagem">
         <p>
             Eu me chamo Gabriele Moura, tenho 17 anos, e estou cursando o terceiro termo do curso
             desenvolvimento de sistemas,
@@ -270,9 +252,9 @@
     <br><br>
 
     <div class="integrantes" id="integrante4">
-        <img src="./img/nepo-nos.png" alt="" id="imagem">
+        <img src="~/img/tela_inicial/nepo-nos.png" alt="" id="imagem">
         <p>
-            Eu me chamo Vitor Nepobuceno, tenho 17 anos, e estou cursando o terceiro termo do curso
+            Eu me chamo Vitor Nepomuceno, tenho 17 anos, e estou cursando o terceiro termo do curso
             desenvolvimento de sistemas,
             na escola SENAI Zerbini. Me identifico com back-end.
         </p>

@@ -35,35 +35,37 @@
             <div class="usuario"> 
 
                 <div class="campo1">
-                    <label for="">Usuário</label>
-                    <input type="text" id="titulo1" value="@Model.Nome">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="nome" value="@Model.Nome" required>
                     <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
 
                 <br><br>
 
                 <div class="campo">
-                    <label for="">Email</label>
-                    <input type="text" id="titulo" value="@Model.Email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="@Model.Email" required>
                     <img alt="" src="~/img/icones_crud/edicao.png" width="30" height="30">
                 </div>
 
                 <br><br>
 
                 <div class="campo">
-                    <label for="">Senha</label>
-                    <input type="text" id="titulo" value="@Model.Senha">
-                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" value="@Model.Senha">
+                    <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
 
                 <br><br>
 
                 <div class="campo2">
                     <label for="">Data nascimento:</label>
-                    <input type="date" id="data" value="@Model.Data_nasc">
-                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
+                    <input type="date" id="data" name="data_nasc" value="@Model.Data_nasc">
+                    <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
                 </div>
             </div>
+
+            <button type="submit" class="botao-verde">SALVAR</button>
         </form>
 
     </div>

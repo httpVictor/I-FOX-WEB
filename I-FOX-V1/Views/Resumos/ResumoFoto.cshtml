@@ -1,42 +1,47 @@
-﻿@*@model IEnumerable<I_FOX_V1.Models.Arquivo>*@
+﻿@model IEnumerable<I_FOX_V1.Models.Arquivo>
 
 @section Estilos{
     <link rel="stylesheet" href="~/css/resumoFotos.css" />
 }
-
+@section JavaScript{
+    <script src="~/js/arquivo.js"></script>
+}
 <section class="funcao">
 
     <div class="bloco">
-        <form method="post" asp-controller="Resumos" asp-action="ResumoFotos" enctype="multipart/form-data">
 
-            <button class="botao">Deletar Arquivo</button>
+        <button class="botao-laranja">Deletar Arquivo</button>
 
-            @if(Model != null)
-            {
-                @foreach (Arquivo arquivo in Model)
+        <form method="post" enctype="multipart/form-data" asp-controller="Resumos" asp-action="ResumoFotos">
+            <div class="imagens_resumo">
+                @if(Model != null)
                 {
+                    @foreach (Arquivo arquivo in Model)
+                    {
                     
-                    <div class="imagens_resumo">
-
-                        @*@{
-                            //Passando o arquivo da imagem
-                            string imagemRes = Convert.ToBase64String(arquivo.ArrayBytes);
-                            string formato = "data:image/png;base64," + imagemRes;
-                        }*@
+                        //Passando o arquivo da imagem
+                        string imagemRes = Convert.ToBase64String(arquivo.ArrayBytes);
+                        string formato = "data:image/png;base64," + imagemRes; 
 
                         <div class="elemento_imagem">
-                            <img src="" />
-                            <label>Selecione</label>
+                            <img src="@formato" />
                             <input type="checkbox" />
                         </div>
-                    </div>
-
+                       
+                    }
                 }
-            }
+                <div class="add-input">
+                    <label for="arq-1">+</label>
+                    <input type="file" id="arq-1" name="arq"/>
+                </div>
+            </div>
+
+            <p>Arquivos selecionados</p>
+            <span>0</span>
 
             <div class="file">
                 <input name="arquivo" type="file" id="file">
-                <button type="submit" class="botao1">Salvar Arquivo</button>
+                <button type="submit" class="botao-laranja">Salvar Arquivo</button>
             </div>
 
             <br><br>

@@ -7,6 +7,7 @@ namespace I_FOX_V1.Controllers
 {
     public class HomeController : Controller
     {
+        //Métodos que retirnam tela
 
         public IActionResult Index()
         {
@@ -22,6 +23,10 @@ namespace I_FOX_V1.Controllers
         {
             return View();
         }
+
+
+
+
 
         //MÉTODOS que realizam o CRUD
         [HttpPost]
@@ -48,7 +53,22 @@ namespace I_FOX_V1.Controllers
                         
                     }
                 }
+
+                //Agora validando se ela tem caracteres especiais
+                for (int i = 0; i < caractereEspecial.Length; i++)
+                {
+                    if (senha.Contains(caractereEspecial[i]))
+                    {
+                        validaSenha = true;
+                        break;
+                    }
+                    else
+                    {
+                        validaSenha = false;
+                    }
+                }
             }
+
             string nomeNoEspaco ="";
             if (nome != null)
             {
@@ -107,8 +127,14 @@ namespace I_FOX_V1.Controllers
         public IActionResult Sair()
         {
             HttpContext.Session.Remove("usuario");
+            TempData["SituacaoLogin"] = "";
             return View("../Home/Index");
         }
+
+
+
+
+        //Automatico do sistema
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
