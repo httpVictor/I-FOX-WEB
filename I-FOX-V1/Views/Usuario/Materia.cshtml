@@ -79,9 +79,9 @@
 
                 <div class="resumo pop-button">
                     <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
-                            <div class="poligono">
-                                <img src="~/img/i_fox/raposa-cabeca.png" alt="" />
-                            </div>     
+                        <div class="poligono">
+                            <img src="~/img/i_fox/raposa_lobo.png" alt="" />
+                        </div>     
                     
                         <div class="descricao_resumo">
                             <p>@resumo.Titulo </p>
@@ -90,17 +90,18 @@
 
                     </a>
                     <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
+
+                    @*//PopUp para confirmação para deletar um resumo*@
+                    <dialog>
+                        <p>Tem certeza que deseja excluir o resumo @resumo.Titulo ?</p>
+                        <div class="pop_botoes">
+                            <button>NÂO</button>
+                            <a asp-controller="Resumos" asp-action="deletarResumo" asp-route-id="@resumo.Codigo">SIM</a>
+                        </div>
+
+                    </dialog>
                 </div>
 
-                //PopUp para confirmação para deletar um resumo
-                <dialog>
-                    <p>Tem certeza que deseja excluir o resumo @resumo.Titulo ?</p>
-                    <div class="pop_botoes">  
-                        <button>NÂO</button>
-                        <a asp-controller="Resumos" asp-action="deletarResumo" asp-route-id="@resumo.Codigo">SIM</a>
-                    </div>
-
-                </dialog>
             }
         }else
         {

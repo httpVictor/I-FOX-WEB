@@ -144,8 +144,15 @@
     justify-content:center;
     min-width: 300px;
     border-radius: 15px;
-    background: linear-gradient(180deg, #198D97 0%, #ADEBF0 100%);
     clip-path: polygon(0% 0%, 100% 0,100% 80%,50% 100%, 0% 80%);
+}
+
+.poligono:nth-child(n+1) {
+    background: linear-gradient(180deg, #198D97 0%, #ADEBF0 100%);
+}
+
+.poligono:nth-child(2n) {
+    background: linear-gradient(180deg, #F27100 0%, #EFD7BC 100%);
 }
 
 .poligono img{

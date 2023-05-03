@@ -158,8 +158,9 @@ li a {
     color: white;
 }
 
-.ativo{
-    color: var(--azulEscuro);
+a h1 {
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    font-size: 50px;
 }
 
 /**MENU HAMBURGUER**/

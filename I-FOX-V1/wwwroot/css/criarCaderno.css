@@ -17,6 +17,7 @@
 
 form h2 {
     font-size: 35px;
+    margin-bottom: 15px;
 }
 
 form {
@@ -81,11 +82,11 @@ input[type=radio]:checked + .icone_opcao{
 .icones_cadernos {
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(30px, 80px));
-    grid-column-gap: 1vw;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
+    grid-column-gap: 2vw;
     grid-row-gap: 3vh;
     justify-content: center;
-    max-width: 40vw;
+    max-width: 30vw;
     margin: 0 auto;
     cursor: pointer;
 }

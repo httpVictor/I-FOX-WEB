@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\I-FOX-V1.csproj": {}
+    "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\I-FOX-V1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\I-FOX-V1.csproj": {
+    "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\I-FOX-V1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\I-FOX-V1.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\I-FOX-V1.csproj",
         "projectName": "I-FOX-V1",
-        "projectPath": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\I-FOX-V1.csproj",
-        "packagesPath": "C:\\Users\\Dione\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\2904\\I-FOX-V1\\obj\\",
+        "projectPath": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\I-FOX-V1.csproj",
+        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dione\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

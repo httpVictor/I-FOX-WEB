@@ -1,563 +1,739 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\I-FOX-V1.bundle.scp.css",
       "PackagePath": "staticwebassets\\I-FOX-V1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\Login.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\ResumoFotos.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\ResumoFotos.css",
       "PackagePath": "staticwebassets\\css\\ResumoFotos.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\cadastroResumos.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cadastroResumos.css",
       "PackagePath": "staticwebassets\\css\\cadastroResumos.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cadernosEstilo.css",
       "PackagePath": "staticwebassets\\css\\cadernosEstilo.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\cards.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\cards.css",
       "PackagePath": "staticwebassets\\css\\cards.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\criarCaderno.css",
       "PackagePath": "staticwebassets\\css\\criarCaderno.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\flashcard_card.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\feed.css",
+      "PackagePath": "staticwebassets\\css\\feed.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\flashcard_card.css",
       "PackagePath": "staticwebassets\\css\\flashcard_card.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\flashcards.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\flashcards.css",
       "PackagePath": "staticwebassets\\css\\flashcards.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\inicio.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\inicio.css",
       "PackagePath": "staticwebassets\\css\\inicio.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\perfil.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\loja.css",
+      "PackagePath": "staticwebassets\\css\\loja.css"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\perfil.css",
       "PackagePath": "staticwebassets\\css\\perfil.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\pomodoro.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\pomodoro.css",
       "PackagePath": "staticwebassets\\css\\pomodoro.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\popup.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\popup.css",
       "PackagePath": "staticwebassets\\css\\popup.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\resumoEscrito.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\resumoEscrito.css",
       "PackagePath": "staticwebassets\\css\\resumoEscrito.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\resumoEstilo.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\resumoEstilo.css",
       "PackagePath": "staticwebassets\\css\\resumoEstilo.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\fundo-resumos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\dinheiros.png",
+      "PackagePath": "staticwebassets\\img\\i_fox\\dinheiros.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\fundo-resumos.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\fundo-resumos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\img-fundo-login.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\imagem_cadastro.png",
+      "PackagePath": "staticwebassets\\img\\i_fox\\imagem_cadastro.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\img-fundo-login.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\img-fundo-login.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-png-ifox.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-png-ifox.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\logo-png-ifox.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-redonda-g.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-redonda-g.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\logo-redonda-g.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-redonda-p.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\logo-redonda-p.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\logo-redonda-p.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\pomodoro-u-know.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\pomodoro-u-know.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\pomodoro-u-know.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cabeca.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cabeca.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-cabeca.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cabecalhos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cabecalhos.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-cabecalhos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cadastrar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-cadastrar.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-cadastrar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-flutuante-png.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-flutuante-png.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-flutuante-png.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-mascote.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-mascote.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-mascote.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-navbar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa-navbar.png",
       "PackagePath": "staticwebassets\\img\\i_fox\\raposa-navbar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\agenda.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa_coroa.png",
+      "PackagePath": "staticwebassets\\img\\i_fox\\raposa_coroa.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\i_fox\\raposa_lobo.png",
+      "PackagePath": "staticwebassets\\img\\i_fox\\raposa_lobo.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\agenda.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\agenda.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\caderno.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\caderno.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\caderno.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\conhecimento.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\conhecimento.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\conhecimento.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\educacao.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\educacao.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\educacao.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\estudante-masculino.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\estudante-masculino.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\estudante-masculino.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\flash-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\flash-card.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\flash-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\material-escolar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\material-escolar.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\material-escolar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pessoas.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pessoas.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\pessoas.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pilha-de-livros.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\pilha-de-livros.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\pilha-de-livros.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\planeta-terra.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_caderno\\planeta-terra.png",
       "PackagePath": "staticwebassets\\img\\icones_caderno\\planeta-terra.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\caderno-criar.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\caderno-criar.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\caderno-criar.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\deletar_icone.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\deletar_icone.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\deletar_icone.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\edicao.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\edicao.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\edicao.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\filtro.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\filtro.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\filtro.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\lupa-pesquisa.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\lupa-pesquisa.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\lupa-pesquisa.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\organizador.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\organizador.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\organizador.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\revisao_icon.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\revisao_icon.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\revisao_icon.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\sair.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\sair.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\sair.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_crud\\tres-pontos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_crud\\tres-pontos.png",
       "PackagePath": "staticwebassets\\img\\icones_crud\\tres-pontos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\audio-resumo.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\audio-resumo.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\audio-resumo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\flashcard.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\flashcard.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\flashcard.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\foto-resumo.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\foto-resumo.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\foto-resumo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\lembrete-icon.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\lembrete-icon.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\lembrete-icon.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\mapa-do-tesouro.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\mapa-do-tesouro.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\mapa-do-tesouro.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\pomodoro-icon.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\pomodoro-icon.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\pomodoro-icon.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\resumo-escrito.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\resumo-escrito.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\resumo-escrito.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\sala-aula-icon.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\sala-aula-icon.png",
       "PackagePath": "staticwebassets\\img\\icones_resumo\\sala-aula-icon.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\caderno-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\pasta_flashs\\resposta-dificil.png",
+      "PackagePath": "staticwebassets\\img\\pasta_flashs\\resposta-dificil.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\pasta_flashs\\resposta-errei.png",
+      "PackagePath": "staticwebassets\\img\\pasta_flashs\\resposta-errei.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\pasta_flashs\\resposta-facil.png",
+      "PackagePath": "staticwebassets\\img\\pasta_flashs\\resposta-facil.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\pasta_flashs\\resposta-medio.png",
+      "PackagePath": "staticwebassets\\img\\pasta_flashs\\resposta-medio.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\2.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\3.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\4.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\5.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\6.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part2.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part2.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part3.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part4.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part4.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part5.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part5.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\carrossel 2 part6.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\carrossel 2 part6.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\coracao 1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\coracao 1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\coracao2.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\coracao2.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\fedd_imagem4.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\fedd_imagem4.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_carrossel1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_carrossel1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_imagem1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_imagem1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_imagem2e3.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_imagem2e3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_texto1.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_texto1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_texto2e3.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_texto2e3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_texto4.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_texto4.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_feed\\feed_texto5.png",
+      "PackagePath": "staticwebassets\\img\\tela_feed\\feed_texto5.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\1.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\2.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\3.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\4.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\5.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\6.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\7.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\8.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\9.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\caderno-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\caderno-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\card-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\card-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\card-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\casa-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\casa-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\casa-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\classe-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\classe-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\classe-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\fone-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\fone-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\fone-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\foto1.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\foto1.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\foto1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\foto2.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\foto2.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\foto2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\gabi-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\gabi-nos.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\gabi-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-1.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-1.jpg",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\ifox-1.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-2.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-2.jpg",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\ifox-2.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-3.jpg",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\ifox-3.jpg",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\ifox-3.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\img-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\img-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\img-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\kevin-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\kevin-nos.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\kevin-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\lampada-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\lampada-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\lampada-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\mapa-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\mapa-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\mapa-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nepo-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nepo-nos.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\nepo-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nicolli-nos.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nicolli-nos.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\nicolli-nos.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-1.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-1.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\nos-1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-2.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-2.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\nos-2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-3.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\nos-3.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\nos-3.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\planilia-card.png",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\onda.png",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\onda.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\planilia-card.png",
       "PackagePath": "staticwebassets\\img\\tela_inicial\\planilia-card.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\wave.png",
-      "PackagePath": "staticwebassets\\img\\tela_inicial\\wave.png"
-    },
-    {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\Validacoes.js",
       "PackagePath": "staticwebassets\\js\\Validacoes.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\arquivo.js",
+      "PackagePath": "staticwebassets\\js\\arquivo.js"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\feed_carrosseis.js",
+      "PackagePath": "staticwebassets\\js\\feed_carrosseis.js"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\flashcards.js",
+      "PackagePath": "staticwebassets\\js\\flashcards.js"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\menu-hamburguer.js",
       "PackagePath": "staticwebassets\\js\\menu-hamburguer.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\js\\popup.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\popup.js",
       "PackagePath": "staticwebassets\\js\\popup.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\OneDrive - SESISENAISP - Escolas\\Documentos\\Nepo\\back_end\\dia2504\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\I-FOX-WEB\\I-FOX-V1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

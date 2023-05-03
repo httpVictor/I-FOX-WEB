@@ -7,7 +7,7 @@ namespace I_FOX_V1.Models
         public static MySqlConnection getConexao()
         {
             return new MySqlConnection(
-                Configuration().GetConnectionString("casaNepo"));
+                Configuration().GetConnectionString("Default"));
 
             //Default
             //casaNepo
