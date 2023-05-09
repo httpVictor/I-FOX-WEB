@@ -77,7 +77,7 @@
                     visualizacao = "Resumo" + resumo.Tipo;
                 }
 
-                <div class="resumo pop-button">
+                <div class="resumo">
                     <a asp-controller="Resumos" asp-action="@visualizacao" asp-route-id="@resumo.Codigo">
                         <div class="poligono">
                             <img src="~/img/i_fox/raposa_lobo.png" alt="" />
@@ -89,7 +89,7 @@
                         </div>
 
                     </a>
-                    <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
+                    <button class="lixin pop-button"><img src="~/img/icones_crud/deletar_icone.png" /></button>
 
                     @*//PopUp para confirmação para deletar um resumo*@
                     <dialog>

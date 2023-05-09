@@ -19,13 +19,15 @@
 <section class="funcionalidades">
     
     @*Funcionalidade do mapa de missões*@
-    <div class="funcionalidade">
-        <div class="imagem">
-            <img src="~/img/icones_resumo/mapa-do-tesouro.png" alt="" />
+    <a asp-controller="Mapa" asp-action="Fases">
+        <div class="funcionalidade">
+            <div class="imagem">
+                <img src="~/img/icones_resumo/mapa-do-tesouro.png" alt="" />
+            </div>
+            <p>MAPA</p>
         </div>
-        <p>MAPA</p>
-    </div>
-
+    </a>
+   
     @*Funcionalidade do pomodoro*@
 
     <a asp-controller="Usuario" asp-action="Pomodoro">
@@ -76,7 +78,7 @@
         @foreach (Caderno caderno in Model)
         {
             
-            <div class="caderno pop-button">
+            <div class="caderno">
                 <a asp-controller="Usuario" asp-action="Materia" asp-route-id="@caderno.Codigo">
                     <div class="infos-caderno">
                         <img src="~/img/icones_caderno/@caderno.Icone" alt="" />
@@ -84,7 +86,7 @@
                         <p>Quantidade de atividades</p>
                     </div>
                 </a>
-                <button class="lixin"><img src="~/img/icones_crud/deletar_icone.png" /></button>
+                <button class="lixin pop-button"><img src="~/img/icones_crud/deletar_icone.png" /></button>
 
                 <dialog>
                     <p>Tem certeza que deseja excluir ?</p>

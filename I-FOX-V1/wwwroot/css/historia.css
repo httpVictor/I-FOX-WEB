@@ -1,0 +1,121 @@
+﻿body {
+    background-image: url(~/img/pasta_avatares/fundo_historias.png);
+    height: 100%;
+}
+
+.titulo p {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menina {
+    background-color: aliceblue;
+    min-height: 16vh;
+    min-width: 30vw;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.menino {
+    background-color: aliceblue;
+    min-height: 16vh;
+    min-width: 30vw;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.escrita {
+    min-height: 5vh;
+    min-width: 18vw;
+    max-width: 20vw;
+    background-color: #009fad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+    .escrita p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 40px;
+    }
+
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fileira {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.bege {
+    min-height: 5vh;
+    min-width: 14vw;
+    max-width: 20vw;
+    background-color: #efd7bc;
+    border-radius: 20px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fotos {
+    /* width="500" 
+    height="500" */
+    min-height: 5vh;
+    min-width: 5vw;
+}
+
+
+
+@media (max-width: 1400px) {
+
+    .fileira {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+
+    .bege {
+        min-height: 2vh;
+        min-width: 16vw;
+        max-width: 30vw;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+
+    .titulo p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
