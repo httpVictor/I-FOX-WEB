@@ -96,9 +96,33 @@ namespace I_FOX_V1.Models
 
         }
 
-        public string editarResumo()
+        public static string editarResumo(string titulo, string texto, int codigo)
         {
-            return "Resumo editado com sucesso!";
+            string sit_update = "";
+            try
+            {
+                    conexao.Open();
+
+                    //CRIANDO COMANDO DE INSERIR USUÁRIOS NO BANCO DE DADOS
+                    MySqlCommand inserir = new MySqlCommand("UPDATE RESUMO SET titulo = @titulo, texto = @texto WHERE codigo = @codigo", conexao);
+                    inserir.Parameters.AddWithValue("@titulo", titulo);
+                    inserir.Parameters.AddWithValue("@texto", texto);
+                    inserir.Parameters.AddWithValue("@codigo", codigo);
+                    
+                    inserir.ExecuteNonQuery();
+                    sit_update = "Atualizado com sucesso";
+                    
+
+            }
+            catch (Exception e)
+            {
+                sit_update = "Erro de conexão" + e;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return sit_update;
         }
 
         static public string deletarResumo(int id_resumo)

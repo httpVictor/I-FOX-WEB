@@ -256,6 +256,10 @@ namespace I_FOX_V1.Models
             {
                 sit_update = "Erro de conexão" + e;
             }
+            finally
+            {
+                conexao.Close();
+            }
             return sit_update;
         }
 

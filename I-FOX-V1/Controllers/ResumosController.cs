@@ -178,7 +178,15 @@ namespace I_FOX_V1.Controllers
         }
 
         //update
-
+        [HttpPost]
+        public IActionResult VisualizarEscrito(string titulo, string texto, int id)
+        {
+            string sitUpdate = Resumo.editarResumo(titulo, texto, id);
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+            int codigoCaderno = caderno.Codigo;
+            return Redirect("~/Usuario/Materia/" + codigoCaderno);
+        }
 
         //delete
         public IActionResult deletarResumo(int id)

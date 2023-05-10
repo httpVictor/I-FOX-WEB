@@ -3,25 +3,23 @@
     <link rel="stylesheet" href="~/css/resumoEscrito.css" />
 }
     <section class="resumo">
-
-        <form method="post" asp-action="ResumoEscrito">
-
+        
+        <form method="post" asp-action="VisualizarEscrito" asp-route-id="@Model.Codigo">
             <div class="cabecalho_escrito">
-               
                 <input type="text" id="titulo" name="titulo" value="@Model.Titulo" class="sem_fundo" required>
                 <h6>@Model.Data_resumo</h6>
             </div>
-            <div class="bloco">
+
+            <div class="centralizar">
                 <div class="anotacao">
                     <label for="anotacoes">Anotações:</label>
                     <textarea name="texto" id="anotacoes">@Model.Texto</textarea>
                 </div>
-            </div>
-               
-            <button type="submit" class="botao">SALVAR</button>
-        </form>
 
- 
+                <button type="submit" class="botao">SALVAR</button>
+            </div>
+           
+        </form>
 
         <p>@TempData["Sit_Cad_Resumo"]</p>
 

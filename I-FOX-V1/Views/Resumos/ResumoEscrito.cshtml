@@ -5,36 +5,34 @@
 
 <section class="resumo">
  
-    <div class="bloco">
-
-        <h4>Crie seu Resumo!</h4>
-        <br />
+        <h4 class="cabecalho_escrito">Crie seu Resumo!</h4>
+        
         <form method="post" asp-action="ResumoEscrito">
-            <div class="titulo">
-                <label for="">Título:</label>
-                <input type="text" id="titulo" name="titulo">
+            <div class="centralizar">
+                <div class="titulo">
+                    <label for="">Título:</label>
+                    <input type="text" id="titulo" name="titulo">
+                    <br><br>
+
+                </div>
+
+                <div class="data">
+                    <label for="">Data:</label>
+                    <input type="date" id="data" name="data" value="@ViewBag.DataAtual">
+                    <br><br />
+                </div>
+
+                <div>
+                    <label for="">Anotações:</label>
+                    <textarea name="texto" id="anotacoes"></textarea>
+                </div>
+
                 <br><br>
 
+                <button type="submit" class="botao">SALVAR</button>
             </div>
-
-            <div class="data">
-
-                <label for="">Data:</label>
-                <input type="date" id="data" name="data" value="@ViewBag.DataAtual">
-                <br><br />
-            </div>
-
-            <div>
-                <label for="">Anotações:</label>
-                <textarea name="texto" id="anotacoes"></textarea>
-            </div>
-
-            <br><br>
-
-            <button type="submit" class="botao">SALVAR</button>
+           
         </form>
-
-    </div>
 
     <p>@TempData["Sit_Cad_Resumo"]</p>
 

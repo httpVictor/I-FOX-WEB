@@ -17,6 +17,7 @@
     --laranjaEscuro: #d9653b;
     --laranjaClaro: #f28749;
     --verde: #a5ce7f;
+    --verdeEscuro: #7BA852;
     --azulClaro: #69e9f4;
     --azulEscuro: #009fad;
     --azulMeio: #60b5b3;
@@ -187,7 +188,7 @@ footer {
     position: relative;
     overflow:hidden;
     align-items: flex-end;
-    background-color: #3586ff;
+    background-color: white;
     min-height: 100px;
     padding: 20px 50px;
     justify-content: center;
@@ -226,10 +227,10 @@ footer p {
 }
 
 
+
 /* Imagens e definições das ondas */
 footer .wave {
     position: absolute;
-    top: -100px;
     left: 0;
     width: 100%;
     height: 100px;
@@ -255,7 +256,7 @@ footer .wave#wave2 {
 footer .wave#wave3 {
     z-index: 1000;
     opacity: 0.2;
-    bottom: 15px;
+    bottom: 215px;
     animation: animateWave 3s linear infinite;
 }
 
