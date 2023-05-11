@@ -15,17 +15,11 @@
     --azulMeio
     **/
 
-/*CABECALHO data MATERIA*/
-.cabecalho-materia {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 30px;
-    width: 90vw;
-    margin: 20px auto;
+.negrito{
+    font-weight: 700;
 }
 
+/*CABECALHO data MATERIA*/
 
 .descricao_caderno {
     display: flex;
@@ -33,7 +27,7 @@
     justify-content: center;
     align-items: center;
     max-width: 70vw;
-    margin: 40px auto;
+    margin: 10px auto;
     text-align: center;
     font-size: 1.5em;
     height: 20vh;
@@ -87,28 +81,51 @@
 /*RESUMOS VÃO APARECER AQUI*/
 .tipos-resumo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 20px auto;
-    max-width: 60vw;
+    max-width: 50vw;
     padding: 30px;
-    column-gap: 20px;
-    background: #BC9E7C;
+    background: var(--verde);
     border: 1px solid #000000;
     border-radius: 40px;
     margin-bottom: 30px;
+    row-gap: 20px;
+    
 }
 
-.tipos-resumo p{
-    font-size: 1.4em;
+.divide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 5vw;
+}
+
+.resumo-tipo img {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.resumo-tipo img:hover {
+    box-shadow: 0 0 10px 0 var(--azulMeio) inset, 0 0 10px 4px var(--azulMeio);
+}
+
+.tipos-resumo p {
+    font-size: 2.4em;
+    font-family: 'Sue Ellen Francisco', sans-serif;
 }
 
 .resumo-tipo img {
     padding: 15px;
-    background-color: var(--verde);
-    border-radius: 10px;
+    background-color: var(--azulMeio);
+    border-radius: 12px;
 }
 
 .resumos {
@@ -137,6 +154,7 @@
 
 .resumo img {
     width: 25px;
+    margin-bottom: 15px;
 }
 
 .poligono {

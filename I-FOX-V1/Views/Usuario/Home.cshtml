@@ -83,13 +83,13 @@
                     <div class="infos-caderno">
                         <img src="~/img/icones_caderno/@caderno.Icone" alt="" />
                         <p>@caderno.Titulo |</p>
-                        <p>Quantidade de atividades</p>
+                        <p>@caderno.Descricao</p>
                     </div>
                 </a>
                 <button class="lixin pop-button"><img src="~/img/icones_crud/deletar_icone.png" /></button>
 
                 <dialog>
-                    <p>Tem certeza que deseja excluir ?</p>
+                    <p>Tem certeza que deseja excluir @caderno.Titulo ?</p>
                     <button>NÂO</button>
                     <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">SIM</a>
                 </dialog>

@@ -182,7 +182,7 @@ namespace I_FOX_V1.Models
 
                     listaResumo.Add(new Resumo(
                         int.Parse(leitorBanco["codigo"].ToString()),
-                        leitorBanco["data_resumo"].ToString(),
+                        ((DateTime) leitorBanco["data_resumo"]).Date.ToString(),
                         (string)leitorBanco["tipo"],
                         (string)leitorBanco["titulo"],
                         int.Parse(leitorBanco["FK_CADERNO_codigo"].ToString())
@@ -218,7 +218,7 @@ namespace I_FOX_V1.Models
                     //Definindo os atributos que vão vir do banco
                      resumo = new Resumo(
                         int.Parse(leitorBanco["codigo"].ToString()),
-                        leitorBanco["data_resumo"].ToString(),
+                        Convert.ToDateTime(leitorBanco["data_resumo"].ToString()).ToString("dd/MM/yyyy"),
                         (string)leitorBanco["tipo"],
                         (string)leitorBanco["titulo"],
                         (string)leitorBanco["texto"],

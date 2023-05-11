@@ -51,7 +51,8 @@ body {
 }
 
 main{
-    margin-bottom: 200px;
+    min-height: 60vh;
+    padding-bottom: 200px;
 }
 
 

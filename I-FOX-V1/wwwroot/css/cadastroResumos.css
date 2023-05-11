@@ -15,18 +15,25 @@
     --azulMeio
     **/
 
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .bloco {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 40px 14vw 0 auto;
     background-color: var(--verde);
     min-width: 40vw;
-    max-width: 60vw;
+    max-width: 50vw;
     border-radius: 20px;
     padding: 30px 0;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 form{

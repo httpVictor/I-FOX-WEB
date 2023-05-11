@@ -14,19 +14,6 @@
 }
 
 <section>
-@*
-    <div class="cabecalho-materia">
-        <div class="botao-pesquisar">
-             <img src="~/img/icones_crud/lupa-pesquisa.png" />
-             <input type="text" placeholder="Pesquisar"/>
-        </div>
-        <div class="imagens-organizacao-materia">
-            <img src="~/img/icones_crud/organizador.png" />
-            <img src="~/img/icones_crud/filtro.png" />
-        </div>
-    </div>
-*@
-
     <div class="descricao_caderno">
         <h2>@TempData["tituloCaderno"]</h2>
         <h5>@TempData["descricaocaderno"]</h5>
@@ -35,33 +22,36 @@
     <div class="tipos-resumo">
         <p>Selecione o tipo de resumo que você deseja</p>
 
-        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Flashcard">
-            <div class="resumo-tipo">
-                <img src="~/img/icones_resumo/flashcard.png" alt="Icone de um flashcard" />
-                <p>Flashcards</p>
-            </div>
-        </a>
+        <div class="divide">
+            <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Flashcard">
+                <div class="resumo-tipo">
+                    <img src="~/img/icones_resumo/flashcard_iconn.png" alt="Icone de um flashcard" />
+                    <p>Flashcards</p>
+                </div>
+            </a>
 
-        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Foto">
-            <div class="resumo-tipo">
-                <img src="~/img/icones_resumo/foto-resumo.png" alt="Icone de um resumo por foto" />
-                <p>Foto</p>
-            </div>
-        </a>
+            <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Foto">
+                <div class="resumo-tipo">
+                    <img src="~/img/icones_resumo/foto_iconn.png" alt="Icone de um resumo por foto" />
+                    <p>Foto</p>
+                </div>
+            </a>
 
-        <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Audio">
-            <div class="resumo-tipo">
-                <img src="~/img/icones_resumo/audio-resumo.png" alt="Icone de resumo por áudio" />
-                <p>Áudio</p>
-            </div>
-       </a>
+            <a asp-controller="Resumos" asp-action="CadastrarResumo" asp-route-id="Audio">
+                <div class="resumo-tipo">
+                    <img src="~/img/icones_resumo/audio_iconn.png" alt="Icone de resumo por áudio" />
+                    <p>Áudio</p>
+                </div>
+            </a>
 
-        <a asp-controller="Resumos" asp-action="ResumoEscrito">
-            <div class="resumo-tipo">
-                <img src="~/img/icones_resumo/resumo-escrito.png" alt="Icone de resumo escrito" />
-                <p>Escrito</p>
-            </div>
-        </a>
+            <a asp-controller="Resumos" asp-action="ResumoEscrito">
+                <div class="resumo-tipo">
+                    <img src="~/img/icones_resumo/escrito_iconn.png" alt="Icone de resumo escrito" />
+                    <p>Escrito</p>
+                </div>
+            </a>
+        </div>
+        
 
     </div>
 
@@ -84,7 +74,7 @@
                         </div>     
                     
                         <div class="descricao_resumo">
-                            <p>@resumo.Titulo </p>
+                            <p class="negrito">@resumo.Titulo </p>
                             <p>Resumo @resumo.Tipo</p>
                         </div>
 
