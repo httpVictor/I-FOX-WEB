@@ -19,9 +19,9 @@
 /* função da parte dos cards */
 .funcao-inicial {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 300px));
     grid-column-gap: 10vw;
-    grid-row-gap: 10vh;
+    grid-row-gap: 7vh;
     justify-content: center;
     max-width: 90vw;
     margin: 0 auto;

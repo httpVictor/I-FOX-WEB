@@ -14,32 +14,35 @@
     --azulEscuro
     --azulMeio
     **/
-
-body{
-    background-image: url(~/img/i_fox/fundo-resumos.png);
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bloco{
+.bloco {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--verde);
     margin: auto auto;
-    width: 75vw;
+    width: 50vw;
     padding: 25px;
     border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .imagens_resumo {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 200px));
+    grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
     grid-column-gap: 3vw;
     justify-content: center;
     align-content: center;
     margin: 50px 0px;
     grid-row-gap: 8vh;
-    width: 60vw;
+    min-width: 35vw;
 }
 
 .elemento_imagem {

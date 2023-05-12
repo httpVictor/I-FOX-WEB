@@ -10,8 +10,6 @@
 
     <div class="bloco">
 
-        <button class="botao-laranja">Deletar Arquivo</button>
-
         <form method="post" enctype="multipart/form-data" asp-controller="Resumos" asp-action="ResumoFotos">
             <div class="imagens_resumo">
                 @if(Model != null)
@@ -42,6 +40,7 @@
             <div class="file">
                 <input name="arquivo" type="file" id="file">
                 <button type="submit" class="botao-laranja">Salvar Arquivo</button>
+                <button class="botao-laranja">Deletar Arquivo</button>
             </div>
 
             <br><br>
