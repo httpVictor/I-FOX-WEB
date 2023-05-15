@@ -96,7 +96,7 @@ namespace I_FOX_V1.Models
             return sitCadastro;
         }
 
-        static public string deletar()
+        static public string deletar(int id_resumo)
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
             string situacao_deletar = "";
@@ -106,14 +106,14 @@ namespace I_FOX_V1.Models
                 //abrir a conexão 
                 conexao.Open();
 
-                //criando o comando de insert
-                MySqlCommand inserir = new MySqlCommand("DELETE FROM CARD WHERE FK_RESUMO_codigo = @codigo", conexao);
+                //criando o comando de delete
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM CARD WHERE FK_RESUMO_codigo = @codigo", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
-                //inserir.Parameters.AddWithValue("@codigo", );
+                deletar.Parameters.AddWithValue("@codigo", id_resumo);
 
                 //Executando o comando
-                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
                 situacao_deletar = "deletado com sucesso";
 
             }
@@ -166,7 +166,7 @@ namespace I_FOX_V1.Models
             }
             catch (Exception e)
             {
-                
+                string erro = "Erro de conexão" + e;
             }
             finally
             {

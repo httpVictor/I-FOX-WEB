@@ -1,26 +1,78 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{   
+    ViewData["Title"] = "Nome Resumo";
 }
+@section Estilos{
+    <link rel="stylesheet" href="~/css/resumoAudio.css" />
+}
+@section JavaScript{
+    <script src="~/js/audio.js"></script>
+}
+
 <section class="funcao">
 
     <div class="bloco">
-        <input role="button" value="Deletar Arquivo" class="botao">
-        <br><br>
+        <form> 
+            <div class="cabecalho_resumo">
+                <input type="text" id="titulo" name="titulo" value="titulo vem aq" class="sem_fundo" required>
+                <h6>dd/MM/yyyy</h6>
+            </div>
+            <div class="audios_resumo">
 
-        <div class="audios">
-            <label for="">lugar onde vai ficar o arquivo</label>
-            <input type="checkbox"/>
-            <audio></audio>
-        </div>
-        <div class="file">
-            <input type="file" name="nao_sei_ainda_:)">
-            <button>SALVAR ARQUIVO</button>
-        </div>
+                @if (Model != null)
+                {
+                    @foreach (Arquivo arquivo in Model)
+                    {
+                        //Passando o arquivo do áudio
+                        string imagemRes = Convert.ToBase64String(arquivo.ArrayBytes);
+                        string formato = "data:audio/mpeg;base64," + imagemRes;
+
+                        //Aqui vem o áudio do banco
+                        <div class="elemento_imagem">
+                            <img src="@formato" />
+                            <input type="checkbox" />
+                        </div>
+
+                    }
+                }
+                <audio id="myAudio" controls>
+                    <source src="beethoven.mp3" type="audio/mpeg">
+                    Seu navegador não possui suporte ao elemento audio
+                </audio>
+
+                <div class="botoes">
+
+                    <input type="checkbox" name="" id="">
+
+
+                    <div class="arquivo">
+                        <p>Nome do arquivo</p>
+                    </div>
+
+
+                    <div class="parar">
+                        <div class="button" onclick="playAudio()">
+                            <img src="~/img/icones_resumo/play_icon.png" alt="">
+                        </div>
+
+
+                        <div class="button" onclick="pauseAudio()">
+                            <img src="~/img/icones_resumo/pause_icon.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="file">
+                    <input type="file" name="nao_sei_ainda_:)" />
+
+                </div>
+
+                <button class="botao-laranja">SALVAR ARQUIVO</button>
+                <button class="botao-laranja">Deletar Arquivo</button>
+            </div>
+
+        </form>
 
     </div>
-
-
 
 </section>

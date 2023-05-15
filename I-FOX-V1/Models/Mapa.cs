@@ -2,6 +2,8 @@
 {
     public class Mapa
     {
+        private string usuario;
+        private int fases, missoes;
 
     }
 }

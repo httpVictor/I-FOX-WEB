@@ -5,10 +5,9 @@ namespace I_FOX_V1.Models
 {
     public class Resumo
     {
-
         //atributos
         private int codigo;
-        private string tipo, titulo, texto, frente, verso, data_resumo;
+        private string tipo, titulo, texto, data_resumo;
         private int caderno;
 
         static MySqlConnection conexao = FabricaConexao.getConexao();
@@ -52,12 +51,10 @@ namespace I_FOX_V1.Models
         public string Tipo { get => tipo; set => tipo = value; }
         public string Titulo { get => titulo; set => titulo = value; }
         public string Texto { get => texto; set => texto = value; }
-        public string Frente { get => frente; set => frente = value; }
-        public string Verso { get => verso; set => verso = value; }
         public int Caderno { get => caderno; set => caderno = value; }
 
 
-        //MÉTODOS CRUD
+        //Método para cadastrar um resumo
         public string cadastrarResumo()
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
@@ -96,6 +93,7 @@ namespace I_FOX_V1.Models
 
         }
 
+        //Método para editar um resumo
         public static string editarResumo(string titulo, string texto, int codigo)
         {
             string sit_update = "";
@@ -125,28 +123,30 @@ namespace I_FOX_V1.Models
             return sit_update;
         }
 
+        //Método para deletar um resumo
         static public string deletarResumo(int id_resumo)
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
             string situacao_deletar = "";
 
             //Apagando primeiro arquivos presentes em tabelas que se ligam em resumos
-
+            Arquivo.deletarAquivo(id_resumo);
             //Apagando os cards presentes nesse resumo
+            Flashcard.deletar(id_resumo);
 
             try //tente efetuar a conexão, caso dê algum erro cair no catch
             {
                 //abrir a conexão 
                 conexao.Open();
 
-                //criando o comando de insert
+                //criando o comando de delete
                 MySqlCommand inserir = new MySqlCommand("DELETE FROM RESUMO WHERE codigo = @codigo", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
                 inserir.Parameters.AddWithValue("@codigo", id_resumo);
 
                 //Executando o comando
-                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                inserir.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
                 situacao_deletar = "deletado com sucesso";
 
             }
@@ -162,8 +162,7 @@ namespace I_FOX_V1.Models
             return situacao_deletar;
         }
    
-        //LISTAR
-        //Método para listagem de resumos de um usuário
+        //Método qu busca todos os resumos de um caderno específico
         static public List<Resumo> listarResumo(int id_caderno)
         {
             List<Resumo> listaResumo = new List<Resumo>();
@@ -236,7 +235,7 @@ namespace I_FOX_V1.Models
             return resumo;
         }
 
-        //MÉTODOS 
+        //Método para conferir se existe um resumo com o mesmo nome
         public bool existeResumo()
         {
             return true;

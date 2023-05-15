@@ -36,7 +36,7 @@ namespace I_FOX_V1.Models
         public int CodCaderno { get => codCaderno; set => codCaderno = value; }
         public int CodResumo { get => codResumo; set => codResumo = value; }
 
-        //MÉTODOS
+        //Método para cadastrar arquivos
         public string cadastrar()
         {
             string situacao_arquivo = "";
@@ -64,6 +64,7 @@ namespace I_FOX_V1.Models
             return situacao_arquivo;
         }
 
+        //Método para listar arquivos
         static public List<Arquivo> listar(string id_resumo)
         {
             List<Arquivo> listaArquivo= new List<Arquivo>();
@@ -98,8 +99,7 @@ namespace I_FOX_V1.Models
             return listaArquivo;
         }
 
-        //Método para deletar arquivos
-        static public string deletarAquivo(int id_resumo)
+        static public string deletarArquivos(string id_arquivo)
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
             string situacao_deletar = "";
@@ -109,14 +109,14 @@ namespace I_FOX_V1.Models
                 //abrir a conexão 
                 conexao.Open();
 
-                //criando o comando de insert
-                MySqlCommand inserir = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMO_codigo = @codigo", conexao);
+                //criando o comando de delete
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE codigo = @codigo", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
-                inserir.Parameters.AddWithValue("@codigo", id_resumo);
+                deletar.Parameters.AddWithValue("@codigo", id_arquivo);
 
                 //Executando o comando
-                inserir.ExecuteNonQuery(); //É um insert, logo não é necessário uma pesquisa (query)!
+                deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
                 situacao_deletar = "deletado com sucesso";
 
             }
@@ -132,6 +132,41 @@ namespace I_FOX_V1.Models
             return situacao_deletar;
         }
 
+        //Método para deletar TODOS arquivos de determinado resumo
+        static public string deletarAquivo(int id_resumo)
+        {
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de delete
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMO_codigo = @codigo", conexao);
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                deletar.Parameters.AddWithValue("@codigo", id_resumo);
+
+                //Executando o comando
+                deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
+        }
+
+        //buscar o caderno no qual aquele arquivo está ligado
         static public int buscarResumo(string tituloRes, int codCaderno)
         {
             int codigoResumo = 0;
