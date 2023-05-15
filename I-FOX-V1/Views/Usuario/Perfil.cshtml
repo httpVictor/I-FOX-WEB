@@ -8,7 +8,7 @@
 }
 
 <section>
-    <div class="bloco">
+   @* <div class="bloco">
 
         <div class="avatar">
             <p>Avatar</p>
@@ -69,5 +69,74 @@
         </form>
 
     </div>
+
+*@
+
+
+    <div class="blocao">
+
+
+        <div class="img">
+            <img alt="" src="~/img/i_fox/raposa_perfil.png" height="800px">
+        </div>
+
+
+        <div class="tudo">
+
+            <br><br><br>
+
+            <div class="primeiro">
+
+                <div class="perfil">
+                </div>
+
+                <div>
+                    <h1>Olá, @Model.Nome</h1>
+                </div>
+
+            </div>
+
+            <form method="post">
+                <div class="usuario">
+
+                    <div class="campo1">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" id="usuario" name="nome" value="@Model.Nome" required>
+                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
+                    </div>
+
+                    <br><br>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="@Model.Email" required>
+                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
+                    </div>
+
+                    <br><br>
+
+                    <div class="campo">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" value="@Model.Senha">
+                        <img alt="" src="~/img/icones_crud/edicao.png" width="30px" height="30px">
+                    </div>
+
+                    <br><br>
+
+                    <button type="submit" class="botao-verde">SALVAR</button>
+
+                </div>
+            </form>
+
+        </div>
+            
+
+
+    </div>
+
+    <div class="imagem">
+        <img alt="" src="~/img/i_fox/matinho_fundo.png" width="1862px" height="130px">
+    </div>
+
 
 </section>

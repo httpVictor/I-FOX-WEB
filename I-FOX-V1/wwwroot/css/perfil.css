@@ -15,43 +15,12 @@
     --azulMeio
     **/
 
-.bloco {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 25px;
-    max-width: 90vw;
-    height: 30vh;
-    margin: 0 auto;
-    flex-direction: row;
-}
-
-.avatar {
-    background-color: white;
-    border-radius: 100%;
-    padding: 70px;
-}
-
-p {
-    font-family: 'Sue Ellen Francisco';
-    font-size: 30px;
-    display: flex;
-}
-
-.foraBloco {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 50px;
-    text-align: center;
-}
-
 .usuario {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 25px;
 }
 
 label {
@@ -84,66 +53,54 @@ input {
     min-width: 40vh;
 }
 
-#raposaFilhote:hover {
-    transform: scale(1.02);
+button {
+    border-radius: 20px;
+    background-color: #f28749;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    margin-bottom: 25px;
 }
 
-
-@media (max-width: 800px) {
-    
-    /* parte branca */
-    input {
-        padding: 10px;
-        font-size: 18px;
-    }
-    .campo input {
-        min-width: 30vh;
-    }
-
-    .campo1 input {
-        min-width: 30vh;
-    }
-
-    .campo2 input {
-        min-width: 24vh;
-    }
-
-    .foraBloco {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .bloco div img{
-        display: none;
-    }
-
-    label{
-        font-size: 20px;
-    }
+.tudo {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDC1A2;
+    max-width: 40vw;
+    max-height: 75vh;
+    border-radius: 30px;
+    margin-left: 200px;
+    border: 2px solid #000000;
 }
 
-@media (max-width: 450px) {
-    /* parte branca */
-    input {
-        font-size: 16px;
-    }
-    .campo input {
-        min-width: 25vh;
-    }
+.primeiro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
-    .campo1 input {
-        min-width: 25vh;
-    }
+.perfil {
+    background-color: white;
+    border-radius: 100%;
+    padding: 70px;
+    margin-right: 15px;
+}
 
-    .campo2 input {
-        min-width: 19vh;
-    }
+h1 {
+    font-family: 'Aclonica';
+    font-size: 40px;
+}
 
-    /* parte verde */
-    label {
-        font-size: 16px;
-    }
-    .foraBloco #raposaFilhote {
-        display: none;
-    }
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocao {
+    display: flex;
+    flex-direction: row;
 }

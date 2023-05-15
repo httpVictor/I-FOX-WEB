@@ -204,7 +204,7 @@ textarea {
 .opcoes_resposta {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 220px));
+    grid-template-columns: repeat(2, minmax(200px, 220px));
     align-items: center;
     justify-content: center;
     grid-column-gap: 1vw;
@@ -248,11 +248,12 @@ textarea {
 }
 
 .opcao-resposta:nth-child(4) {
-    background: #D97A74;
+        
+    background: #D9C274;
 }
 
 .opcao-resposta:nth-child(6) {
-    background: #D9C274;
+    background: #D97A74;
 }
 
 .opcao-resposta:nth-child(8) {
@@ -266,7 +267,7 @@ input[type=radio]:checked + .opcao-resposta {
     border: solid 3px var(--azulClaro);
 }
 
-/* FIM MEMÓRIA */
+/* FIM MEMÓRIA */ 
 @media (max-width: 830px) {
 
 
