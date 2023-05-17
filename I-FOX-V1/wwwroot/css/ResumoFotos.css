@@ -14,6 +14,7 @@
     --azulEscuro
     --azulMeio
     **/
+
 main {
     background-image: url("../img/i_fox/fundo-raposa-ofc.png");
     background-size: cover;
@@ -52,7 +53,7 @@ main {
     width: 200px;
     height: 200px;
     position: relative;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
 }
 

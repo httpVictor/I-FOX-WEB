@@ -108,7 +108,7 @@ namespace I_FOX_V1.Controllers
                     byte[] bytesDoArquivo = s.ToArray(); //transformar em cadeia de byte
                     string titulo = HttpContext.Session.GetString("tituloResumo");
 
-                    if (titulo != null || titulo != "")
+                    if (titulo != null || titulo != null)
                     {
                        int codigoResumo = Arquivo.buscarResumo(titulo, codigoCaderno);
                        id = codigoResumo;
@@ -125,7 +125,7 @@ namespace I_FOX_V1.Controllers
                 }
             }
 
-            return Redirect("../Usuario/Materia/" + codigoCaderno);
+            return Redirect("../Resumo/ResumoFotos/" + id);
         }
 
         [HttpPost]
