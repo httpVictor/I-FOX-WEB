@@ -68,7 +68,10 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
-
+        public IActionResult Notificacao()
+        {
+            return View();
+        }
 
         [HttpPost]
         public IActionResult Perfil(string nome,string email, string senha, string data_nasc)

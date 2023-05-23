@@ -1,749 +1,216 @@
-﻿/* Fontes importadas */
-/* font-family: 'Aclonica', sans-serif; */
-/* font-family: 'Pathway Gothic One', sans-serif; */
-/* font-family: 'Sue Ellen Francisco', cursive; */
-/* font-family: 'Poppins', sans-serif; */
+﻿
+section {
+    background-image: url("../img/i_fox/Fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
 
-/* Cores da paleta do site */
-/**
-    --beje
-    --laranjaEscuro
-    --laranjaClaro
-    --verde
-    --azulClaro
-    --azulEscuro
-    --azulMeio
-    **/
+.escrita h2 {
+    font-family: 'Aclonica';
+    font-size: 40px;
+}
 
+.escrita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .escrita p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 35px;
+    }
+
+#azul {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 35px;
+    color: #009fad;
+    padding-left: 10px;
+}
+
+.lado {
+    display: flex;
+    flex-direction: row;
+}
+
+.lado1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    margin-left: 250px;
+    margin-top: 150px;
+}
 
 .bloco {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
     background-color: #60B5B3;
-    border-radius: 25px;
-    max-width: 90vw;
-    height: 30vh;
-    display: flex;
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 100px;
+    border: 2px solid #000000;
 }
 
-.foraBloco {
+.bloquinho {
+    background-color: #009FAD;
+    width: 650px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+    .bloquinho p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 35px;
+        color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.inserir {
+    background-color: #69e9f4;
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-top: 60px;
 }
 
-.img1 {
-    margin-left: 60px;
-}
+    .inserir p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 30px;
+    }
 
-section h3 {
-    font-family: 'Sue Ellen Francisco';
-    font-size: 45px;
-    display: flex;
-    flex-direction: row;
-}
-
-section h2 {
-    font-family: 'Sue Ellen Francisco';
-    color: white;
-    font-size: 70px;
-}
-
-section h1 {
-    font-family: 'Sue Ellen Francisco';
+input {
     font-size: 30px;
+    font-family: 'Sue Ellen Francisco';
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+
+button {
+    border-radius: 20px;
+    background-color: EFD7BC;
+    width: 230px;
+    height: 60px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 25px;
+    border: 2px solid #000000;
+}
+
+.botao {
+    margin-top: 30px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    flex-direction: row;
 }
 
-.pomodoro {
+
+
+h2 {
+    font-size: 90pt;
+}
+
+
+.time {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-left: 80px;
+    margin: auto !important;
 }
 
-.balao img {
-    display: block;
+
+
+#timer {
+    display: none !important;
 }
 
-.bloco1 {
+
+
+
+
+
+
+
+/* Tirar o botão de mais e menos do input tipo number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: none;
+}
+
+.time {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
     display: flex;
-    flex-direction: row;
-}
-
-.tempoPomodoro {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: auto !important;
 }
 
 
-.blocoLaranja {
-    margin: 5px;
-    margin-top: 100px;
-    background-color: #f28749;
+
+#timer {
+    display: none !important;
+    margin-left: 400px;
+    margin-top: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #abd8d8;
     border-radius: 25px;
-    width: 20vw;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
-.blocaoLaranja {
-    margin: 5px;
-    margin-top: 100px;
-    background-color: var(--laranjaClaro);
+.editar {
+    margin-top: 250px;
+    margin-left: 280px;
+    background-color: #abd8d8;
     border-radius: 25px;
-    width: 40vw;
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
-button:hover {
-    cursor: pointer;
-}
-
-
-.timerBotao {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    width: 22vw;
-    height: 15vh;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-
-p {
+.botaozinho {
+    background-color: #fff;
     font-family: 'Sue Ellen Francisco';
     font-size: 40px;
-    align-items: center;
-    justify-content: center;
-}
-
-.blocoLaranja #titulo {
-    font-size: 10px;
-    width: 130px;
-    height: 40px;
-    border-radius: 20px 20px 20px 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.blocaoLaranja #titulo {
-    font-size: 10px;
-    width: 130px;
-    height: 40px;
-    border-radius: 20px 20px 20px 20px;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
-
-
-
-.button {
-    height: 60px;
-    width: 180px;
-    background-color: var(--verde);
-    color: rgb(3, 2, 2);
-    font-family: 'Sue Ellen Francisco', cursive;
-    border-radius: 20px 20px 20px 20px;
-    text-align: center;
-    font-size: xx-large;
-    margin-left: 25px;
-    margin-top: 30px;
-}
-
-
-/* DIMENSÕES */
-
-
-@media (max-width: 1530px) {
-
-    p {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 30px;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-
-@media (max-width: 1400px) {
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 15vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .button {
-        height: 60px;
-        width: 180px;
-        background-color: var(--verde);
-        color: rgb(3, 2, 2);
-        font-family: 'Sue Ellen Francisco', cursive;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        font-size: x-large;
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-}
-
-
-
-
-@media (max-width: 1180px) {
-
-
-    h2,
-    h3 {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 40px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #watch {
-        font-size: 20px;
-    }
-
-
-
-
-    p {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 25px;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-
-    .blocoLaranja #titulo {
-        font-size: 7px;
-        width: 90px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-    .blocaoLaranja #titulo {
-        font-size: 7px;
-        width: 90px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-}
-
-
-
-
-
-
-@media (max-width: 1078px) {
-
-
-    .blocoLaranja #titulo {
-        font-size: 7px;
-        width: 80px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-    .blocaoLaranja #titulo {
-        font-size: 7px;
-        width: 80px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    p {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 23px;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-
-
-@media (max-width: 880px) {
-
-
-    p {
-        display: flex;
-        font-family: 'Sue Ellen Francisco';
-        font-size: 20px;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-    }
-
-    .foraBloco {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-
-
-@media (max-width: 770px) {
-
-
-    h2,
-    h3 {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 30px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    #watch {
-        font-size: 15px;
-    }
-
-
-    .button {
-        height: 60px;
-        width: 180px;
-        background-color: var(--verde);
-        color: rgb(3, 2, 2);
-        font-family: 'Sue Ellen Francisco', cursive;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        font-size: large;
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-
-
-
-
-    .blocoLaranja #titulo {
-        font-size: 7px;
-        width: 60px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-    .blocaoLaranja #titulo {
-        font-size: 7px;
-        width: 60px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 20px;
-        margin-left: 15px;
-    }
-}
-
-
-
-@media (max-width: 650px) {
-
-
-    h2,
-    h3 {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 25px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-
-    .blocoLaranja #titulo {
-        font-size: 7px;
-        width: 45px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-    .blocaoLaranja #titulo {
-        font-size: 7px;
-        width: 50px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        align-items: center;
-        margin-top: 15px;
-    }
-
-
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .button {
-        height: 60px;
-        width: 180px;
-        background-color: var(--verde);
-        color: rgb(3, 2, 2);
-        font-family: 'Sue Ellen Francisco', cursive;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        font-size: medium;
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-
-
-
-    #watch {
-        font-size: 10px;
-    }
-
-    .laranja {
-        margin-left: 10px;
-    }
-}
-
-
-
-@media (max-width: 580px) {
-
-
-    h2,
-    h3 {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 22px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .button {
-        height: 50px;
-        width: 180px;
-        background-color: var(--verde);
-        color: rgb(3, 2, 2);
-        font-family: 'Sue Ellen Francisco', cursive;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        font-size: small;
-    }
-
-
-
-    #watch {
-        font-size: 12px;
-        margin-left: 5px;
-    }
-
-
-    .blocoLaranja #titulo {
-        font-size: 7px;
-        width: 40px;
-        height: 25px;
-        border-radius: 20px 20px 20px 20px;
-        padding: 10px;
-        margin-right: 15px;
-    }
-
-
-    .img1 {
-        margin-left: 30px;
-    }
-}
-
-
-
-
-@media (max-width: 485px) {
-
-
-
-    h2,
-    h3 {
-        font-family: 'Sue Ellen Francisco';
-        font-size: 30px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .img1 {
-        display: none;
-    }
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 22vw;
-        height: 10vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    .button {
-        height: 50px;
-        width: 180px;
-        background-color: var(--verde);
-        color: rgb(3, 2, 2);
-        font-family: 'Sue Ellen Francisco', cursive;
-        border-radius: 20px 20px 20px 20px;
-        text-align: center;
-        font-size: small;
-    }
-
-
-
-    #watch {
-        font-size: 12px;
-        margin-left: 5px;
-    }
-
-
-    .laranja1 {
-        font-size: 20px;
-    }
-}
-
-
-
-
-@media (max-width: 430px) {
-
-
-    .blocoLaranja {
-        margin: 5px;
-        margin-top: 100px;
-        background-color: f28749;
-        border-radius: 25px;
-        width: 23vw;
-        height: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .blocaoLaranja {
-        margin: 5px;
-        margin-top: 100px;
-        background-color: f28749;
-        border-radius: 25px;
-        width: 43vw;
-        height: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-
-
-    .laranja1 {
-        font-size: 17px;
-    }
-
-    .laranja {
-        font-size: 17px;
-    }
-
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 27vw;
-        height: 7vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-
-
-@media (max-width: 340px) {
-
-
-
-    .blocoLaranja {
-        margin: 5px;
-        margin-top: 100px;
-        background-color: f28749;
-        border-radius: 25px;
-        width: 27vw;
-        height: 10vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-        .blocoLaranja #titulo {
-            font-size: 7px;
-            width: 30px;
-            height: 20px;
-            border-radius: 20px 20px 20px 20px;
-            padding: 10px;
-            margin-right: 25px;
-        }
-
-    h1 {
-        font-size: 20px;
-    }
-
-
-    .laranja {
-        font-size: 16px;
-    }
-
-
-
-
-    .timerBotao {
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-        width: 35vw;
-        height: 7vh;
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
 }

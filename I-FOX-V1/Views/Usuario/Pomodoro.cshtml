@@ -6,66 +6,153 @@
     <link rel="stylesheet" href="~/css/pomodoro.css" />
 }
 
+@section JavaScript{
+
+
+    <script src="~/js/pomodoro.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+}
+
 <section>
 
-    <div class="bloco">
-
-        <div class="img1">
-            <img alt="" src="~/img/i_fox/raposa-cabecalhos.png" width="250px" height="170px">
+    <br><br><br>
+        <div class="escrita">
+            <h2>Nome do seu cadastro</h2>
+            <div class="lado">
+                <p> Aqui você pode iniciar o temporizar para o método
+                <p id="azul">POMODORO</p>
+                </p>
+            </div>
         </div>
 
-        <div class="pomodoro">
-            <h3> aqui você pode iniciar temporizar para o método </h3>
-            <h2>POMODORO</h2>
-        </div>
 
-    </div>
-
-    <div class="foraBloco">
-
-        <div class="balao">
-            <img alt="" src="~/img/i_fox/pomodoro-u-know.png">
-            <img alt="" src="~/img/i_fox/raposa-mascote.png" width="250px" height="300px">
-        </div>
-
-        <div class="tempoPomodoro">
-            <br>
-            <h1>DEFINIR O TEMPO DO POMODORO</h1>
-
-            <div class="bloco1">
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
 
 
-                <div class="blocoLaranja">
-                    <p class="laranja">Foco:</p>
-                    <input type="text" id="titulo">
+            <div class="ml-auto">
+                <a onclick="pausar()">
+                    <i id="pause" class="fa fa-pause text-white" style="font-size: 25pt; display: none;"
+                        aria-hidden="true"></i>
+                </a>
+
+                <a onclick='executar()'>
+                    <i id='play' class="fa fa-play text-white" style="font-size: 25pt; display: none;"
+                        aria-hidden="true"></i>
+                </a>
+
+                <audio id="lofi" src="~/audios/lo-fi.mp" type="audio/mpeg"></audio>
+            </div>
+
+        </nav>
+
+
+
+        <div class="lado">
+            <div class="img">
+                <img alt="" src="~/img/i_fox/balaoo.png" width="330px" height="220px">
+            </div>
+
+
+            <div id="config">
+                <div class="bloco">
+
+                    <div class="bloquinho">
+                        <p>DEFINIR O TEMPO DO POMODORO:</p>
+                    </div>
+
+                    <div class="lado1">
+
+                        <div class="inserir">
+                            <p>FOCO</p>
+                            <input type="number" id="acao">
+                            <small class="text-danger" id='erro_acao'></small>
+                        </div>
+
+                        <div class="inserir">
+                            <p>DESCANSO</p>
+                            <input type="number" id="pausa">
+                            <small class="text-danger" id='erro_pausa'></small>
+                        </div>
+
+                        <div class="inserir">
+                            <p>QUANTIDADE</p>
+                            <input type="number" id="sessoes">
+                            <small class="text-danger" id='erro_sessoes'></small>
+                        </div>
+
+                    </div>
+
+                    <div class="botao">
+                        <button onclick="iniciar()">INICIAR POMODORO</button>
+                    </div>
+
+
+
                 </div>
 
-                <div class="blocoLaranja">
-                    <p class="laranja">Descanso:</p>
-                    <input type="text" id="titulo">
+
+            </div>
+
+            <!-- Timer -->
+
+            <div id="timer">
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <h3 id='title'></h3>
+                    </div>
+                </div>
+
+                <!-- Relogio -->
+                <div class="row shadow time">
+                    <div class="col-5 p-0 ">
+                        <h2 id="minutes_ok"></h2>
+                    </div>
+                    <div class="col-1 p-0 d-flex justify-content-center">
+                        <h2>:</h2>
+                    </div>
+                    <div class="col-5 pl-0">
+                        <h2 id="seconds_ok"></h2>
+                    </div>
+                </div>
+                <!-- /Relogio -->
+
+                <div class="row mt-5">
+                    <div class="col">
+                        <h3 id='title_sessao'></h3>
+                    </div>
                 </div>
 
             </div>
+            <!-- /Timer -->
 
+            <!-- Finalização -->
+            <div id="fim" style="display: none;">
 
-            <div class="blocaoLaranja">
-                <p class="laranja1">Quantidade de pomos que deseja:</p>
-                <input type="text" id="titulo">
-            </div>
-
-            <br><br><br>
-
-            <div class="timerBotao">
-
-                <h1 id="watch">00:00</h1>
-
-                <button class="button" onclick="start()">Iniciar</button>
-                <button class="button" onclick="start()">Relatório</button>
+                <div class="editar">
+                    <h1>Parabéns! Você finalizou suas tarefas.</h1>
+                    <div>
+                        <div>
+                            <a href="./novapomodoro.html" class="botaozinho">Inicio</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
+            <!-- /Finalização -->
 
         </div>
 
-    </div>
 
+   
 </section>
