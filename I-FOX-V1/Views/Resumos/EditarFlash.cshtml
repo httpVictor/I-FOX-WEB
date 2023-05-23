@@ -1,5 +1,79 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<I_FOX_V1.Models.Flashcard>
+
 @{
+    @section Estilos{
+    <link rel="stylesheet" href="~/css/flashcards.css" />
+    }
+
+    @section JavaScript{
+    <script src="~/js/flashcards.js"></script>
+    }
+    ViewData["Title"] = "Flashcards";
 }
+
+<section class="container_flashcard">
+
+    @if(Model != null){
+
+        @foreach (Flashcard card in Model)
+        {
+            int totalCards = card.CodigoCard.Count;
+            <form method="post" asp-controller="Resumos" asp-action="EditarFlashcard" asp-route-id="@totalCards">
+        
+                @for (int i = 0; i < card.CodigoCard.Count; i++){
+                    <div class="container">
+
+                        @{
+                            int numCard = i + 1;
+                        }
+
+                        <div class="cabecalho_card">
+                            <p>Cartão</p>
+                            <span>@numCard</span>
+                            @{
+                                string codigo = "codigo-" + (i + 1).ToString();
+                            }
+                            <input class="nadaaa" name="@codigo" value="@card.CodigoCard[i]">
+                            <a asp-controller="Resumos" asp-action="ExcluirCartao"asp-route-id="@card.CodigoCard[i]">
+                                <img src="~/img/i_fox/raposa-flutuante-png.png" height="30px" width="30px" />
+                            </a>
+                            
+                        </div>
+
+                        <div class="container_card">
+
+                            <div class="lado_card">
+                                @{
+                                    string frente = "frente-" + (i+1).ToString();
+                                }
+                                <p>Frente</p>
+                                <textarea type="text" name="@frente" id="" required>@card.ListaFrente[i]</textarea>
+                            </div>
+
+                            <div class="lado_card">
+                                @{
+                                    string verso = "verso-" + (i+1).ToString();
+                                }
+                                <p>Verso</p>
+                                <textarea type="text" name="@verso" id="" required>@card.ListaVerso[i]</textarea>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                }
+         
+                <p>Total de cartões:</p>
+                <input type="number" id="totalCartoes" name="qntdCartoes" value="@totalCards.ToString()" readonly />
+
+                <p id="info-card"></p>
+                <button type="button" class="botaoAzul"> + Adicionar cartão</button>
+
+                <button type="submit" class="botao-verde">Salvar</button>
+            </form>
+
+        }
+    }
+
+</section>
+

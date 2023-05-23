@@ -47,7 +47,6 @@
     border-radius: 15px;
     padding: 15px;
 }
-
 textarea {
     min-width: 22vw;
     max-width: 25vw;
@@ -66,11 +65,11 @@ textarea {
     margin: 20px;
 }
 
-    .lado_card p {
-        justify-content: center;
-        font-family: 'Pathway Gothic One';
-        font-size: 40px;
-    }
+.lado_card p {
+    justify-content: center;
+    font-family: 'Pathway Gothic One';
+    font-size: 40px;
+}
 
 .container_flashcard {
     display: flex;
@@ -78,9 +77,9 @@ textarea {
     align-items: center;
 }
 
-    .container_flashcard button {
-        margin-top: 40px;
-    }
+.container_flashcard button {
+    margin-top: 40px;
+}
 
 .botaoAzul, .botaoVermelho {
     min-width: 60vw;
@@ -109,7 +108,6 @@ textarea {
     background: var(--beje);
     font-family: 'Poppins', sans-serif;
     font-size: 1.3em;
-    display: inline;
 }
 
 .cabecalho_card span {
@@ -266,6 +264,11 @@ input[type=radio]:checked + .opcao-resposta {
     box-shadow: 0px 4px 4px var(--azulClaro);
     border: solid 3px var(--azulClaro);
 }
+
+.nadaaa {
+    display: none;
+}
+
 
 /* FIM MEMÓRIA */ 
 @media (max-width: 830px) {

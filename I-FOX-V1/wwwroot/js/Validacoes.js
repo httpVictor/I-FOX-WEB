@@ -4,7 +4,6 @@
 const form = document.getElementById('formulario');
 const campos = document.querySelectorAll('.campo-input');
 const spans = document.querySelectorAll('.span-obrigatorio');
-const titulo = document.querySelector('.titulo')
 
 //Caracteres e Regex para validar
 const numeros = /[0123456789]/;
@@ -54,8 +53,4 @@ function validarSenha() {
 function validarEmail() {
     //Regex com a formatção de um email
     (email.test(campos[1])) ? tirarErro(1) : setarErro(1)
-}
-
-function validarTitulo{
-    titulo > 80 || titulo < 1 ? starErro(1) : tirarErro(1);
 }

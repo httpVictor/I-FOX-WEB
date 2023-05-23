@@ -7,41 +7,46 @@
 
 <section> 
 
-    <div class="bloco">
+    @if(Model != null){
 
-        <img alt="" src="~/img/i_fox/raposa-cabecalhos.png"/>
+        @foreach (Flashcard card in Model)
+        {
 
-        <div class="escrita">
-            <h2 class="grande">SEUS FLASHCARDS </h2>
-            <p>______________________</p>
-            <br>
-            <p class="pequeno">AQUI VAI FICAR O TÍTULO DO FLASHCARD</p>
-        </div>
-        <img alt="" src="~/img/i_fox/raposa-cabecalhos.png"/>
-    </div>
+            <div class="bloco">
 
-    <div class="botoes">
+                <img alt="" src="~/img/i_fox/raposa-cabecalhos.png"/>
 
-        <a asp-controller="Resumos" asp-action="RevisaoFlashcard" asp-route-id="@ViewBag.Id_Card">
-            <div class="button">
-                <img src="~/img/icones_crud/revisao_icon.png" alt="">
-                <p>Revisao</p>
+                <div class="escrita">
+                    <h2 class="grande">SEUS FLASHCARDS </h2>
+                    <p>______________________</p>
+                    <br>
+                    <p class="pequeno">@card.</p>
+                </div>
+                <img alt="" src="~/img/i_fox/raposa-cabecalhos.png"/>
             </div>
-        </a>
 
-        <div class="button">
-            <img src="~/img/icones_resumo/resumo-escrito.png" alt="">
-            <p>Editar</p>
-        </div>
+            <div class="botoes">
 
-    </div>
+                <a asp-controller="Resumos" asp-action="RevisaoFlashcard" asp-route-id="@ViewBag.Id_Card">
+                    <div class="button">
+                        <img src="~/img/icones_crud/revisao_icon.png" alt="">
+                        <p>Revisao</p>
+                    </div>
+                </a>
 
-    <div class="cartoes">
-        @if(Model != null){
+                <a asp-controller="Resumos" asp-action="EditarFlash" asp-route-id="@ViewBag.Id_Card">
+                    <div class="button">
+                        <img src="~/img/icones_resumo/resumo-escrito.png" alt="">
+                        <p>Editar</p>
+                    </div>
+                </a>
+        
 
-            @foreach (Flashcard card in Model)
-            {
-                for(int i = 0; i < card.CodigoCard.Count; i++){
+            </div>
+
+            <div class="cartoes">
+        
+                @for(int i = 0; i < card.CodigoCard.Count; i++){
 
                     <div class="cartao">
                         @{
@@ -69,9 +74,8 @@
                     </div>
 
                 }
-            }
-        }
 
-        
-    </div>
+            </div>
+        }
+    }
 </section>

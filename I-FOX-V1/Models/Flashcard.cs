@@ -128,10 +128,70 @@ namespace I_FOX_V1.Models
 
             return situacao_deletar;
         }
-
-        public void editar()
+        static public string deletarCartao(int id_cartao)
         {
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
 
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de delete
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM CARD WHERE codigo = @codigo", conexao);
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                deletar.Parameters.AddWithValue("@codigo", id_cartao);
+
+                //Executando o comando
+                deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
+        }
+
+        public static string editar(List<string> frente, List<string> verso, List<int> codigo)
+        {
+            string sit_update = "";
+            try
+            {
+                //editando cartão por cartão...
+               
+                for (int i = 0; i < frente.Count ; i++)
+                {
+                    conexao.Open();
+                    //CRIANDO COMANDO DE INSERIR USUÁRIOS NO BANCO DE DADOS
+                    MySqlCommand inserir = new MySqlCommand("UPDATE CARD SET frente = @frente, verso = @verso WHERE codigo = @codigo", conexao);
+                    inserir.Parameters.AddWithValue("@frente", frente[i]);
+                    inserir.Parameters.AddWithValue("@verso", verso[i]);
+                    inserir.Parameters.AddWithValue("@codigo", codigo[i]);
+
+                    inserir.ExecuteNonQuery();
+                    sit_update = "Atualizado com sucesso";
+                    conexao.Close();
+                }
+                
+            }
+            catch (Exception e)
+            {
+                sit_update = "Erro de conexão" + e;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            return sit_update;
         } 
 
         static public List<Flashcard> listar(int cod_resumo)
@@ -161,7 +221,7 @@ namespace I_FOX_V1.Models
                     codigoRes = int.Parse(leitorBanco["FK_RESUMO_codigo"].ToString());
                 }
 
-                Flashcard flash = new Flashcard(codigos, frentes, versos, codigoRes, null);
+                Flashcard flash = new Flashcard(codigos, frentes, versos, cod_resumo, null);
                 cards.Add(flash);
             }
             catch (Exception e)

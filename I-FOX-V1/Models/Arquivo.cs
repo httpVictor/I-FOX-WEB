@@ -133,7 +133,7 @@ namespace I_FOX_V1.Models
         }
 
         //Método para deletar TODOS arquivos de determinado resumo
-        static public string deletarAquivo(int id_resumo)
+        static public string deletarAquivo(int id_arquivo)
         {
             //variável que vai armazenar se o cadastro foi ou não realizado.
             string situacao_deletar = "";
@@ -144,10 +144,10 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //criando o comando de delete
-                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMO_codigo = @codigo", conexao);
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE codigo = @codigo", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
-                deletar.Parameters.AddWithValue("@codigo", id_resumo);
+                deletar.Parameters.AddWithValue("@codigo", id_arquivo);
 
                 //Executando o comando
                 deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!

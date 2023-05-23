@@ -34,6 +34,7 @@ namespace I_FOX_V1.Controllers
 
         public IActionResult ResumoFoto(string id)
         {
+            ViewBag.Id_foto = id;
             return View(Arquivo.listar(id));
         }
 
@@ -46,6 +47,9 @@ namespace I_FOX_V1.Controllers
         {
             return View();
         }
+
+
+
 
 
         //TELAS DE VISUALIZAÇÃO DOS RESUMOS
@@ -65,8 +69,19 @@ namespace I_FOX_V1.Controllers
             return View(Flashcard.listar(id));
         }
 
+        public IActionResult EditarFlash(int id)
+        {
+            return View(Flashcard.listar(id));
+        }
+
+
+
+
+
+
 
         //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
+
         //Cadastro
         [HttpPost]
         public IActionResult CadastrarResumo(string id, string titulo, string data)
@@ -88,11 +103,13 @@ namespace I_FOX_V1.Controllers
         }
         
         [HttpPost]
-        public IActionResult ResumoFotos(int id)
+        public IActionResult ResumoFotos(string id)
         {
             //Pegando o id do caderno que o resumo será salvo
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
             int codigoCaderno = caderno.Codigo;
+
+            int id_ofc = int.Parse(id);
 
             //Procurando arquivos...
             foreach (IFormFile arquivo in Request.Form.Files)
@@ -111,10 +128,10 @@ namespace I_FOX_V1.Controllers
                     if (titulo != null || titulo != null)
                     {
                        int codigoResumo = Arquivo.buscarResumo(titulo, codigoCaderno);
-                       id = codigoResumo;
+                       id_ofc = codigoResumo;
                     }
                     
-                    Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno, id);
+                    Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno, id_ofc);
                     arq.cadastrar();
                     
                     TempData["msg"] = "Salvo com sucesso!";
@@ -125,7 +142,51 @@ namespace I_FOX_V1.Controllers
                 }
             }
 
-            return Redirect("../Resumo/ResumoFotos/" + id);
+            string redirecionamento = "~/Usuario/Materia/" + codigoCaderno;
+            return Redirect(redirecionamento);
+        }
+
+        [HttpPost]
+        public IActionResult ResumoAudio(string id)
+        {
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+            int codigoCaderno = caderno.Codigo;
+
+            int id_ofc = int.Parse(id);
+
+            //Procurando arquivos...
+            foreach (IFormFile arquivo in Request.Form.Files)
+            {
+                string tipoArquivo = arquivo.ContentType;
+
+                //se for imagem...
+                if (tipoArquivo.Contains("audio"))
+                {
+
+                    MemoryStream s = new MemoryStream();
+                    arquivo.CopyTo(s);
+                    byte[] bytesDoArquivo = s.ToArray(); //transformar em cadeia de byte
+                    string titulo = HttpContext.Session.GetString("tituloResumo");
+
+                    if (titulo != null || titulo != null)
+                    {
+                        int codigoResumo = Arquivo.buscarResumo(titulo, codigoCaderno);
+                        id_ofc = codigoResumo;
+                    }
+
+                    Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno, id_ofc);
+                    arq.cadastrar();
+
+                    TempData["msg"] = "Salvo com sucesso!";
+                }
+                else
+                {
+                    TempData["msg"] = "Erro de cadastro, coloque apenas imagens";
+                }
+            }
+
+            return Redirect("~/Resumo/ResumoFotos/" + id);
         }
 
         [HttpPost]
@@ -177,6 +238,11 @@ namespace I_FOX_V1.Controllers
             return View();
         }
 
+
+
+
+
+
         //update
         [HttpPost]
         public IActionResult VisualizarEscrito(string titulo, string texto, int id)
@@ -187,6 +253,68 @@ namespace I_FOX_V1.Controllers
             int codigoCaderno = caderno.Codigo;
             return Redirect("~/Usuario/Materia/" + codigoCaderno);
         }
+
+        [HttpPost]
+        public IActionResult EditarFlashcard(int id)
+        {
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+            int codigoCaderno = caderno.Codigo;
+
+            List<string> listaFrente = new List<string>();
+            List<string> listaVerso = new List<string>();
+            List<int> listaCodigo = new List<int>();
+
+            //Atualizando os cartões já existentes no banco
+            for (int i = 0; i < id; i++)
+            {
+                string frente = Request.Form["frente-" + (i + 1).ToString()];
+                string verso = Request.Form["verso-" + (i + 1).ToString()];
+                int codigo = int.Parse(Request.Form["codigo-" + (i + 1).ToString()]);
+
+                if (frente != null && verso != null)
+                {
+                    listaFrente.Add(frente);
+                    listaVerso.Add(verso);
+                    listaCodigo.Add(codigo);
+                }
+                
+            }
+            string sit = Flashcard.editar(listaFrente, listaVerso, listaCodigo);
+
+            //Cadastrando os cards que não estavam na lista
+            List<string> listaFrenteNovos = new List<string>();
+            List<string> listaVersoNovos = new List<string>();
+
+            for (int i = 0; i < 0; i++)
+            {
+                string frente = Request.Form["frente-" + (i + 1).ToString()];
+                string verso = Request.Form["verso-" + (i + 1).ToString()];
+
+                if (frente != null && verso != null)
+                {
+                    listaFrenteNovos.Add(frente);
+                    listaVersoNovos.Add(verso);
+                }
+            }
+
+            if (listaFrenteNovos != null && listaVersoNovos != null)
+            {
+                //Pegando o id do caderno que o resumo será salvo
+                string titulo = HttpContext.Session.GetString("tituloResumo");
+
+                Flashcard flsCard = new Flashcard(null, listaFrenteNovos, listaVersoNovos, codigoCaderno, titulo);
+                string cadastro = flsCard.cadastrar();
+            }
+
+
+            //Devolvendo na página anterior
+            return Redirect("~/Usuario/Materia/" + codigoCaderno);
+
+        }
+
+
+
 
         //delete
         public IActionResult deletarResumo(int id)
@@ -200,6 +328,22 @@ namespace I_FOX_V1.Controllers
             return Redirect(redirecionamento);
         }
 
+        public IActionResult DeletarArquivo(int id)
+        {
+            //Pegando o id do caderno que o resumo será salvo
+            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+            int codigoCaderno = caderno.Codigo;
+
+            TempData["Situacao_deletar_resumo"] = Arquivo.deletarAquivo(id);
+            string redirecionamento = "~/Usuario/Materia/" + codigoCaderno;
+            return Redirect(redirecionamento);
+        }
+
+        public IActionResult ExcluirCartao(int id)
+        {
+            Flashcard.deletarCartao(id);
+            return Redirect("../Resumos/EditarFlash/" + 38);
+        }
     }
 }
 

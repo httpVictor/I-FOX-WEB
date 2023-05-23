@@ -10,7 +10,7 @@
 
     <div class="bloco">
 
-        <form method="post" enctype="multipart/form-data" asp-controller="Resumos" asp-action="ResumoFotos">
+        <form method="post" enctype="multipart/form-data" asp-controller="Resumos" asp-action="ResumoFotos" asp-route-id="@ViewBag.Id_foto">
             <div class="imagens_resumo">
                 @if(Model != null)
                 {
@@ -22,8 +22,8 @@
                         string formato = "data:image/png;base64," + imagemRes; 
 
                         <div class="elemento_imagem">
-                            <img src="@formato" />
-                            <input type="checkbox" />
+                            <img class="imagem_resumo" src="@formato" />
+                            <a asp-controller="Resumos" asp-action="DeletarArquivo" asp-route-id="@arquivo.Codigo"><img src="~/img/icones_crud/deletar_icone.png" /></a>
                         </div>
                        
                     }
@@ -39,7 +39,6 @@
 
             <div class="file">
                 <button type="submit" class="botao-laranja">Salvar Arquivo</button>
-                <button class="botao-laranja" id="deletar">Deletar Arquivo</button>
             </div>
 
             <br><br>

@@ -27,40 +27,36 @@
                         string formato = "data:audio/mpeg;base64," + imagemRes;
 
                         //Aqui vem o áudio do banco
-                        <div class="elemento_imagem">
-                            <img src="@formato" />
-                            <input type="checkbox" />
+                        <audio id="myAudio" controls>
+                            <source src="@formato" type="audio/mpeg">
+                            Seu navegador não possui suporte ao elemento audio
+                        </audio>
+
+                        <div class="botoes">
+
+                            <input type="checkbox" name="" id="">
+
+
+                            <div class="arquivo">
+                                <p>Nome do arquivo</p>
+                            </div>
+
+
+                            <div class="parar">
+                                <div class="button play" onclick="playAudio()">
+                                    <img src="~/img/icones_resumo/play_icon.png" alt="">
+                                </div>
+
+
+                                <div class="button pause" onclick="pauseAudio()">
+                                    <img src="~/img/icones_resumo/pause_icon.png" alt="">
+                                </div>
+                            </div>
+
                         </div>
 
                     }
                 }
-                <audio id="myAudio" controls>
-                    <source src="beethoven.mp3" type="audio/mpeg">
-                    Seu navegador não possui suporte ao elemento audio
-                </audio>
-
-                <div class="botoes">
-
-                    <input type="checkbox" name="" id="">
-
-
-                    <div class="arquivo">
-                        <p>Nome do arquivo</p>
-                    </div>
-
-
-                    <div class="parar">
-                        <div class="button" onclick="playAudio()">
-                            <img src="~/img/icones_resumo/play_icon.png" alt="">
-                        </div>
-
-
-                        <div class="button" onclick="pauseAudio()">
-                            <img src="~/img/icones_resumo/pause_icon.png" alt="">
-                        </div>
-                    </div>
-
-                </div>
 
                 <div class="file">
                     <input type="file" name="nao_sei_ainda_:)" />
@@ -68,7 +64,6 @@
                 </div>
 
                 <button class="botao-laranja">SALVAR ARQUIVO</button>
-                <button class="botao-laranja">Deletar Arquivo</button>
             </div>
 
         </form>

@@ -57,7 +57,7 @@ main {
     border-radius: 10px;
 }
 
-.elemento_imagem img{
+.imagem_resumo{
     position: absolute;
     width: 70%;
 }
@@ -73,16 +73,16 @@ input[type=checkbox] {
     cursor: pointer;
 }
 
-input[type=checkbox]:before {
-    content: "";
+.elemento_imagem a {
     display: block;
     position: absolute;
-    width: 25px;
-    height: 25px;
-    top: -5px;
-    left: -5px;
-    border-radius: 20px;
-    background-color: var(--verde);
+    top: 5px;
+    right: 5px; 
+}
+
+.elemento_imagem a img {
+    width: 30px;
+    height: 30px;
 }
 
 input[type=checkbox]:checked:after {

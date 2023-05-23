@@ -1,5 +1,6 @@
 ﻿//Adicionar cards->
-
+var novos = 0;
+console.log(novos);
 $('.botaoAzul').on('click', function () {
     var totalCards = $('.container_flashcard #totalCartoes')
 
@@ -10,11 +11,13 @@ $('.botaoAzul').on('click', function () {
     bloco.find('span').text(indice);
     bloco.find('textarea[name^="frente-"]').attr('name', 'frente-' + indice)
     bloco.find('textarea[name^="verso-"]').attr('name', 'verso-' + indice)
+    bloco.find('input[name^="codigo-"]').attr('name', 'codigo-naoDef')
     bloco.find('textarea').val('')
 
     $('#totalCartoes').val(indice)
     bloco.insertAfter('.container:last')
     $('#info-card').text('')
+    novos++;
 })
 
 //deletar 
@@ -28,5 +31,4 @@ $('.botaoVermelho').on('click', function () {
     } else {
         $('#info-card').text('Você precisa de pelo menos 3 cards!')
     }
-   
 })
