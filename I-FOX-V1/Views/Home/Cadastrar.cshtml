@@ -15,12 +15,13 @@
 
     <div class="formulario">
 
-        <h1>CADASTRE-SE NO</h1>
-        <h1>I-FOX</h1>
+        
         <p>@TempData["SitCadastro"]</p>
 
         <form method="post" asp-action="Cadastrar" class="forms" id="formulario">
 
+            <h1>CADASTRE-SE </h1>
+       
             <div class="campo">
                 <label for="nome">USUÁRIO:</label>
                 <input type="text" class="campo-input" id="usuario" name="nome" oninput="validarNomeUsuario()" placeholder="Digite um nome de usuário" required>
@@ -47,16 +48,14 @@
             <p>@TempData["validacaoUsuario"]</p>
 
             <div class="juntos">
-                <img id="raposa" src="~/img/i_fox/raposa-cadastrar.png">
-                <button class="botao">CADASTRAR</button>
+               
+                <button class="botao-laranja">CADASTRAR</button>
+                
             </div>
             
         </form>
 
     </div>
 
-    <div class="img_cadastro">
-        <img src="~/img/i_fox/imagem_cadastro.png" />
-    </div>
 
 </section>
