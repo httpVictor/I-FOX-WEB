@@ -53,7 +53,7 @@ namespace I_FOX_V1.Models
                     conexao.Open();
 
                     //CRIANDO COMANDO DE INSERIR USUÁRIOS NO BANCO DE DADOS
-                    MySqlCommand inserir = new MySqlCommand("INSERT INTO USUARIO VALUES(@nome, @email, @senha, @avatar, @data_nasc)", conexao);
+                    MySqlCommand inserir = new MySqlCommand("INSERT INTO USUARIO(nome, email, senha, avatar, data_nasc) VALUES(@nome, @email, @senha, @avatar, @data_nasc)", conexao);
 
                     inserir.Parameters.AddWithValue("@nome", Nome);
                     inserir.Parameters.AddWithValue("@senha", Senha);
@@ -63,7 +63,7 @@ namespace I_FOX_V1.Models
 
                     inserir.ExecuteNonQuery();
                     cadastro = "cadastrado";
-                    conexao.Close();
+                   
 
                     //Puxar o id do usuário
 
@@ -80,7 +80,7 @@ namespace I_FOX_V1.Models
             }
             finally
             {
-      
+                conexao.Close();
             }
 
             return cadastro;

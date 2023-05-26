@@ -54,3 +54,10 @@ function validarEmail() {
     //Regex com a formatção de um email
     (email.test(campos[1])) ? tirarErro(1) : setarErro(1)
 }
+
+//VALIDAÇÕES DA PÁGINA CADASTRO
+
+//ELEMENTOS DA PAGINA
+const form = document.getElementById('formulario');
+const campos = document.querySelectorAll('.campo-input');
+const spans = document.querySelectorAll('.span-obrigatorio');

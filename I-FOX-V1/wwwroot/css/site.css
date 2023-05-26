@@ -140,6 +140,7 @@ li a img {
     border-radius: 30px;
     width: 94vw;
     margin: 10px auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
 }
 
 .nav-filhos {

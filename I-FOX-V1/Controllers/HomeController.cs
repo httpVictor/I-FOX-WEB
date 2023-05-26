@@ -54,19 +54,19 @@ namespace I_FOX_V1.Controllers
                     }
                 }
 
-                //Agora validando se ela tem caracteres especiais
-                for (int i = 0; i < caractereEspecial.Length; i++)
-                {
-                    if (senha.Contains(caractereEspecial[i]))
-                    {
-                        validaSenha = true;
-                        break;
-                    }
-                    else
-                    {
-                        validaSenha = false;
-                    }
-                }
+                ////Agora validando se ela tem caracteres especiais
+                //for (int i = 0; i < caractereEspecial.Length; i++)
+                //{
+                //    if (senha.Contains(caractereEspecial[i]))
+                //    {
+                //        validaSenha = true;
+                //        break;
+                //    }
+                //    else
+                //    {
+                //        validaSenha = false;
+                //    }
+                //}
             }
 
             string nomeNoEspaco ="";
