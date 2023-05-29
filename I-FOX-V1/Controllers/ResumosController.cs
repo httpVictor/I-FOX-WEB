@@ -66,6 +66,7 @@ namespace I_FOX_V1.Controllers
 
         public IActionResult RevisaoFlashcard(int id)
         {
+            ViewBag.Id_cards = id;
             return View(Flashcard.listar(id));
         }
 
@@ -86,20 +87,30 @@ namespace I_FOX_V1.Controllers
         [HttpPost]
         public IActionResult CadastrarResumo(string id, string titulo, string data)
         {
-            //Formatando a data que o usuário inseriu
-            string dataCaractere = data.Replace("-", "");
-            
-            //Pegando o id do caderno que o resumo será salvo
-            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
-            int codigoCaderno = caderno.Codigo;
+            //Validando o tamanho do titulo
+            if(titulo.Length > 0 && titulo.Length < 80)
+            {
+                //Formatando a data que o usuário inseriu
+                string dataCaractere = data.Replace("-", "");
 
-            //Cadastrando no banco de dados
-            Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
-            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
+                //Pegando o id do caderno que o resumo será salvo
+                Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+                int codigoCaderno = caderno.Codigo;
 
-            //guardando numa sessão
-            HttpContext.Session.SetString("tituloResumo", titulo);
-            return Redirect("../Resumo"+ id);
+                //Cadastrando no banco de dados
+                Resumo resumo = new Resumo(dataCaractere, id, titulo, null, codigoCaderno);
+                TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
+
+                //guardando numa sessão
+                HttpContext.Session.SetString("tituloResumo", titulo);
+                return Redirect("../Resumo" + id);
+            }
+            else
+            {
+                ViewBag.Info = "Não utilize títulos maiores que 80 caracteres";
+                return View();
+            }
+           
         }
         
         [HttpPost]
@@ -117,7 +128,7 @@ namespace I_FOX_V1.Controllers
                 string tipoArquivo = arquivo.ContentType;
 
                 //se for imagem...
-                if (tipoArquivo.Contains("image"))
+                if (tipoArquivo.Contains("image"))  
                 {
                     
                     MemoryStream s = new MemoryStream();

@@ -1,10 +1,16 @@
-﻿@model IEnumerable<I_FOX_V1.Models.Flashcard>
-
+﻿
 @section Estilos{
     <link rel="stylesheet" href="~/css/flashcards.css"/>
     <link rel="stylesheet" href="~/css/flashcard_card.css"/>
 }
+
+@section JavaScript{
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="~/js/flashcard_requisicao.js"></script>
+}
 <section class="teste">
+
+    <input id="codigo" value="@ViewBag.Id_cards" />
 
     <div class="bloco">
 
