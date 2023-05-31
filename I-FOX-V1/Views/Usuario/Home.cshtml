@@ -91,7 +91,7 @@
                 <button class="lixin pop-button"><img src="~/img/icones_crud/deletar_icone.png" /></button>
 
                 <dialog>
-                    <p>Tem certeza que deseja excluir @caderno.Titulo ?</p>
+                    <p>Tem certeza que deseja excluir @caderno.Titulo ? (Antes se certifique que o caderno esteja vazio! Caso contrário não será apagado)</p>
                     <button>NÂO</button>
                     <a asp-controller="Usuario" asp-action="DeletarCaderno" asp-route-id="@caderno.Codigo">SIM</a>
                 </dialog>

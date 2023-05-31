@@ -11,7 +11,7 @@ $('.botaoAzul').on('click', function () {
     bloco.find('span').text(indice);
     bloco.find('textarea[name^="frente-"]').attr('name', 'frente-' + indice)
     bloco.find('textarea[name^="verso-"]').attr('name', 'verso-' + indice)
-    bloco.find('input[name^="codigo-"]').attr('name', 'codigo-naoDef')
+    bloco.find('input[name^="codigo-"]').attr('name', 'codigo-naoDef' + indice)
     bloco.find('textarea').val('')
 
     $('#totalCartoes').val(indice)

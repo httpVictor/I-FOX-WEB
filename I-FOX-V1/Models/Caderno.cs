@@ -73,20 +73,22 @@ namespace I_FOX_V1.Models
 
             return situacaoCad;
         }
-        
-       //Deletar caderno
+
+        //Deletar caderno
+        //Deletar caderno
         static public string deletarCaderno(int id)
         {
             string sitDel = "";
             try
             {
+                Resumo.deletarResumos(id);
                 conexao.Open();
                 //criando o comando e definindo seu parâmetro
                 MySqlCommand deletarCaderno = new MySqlCommand("DELETE FROM CADERNO WHERE codigo = @cod", conexao);
                 deletarCaderno.Parameters.AddWithValue("@cod", id);
                 //executando o comando
                 deletarCaderno.ExecuteNonQuery();
-                
+
                 sitDel = "Caderno deletado com sucesso!";
 
             }

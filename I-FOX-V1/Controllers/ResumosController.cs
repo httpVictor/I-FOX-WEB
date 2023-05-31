@@ -62,7 +62,13 @@ namespace I_FOX_V1.Controllers
 
         public IActionResult VisualizarFlashcard(int id)
         {
+            
+            Resumo resumo = Resumo.acessarResumo(id);
+            ViewBag.TituloResumo = resumo.Titulo;
+            //Passando o id daquele resumoooooo
             ViewBag.Id_Card = id;
+            //guardando numa sessão
+            HttpContext.Session.SetString("codigoCard", id.ToString());
             return View(Flashcard.listar(id));
         }
 
@@ -270,6 +276,9 @@ namespace I_FOX_V1.Controllers
         [HttpPost]
         public IActionResult EditarFlashcard(int id)
         {
+            int codigo_card = int.Parse(HttpContext.Session.GetString("codigoCard"));
+            Resumo resumo = Resumo.acessarResumo(codigo_card);
+            string tituloResumo = resumo.Titulo;
             //Pegando o id do caderno que o resumo será salvo
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
             int codigoCaderno = caderno.Codigo;
@@ -278,48 +287,50 @@ namespace I_FOX_V1.Controllers
             List<string> listaVerso = new List<string>();
             List<int> listaCodigo = new List<int>();
 
-            //Atualizando os cartões já existentes no banco
-            for (int i = 0; i < id; i++)
-            {
-                string frente = Request.Form["frente-" + (i + 1).ToString()];
-                string verso = Request.Form["verso-" + (i + 1).ToString()];
-                int codigo = int.Parse(Request.Form["codigo-" + (i + 1).ToString()]);
-
-                if (frente != null && verso != null)
-                {
-                    listaFrente.Add(frente);
-                    listaVerso.Add(verso);
-                    listaCodigo.Add(codigo);
-                }
-                
-            }
-            string sit = Flashcard.editar(listaFrente, listaVerso, listaCodigo);
-
-            //Cadastrando os cards que não estavam na lista
+            //Craiando a lista dos novos
             List<string> listaFrenteNovos = new List<string>();
             List<string> listaVersoNovos = new List<string>();
 
-            for (int i = 0; i < 0; i++)
+            int total = int.Parse(Request.Form["qntdCartoes"]);
+            //Atualizando os cartões já existentes no banco
+            for (int i = 0; i < total; i++)
             {
-                string frente = Request.Form["frente-" + (i + 1).ToString()];
-                string verso = Request.Form["verso-" + (i + 1).ToString()];
-
-                if (frente != null && verso != null)
+                //Editando os existentes até forçar a excessão de novos (NullReferenceException)
+                try
                 {
-                    listaFrenteNovos.Add(frente);
-                    listaVersoNovos.Add(verso);
-                }
-            }
+                    int codigo = int.Parse(Request.Form["codigo-" + (i + 1).ToString()]);
+                    string frente = Request.Form["frente-" + (i + 1).ToString()];
+                    string verso = Request.Form["verso-" + (i + 1).ToString()];
 
+                    if (frente != null && verso != null)
+                    {
+                        listaFrente.Add(frente);
+                        listaVerso.Add(verso);
+                        listaCodigo.Add(codigo);
+                    }
+                }
+                catch (Exception)
+                {
+                    
+                    //Se o card for novo, realizar o cadastro e não o uptade
+                    string frente = Request.Form["frente-" + (i + 1).ToString()];
+                    string verso = Request.Form["verso-" + (i + 1).ToString()];
+                    if (frente != null && verso != null)
+                    {
+                        listaFrenteNovos.Add(frente);
+                        listaVersoNovos.Add(verso);
+                    }
+                }   
+            }
+            string sit = Flashcard.editar(listaFrente, listaVerso, listaCodigo);
             if (listaFrenteNovos != null && listaVersoNovos != null)
             {
-                //Pegando o id do caderno que o resumo será salvo
                 string titulo = HttpContext.Session.GetString("tituloResumo");
 
-                Flashcard flsCard = new Flashcard(null, listaFrenteNovos, listaVersoNovos, codigoCaderno, titulo);
+                Flashcard flsCard = new Flashcard(null, listaFrenteNovos, listaVersoNovos, codigoCaderno, tituloResumo);
                 string cadastro = flsCard.cadastrar();
+                return Redirect("../Usuario/Materia/" + codigoCaderno);
             }
-
 
             //Devolvendo na página anterior
             return Redirect("~/Usuario/Materia/" + codigoCaderno);

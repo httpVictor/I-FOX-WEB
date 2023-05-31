@@ -211,22 +211,27 @@ namespace I_FOX_V1.Models
 
                 //Quando se executa uma pesquisa, tem como retorno as linhas de uma tabela que são guardadas em um leitor
                 MySqlDataReader leitorBanco = pesquisaResumo.ExecuteReader();
-
+                string texto = "";
+                
                 while (leitorBanco.Read()) //Enquanto for possível ler ele
                 {
                     //Definindo os atributos que vão vir do banco
-                     resumo = new Resumo(
+                    if (leitorBanco["texto"] != null)
+                    {
+                        texto = leitorBanco["texto"].ToString();
+                    }
+                    resumo = new Resumo(
                         int.Parse(leitorBanco["codigo"].ToString()),
                         Convert.ToDateTime(leitorBanco["data_resumo"].ToString()).ToString("dd/MM/yyyy"),
                         (string)leitorBanco["tipo"],
                         (string)leitorBanco["titulo"],
-                        (string)leitorBanco["texto"],
+                        texto,
                         int.Parse(leitorBanco["FK_CADERNO_codigo"].ToString()));
                 }
             }
             catch (Exception e)
             {
-
+                
             }
             finally
             {
@@ -235,10 +240,44 @@ namespace I_FOX_V1.Models
             return resumo;
         }
 
-        //Método para conferir se existe um resumo com o mesmo nome
-        public bool existeResumo()
+        //Método para deletar todos os resumos!
+        static public string deletarResumos(int id_caderno)
         {
-            return true;
+            //variável que vai armazenar se o cadastro foi ou não realizado.
+            string situacao_deletar = "";
+
+            //Apagando primeiro arquivos presentes em tabelas que se ligam em resumos
+            Arquivo.deletarArquivos(id_caderno);
+            //Apagando os cards presentes nesse resumo
+            Flashcard.deletar(id_caderno);
+
+            try //tente efetuar a conexão, caso dê algum erro cair no catch
+            {
+                //abrir a conexão 
+                conexao.Open();
+
+                //criando o comando de delete
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM RESUMO WHERE FK_CADERNO_codigo = @codigo", conexao);
+
+
+                //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
+                deletar.Parameters.AddWithValue("@codigo", id_caderno);
+
+                //Executando o comando
+                deletar.ExecuteNonQuery(); //É um delete, logo não é necessário uma pesquisa (query)!
+                situacao_deletar = "deletado com sucesso";
+
+            }
+            catch (Exception e) //o e armazena o tipo de erro que aconteceu!
+            {
+                situacao_deletar = "Erro de conexão!" + e;
+            }
+            finally
+            {
+                conexao.Close(); //Fechando a conexão, dando certo, ou não!
+            }
+
+            return situacao_deletar;
         }
     }
 }

@@ -20,6 +20,7 @@
 
                 @if (Model != null)
                 {
+                    int i = 0;
                     @foreach (Arquivo arquivo in Model)
                     {
                         //Passando o arquivo do áudio
@@ -38,7 +39,7 @@
 
 
                             <div class="arquivo">
-                                <p>Nome do arquivo</p>
+                                <p>Audio @i</p>
                             </div>
 
 
@@ -54,7 +55,7 @@
                             </div>
 
                         </div>
-
+                        i++;
                     }
                 }
 
