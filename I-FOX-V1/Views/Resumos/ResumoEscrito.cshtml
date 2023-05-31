@@ -3,6 +3,10 @@
     <link rel="stylesheet" href="~/css/resumoEscrito.css" />
 }
 
+@section JavaScript{
+    <script src="~/js/escritoo.js"></script>
+}
+
 <section class="resumo">
         
         <form method="post" asp-action="ResumoEscrito">
@@ -29,7 +33,10 @@
                 </div>
 
                 <br><br>
-
+                <div>
+                    <span>Quantidade de caracteres:</span>
+                    <p id="caracteres">0</p>
+                </div>
                 <button type="submit" class="botao">SALVAR</button>
             </div>
            

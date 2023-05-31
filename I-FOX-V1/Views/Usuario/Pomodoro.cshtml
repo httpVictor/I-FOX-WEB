@@ -4,6 +4,7 @@
 
 @section Estilos{
     <link rel="stylesheet" href="~/css/pomodoro.css" />
+    <link rel="stylesheet" href="~/css/popups/ExplicacaoPomodoro.css"/>
 }
 
 @section JavaScript{
@@ -19,7 +20,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-
+    <script src="~/js/popup.js"></script>
 }
 
 <section>
@@ -58,9 +59,10 @@
 
 
         <div class="lado">
-            <div class="img">
+            <div class="img pop-button">
                 <img alt="" src="~/img/i_fox/balaoo.png" width="330px" height="220px">
             </div>
+
 
 
             <div id="config">
@@ -154,5 +156,90 @@
         </div>
 
 
-   
+        <dialog>
+
+            <center>
+
+                <div class="bloco">
+
+                    <div class="primeiralinha">
+
+                        <img alt="" src="~/img/i_fox/raposa-cabecalhos.png" width="170px" height="130px">
+
+                        <h1>O QUE É O MÉTODO POMODORO</h1>
+
+                    </div>
+
+
+                    <div class="blocoBranco">
+
+                        <p>
+                            Você sabia que o Pomodoro é um método de
+                            gerenciamento de tempo
+                            baseado em períodos de
+                            estudo focado?
+                        </p>
+
+                        <img alt="" src="~/img/popups/pomodoro.png" width="180px" height="140px">
+
+                    </div>
+
+                    <div class="blocoBranco1">
+
+                        <img alt="" src="~/img/popups/estudando.png" width="170px" height="130px">
+
+                        <p>
+                            Nesta abordagem, alterna-se entre sessões de trabalho e pausa.
+                            Assim, ao trabalhar em curtas sessões, a probabilidade de se manterem produtivas e motivadas é
+                            maior.
+                        </p>
+
+                    </div>
+
+                    <div class="escrita">
+
+                        <p class="escrita1"> Esse método tem muitas vantagens como: </p>
+
+                    </div>
+
+                    <div class="laranja">
+
+                        <div class="laranjinha">
+
+                            <img alt="" src="~/img/popups/pensando.png" width="100px" height="90px">
+                            <p class="escrita2">Ajuda a <br> diminuir distrações</p>
+
+                        </div>
+
+                        <div class="laranjinha">
+
+                            <img alt="" src="~/img/popups/thinkando.png" width="100px" height="90px">
+                            <p class="escrita2">Aumenta a <br>concentração</p>
+
+                        </div>
+
+                        <div class="laranjinha">
+
+                            <img alt="" src="~/img/popups/bateria.png" width="90px" height="90px">
+                            <p class="escrita4">Reduz a <br>fadiga mental</p>
+
+                        </div>
+
+                        <div class="laranjinha">
+
+                            <img alt="" src="~/img/popups/escalando.png" width="100px" height="90px">
+                            <p class="escrita3">Preserva a <br>motivação</p>
+
+                        </div>
+
+                    </div>
+
+                    <button>OK</button>
+
+                </div>
+
+            </center>
+
+        </dialog>
+
 </section>

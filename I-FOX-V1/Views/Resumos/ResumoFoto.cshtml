@@ -19,7 +19,7 @@
                     
                         //Passando o arquivo da imagem
                         string imagemRes = Convert.ToBase64String(arquivo.ArrayBytes);
-                        string formato = "data:image/png;base64," + imagemRes; 
+                        string formato = "data:image/*;base64," + imagemRes; 
 
                         <div class="elemento_imagem">
                             <img class="imagem_resumo" src="@formato" />
@@ -28,14 +28,15 @@
                        
                     }
                 }
-                <div class="add-input">
-                    <label for="arq-1">+</label>
-                    <input type="file" id="arq-1" name="arq"/>
+
+
+                <div class="add-input elemento_imagem">
+                    <label for="arq-1" id="arq-novo">+</label>
+                    <input type="file" id="arq-1" name="arq" acept="image/*"/>
                 </div>
             </div>
 
             <p>Arquivos preparados</p>
-            <span>0</span>
 
             <div class="file">
                 <button type="submit" class="botao-laranja">Salvar Arquivo</button>

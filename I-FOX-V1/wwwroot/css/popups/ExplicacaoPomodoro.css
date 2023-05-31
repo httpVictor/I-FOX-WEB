@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+
+}
+
+
+
+dialog::backdrop{
+    background-color: rgb(0 0 0 / .5);
+}
+
+dialog {
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb( 0 0 0 / .3);
+    width: 50%;
+    height: 92%;
+    background-color: 60B5B3;                                
+}
+
+p {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+}
+
+button {
+    background-color: #a5ce7f;
+    border-radius: 20%;
+    font-size: 30px;
+    font-family: 'Sue Ellen Francisco';
+    width: 80px;
+}
+
+h2{
+    font-family: 'Sue Ellen Francisco';
+    font-size: 60px;
+}
+
+
+
+.bloco {
+    margin: auto;
+    background-color: 60B5B3;
+    border-radius: 25px;
+    max-width: 75vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primeiraLinha {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 35px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.bloco1 {}
+
+.blocoBranco {
+    display: flex;
+    flex-direction: row;
+    max-width: 40vw;
+    height: 18vh;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.blocoBranco1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 40vw;
+    height: 18vh;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+
+.textoPrincipal {
+    display: block;
+}
+
+
+p {
+
+    font-family: 'Pathway Gothic One';
+    font-size: 30px;
+    display: flex;
+    color: black;
+}
+
+.escrita1 {
+
+    font-family: 'Sue Ellen Francisco';
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.escrita2 {
+
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.escrita3 {
+
+    font-family: 'Sue Ellen Francisco';
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.escrita4 {
+
+    font-family: 'Sue Ellen Francisco';
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.laranja {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.laranjinha {
+    display: flex;
+    flex-direction: column;
+    max-width: 10vw;
+    height: 22vh;
+    background-color: #d9653b;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin: 4px;
+    align-items: center;
+    padding-top: 5px;
+    padding: 15px;
+}
+
+

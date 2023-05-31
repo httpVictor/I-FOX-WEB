@@ -11,6 +11,7 @@ namespace I_FOX_V1.Controllers
         //RETORNANDO AS TELAS
         public IActionResult CadastrarResumo(string id)
         {
+            //gerando a data atual do dia
             var anoData = DateTime.Now.Year;
             var mesData = string.Format("{0:MM}", DateTime.Now);
             var diaData = string.Format("{0:dd}", DateTime.Now);
@@ -23,6 +24,7 @@ namespace I_FOX_V1.Controllers
         }
         public IActionResult ResumoEscrito()
         {
+            //gerando a data atual do dia
             var anoData = DateTime.Now.Year;
             var mesData = string.Format("{0:MM}", DateTime.Now);
             var diaData = DateTime.Now.Day;
