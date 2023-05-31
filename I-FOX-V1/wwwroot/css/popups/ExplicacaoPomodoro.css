@@ -38,7 +38,7 @@ dialog {
     box-shadow: 0 0 1em rgb( 0 0 0 / .3);
     width: 50%;
     height: 92%;
-    background-color: 60B5B3;                                
+    background-color: #60B5B3;                                
 }
 
 p {
@@ -46,7 +46,8 @@ p {
     font-size: 40px;
 }
 
-button {
+.bloco button {
+    margin-top: 20px;
     background-color: #a5ce7f;
     border-radius: 20%;
     font-size: 30px;
@@ -63,7 +64,7 @@ h2{
 
 .bloco {
     margin: auto;
-    background-color: 60B5B3;
+    background-color: #60B5B3;
     border-radius: 25px;
     max-width: 75vw;
     height: 90vh;
@@ -118,8 +119,16 @@ h2{
 }
 
 
-p {
+.blocoBranco p {
 
+    font-family: 'Pathway Gothic One';
+    font-size: 30px;
+    display: flex;
+    color: black;
+}
+
+
+.blocoBranco1 p {
     font-family: 'Pathway Gothic One';
     font-size: 30px;
     display: flex;

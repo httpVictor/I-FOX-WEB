@@ -14,11 +14,13 @@ namespace I_FOX_V1.Controllers
     public class ServicosAPIController : ControllerBase
     {
 
-        [HttpGet]
-        [Route("api/cards/listar-cartoes")]
-        public List<Flashcard> listaCartoes(int cod_resumo)
+        [HttpGet("listar-cartoes")] //api/ServicosApi/listar-cartoes
+       
+        public IActionResult listaCartoes(int cod_resumo)
         {
-            return Flashcard.listar(cod_resumo);
+            return new JsonResult(
+                JsonConvert.SerializeObject(Flashcard.listar(cod_resumo))
+                ); //serializar uma lista, objeto, para a outra aplicação entender
         }
 
     }

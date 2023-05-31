@@ -128,7 +128,7 @@ namespace I_FOX_V1.Controllers
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
             int codigoCaderno = caderno.Codigo;
 
-            int id_ofc = int.Parse(id);
+            int id_ofc = int.Parse(id); //ver erro
 
             //Procurando arquivos...
             foreach (IFormFile arquivo in Request.Form.Files)

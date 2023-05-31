@@ -6,6 +6,10 @@ section {
     min-height: 100vh;
 }
 
+.nada{
+    display:none;
+}
+
 .escrita h2 {
     font-family: 'Aclonica';
     font-size: 40px;
@@ -47,10 +51,10 @@ section {
     margin-top: 150px;
 }
 
-.bloco {
+.blocooo {
     background-color: #60B5B3;
     width: 650px;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     margin-left: 250px;
     margin-top: 100px;
@@ -101,17 +105,18 @@ input {
     border: 2px solid #000000;
 }
 
-button {
+.botaoo button {
     border-radius: 20px;
-    background-color: EFD7BC;
-    width: 230px;
-    height: 60px;
+    background-color: #EFD7BC;
+    width: 150px;
+    height: 100px;
     font-family: 'Sue Ellen Francisco';
     font-size: 25px;
     border: 2px solid #000000;
+    text-align:center;
 }
 
-.botao {
+.botaoo {
     margin-top: 30px;
     display: flex;
     align-items: center;

@@ -34,7 +34,7 @@
 /* parte explicação */
 .explicacao {
     min-height: 10vh;
-    min-width: 25vw;
+    min-width: 29vw;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
@@ -44,6 +44,10 @@
     font-family: 'Sue Ellen Francisco';
     font-size: 50px;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    margin-left: 100px;
 }
 
 
@@ -247,20 +251,16 @@
 
 .tres a {
     position: absolute;
-    margin-left: 840px;
-    margin-top: 280px;
+    margin-left: 820px;
+    margin-top: 370px;
 }
 
-.quatro a {
-    position: absolute;
-    margin-left: 800px;
-    margin-top: 520px;
-}
+
 
 .cinco a {
     position: absolute;
-    margin-left: 560px;
-    margin-top: 640px;
+    margin-left: 620px;
+    margin-top: 600px;
 }
 
 .seis a {
@@ -269,16 +269,12 @@
     margin-top: 830px;
 }
 
-.sete a {
-    position: absolute;
-    margin-left: 660px;
-    margin-top: 950px;
-}
+
 
 .oito a {
     position: absolute;
-    margin-left: 890px;
-    margin-top: 990px;
+    margin-left: 700px;
+    margin-top: 960px;
 }
 
 
@@ -288,7 +284,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: 354626;
+    background-color: #354626;
     min-height: 18vh;
     min-width: 25vw;
     max-width: 80vw;
@@ -310,7 +306,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    background-color: AD8B63;
+    background-color: #AD8B63;
     min-height: 23vh;
     min-width: 30vw;
     max-width: 95vw;
@@ -343,7 +339,7 @@
 
 
 #mapinha {
-    width: 1400px;
+    width: 1280px;
     height: 1200px;
 }
 
@@ -359,6 +355,9 @@
 }
 
 #livro {
+    display: flex;
+    align-items:center;
+    justify-content:center;
     width: 80px;
     height: 80px;
 }

@@ -5,124 +5,125 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = I_FOX_V1
 build_property.RootNamespace = I_FOX_V1
-build_property.ProjectDir = C:\Users\Dione\Documents\VICTOR_NEPO\_SENAI\3TERMO\Projeto\back_web\2905\I-FOX-V1\
+build_property.ProjectDir = C:\Users\aluno\OneDrive - SESISENAISP - Escolas\Documentos\Nepo\back_end\3105\I-FOX-V1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dione\Documents\VICTOR_NEPO\_SENAI\3TERMO\Projeto\back_web\2905\I-FOX-V1
+build_property.MSBuildProjectDirectory = C:\Users\aluno\OneDrive - SESISENAISP - Escolas\Documentos\Nepo\back_end\3105\I-FOX-V1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Home/Cadastrar.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Home/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Home/Index.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Home/Login.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Mapa/Fases.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Mapa/Fases.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwYVxGYXNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Mapa/Historia.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Mapa/Historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwYVxIaXN0b3JpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Mapa/Mapa.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Mapa/Mapa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwYVxNYXBhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/CadastrarResumo.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/CadastrarResumo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xDYWRhc3RyYXJSZXN1bW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/EditarFlash.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/EditarFlash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xFZGl0YXJGbGFzaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/ResumoAudio.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/ResumoAudio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xSZXN1bW9BdWRpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/ResumoEscrito.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/ResumoEscrito.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xSZXN1bW9Fc2NyaXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/ResumoFlashcard.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/ResumoFlashcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xSZXN1bW9GbGFzaGNhcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/ResumoFoto.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/ResumoFoto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xSZXN1bW9Gb3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/RevisaoFlashcard.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/RevisaoFlashcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xSZXZpc2FvRmxhc2hjYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/VisualizarEscrito.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/VisualizarEscrito.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xWaXN1YWxpemFyRXNjcml0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Resumos/VisualizarFlashcard.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Resumos/VisualizarFlashcard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1vc1xWaXN1YWxpemFyRmxhc2hjYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Shared/Error.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/CriarCaderno.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/CriarCaderno.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhckNhZGVybm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Feed.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Feed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xGZWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Home.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Loja.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Loja.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2phLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Materia.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Materia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xNYXRlcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Notificacao.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Notificacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xOb3RpZmljYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Perfil.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Perfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Usuario/Pomodoro.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Usuario/Pomodoro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQb21vZG9yby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/_ViewImports.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/_ViewStart.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dione/Documents/VICTOR_NEPO/_SENAI/3TERMO/Projeto/back_web/2905/I-FOX-V1/Views/Shared/_Layout.cshtml]
+[C:/Users/aluno/OneDrive - SESISENAISP - Escolas/Documentos/Nepo/back_end/3105/I-FOX-V1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5bkoeumyzk
