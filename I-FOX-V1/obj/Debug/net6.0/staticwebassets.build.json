@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IG8RBHrU2rWdlYiZfrgvb4hslA88IicNAWVrHgyn210=",
+  "Hash": "UcQ76IjQp7XfUKQv8P+VLHYHXY8ZOzR5hVrmomQxOnc=",
   "Source": "I-FOX-V1",
   "BasePath": "_content/I-FOX-V1",
   "Mode": "Default",
@@ -1479,6 +1479,23 @@
       "OriginalItemSpec": "wwwroot\\img\\icones_resumo\\mapa-do-tesouro.png"
     },
     {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\next-icon.png",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "img/icones_resumo/next-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icones_resumo\\next-icon.png"
+    },
+    {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\pause_icon.png",
       "SourceId": "I-FOX-V1",
       "SourceType": "Discovered",
@@ -1528,6 +1545,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icones_resumo\\pomodoro-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\previous-icon.png",
+      "SourceId": "I-FOX-V1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\",
+      "BasePath": "_content/I-FOX-V1",
+      "RelativePath": "img/icones_resumo/previous-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icones_resumo\\previous-icon.png"
     },
     {
       "Identity": "C:\\Users\\Dione\\Documents\\VICTOR_NEPO\\_SENAI\\3TERMO\\Projeto\\back_web\\3105\\I-FOX-V1\\wwwroot\\img\\icones_resumo\\resumo-escrito.png",

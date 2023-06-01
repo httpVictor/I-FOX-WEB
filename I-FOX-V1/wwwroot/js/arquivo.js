@@ -6,46 +6,43 @@ var textoSituacao = '+'
 imagem.innerHTML = textoSituacao;
 
 
+//Exibir a imagem antes de salvar ela
 arquivo.addEventListener('change', function (e) {
-    console.log("aq chegou");
     const inputTarget = e.target;
     const arquivoSelecionado = inputTarget.files[0];
     console.log(arquivoSelecionado)
 
 
     if (arquivoSelecionado) {
-        $('form p').text('Arquivo preenchido')
-        const reader = new FileReader()
 
-        reader.addEventListener('load', function (e) {
-            const readerTarget = e.target
+        if (arquivo.files[0].type != "image/png" || arquivo.files[0].type != "image/jpeg") {
 
-            console.log("e aq??");
+            alert("Selecione apenas imagens!")
+            arquivo.val('')
 
-            const img = document.createElement('img');
-            img.src = readerTarget.result
-            img.classList.add('imagem_resumo');
-            imagem.innerHTML = ''
+        } else {
+            $('form p').text('Arquivo preenchido')
+            const reader = new FileReader()
 
-            div.appendChild(img)
+            reader.addEventListener('load', function (e) {
+                const readerTarget = e.target
+
+                console.log("e aq??");
+
+                const img = document.createElement('img');
+                img.src = readerTarget.result
+                img.classList.add('imagem_resumo');
+                imagem.innerHTML = ''
+
+                div.appendChild(img)
 
 
-        })
-        reader.readAsDataURL(arquivoSelecionado)
+            })
+            reader.readAsDataURL(arquivoSelecionado)
+        }
 
     } else {
         imagem.innerHTML = textoSituacao;
     }
 })
 
-
-
-
-
-$('form p').on('click', function () {
-    let tamanho = $('#arq-1').val()
-    if (tamanho != "") {
-        $('form p').text('Arquivo preenchido')
-    }
-    console.log(tamanho)
-})

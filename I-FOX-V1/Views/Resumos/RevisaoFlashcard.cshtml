@@ -49,9 +49,9 @@
 
         <!-- Em baixo do cartão -->
         <div class="mudarCard">
-            <img alt="" src="./img/image 56.png">
-            <p>1/3</p>
-            <img alt="" src="./img/image 55.png">
+            <img id="last" alt="" src="~/img/icones_resumo/previous-icon.png">
+            <p id="cardstotais"></p>
+            <img id="next" alt="" src="~/img/icones_resumo/next-icon.png">
         </div>
 
         <div class="resposta-card">
@@ -59,25 +59,25 @@
 
             <div class="opcoes_resposta">
 
-                <input type="radio" name="opcao-resposta" id="facil">
+                <input type="radio" name="opcao-resposta" id="facil" value="facil">
                 <label for="facil" class="opcao-resposta">
                     <p>Fácil</p>
                     <img src="~/img/pasta_flashs/resposta-facil.png" alt="" id="facil">
                 </label>
 
-                <input type="radio" name="opcao-resposta" id="medio">
+                <input type="radio" name="opcao-resposta" id="medio" value="medio">
                 <label for="medio" class="opcao-resposta">
                     <p>Médio</p>
                      <img src="~/img/pasta_flashs/resposta-medio.png" alt="">
                 </label>
 
-                <input type="radio" name="opcao-resposta" id="dificil">
+                <input type="radio" name="opcao-resposta" id="dificil" value="dificil">
                 <label for="dificil" class="opcao-resposta">
                     <p>Difícil</p>
                     <img src="~/img/pasta_flashs/resposta-dificil.png" alt="">
                 </label>
 
-                <input type="radio" name="opcao-resposta" id="errei">
+                <input type="radio" name="opcao-resposta" id="errei" value="errei">
                 <label for="errei" class="opcao-resposta">
                     <p>Errei</p>
                     <img src="~/img/pasta_flashs/resposta-errei.png" alt="">
@@ -85,8 +85,6 @@
 
             </div>
         </div>
-
-        <h3 id="next">PRÓXIMO</h3>
 
     </div>
 
