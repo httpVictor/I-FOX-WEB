@@ -130,7 +130,7 @@ namespace I_FOX_V1.Models
             string situacao_deletar = "";
 
             //Apagando primeiro arquivos presentes em tabelas que se ligam em resumos
-            Arquivo.deletarAquivo(id_resumo);
+            Arquivo.deletarArquivos(id_resumo);
             //Apagando os cards presentes nesse resumo
             Flashcard.deletar(id_resumo);
 

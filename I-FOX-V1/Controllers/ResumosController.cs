@@ -85,10 +85,6 @@ namespace I_FOX_V1.Controllers
 
 
 
-
-
-
-
         //MÉTODOS QUE VÃO RELACIONAR MODELO E TELA
 
         //Cadastro
@@ -211,17 +207,21 @@ namespace I_FOX_V1.Controllers
         [HttpPost]
         public IActionResult ResumoEscrito(string titulo, string data, string texto)
         {
-            //Formatando a data que o usuário inseriu
-            String dataCaractere = data.Replace("-", "");
+            if(texto.Length < 10000 && texto.Length > 0)
+            {
+                //Formatando a data que o usuário inseriu
+                String dataCaractere = data.Replace("-", "");
 
-            //Pegando o id do caderno que o resumo será salvo
-            Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
-            int codigoCaderno = caderno.Codigo;
+                //Pegando o id do caderno que o resumo será salvo
+                Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
+                int codigoCaderno = caderno.Codigo;
 
-            Resumo resumo = new Resumo(dataCaractere, "Escrito", titulo, texto, codigoCaderno);
-            TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
+                Resumo resumo = new Resumo(dataCaractere, "Escrito", titulo, texto, codigoCaderno);
+                TempData["Sit_Cad_Resumo"] = resumo.cadastrarResumo();
 
-            return Redirect("../Usuario/Materia/"+ codigoCaderno);
+                return Redirect("../Usuario/Materia/" + codigoCaderno);
+            }
+            return View();
         }
 
         [HttpPost]
@@ -329,11 +329,11 @@ namespace I_FOX_V1.Controllers
 
                 Flashcard flsCard = new Flashcard(null, listaFrenteNovos, listaVersoNovos, codigoCaderno, tituloResumo);
                 string cadastro = flsCard.cadastrar();
-                return Redirect("../Usuario/Materia/" + codigoCaderno);
+                return Redirect("../../Usuario/Materia/" + codigoCaderno);
             }
 
             //Devolvendo na página anterior
-            return Redirect("~/Usuario/Materia/" + codigoCaderno);
+            return Redirect("../../Usuario/Materia/" + codigoCaderno);
 
         }
 

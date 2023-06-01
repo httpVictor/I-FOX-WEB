@@ -110,7 +110,7 @@ namespace I_FOX_V1.Models
                 conexao.Open();
 
                 //criando o comando de delete
-                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMOS_codigo = @codigo", conexao);
+                MySqlCommand deletar = new MySqlCommand("DELETE FROM ARQUIVO WHERE FK_RESUMO_codigo = @codigo", conexao);
 
                 //Passando os valores para os parâmetros para evitar INJEÇÃO DE SQL
                 deletar.Parameters.AddWithValue("@codigo", id_arquivo);

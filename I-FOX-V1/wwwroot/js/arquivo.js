@@ -15,9 +15,9 @@ arquivo.addEventListener('change', function (e) {
 
     if (arquivoSelecionado) {
 
-        if (arquivo.files[0].type != "image/png" || arquivo.files[0].type != "image/jpeg") {
+        if (arquivo.files[0].type != "image/png" && arquivo.files[0].type != "image/jpeg") {
 
-            alert("Selecione apenas imagens!")
+            alert("Selecione apenas imagens!" + arquivo.files[0].type)
             arquivo.val('')
 
         } else {
