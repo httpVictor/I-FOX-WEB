@@ -51,6 +51,12 @@ namespace I_FOX_V1.Models
                 cadastrarArquivo.Parameters.AddWithValue("@valor", arrayBytes);
                 cadastrarArquivo.ExecuteNonQuery();
 
+
+
+                //OPA
+                ///GGOPSAGDGKOPFDAYIHF9DPAKDFHO
+                
+
             }
             catch (Exception e)
             {
