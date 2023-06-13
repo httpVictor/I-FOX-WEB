@@ -11,10 +11,9 @@
 <section class="funcao">
 
     <div class="bloco">
-        <form method="post"> 
+            <form method="post" enctype="multipart/form-data" asp-controller="Resumos" asp-action="ResumoAudios" asp-route-id="@ViewBag.Id_foto">
             <div class="cabecalho_resumo">
-                <input type="text" id="titulo" name="titulo" value="titulo vem aq" class="sem_fundo" required>
-                <h6>dd/MM/yyyy</h6>
+                <input type="text" id="titulo" name="titulo" value="" class="sem_fundo" required>
             </div>
             <div class="audios_resumo">
 
@@ -28,8 +27,8 @@
                         string formato = "data:audio/mpeg;base64," + imagemRes;
 
                         //Aqui vem o áudio do banco
-                        <audio id="myAudio" controls>
-                            <source src="@formato" type="audio/mpeg">
+                        <audio id="myAudio" controls src="@formato" type="audio/mpeg">
+                            
                             Seu navegador não possui suporte ao elemento audio
                         </audio>
 
@@ -63,7 +62,7 @@
                     <input type="file" name="nao_sei_ainda_:)" />
                 </div>
 
-                <button class="botao-laranja">SALVAR ARQUIVO</button>
+                <button type="submit" class="botao-laranja">SALVAR ARQUIVO</button>
             </div>
 
         </form>

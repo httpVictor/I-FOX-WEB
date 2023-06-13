@@ -80,14 +80,19 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .perfil {
     background-color: white;
     border-radius: 100%;
-    padding: 70px;
-    margin-right: 15px;
+    padding: 1px;
+    margin-right: 0;
+}
+
+.perfil img{
+    width: 100px;
+    height: 100px;
 }
 
 h1 {

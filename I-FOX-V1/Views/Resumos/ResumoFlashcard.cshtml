@@ -1,15 +1,23 @@
 ﻿@{
     @section Estilos{
         <link rel="stylesheet" href="~/css/flashcards.css" />
+        <link rel="stylesheet" href="~/css/popups/ExplicacaoFlash.css" />
     }
 
     @section JavaScript{
         <script src="~/js/flashcards.js"></script>
+        <script src="~/js/popup.js"></script>
     }
     ViewData["Title"] = "Flashcards";
 }
 
 <section class="container_flashcard">
+
+    <div class="container2-0 pop-button">
+        <img src="~/img/i_fox/raposa-cabecalhos.png">
+        <p>Você sabe o que são flashcartds?</p>
+    </div>
+    
 
     <form method="post" asp-controller="Resumos" asp-action="ResumoFlashcard">
 
@@ -53,3 +61,130 @@
     
 
 </section>
+
+
+<dialog>
+
+    <div class="bloco">
+
+        <div class="primeiralinha">
+
+            <img alt="" src="~/img/i_fox/raposa-cabecalhos.png" width="180px" height="140px">
+
+            <h1>O QUE SÃO OS FLASHCARDS</h1>
+
+        </div>
+
+        <div class="blocoBranco">
+
+            <p>
+                Flashcards são basicamente pequenos cartões para testar
+                sua memória. O bom desse método de estudos é que ele serve
+                para qualquer tipo de matéria que você precise estudar e
+                por ser prático de fazer e revisar em qualquer lugar que você esteja.
+
+            </p>
+
+            <img alt="" src="~/img/popups/image 142.png" width="180px" height="140px">
+
+        </div>
+
+        <div class="blocoBranco1">
+
+            <img alt="" src="~/img/popups/image-removebg-preview (7) 1.png" width="170px" height="130px">
+
+            <p>
+                Essencialmente, eles têm de um lado, uma pergunta, e do outro,
+                a resposta. Isso também pode variar, como: tópico e palavras-chave
+                ou termo e definição. Enfim, qualquer outra dicotomia que possa
+                imaginar. Use e abuse dessa forma de estudos que você vai arrasar
+            </p>
+
+        </div>
+
+            <div class="escrita">
+
+                <div class="usar">
+
+                    <p id="titulo">Como usar o flashcard</p>
+
+
+                    <div class="laranja">
+                        <p> 1) Leia a pergunta (sem espiar o verso ein)</p>
+                    </div>
+
+
+                    <div class="laranja">
+                        <p> 2) Em seguida, responda como for melhor,escrito,falando...</p>
+                    </div>
+
+
+                    <div class="laranja">
+                        <p> 3) Depois, vire a carta para conferir a resposta certa. </p>
+                    </div>
+
+
+                    <div class="laranja">
+                        <p> 4) Se acertou, separe a carta para uma proxíma revisão.</p>
+                    </div>
+
+
+                    <div class="laranja">
+                        <p> 5)Caso tenha errado revise seu flashcard até acerta-lo.</p>
+                    </div>
+
+
+                </div>
+
+
+            <div class="metodo">
+
+                <p id="titulo">Esse método tem muitas vantagens:</p>
+
+                <div class="linha">
+
+                    <div class="laranja3">
+                        <img src="~/img/popups/facil (1) 1.png" alt="" id="img">
+                        <p> Facilidade de utilizar<br> e levar com você</p>
+                    </div>
+
+
+                    <div class="laranja3">
+                        <img src="~/img/popups/image 143.png" alt="" id="img">
+                        <p> Pode ser utilizado<br> para vários assuntos</p>
+                    </div>
+
+                </div>
+
+                <div class="linha">
+
+                    <div class="laranja3">
+                        <img src="~/img/popups/image 144.png" alt="" id="img">
+                        <p> Você pode Revisar<br> em bem menos tempo</p>
+                    </div>
+
+
+                    <div class="laranja3">
+                        <img src="~/img/popups/image 145.png" alt="" id="img">
+                        <p>Muito Dinâmico,<br>rápido e divertido !!</p>
+                    </div>
+
+                </div>
+
+
+                <div class="laranja2">
+                    <p>Pode ser utilizado com os amigos,<br> um perguntando para o outro.</p>
+                    <img src="~/img/popups/image 146.png" alt="" id="img">
+                </div>
+
+            </div>
+
+
+        </div>
+        <button>OK</button>
+
+    </div>
+
+
+</dialog>
+

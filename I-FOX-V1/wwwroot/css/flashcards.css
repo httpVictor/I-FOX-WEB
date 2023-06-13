@@ -29,6 +29,13 @@
     margin: 20px auto;
 }
 
+.container2-0 {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    justify-content: center;
+}
+
 .container_card {
     display: flex;
     flex-direction: row;

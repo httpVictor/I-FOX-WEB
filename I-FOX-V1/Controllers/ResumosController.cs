@@ -40,9 +40,10 @@ namespace I_FOX_V1.Controllers
             return View(Arquivo.listar(id));
         }
 
-        public IActionResult ResumoAudio()
+        public IActionResult ResumoAudio(string id)
         {
-            return View();
+            ViewBag.Id_foto = id;
+            return View(Arquivo.listar(id));
         }
 
         public IActionResult ResumoFlashCard()
@@ -124,7 +125,7 @@ namespace I_FOX_V1.Controllers
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
             int codigoCaderno = caderno.Codigo;
 
-            int id_ofc = int.Parse(id); //ver erro
+            int id_ofc = 0;
 
             //Procurando arquivos...
             foreach (IFormFile arquivo in Request.Form.Files)
@@ -145,6 +146,10 @@ namespace I_FOX_V1.Controllers
                        int codigoResumo = Arquivo.buscarResumo(titulo, codigoCaderno);
                        id_ofc = codigoResumo;
                     }
+                    else
+                    {
+                        id_ofc = int.Parse(id);
+                    }
                     
                     Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno, id_ofc);
                     arq.cadastrar();
@@ -162,13 +167,13 @@ namespace I_FOX_V1.Controllers
         }
 
         [HttpPost]
-        public IActionResult ResumoAudio(string id)
+        public IActionResult ResumoAudios(string id)
         {
             //Pegando o id do caderno que o resumo será salvo
             Caderno caderno = JsonConvert.DeserializeObject<Caderno>(HttpContext.Session.GetString("cadernoAcessado"));
             int codigoCaderno = caderno.Codigo;
 
-            int id_ofc = int.Parse(id);
+            int id_ofc = 0;
 
             //Procurando arquivos...
             foreach (IFormFile arquivo in Request.Form.Files)
@@ -189,6 +194,10 @@ namespace I_FOX_V1.Controllers
                         int codigoResumo = Arquivo.buscarResumo(titulo, codigoCaderno);
                         id_ofc = codigoResumo;
                     }
+                    else
+                    {
+                        id_ofc = int.Parse(id);
+                    }
 
                     Arquivo arq = new Arquivo(bytesDoArquivo, titulo, codigoCaderno, id_ofc);
                     arq.cadastrar();
@@ -201,7 +210,7 @@ namespace I_FOX_V1.Controllers
                 }
             }
 
-            return Redirect("~/Resumo/ResumoFotos/" + id);
+            return Redirect("../../Usuario/Materia/ " + codigoCaderno);
         }
 
         [HttpPost]
@@ -359,14 +368,14 @@ namespace I_FOX_V1.Controllers
             int codigoCaderno = caderno.Codigo;
 
             TempData["Situacao_deletar_resumo"] = Arquivo.deletarAquivo(id);
-            string redirecionamento = "~/Usuario/Materia/" + codigoCaderno;
+            string redirecionamento = "../../Usuario/Materia/" + codigoCaderno;
             return Redirect(redirecionamento);
         }
 
         public IActionResult ExcluirCartao(int id)
         {
             Flashcard.deletarCartao(id);
-            return Redirect("../Resumos/EditarFlash/" + 38);
+            return Redirect("../../Resumos/EditarFlash/" + 38);
         }
     }
 }
