@@ -175,24 +175,15 @@ h3{
     margin: 0px auto;
 }
 
-#integrante1 {
-    background: rgba(217, 101, 59, 0.5);
-}
-
-#integrante2 {
-    background: rgba(0, 159, 173, 0.5);
-}
-
-#integrante3 {
-    background: rgba(255, 255, 255, 0.5);
-}
-
-#integrante4 {
-    background: rgba(123, 168, 82, 0.5);
-}
-
 #imagem {
     height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.integrantes-bloco{
+    display: flex;
+    flex-direction: row;
 }
 
 /* fim dos blocos */
