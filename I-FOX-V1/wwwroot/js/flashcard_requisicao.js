@@ -13,6 +13,8 @@ let listaVerso = []
 let listaCodigo = []
 //lista que vai inserir as respostas
 let listaRespostas = []
+//pegando o card para desvirá-lo
+var checkbox = document.querySelector(".card label input");
 
 
 //Achando oq foi selecionado
@@ -47,7 +49,14 @@ listarCards(codigo).then(objeto => {
         if (i < total) {
             //add na lista oq a pessoa achou do card
             listaRespostas[i] = acharselecionado();
-            
+
+            //desvirar o card
+            checkbox.checked = false;
+
+            respostas.forEach(respostas => {
+                respostas.checked = false;
+            })
+
             i++;
 
             totalCards.text((i + 1) + "/" + total)
@@ -55,23 +64,11 @@ listarCards(codigo).then(objeto => {
             verso.text(listaVerso[i]);
         } else if (i + 1 === total) {
             
-            totalCards.text(i + "/" + total)
-            //add um botão de finalizar revisão
+          //
+
         }
         
     });
-
-    //eveneto para retornar para o card anterior
-    //$("#last").on('click', function () {
-    //    if (i > 0) {
-    //        i--;
-    //        if (i < total) {
-    //            totalCards.text((i + 1) + "/" + total)
-    //            frente.text(listaFrente[i]);
-    //            verso.text(listaVerso[i]);
-    //        }
-    //    }
-    //});
     
     
 }).catch(error => {

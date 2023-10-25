@@ -50,11 +50,6 @@ namespace I_FOX_V1.Models
                 cadastrarArquivo.Parameters.AddWithValue("@cod_resumo", CodResumo);
                 cadastrarArquivo.Parameters.AddWithValue("@valor", arrayBytes);
                 cadastrarArquivo.ExecuteNonQuery();
-
-
-
-                //OPA
-                ///GGOPSAGDGKOPFDAYIHF9DPAKDFHO
                 
 
             }
