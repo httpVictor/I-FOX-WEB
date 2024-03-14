@@ -1,0 +1,193 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde);
+    margin: auto auto;
+    width: 50vw;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagens_resumo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 200px));
+    grid-column-gap: 3vw;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0px;
+    grid-row-gap: 8vh;
+    min-width: 35vw;
+}
+
+.elemento_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imagem_resumo{
+    position: absolute;
+    width: 70%;
+}
+
+.elemento_imagem input{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+input[type=checkbox] {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.elemento_imagem a {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px; 
+}
+
+.elemento_imagem a img {
+    width: 30px;
+    height: 30px;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+input[type=file]{
+    display: none;
+}
+
+label{
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-size: 4em;
+}
+
+.add-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* tablet */
+@media (max-width: 800px) {
+    .bloco {
+        width: 90vw;
+    }
+
+    label {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    .titulo input {
+        font-size: 8px;
+        width: 330px;
+    }
+
+    .data input {
+        font-size: 8px;
+        width: 330px;
+    }
+}
+
+/* celular */
+@media (max-width: 450px) {
+    .bloco {
+        width: 70vw;
+        padding: 30px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .botao {
+        height: 20px;
+        width: 110px;
+        font-size: large;
+    }
+
+    .botao1 {
+        height: 20px;
+        width: 100px;
+        font-size: large;
+    }
+
+    .titulo input {
+        font-size: 6px;
+        width: 140px;
+    }
+
+    .data input {
+        font-size: 6px;
+        width: 140px;
+    }
+
+    .file #file {
+        width: 100px;
+        height: 80px;
+    }
+}

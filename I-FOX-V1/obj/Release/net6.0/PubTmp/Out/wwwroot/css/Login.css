@@ -1,0 +1,118 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+/* canto esquerdo */
+.sessaoLogin {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sessaoLogin div{
+    width: 100%;
+}
+
+img{
+    height: 100% ;
+}
+
+/* canto direito */
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalhoLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    background-color: var(--verde);
+    border-radius: 20px 0 0 0;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+}
+
+form input {
+    min-width: 50vh;
+    padding: 13px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.campo {
+    margin: 0 20px;
+    width: 100vh;
+    padding: 20px 0px 20px 0px;
+}
+
+.botao {
+    background-color: var(--laranjaClaro);
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+.botao:hover{
+    transform:scale(1.05);
+}
+
+/*Títulos e textos*/
+a{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a:hover{
+    transform: scale(1.02);
+    color: var(--laranjaEscuro);
+}
+
+h4 {
+    margin: 20px;
+}
+
+/*Responsividade usando Media Query*/
+@media (max-width: 800px){
+    .loginTelinha{
+        display: none;
+    }
+
+    .loginTelinha img{
+        display: none;
+    }
+}

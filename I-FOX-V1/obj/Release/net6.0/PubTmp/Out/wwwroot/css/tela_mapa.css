@@ -1,0 +1,490 @@
+﻿﻿ /* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/* font-family: 'Aclonica', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+/* font-family: 'Pathway Gothic One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/* font-family: 'Sue Ellen Francisco', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* Cores da paleta do site */
+:root {
+    --bege: #efd7bc;
+    --laranjaEscuro: #d9653b;
+    --laranjaClaro: #f28749;
+    --verde: #a5ce7f;
+    --azulClaro: #69e9f4;
+    --azulEscuro: #009fad;
+}
+
+.telaMapa {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1400px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* parte explicação */
+.explicacao {
+    min-height: 10vh;
+    min-width: 29vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+
+    .explicacao p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 42px;
+        text-align: center;
+    }
+
+
+/* onde está bloco azul e verde */
+.bloquinhos {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* bloco azul */
+.azul {
+    min-height: 5vh;
+    min-width: 10px;
+    background-color: rgba(96, 181, 179, 0.6);
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.azulEscuro {
+    background-color: rgba(96, 181, 179, 0.6);
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 3vh;
+    min-width: 7px;
+}
+
+    .azulEscuro p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+/* bloco verde */
+
+.verde {
+    min-height: 5vh;
+    min-width: 10px;
+    background-color: rgba(165, 206, 127, 0.6);
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+.verdeEscuro {
+    background-color: rgba(165, 206, 127, 0.6);
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 3vh;
+    min-width: 7px;
+}
+
+    .verdeEscuro p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+/* bloco laranja */
+
+.laranja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(242, 135, 73, 0.6);
+    min-height: 6vh;
+    min-width: 13px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+.laranjaEscuro {
+    background-color: rgba(242, 135, 73, 0.6);
+    min-height: 4vh;
+    min-width: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+    .laranjaEscuro p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 20px;
+        text-align: center;
+    }
+
+.img {
+    background-color: white;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+/* botão */
+
+.botoes .botao button {
+    min-height: 3vh;
+    min-width: 6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #009fad;
+    padding: 15px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.botoes .botao {
+    display: flex;
+    flex-direction: row;
+    background-color: #009fad;
+    min-height: 3vh;
+    min-width: 6px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 30px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+    .botoes .botao1 {
+        display: flex;
+        background-color: #d9653b;
+        min-height: 3vh;
+        min-width: 6px;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 30px;
+    }
+
+        .botoes .botao1 button {
+            min-height: 3vh;
+            min-width: 6px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+            background-color: #d9653b;
+            padding: 15px;
+            font-family: 'Sue Ellen Francisco';
+            font-size: 30px;
+            border-radius: 20px;
+        }
+
+
+
+/* botoes do mapa */
+
+.um a {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 60px;
+}
+
+.dois a {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 160px;
+}
+
+.tres a {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 370px;
+}
+
+
+
+.cinco a {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 600px;
+}
+
+.seis a {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 830px;
+}
+
+
+
+.oito a {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 960px;
+}
+
+
+.lousa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #354626;
+    min-height: 18vh;
+    min-width: 25vw;
+    max-width: 80vw;
+    margin: 15px;
+    padding: 10px;
+}
+
+    .lousa p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 60px;
+        color: aliceblue;
+        padding: 20px;
+        padding-left: 80px;
+    }
+
+.marrom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #AD8B63;
+    min-height: 23vh;
+    min-width: 30vw;
+    max-width: 95vw;
+}
+
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa img {
+    position: absolute;
+}
+
+.desafio label {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+.desafio {
+    margin-left: 160px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+#mapinha {
+    width: 1280px;
+    height: 1200px;
+}
+
+
+#bloqueado {
+    width: 230px;
+    height: 230px;
+}
+
+#branquinho {
+    width: 160px;
+    height: 160px;
+}
+
+#livro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+@media (max-width: 1800px) {
+
+
+    #mapinha {
+        width: 1150px;
+        height: 1125px;
+    }
+
+
+    #bloqueado {
+        width: 180px;
+        height: 160px;
+    }
+
+
+    #branquinho {
+        width: 120px;
+        height: 120px;
+    }
+
+    #livro {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .explicacao p {
+        font-size: 30px;
+    }
+
+
+    .azulEscuro p {
+        font-size: 15px;
+    }
+
+
+    .verdeEscuro p {
+        font-size: 15px;
+    }
+
+    .laranjaEscuro p {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+
+    .botoes .botao button {
+        font-size: 15px;
+    }
+
+
+    .botoes .botao1 button {
+        font-size: 15px;
+    }
+
+
+    .lousa p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 40px;
+        color: aliceblue;
+        padding: 5px;
+    }
+
+
+    .desafio label {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 27px;
+        color: aliceblue;
+    }
+
+    .explicacao {
+        margin-left: 250px;
+        min-width: 55vw;
+        padding-left: 260px;
+    }
+
+
+    .meio {
+        margin-top: 150px;
+    }
+
+    .desafio {
+        margin-left: 60px;
+        margin-right: 150px;
+        display: flex;
+        align-items: center;
+    }
+
+    .lousa p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 35px;
+        color: aliceblue;
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .lousa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: 354626;
+        min-height: 18vh;
+        min-width: 35vw;
+        max-width: 200vw;
+        margin: 15px;
+        padding: 10px;
+    }
+
+
+    .marrom {
+        position: absolute;
+        z-index: 999;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: AD8B63;
+        min-height: 23vh;
+        min-width: 40vw;
+        max-width: 95vw;
+    }
+}

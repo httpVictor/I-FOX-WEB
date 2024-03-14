@@ -1,0 +1,111 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+label {
+    background-color: var(--verde);
+    border-radius: 20px 0 0 0;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+
+/* parte branca */
+input {
+    padding: 13px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.campo input {
+    min-width: 50vh;
+}
+
+.campo1 input {
+    min-width: 46.5vh;
+}
+
+.campo2 input {
+    min-width: 40vh;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #f28749;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDC1A2;
+    max-width: 40vw;
+    max-height: 75vh;
+    border-radius: 30px;
+    margin-left: 200px;
+    border: 2px solid #000000;
+}
+
+.primeiro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.perfil {
+    background-color: white;
+    border-radius: 100%;
+    padding: 1px;
+    margin-right: 0;
+}
+
+.perfil img{
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Aclonica';
+    font-size: 40px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocao {
+    display: flex;
+    flex-direction: row;
+}

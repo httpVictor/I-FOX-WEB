@@ -1,0 +1,156 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+.funcionalidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 30px 30px 10px;
+    margin: 20px auto;
+    background-color: var(--verde);
+    border: 2px solid #000000;
+    border-radius: 40px;
+    width: 50vw;
+}
+
+.texto_introducao{
+    text-align: center;
+    margin: 30px auto;
+    width: 60vw;
+}
+
+.texto_introducao p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 2em;
+}
+
+.imagem {
+    background-color: var(--azulEscuro);
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 0px;
+    padding: 10px;
+}
+
+.funcionalidade img {
+    height: 80px;
+}
+
+.funcionalidade p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*CABECALHO DOS CADERNOS*/
+
+.cabecalhoCadernos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+
+.cabecalhoCadernos img {
+    height: 100px;
+}
+
+.cabecalhoCadernos a {
+    text-decoration: none;
+}
+
+.tituloCadernos h3 {
+    font-size: 40px;
+    font-family: 'Sue Ellen Francisco', cursive;
+    border-bottom: 2px solid #000;
+}
+
+.tituloCadernos p {
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.criarCadernos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+    margin-left: 70px;
+    background-color: var(--azulEscuro);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px;
+    padding: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.criarCadernos:hover {
+    transform: scale(1.08);
+}
+
+.criarCadernos img {
+    height: 50px;
+}
+
+/*CADERNOS*/
+
+.cadernos {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+
+.caderno img {
+    height: 30px;
+}
+
+.caderno {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px 80px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.infos-caderno {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+
+.caderno:nth-child(n+1) {
+    background-color: var(--azulClaro);
+    border: 2px solid var(--azulClaro);
+}
+
+.caderno:nth-child(2n) {
+    background-color: var(--azulEscuro);
+    border: 2px solid var(--azulEscuro);
+}
+
+.caderno:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}

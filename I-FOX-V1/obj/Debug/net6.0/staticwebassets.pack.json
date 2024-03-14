@@ -761,6 +761,18 @@
       "PackagePath": "staticwebassets\\img\\tela_inicial\\planilia-card.png"
     },
     {
+      "Id": "C:\\Users\\Maker\\Documents\\VictorNepo\\Back_end\\dia2510\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\us_foto2.jpeg",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\us_foto2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Maker\\Documents\\VictorNepo\\Back_end\\dia2510\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\us_foto3.jpeg",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\us_foto3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Maker\\Documents\\VictorNepo\\Back_end\\dia2510\\I-FOX-V1\\wwwroot\\img\\tela_inicial\\us_sala.jpeg",
+      "PackagePath": "staticwebassets\\img\\tela_inicial\\us_sala.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Maker\\Documents\\VictorNepo\\Back_end\\dia2510\\I-FOX-V1\\wwwroot\\js\\ClasseFlashcard.js",
       "PackagePath": "staticwebassets\\js\\ClasseFlashcard.js"
     },

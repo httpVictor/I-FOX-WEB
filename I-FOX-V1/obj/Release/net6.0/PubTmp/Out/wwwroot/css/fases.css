@@ -1,0 +1,61 @@
+﻿
+.bloco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.escrita {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.escrita .grande {
+    font-family: ' Sue Ellen Francisco';
+    font-size: 60px;
+}
+
+
+
+
+.Fileira {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 150px));
+    grid-column-gap: 10vw;
+    grid-row-gap: 8vh;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+
+.fases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fases p {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 50px;
+}
+
+.fases img{
+    width: 180px;
+    height: 180px;
+}
+
+.bolinha {
+    background-color: white;
+    border-radius: 100%;
+    padding: 30px;
+    margin: 20px;
+}
+
+button {
+    border-radius: 100%;
+}

@@ -1,0 +1,143 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde);
+    margin: auto auto;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 57vw;
+}
+
+.bloco form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57vw;
+}
+/*PARTE DO AUDIO*/
+
+#myAudio {
+    display: none;
+}
+
+.parar {
+    display: flex;
+}
+
+.botoes {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 30vh;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.botoes input {
+    position: absolute;
+    left: 5vw;
+    top: 25px;
+}
+
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    left: -5px;
+    border-radius: 20px;
+    background-color: var(--azulClaro);
+    border: solid 0.5px #000;
+}
+
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+
+.arquivo p {
+    font-family: 'Pathway Gothic One';
+    font-size: 20px;
+
+}
+
+.button img{
+    height: 40px;
+}
+
+.botao-laranja{
+    font-size: 22px;
+}
+
+.cabecalho_resumo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--verdeEscuro);
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border-bottom: solid 1px #000;
+}
+
+.cabecalho_resumo input, .cabecalho_resumo h6 {
+    color: white;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 36px;
+} 
+
+.sem_fundo{
+    background-color: var(--verdeEscuro);
+    border: none;
+    padding: 10px;
+}
+
+.audios_resumo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 20px;
+
+}

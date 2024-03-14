@@ -1,0 +1,58 @@
+﻿
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escrita {
+    display: flex;
+    flex-direction: row;
+}
+
+    .escrita p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+.cinza {
+    background-color: #D9D9D9;
+    min-width: 65vw;
+    min-height: 15vh;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+    .cinza p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+.azul {
+    background-color: #009fad;
+    border-radius: 20px;
+    min-width: 40vw;
+    min-height: 22vh;
+    align-items: center;
+    display: flex;
+}
+
+    .azul p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        color: #D9D9D9;
+        margin-left: 20px;
+    }
+
+.img {
+    display: flex;
+    flex-direction: row;
+}

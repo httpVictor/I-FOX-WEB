@@ -1,0 +1,110 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde);
+    border-radius: 15px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 60px 10vw 0 auto;
+    width: 57vw;
+}
+
+.resumo form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57vw;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho_escrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    border-radius: 15px;
+    background-color: var(--verdeEscuro);
+    border-bottom: solid 2px #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+label {
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    font-size: 50px;
+    padding-left: 15px;
+    font-weight: 200;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sem_fundo{
+    background: var(--verdeEscuro);
+}
+
+textarea {
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    width: 50vw;
+    height: 35vh;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.botao {
+    margin-bottom: 20px;
+    background-color: var(--laranjaClaro);
+    color: white;
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 80px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#resumoRaposa{
+    position: static;
+    top: 0;
+    left: 0;
+}

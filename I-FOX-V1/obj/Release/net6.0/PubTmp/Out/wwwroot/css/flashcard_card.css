@@ -1,0 +1,110 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+/*AQUI COMEÇA O CARD*/
+.cartoes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(80px, 40vw));
+    grid-column-gap: 5vw;
+    grid-row-gap: 8vh;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.cartao {
+    width: 40vw;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--azulMeio)
+}
+
+.cabecalho-cartao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    background-color: #74D1D9;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Pathway Gothic One';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+}
+
+/* PARTE DO CARD */
+.card {
+    height: 250px;
+    margin: 0px auto;
+    padding: 20px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.flip-card .front,
+.flip-card .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    backface-visibility: hidden;
+    border-radius: 5px;
+}
+
+.flip-card .back {
+    transform: rotateX(180deg);
+    color: #000;
+    background: #F28749;
+}
+
+input {
+    display: none;
+}
+
+:checked + .flip-card {
+    transform: rotateX(180deg);
+}
+
+.back p {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.teste .cartao {
+    width: 70vw;
+}

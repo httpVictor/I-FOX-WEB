@@ -1,0 +1,161 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+section {
+    background-image: url("../img/i_fox/fundo3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.cadastre-se {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.formulario {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+form label {
+    background-color: var(--verde);
+    border-radius: 20px 0 0 0;
+    padding: 15px 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    text-align:center;
+
+    display: inline-block;
+    width: 8vh;
+    margin-left: 100px;
+}
+#lbdata{
+    width: 8vw;
+}
+#data{
+    width: 22vw;
+}
+
+form input {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 0 0 20px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.campo {
+    width: 50vw;
+    margin: 7px auto;
+    align-items:center;
+}
+
+.span-obrigatorio {
+    display: block;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 120px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50vw;
+    background: rgba(0, 159, 173, 0.6);
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.forms p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    text-align: start;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h1 {
+    align-items: center;
+    font-family: 'Sue Ellen Francisco';
+    color: white;
+    font-size: 70px;
+}
+
+.juntos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    column-gap: 80px;
+}
+
+.juntos img{
+    margin-top: 20px;
+    width: 120px;
+}
+
+.botao {
+    background-color: var(--laranjaClaro);
+    color: white;
+    margin: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+
+/*RESPONSIVIDADE*/
+@media (max-width: 800px) {
+    .img_cadastro {
+        display: none;
+    }
+
+    .img_cadastro img {
+        display: none;
+    }
+}

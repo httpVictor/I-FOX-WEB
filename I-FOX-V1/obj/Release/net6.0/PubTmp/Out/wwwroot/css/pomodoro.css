@@ -1,0 +1,221 @@
+﻿
+section {
+    background-image: url("../img/i_fox/Fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.nada{
+    display:none;
+}
+
+.escrita h2 {
+    font-family: 'Aclonica';
+    font-size: 40px;
+}
+
+.escrita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .escrita p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 35px;
+    }
+
+#azul {
+    font-family: 'Sue Ellen Francisco';
+    font-size: 35px;
+    color: #009fad;
+    padding-left: 10px;
+}
+
+.lado {
+    display: flex;
+    flex-direction: row;
+}
+
+.lado1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.blocooo {
+    background-color: #60B5B3;
+    width: 650px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 100px;
+    border: 2px solid #000000;
+}
+
+.bloquinho {
+    background-color: #009FAD;
+    width: 650px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+    .bloquinho p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 35px;
+        color: #ffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.inserir {
+    background-color: #69e9f4;
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+    .inserir p {
+        font-family: 'Sue Ellen Francisco';
+        font-size: 30px;
+    }
+
+input {
+    font-size: 30px;
+    font-family: 'Sue Ellen Francisco';
+    text-align: center;
+    width: 80px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+
+.botaoo button {
+    border-radius: 20px;
+    background-color: #EFD7BC;
+    width: 150px;
+    height: 100px;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 25px;
+    border: 2px solid #000000;
+    text-align:center;
+}
+
+.botaoo {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h2 {
+    font-size: 90pt;
+}
+
+
+.time {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+
+
+#timer {
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+/* Tirar o botão de mais e menos do input tipo number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: none;
+}
+
+.time {
+    color: #fff;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+
+
+#timer {
+    display: none !important;
+    margin-left: 400px;
+    margin-top: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #abd8d8;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.editar {
+    margin-top: 250px;
+    margin-left: 280px;
+    background-color: #abd8d8;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.botaozinho {
+    background-color: #fff;
+    font-family: 'Sue Ellen Francisco';
+    font-size: 40px;
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+}

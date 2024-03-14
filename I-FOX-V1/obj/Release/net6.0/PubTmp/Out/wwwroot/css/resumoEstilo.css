@@ -1,0 +1,208 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+.negrito{
+    font-weight: 700;
+}
+
+/*CABECALHO data MATERIA*/
+
+.descricao_caderno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.5em;
+    height: 20vh;
+}
+
+.descricao_caderno h5 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: black;
+    font-size: 40px;
+}
+
+.cabecalho-materia h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+.imagens-organizacao-materia {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.imagens-organizacao-materia img {
+    height: 40px;
+}
+
+.cabecalho-materia h1 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+}
+
+.botao-pesquisar {
+    display: flex;
+    align-content: center;
+    column-gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.botao-pesquisar input {
+    width: 40vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao-pesquisar img {
+    height: 20px;
+}
+
+
+/*RESUMOS VÃO APARECER AQUI*/
+.tipos-resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 50vw;
+    padding: 30px;
+    background: var(--verde);
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    row-gap: 20px;
+    
+}
+
+.divide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 5vw;
+}
+
+.resumo-tipo img {
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.resumo-tipo img:hover {
+    box-shadow: 0 0 10px 0 var(--azulMeio) inset, 0 0 10px 4px var(--azulMeio);
+}
+
+.tipos-resumo p {
+    font-size: 2.4em;
+    font-family: 'Sue Ellen Francisco', sans-serif;
+}
+
+.resumo-tipo img {
+    padding: 15px;
+    background-color: var(--azulMeio);
+    border-radius: 12px;
+}
+
+.resumos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 300px));
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vh;
+    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-radius: 15px;
+    margin: 15px auto;
+    min-height: 350px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resumo img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.poligono {
+    display:flex;
+    justify-content:center;
+    min-width: 300px;
+    border-radius: 15px;
+    clip-path: polygon(0% 0%, 100% 0,100% 80%,50% 100%, 0% 80%);
+}
+
+.poligono:nth-child(n+1) {
+    background: linear-gradient(180deg, #198D97 0%, #ADEBF0 100%);
+}
+
+.poligono:nth-child(2n) {
+    background: linear-gradient(180deg, #F27100 0%, #EFD7BC 100%);
+}
+
+.poligono img{
+    margin: 40px;
+    width: 6vw;
+    margin-bottom: 30px;
+}
+
+.descricao_resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    align-items: center;
+}
+
+.lixin:hover{
+    cursor: pointer;
+}
+
+
+.caderno:nth-child(even) {
+    background-color: var(--azulClaro);
+    border: 2px solid var(--azulClaro);
+}
+
+.caderno:nth-child(odd) {
+    background-color: var(--azulEscuro);
+    border: 2px solid var(--azulEscuro);
+}
+
+.caderno:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}

@@ -1,0 +1,111 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+form h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
+    align-items: center;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: var(--azulMeio);
+    border-radius: 25px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form label {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+form input {
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin: 8px;
+    width: 25vw;
+}
+
+textarea {
+    display: block;
+    padding: 10px;
+    margin: 8px;
+    width: 30vw;
+    height: 13vh;
+    resize: none;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+.icones_cadernos input{
+    display: none;
+}
+
+input[type=radio]:checked + .icone_opcao{
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.icones_cadernos {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 80px));
+    grid-column-gap: 2vw;
+    grid-row-gap: 3vh;
+    justify-content: center;
+    max-width: 30vw;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.icone_opcao {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--axulMeio);
+}
+
+.icones_cadernos img{
+    width: 40px;
+    height: 40px;
+}
+
+.icone_opcao label{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+

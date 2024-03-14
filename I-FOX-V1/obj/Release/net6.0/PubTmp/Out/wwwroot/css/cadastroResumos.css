@@ -1,0 +1,74 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+main {
+    background-image: url("../img/i_fox/fundo-raposa-ofc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 14vw 0 auto;
+    background-color: var(--verde);
+    min-width: 40vw;
+    max-width: 50vw;
+    border-radius: 20px;
+    padding: 30px 0;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+form p {
+    font-size: 40px;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+form div {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 30px;
+}
+
+input {
+    font-size: 15px;
+    width: 450px;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: var(--laranjaClaro);
+    color: white;
+    font-family: 'Sue Ellen Francisco', cursive;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 80px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

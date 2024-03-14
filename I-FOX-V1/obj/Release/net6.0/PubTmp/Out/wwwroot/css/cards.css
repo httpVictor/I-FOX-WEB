@@ -1,0 +1,105 @@
+﻿/* Fontes importadas */
+/* font-family: 'Aclonica', sans-serif; */
+/* font-family: 'Pathway Gothic One', sans-serif; */
+/* font-family: 'Sue Ellen Francisco', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Cores da paleta do site */
+/**
+    --beje
+    --laranjaEscuro
+    --laranjaClaro
+    --verde
+    --azulClaro
+    --azulEscuro
+    --azulMeio
+    **/
+
+
+/* função da parte dos cards */
+.funcao-inicial {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 300px));
+    grid-column-gap: 10vw;
+    grid-row-gap: 7vh;
+    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+
+
+/* bloco onde fica o card */
+.card {
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* escrita */
+.card p {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+}
+
+
+
+/* borda branca da imagem */
+.card .imagem {
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+/* imagem */
+.card img {
+    padding: 15px;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+
+/*Cards individuais*/
+
+#card1 {
+    background: rgba(217, 101, 59, 0.5);
+}
+
+#card2 {
+    background: rgba(0, 159, 173, 0.5);
+}
+
+#card3 {
+    background: rgba(123, 168, 82, 0.5);
+}
+
+#card4 {
+    background: rgba(123, 168, 82, 0.5);
+}
+
+#card5 {
+    background: rgba(217, 101, 59, 0.5);
+}
+
+#card6 {
+    background: rgba(0, 159, 173, 0.5);
+}
+
+#card7 {
+    background: rgba(0, 159, 173, 0.5);
+}
+
+#card8 {
+    background: rgba(123, 168, 82, 0.5);
+}
+
+#card9 {
+    background: rgba(217, 101, 59, 0.5);
+}
